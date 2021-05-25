@@ -57,7 +57,6 @@
 	mouse_opacity = 0
 	icon = 'icons/obj/items/projectiles.dmi'
 	icon_state = "laser_target3"
-	layer = ABOVE_FLY_LAYER
 
 /obj/effect/overlay/temp/Initialize()
 	. = ..()

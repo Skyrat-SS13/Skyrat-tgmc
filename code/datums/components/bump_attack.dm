@@ -1,50 +1,42 @@
 /datum/component/bump_attack
-	///Whether the component is active
-	var/active = FALSE
-	///The proc to register with COMSIG_MOVABLE_BUMP, based on what kind of mob the component is on
+	var/active = TRUE
 	var/bump_action_path
-	///Action used to turn bump attack on/off manually
 	var/datum/action/bump_attack_toggle/toggle_action
 
-/datum/component/bump_attack/Initialize(enabled = TRUE, has_button = TRUE)
+
+/datum/component/bump_attack/Initialize()
 	. = ..()
 	if(!isliving(parent))
 		return COMPONENT_INCOMPATIBLE
+	toggle_action = new()
+	var/toggle_path
 	if(ishuman(parent))
-		RegisterSignal(parent, COMSIG_ITEM_TOGGLE_BUMP_ATTACK, .proc/living_activation_toggle)
 		bump_action_path = .proc/human_bump_action
 	else if(isxeno(parent))
 		bump_action_path = .proc/xeno_bump_action
 	else
 		bump_action_path = .proc/living_bump_action
-	if(has_button)
-		toggle_action = new()
-		toggle_action.give_action(parent)
-		toggle_action.update_button_icon(active)
-		RegisterSignal(toggle_action, COMSIG_ACTION_TRIGGER, .proc/living_activation_toggle)
-	living_activation_toggle(should_enable = enabled)
+	toggle_path = .proc/living_activation_toggle
+	toggle_action.give_action(parent)
+	toggle_action.update_button_icon(active)
+	RegisterSignal(toggle_action, COMSIG_ACTION_TRIGGER, toggle_path)
+	if(active)
+		RegisterSignal(parent, COMSIG_MOVABLE_BUMP, bump_action_path)
 
 /datum/component/bump_attack/Destroy(force, silent)
 	QDEL_NULL(toggle_action)
 	return ..()
 
 
-/datum/component/bump_attack/proc/living_activation_toggle(datum/source, should_enable = !active)
-	if(should_enable == active)
-		return
+/datum/component/bump_attack/proc/living_activation_toggle(datum/source)
 	var/mob/living/bumper = parent
-	to_chat(bumper, "<span class='notice'>You will now [should_enable ? "attack" : "push"] enemies who are in your way.</span>")
-	toggle_action?.update_button_icon(should_enable)
-	if(should_enable)
-		active = TRUE
+	active = !active
+	to_chat(bumper, "<span class='notice'>You will now [active ? "attack" : "push"] enemies who are in your way.</span>")
+	if(active)
 		RegisterSignal(bumper, COMSIG_MOVABLE_BUMP, bump_action_path)
-		return
-
-	var/obj/item/held_item = bumper.get_inactive_held_item()
-	if(held_item?.flags_item & CAN_BUMP_ATTACK)
-		return
-	active = FALSE
-	UnregisterSignal(bumper, COMSIG_MOVABLE_BUMP)
+	else
+		UnregisterSignal(bumper, COMSIG_MOVABLE_BUMP)
+	toggle_action.update_button_icon(active)
 
 
 /datum/component/bump_attack/proc/living_bump_action_checks(atom/target)
@@ -63,6 +55,9 @@
 	switch(bumper.a_intent)
 		if(INTENT_HELP, INTENT_GRAB)
 			return NONE
+	if(bumper.get_active_held_item())
+		return NONE //We have something in our hand.
+
 
 /datum/component/bump_attack/proc/living_bump_action(datum/source, atom/target)
 	SIGNAL_HANDLER
@@ -72,7 +67,6 @@
 	return living_do_bump_action(target)
 
 
-///Handles human pre-bump attack checks
 /datum/component/bump_attack/proc/human_bump_action(datum/source, atom/target)
 	SIGNAL_HANDLER
 	var/mob/living/carbon/human/bumper = parent
@@ -82,7 +76,8 @@
 	var/mob/living/living_target = target
 	if(bumper.faction == living_target.faction)
 		return //FF
-	INVOKE_ASYNC(src, .proc/human_do_bump_action, target)
+	return living_do_bump_action(target)
+
 
 /datum/component/bump_attack/proc/xeno_bump_action(datum/source, atom/target)
 	SIGNAL_HANDLER
@@ -103,21 +98,4 @@
 	GLOB.round_statistics.xeno_bump_attacks++
 	SSblackbox.record_feedback("tally", "round_statistics", 1, "xeno_bump_attacks")
 	TIMER_COOLDOWN_START(src, COOLDOWN_BUMP_ATTACK, CLICK_CD_MELEE)
-	return COMPONENT_BUMP_RESOLVED
-
-///Handles human bump attacks
-/datum/component/bump_attack/proc/human_do_bump_action(atom/target)
-	var/mob/living/bumper = parent
-	if(bumper.next_move > world.time)
-		return COMPONENT_BUMP_RESOLVED //We don't want to push people while on attack cooldown.
-	var/obj/item/held_item = bumper.get_active_held_item()
-	if(!held_item)
-		bumper.UnarmedAttack(target, TRUE)
-	else if(held_item.flags_item & CAN_BUMP_ATTACK)
-		held_item.melee_attack_chain(bumper, target)
-	else //disables pushing if you have bump attacks on, so you don't accidentally misplace your enemy when switching to an item that can't bump attack
-		return COMPONENT_BUMP_RESOLVED
-	TIMER_COOLDOWN_START(src, COOLDOWN_BUMP_ATTACK, CLICK_CD_MELEE)
-	GLOB.round_statistics.human_bump_attacks++
-	SSblackbox.record_feedback("tally", "round_statistics", 1, "human_bump_attacks")
 	return COMPONENT_BUMP_RESOLVED

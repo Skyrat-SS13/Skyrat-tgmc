@@ -135,7 +135,6 @@
 	roundstart_template = /datum/map_template/shuttle/cas
 
 /obj/docking_port/mobile/marine_dropship/casplane
-	name = "Condor Jet"
 	id = "casplane"
 	width = 11
 	height = 12

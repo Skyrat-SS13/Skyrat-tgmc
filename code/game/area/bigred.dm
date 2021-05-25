@@ -4,7 +4,6 @@
 	name = "Colony Grounds"
 	icon_state = "red"
 	ceiling = CEILING_NONE
-	minimap_color = MINIMAP_AREA_COLONY
 
 /area/bigredv2/outside/ne
 	name = "Northeast Colony Grounds"
@@ -48,7 +47,6 @@
 	ceiling = CEILING_DEEP_UNDERGROUND
 	outside = FALSE
 	ambience = list('sound/ambience/ambicave.ogg', 'sound/ambience/ambilava1.ogg', 'sound/ambience/ambilava2.ogg', 'sound/ambience/ambilava3.ogg')
-	minimap_color = MINIMAP_AREA_CAVES
 
 /area/bigredv2/caves/north
 	name = "Northern Caves"
@@ -110,14 +108,12 @@
 	icon_state = "brig"
 	ceiling = CEILING_METAL
 	outside = FALSE
-	minimap_color = MINIMAP_AREA_SEC
 
 /area/bigredv2/outside/medical
 	name = "Hospital"
 	icon_state = "CMO"
 	ceiling = CEILING_METAL
 	outside = FALSE
-	minimap_color = MINIMAP_AREA_MEDBAY
 
 /area/bigredv2/outside/admin_building
 	name = "Administration"
@@ -128,7 +124,6 @@
 /area/bigredv2/outside/filtration_plant
 	name = "Filtration Plant"
 	icon_state = "atmos"
-	minimap_color = MINIMAP_AREA_ENGI
 	ceiling = CEILING_METAL
 	outside = FALSE
 
@@ -137,7 +132,6 @@
 	icon_state = "LP"
 	ceiling = CEILING_UNDERGROUND_METAL
 	outside = FALSE
-	minimap_color = MINIMAP_AREA_MEDBAY
 
 /area/bigredv2/outside/dorms
 	name = "Dormitories"
@@ -191,7 +185,6 @@
 	name = "Engineering Complex"
 	icon_state = "engine"
 	ceiling = CEILING_METAL
-	minimap_color = MINIMAP_AREA_ENGI
 	outside = FALSE
 
 /area/bigredv2/outside/storage
@@ -204,13 +197,11 @@
 	name = "Solar Power Plant"
 	icon_state = "substation"
 	ceiling = CEILING_METAL
-	minimap_color = MINIMAP_AREA_ENGI
 
 /area/bigredv2/outside/atmos
 	name = "Atmospheric Stabilizer"
 	icon_state = "party"
 	ceiling = CEILING_METAL
-	minimap_color = MINIMAP_AREA_ENGI
 
 /area/bigredv2/caves/lambda_lab
 	name = "Lambda Lab"

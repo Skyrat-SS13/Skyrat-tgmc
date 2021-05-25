@@ -110,7 +110,6 @@
 	ability_name = "scatter spit"
 	plasma_cost = 150
 	cooldown_timer = 6 SECONDS
-	keybind_signal = COMSIG_XENOABILITY_SCATTER_SPIT
 
 /datum/action/xeno_action/activable/scatter_spit/use_ability(atom/target)
 	var/mob/living/carbon/xenomorph/X = owner
@@ -128,7 +127,7 @@
 	newspit.permutated += X
 	newspit.def_zone = X.get_limbzone_target()
 
-	newspit.fire_at(target, X, null, newspit.ammo.max_range)
+	newspit.fire_at(target, X, null)
 
 	succeed_activate()
 	add_cooldown()

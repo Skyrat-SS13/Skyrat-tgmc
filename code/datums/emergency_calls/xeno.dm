@@ -1,9 +1,8 @@
 /datum/emergency_call/xenomorphs
 	name = "Xenomorphs"
-	base_probability = 11
+	probability = 10
 	auto_shuttle_launch = TRUE
 	spawn_type = null
-	alignement_factor = 4
 
 
 /datum/emergency_call/xenomorphs/print_backstory(mob/living/carbon/xenomorph/X)

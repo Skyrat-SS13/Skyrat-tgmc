@@ -23,18 +23,6 @@
 	name = "Sulaco Bridge Maintenance"
 	icon_state = "maintcentral"
 
-/area/sulaco/security
-	name = "Sulaco Foreship Security Office"
-	icon_state = "security"
-
-/area/sulaco/hydro
-	name = "Sulaco Hydroponics"
-	icon_state = "garden"
-
-/area/sulaco/medbay/cmo
-	name = "Sulaco Chief Medical Officer's Office"
-	icon_state = "head_quarters"
-
 /area/sulaco/medbay
 	name = "Sulaco Medbay"
 	icon_state = "medbay"
@@ -80,6 +68,18 @@
 	name = "Sulaco Brig"
 	icon_state = "brig"
 
+/area/sulaco/solar
+	name = "Sulaco Solar Array"
+	requires_power = 1
+	always_unpowered = 1
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+
+/area/sulaco/solar/south
+	icon_state = "panelsA"
+
+/area/sulaco/solar/north
+	icon_state = "panelsP"
+
 /area/sulaco/hallway
 	name = "Sulaco Hallway"
 	icon_state = "hallC1"
@@ -95,14 +95,6 @@
 /area/sulaco/hallway/central_hall3
 	name = "Sulaco Central Hallway"
 	icon_state = "hallC3"
-
-/area/sulaco/hallway/evac
-	name = "Sulaco Evacuation Port"
-	icon_state = "purple"
-
-/area/sulaco/hallway/lower_foreship
-	name = "Sulaco Foreship Lower Hallway"
-	icon_state = "yellow"
 
 /area/sulaco/hallway/lower_main_hall
 	name = "Sulaco Main Hallway"
@@ -124,14 +116,6 @@
 	name = "Sulaco Cafeteria"
 	icon_state = "cafeteria"
 
-/area/sulaco/cafeteria/kitchen
-	name = "Sulaco Kitchen"
-	icon_state = "kitchen"
-
-/area/sulaco/cargo
-	name = "Sulaco Main Cargo Bay"
-	icon_state = "quartstorage"
-
 /area/sulaco/cargo
 	name = "Sulaco Main Cargo Bay"
 	icon_state = "quartstorage"
@@ -139,10 +123,6 @@
 /area/sulaco/cargo/office
 	name = "Sulaco Cargo Office"
 	icon_state = "quartoffice"
-
-/area/sulaco/cargo/prep
-	name = "Sulaco Prep Area"
-	icon_state = "red"
 
 /area/sulaco/supply/station
 	name = "Sulaco Supply Station"
@@ -154,11 +134,6 @@
 /area/sulaco/engineering
 	name = "Sulaco Engineering"
 	icon_state = "engine"
-	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
-
-/area/sulaco/engineering/lower_engineering
-	name = "Sulaco Lower Engineering"
-	icon_state = "red"
 	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
 
 /area/sulaco/engineering/storage
@@ -174,27 +149,35 @@
 	icon_state = "atmos"
 	ambience = list('sound/ambience/ambiatm1.ogg','sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg')
 
-/area/sulaco/engineering/engine_monitoring
-	name = "Sulaco Engine Monitoring"
-	icon_state = "engine_monitoring"
-	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
-
 /area/sulaco/engineering/engine
 	name = "Sulaco Engine Chamber"
 	icon_state = "yellow"
+	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
+
+/area/sulaco/engineering/smes
+	name = "Sulaco Engineering SMES"
+	icon_state = "engine_smes"
 	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
 
 /area/sulaco/marine
 	name = "Sulaco Marine Prep"
 	icon_state = "storage"
 
-/area/sulaco/marine/chapel
-	name = "Sulaco Chapel"
-	icon_state = "chapel"
+/area/sulaco/marine/alpha
+	name = "Sulaco Alpha Marine Prep"
+	icon_state = "red"
 
-/area/sulaco/marine/chapel/chapel_office
-	name = "Sulaco Chapel Office"
-	icon_state = "chapeloffice"
+/area/sulaco/marine/bravo
+	name = "Sulaco Bravo Marine Prep"
+	icon_state = "yellow"
+
+/area/sulaco/marine/charlie
+	name = "Sulaco Charlie Marine Prep"
+	icon_state = "purple"
+
+/area/sulaco/marine/delta
+	name = "Sulaco Delta Marine Prep"
+	icon_state = "bluenew"
 
 /area/sulaco/command/armory
 	name = "Sulaco Secure Armory"
@@ -228,6 +211,10 @@
 	name = "Sulaco Rec Room"
 	icon_state = "red"
 
+/area/sulaco/maintenance/lower_maint
+	name = "Sulaco Maintenance"
+	icon_state = "maintcentral"
+
 /area/sulaco/morgue
 	name = "Sulaco Morgue"
 	icon_state = "morgue"
@@ -252,23 +239,19 @@
 	name = "Sulaco EVA Storage"
 	icon_state = "storage"
 
-/area/sulaco/maintenance/upperdeck_AIcore_maint
-	name = "AI Core Maintenance"
+/area/sulaco/maintenance/rear_maintenance
+	name = "Sulaco Lower Maintenance Deck"
+	icon_state = "hallP"
+
+/area/sulaco/maintenance/north_solar_maint
+	name = "Sulaco Solar Maintenance Deck"
 	icon_state = "maintcentral"
 
-/area/sulaco/maintenance/upperdeck_north_maint
-	name = "Sulaco Upper Maintenance Deck"
-	icon_state = "maintcentral"
-
-/area/sulaco/maintenance/lower_maint3
-	name = "Sulaco Forship Lower Maintenance"
+/area/sulaco/maintenance/south_solar_maint
+	name = "Sulaco Solar Maintenance Deck"
 	icon_state = "maintcentral"
 
 /area/sulaco/maintenance/lower_maint2
-	name = "Sulaco Maintenance"
-	icon_state = "maintcentral"
-
-/area/sulaco/maintenance/lower_maint
 	name = "Sulaco Maintenance"
 	icon_state = "maintcentral"
 

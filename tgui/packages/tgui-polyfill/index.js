@@ -16,4 +16,6 @@ import './css-om';
 import './inferno';
 
 // Fetch is required for Webpack HMR
-import 'unfetch/polyfill';
+if (module.hot) {
+  require('whatwg-fetch');
+}

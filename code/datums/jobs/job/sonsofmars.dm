@@ -1,5 +1,4 @@
 /datum/job/som
-	job_category = JOB_CAT_MARINE
 	access = ALL_ANTAGONIST_ACCESS
 	minimal_access = ALL_ANTAGONIST_ACCESS
 	skills_type = /datum/skills/crafty
@@ -204,7 +203,6 @@
 
 //SOM Leader
 /datum/job/som/leader
-	job_category = JOB_CAT_COMMAND
 	title = "SOM Leader"
 	paygrade = "SOM3"
 	outfit = /datum/outfit/job/som/leader

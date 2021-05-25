@@ -1,10 +1,9 @@
 //Sectoids
 /datum/emergency_call/sectoid
 	name = "Sectoid Expedition"
-	base_probability = 26
+	probability = 5
 	spawn_type = /mob/living/carbon/human/species/sectoid
 	shuttle_id = "distress_ufo"
-	alignement_factor = 0
 
 /datum/emergency_call/sectoid/print_backstory(mob/living/carbon/human/H)
 	to_chat(H, "<B>You are a sectoid, a mass-cloned alien soldier and psionics expert.")

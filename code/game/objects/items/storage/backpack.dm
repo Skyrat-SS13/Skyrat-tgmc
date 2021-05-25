@@ -315,7 +315,7 @@
 	else
 		to_chat(user, "<span class='warning'>Its defibrillator recharge unit does not have a power cell installed!</span>")
 
-/obj/item/storage/backpack/marine/corpsman/update_icon_state()
+/obj/item/storage/backpack/marine/corpsman/update_icon()
 	icon_state = icon_skin
 	if(cell?.charge >= 0)
 		switch(PERCENT(cell.charge/cell.maxcharge))
@@ -369,8 +369,6 @@
 		/obj/item/ammo_magazine/sentry,
 		/obj/item/ammo_magazine/minisentry,
 		/obj/item/marine_turret/mini,
-		/obj/item/mortal_shell,
-		/obj/item/mortar_kit,
 		/obj/item/stack/razorwire,
 		/obj/item/stack/sandbags,
 	)
@@ -733,7 +731,7 @@
 		reagents.remove_reagent(/datum/reagent/fuel, fuel_transfer_amount)
 		FT.current_rounds += fuel_transfer_amount
 		playsound(loc, 'sound/effects/refill.ogg', 25, 1, 3)
-		FT.caliber = CALIBER_FUEL
+		FT.caliber = "Fuel"
 		to_chat(user, "<span class='notice'>You refill [FT] with [lowertext(FT.caliber)].</span>")
 		FT.update_icon()
 

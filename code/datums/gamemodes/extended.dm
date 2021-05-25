@@ -3,7 +3,6 @@
 	config_tag = "Extended"
 	required_players = 0
 	votable = FALSE
-	flags_xeno_abilities = ABILITY_DISTRESS
 
 	valid_job_types = list(
 		/datum/job/terragov/command/captain = 1,
@@ -21,7 +20,6 @@
 		/datum/job/terragov/silicon/ai = 1,
 		/datum/job/terragov/squad/engineer = 8,
 		/datum/job/terragov/squad/corpsman = 8,
-		/datum/job/terragov/squad/smartgunner = 4,
 		/datum/job/terragov/squad/leader = 4,
 		/datum/job/terragov/squad/standard = -1
 	)

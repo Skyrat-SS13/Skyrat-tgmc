@@ -211,10 +211,8 @@
 #define isainode(O) (istype(O, /obj/effect/ai_node))
 
 //Gamemode
-#define isdistressgamemode(O) (istype(O, /datum/game_mode/infestation/distress))
-#define ishuntgamemode(O) (istype(O, /datum/game_mode/infestation/hunt))
+#define isdistress(O) (istype(O, /datum/game_mode/infestation/distress))
 #define iscrashgamemode(O) (istype(O, /datum/game_mode/infestation/crash))
-#define isinfestationgamemode(O) (istype(O, /datum/game_mode/infestation))
 
 #define isxenoresearcharea(A) (istype(A, /area/mainship/medical/medical_science))
 
@@ -226,11 +224,8 @@
 
 // Shuttles
 #define isshuttleturf(T) (length(T.baseturfs) && (/turf/baseturf_skipover/shuttle in T.baseturfs))
-#define isdropshiparea(A) (istype(A, /area/shuttle/dropship))
+#define isalamoarea(A) (istype(A, /area/shuttle/dropship/alamo))
 
 // Xeno hives
 #define isnormalhive(hive) (istype(hive, /datum/hive_status/normal))
 #define isxenohive(A) ((A == XENO_HIVE_NONE) || (A == XENO_HIVE_NORMAL) || (A == XENO_HIVE_CORRUPTED) || (A == XENO_HIVE_ALPHA) || (A == XENO_HIVE_BETA) || (A == XENO_HIVE_ZETA) || (A == XENO_HIVE_ADMEME))
-
-// Slot helpers
-#define ishandslot(A) ((A == SLOT_L_HAND) || (A == SLOT_R_HAND))

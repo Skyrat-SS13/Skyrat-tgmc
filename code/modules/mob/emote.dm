@@ -12,9 +12,6 @@
 	if(!E)
 		to_chat(src, "<span class='notice'>Unusable emote '[act]'. Say *help for a list.</span>")
 		return
-	if(!E.check_cooldown(src, intentional))
-		to_chat(src, "<span class='notice'>You used that emote too recently.</span>")
-		return
 	E.run_emote(src, param, m_type, intentional)
 
 
@@ -54,7 +51,6 @@
 	key = "me"
 	key_third_person = "custom"
 	message = null
-	flags_emote = NO_KEYBIND //This shouldn't have a keybind
 
 
 /datum/emote/custom/run_emote(mob/user, params, type_override, intentional = FALSE, prefix)

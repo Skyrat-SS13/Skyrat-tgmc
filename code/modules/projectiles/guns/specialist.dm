@@ -18,7 +18,7 @@
 	icon_state = "t26"
 	item_state = "t26"
 	max_shells = 15 //codex
-	caliber = CALIBER_10X28
+	caliber = "10x28mm"
 	fire_sound = 'sound/weapons/guns/fire/sniper.ogg'
 	dry_fire_sound = 'sound/weapons/guns/fire/sniper_empty.ogg'
 	unload_sound = 'sound/weapons/guns/interact/sniper_unload.ogg'
@@ -52,10 +52,10 @@
 	LT = image("icon" = 'icons/obj/items/projectiles.dmi',"icon_state" = "sniper_laser", "layer" =-LASER_LAYER)
 	integrated_laze = new(src)
 
-/obj/item/weapon/gun/rifle/sniper/antimaterial/Fire()
-	if(!able_to_fire(gun_user))
+/obj/item/weapon/gun/rifle/sniper/antimaterial/Fire(atom/target, mob/living/user, params, reflex = 0, dual_wield)
+	if(!able_to_fire(user))
 		return
-	if(gun_on_cooldown(gun_user))
+	if(gun_on_cooldown(user))
 		return
 	if(targetmarker_primed)
 		if(!iscarbon(target))
@@ -63,7 +63,7 @@
 		if(laser_target)
 			deactivate_laser_target()
 		if(target.apply_laser())
-			activate_laser_target(target, gun_user)
+			activate_laser_target(target, user)
 		return
 	if(!QDELETED(laser_target))
 		target = laser_target
@@ -120,8 +120,7 @@
 	. = ..()
 
 /obj/item/weapon/gun/rifle/sniper/antimaterial/process()
-	var/obj/item/attachable/scope = LAZYACCESS(attachments, ATTACHMENT_SLOT_RAIL)
-	if(!scope.zoom)
+	if(!rail.zoom)
 		laser_off()
 		return
 	var/mob/living/user = loc
@@ -139,8 +138,7 @@
 
 /obj/item/weapon/gun/rifle/sniper/antimaterial/zoom(mob/living/user, tileoffset = 11, viewsize = 12) //tileoffset is client view offset in the direction the user is facing. viewsize is how far out this thing zooms. 7 is normal view
 	. = ..()
-	var/obj/item/attachable/scope = LAZYACCESS(attachments, ATTACHMENT_SLOT_RAIL)
-	if(!scope.zoom && (targetmarker_on || targetmarker_primed) )
+	if(!rail.zoom && (targetmarker_on || targetmarker_primed) )
 		laser_off(user)
 
 /atom/proc/sniper_target(atom/A)
@@ -180,8 +178,7 @@
 
 
 /obj/item/weapon/gun/rifle/sniper/antimaterial/proc/laser_on(mob/user)
-	var/obj/item/attachable/scope = LAZYACCESS(attachments, ATTACHMENT_SLOT_RAIL)
-	if(!scope.zoom) //Can only use and prime the laser targeter when zoomed.
+	if(!rail.zoom) //Can only use and prime the laser targeter when zoomed.
 		to_chat(user, "<span class='warning'>You must be zoomed in to use your target marker!</span>")
 		return TRUE
 	targetmarker_primed = TRUE //We prime the target laser
@@ -213,7 +210,7 @@
 	icon_state = "m42c"
 	item_state = "m42c"
 	max_shells = 6 //codex
-	caliber = CALIBER_10X99
+	caliber = "10x99mm"
 	fire_sound = 'sound/weapons/guns/fire/sniper_heavy.ogg'
 	dry_fire_sound = 'sound/weapons/guns/fire/sniper_empty.ogg'
 	unload_sound = 'sound/weapons/guns/interact/sniper_heavy_unload.ogg'
@@ -252,7 +249,7 @@
 	icon_state = "svd"
 	item_state = "svd"
 	max_shells = 10 //codex
-	caliber = CALIBER_762X54 //codex
+	caliber = "7.62x54mm Rimmed" //codex
 	fire_sound = 'sound/weapons/guns/fire/svd.ogg'
 	dry_fire_sound = 'sound/weapons/guns/fire/sniper_empty.ogg'
 	unload_sound = 'sound/weapons/guns/interact/svd_unload.ogg'
@@ -285,57 +282,48 @@
 
 
 
-//Based off the XM-8. TX-8 rifle
+//M4RA marksman rifle
 
-/obj/item/weapon/gun/rifle/tx8
-	name = "\improper TX-8 scout rifle"
-	desc ="The TX-8 is a light specialized scout rifle, mostly used by light infantry and scouts. It's designed to be useable at all ranges by being very adaptable to different situations due to the ability to use different ammo types. Has IFF.  Takes specialized overpressured 10x28mm rounds."
-	icon = 'icons/Marine/gun64.dmi'
-	icon_state = "tx8"
-	item_state = "tx8"
-	max_shells = 25 //codex
+/obj/item/weapon/gun/rifle/m4ra
+	name = "\improper T-45 battle rifle"
+	desc ="The T-45 is a light specialized battle rifle, mostly used by light infantry and scouts. It's designed to be useable at all ranges due to the compact size it is also very adaptable to different situations due to the ability to use specialized ammo. An experimental, requisitions-only design, takes specialized 'A19' 10x28mm rounds."
+	icon_state = "m4ra"
+	item_state = "m4ra"
+	max_shells = 20 //codex
 	muzzleflash_iconstate = "muzzle_flash_medium"
-	caliber = CALIBER_10X28_CASELESS //codex
+	caliber = "10x28mm caseless" //codex
 	fire_sound = 'sound/weapons/guns/fire/t64.ogg'
 	unload_sound = 'sound/weapons/guns/interact/m4ra_unload.ogg'
 	reload_sound = 'sound/weapons/guns/interact/m4ra_reload.ogg'
 	cocked_sound = 'sound/weapons/guns/interact/m4ra_cocked.ogg'
-	current_mag = /obj/item/ammo_magazine/rifle/tx8
+	current_mag = /obj/item/ammo_magazine/rifle/m4ra
 	force = 16
-	aim_slowdown = 0.45
+	aim_slowdown = 0.35
 	attachable_allowed = list(
-		/obj/item/attachable/reddot,
-		/obj/item/attachable/verticalgrip,
-		/obj/item/attachable/lasersight,
-		/obj/item/attachable/gyro,
-		/obj/item/attachable/flashlight,
-		/obj/item/attachable/bipod,
-		/obj/item/attachable/magnetic_harness,
-		/obj/item/attachable/extended_barrel,
-		/obj/item/attachable/heavy_barrel,
 		/obj/item/attachable/suppressor,
-		/obj/item/attachable/bayonet,
-		/obj/item/attachable/bayonetknife,
+		/obj/item/attachable/extended_barrel,
 		/obj/item/attachable/compensator,
-		/obj/item/attachable/scope,
-		/obj/item/attachable/scope/mini,
-		/obj/item/attachable/scope/marine,
-		/obj/item/attachable/attached_gun/grenade,
-		/obj/item/attachable/attached_gun/flamer,
+		/obj/item/attachable/verticalgrip,
 		/obj/item/attachable/angledgrip,
-		/obj/item/attachable/attached_gun/shotgun,
+		/obj/item/attachable/bipod,
+		/obj/item/attachable/lasersight,
+		/obj/item/attachable/attached_gun/flamer,
+		/obj/item/attachable/attached_gun/grenade,
 	)
 
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_WIELDED_FIRING_ONLY|GUN_AMMO_COUNTER
 	gun_iff_signal = list(ACCESS_IFF_MARINE)
 	gun_firemode_list = list(GUN_FIREMODE_SEMIAUTO, GUN_FIREMODE_AUTOMATIC)
 	gun_skill_category = GUN_SKILL_FIREARMS
-	attachable_offset = list("muzzle_x" = 44, "muzzle_y" = 18,"rail_x" = 16, "rail_y" = 25, "under_x" = 27, "under_y" = 13, "stock_x" = 24, "stock_y" = 13)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 12, "rail_y" = 23, "under_x" = 23, "under_y" = 13, "stock_x" = 24, "stock_y" = 13)
+	starting_attachment_types = list(/obj/item/attachable/scope/mini/m4ra, /obj/item/attachable/stock/rifle/marksman)
+	actions_types = list(/datum/action/item_action/aim_mode)
+	aim_fire_delay = 0.2 SECONDS
+	aim_speed_modifier = 2
 
-
-	fire_delay = 0.4 SECONDS
+	fire_delay = 0.45 SECONDS
 	burst_amount = 1
-	accuracy_mult = 1.4
+	accuracy_mult = 1.75
 	scatter = -15
 	recoil = 2
 
@@ -349,7 +337,7 @@
 	icon_state = "m56"
 	item_state = "m56"
 	max_shells = 100 //codex
-	caliber = CALIBER_10X28_CASELESS //codex
+	caliber = "10x28mm Caseless" //codex
 	fire_sound = "gun_smartgun"
 	load_method = POWERPACK //codex
 	current_mag = /obj/item/ammo_magazine/internal/smartgun
@@ -477,7 +465,7 @@
 	icon_state = "m92"
 	item_state = "m92"
 	max_shells = 6 //codex
-	caliber = CALIBER_40MM //codex
+	caliber = "40mm grenades" //codex
 	load_method = SINGLE_CASING //codex
 	w_class = WEIGHT_CLASS_BULKY
 	throw_speed = 2
@@ -619,7 +607,7 @@
 	item_state = "t70"
 	fire_animation = "t70_fire"
 	max_shells = 6 //codex
-	caliber = CALIBER_40MM //codex
+	caliber = "40mm grenades" //codex
 	load_method = SINGLE_CASING //codex
 	w_class = WEIGHT_CLASS_BULKY
 	flags_equip_slot = ITEM_SLOT_BACK
@@ -655,8 +643,9 @@
 	icon_state = "m81"
 	item_state = "m81"
 	max_shells = 1 //codex
-	caliber = CALIBER_40MM //codex
+	caliber = "40mm grenades" //codex
 	load_method = SINGLE_CASING //codex
+	materials = list(/datum/material/metal = 7000)
 	w_class = WEIGHT_CLASS_BULKY
 	flags_equip_slot = ITEM_SLOT_BACK|ITEM_SLOT_BELT
 	throw_speed = 2
@@ -789,7 +778,7 @@
 	icon_state = "m5"
 	item_state = "m5"
 	max_shells = 1 //codex
-	caliber = CALIBER_84MM //codex
+	caliber = "84mm rockets" //codex
 	load_method = SINGLE_CASING //codex
 	materials = list(/datum/material/metal = 10000)
 	current_mag = /obj/item/ammo_magazine/rocket
@@ -826,19 +815,24 @@
 	QDEL_NULL(smoke)
 	return ..()
 
-/obj/item/weapon/gun/launcher/rocket/Fire()
-	if(!able_to_fire(gun_user) || gun_user.do_actions)
+/obj/item/weapon/gun/launcher/rocket/Fire(atom/target, mob/living/user, params, reflex = 0, dual_wield)
+	if(!able_to_fire(user) || user.do_actions)
 		return
 
-	if(gun_on_cooldown(gun_user))
+	if(gun_on_cooldown(user))
 		return
 
-	if(windup_checked == WEAPON_WINDUP_NOT_CHECKED)
-		INVOKE_ASYNC(src, .proc/do_windup)
-		return TRUE
-	else if (windup_checked == WEAPON_WINDUP_CHECKING)//We are already in windup, abort
-		return TRUE
+	var/delay = 0.1 SECONDS
+	if(has_attachment(/obj/item/attachable/scope/mini))
+		delay += 0.2 SECONDS
 
+	if(user.skills.getRating("firearms") < 0)
+		delay += 0.6 SECONDS
+
+	if(!do_after(user, delay, TRUE, src, BUSY_ICON_DANGER)) //slight wind up
+		return
+
+	playsound(loc,'sound/weapons/guns/fire/launcher.ogg', 50, TRUE)
 	. = ..()
 
 
@@ -848,27 +842,9 @@
 		current_mag.loc = get_turf(src)
 		current_mag.update_icon()
 		current_mag = null
-	log_combat(gun_user, gun_user, "fired the [src].")
-	log_explosion("[gun_user] fired the [src] at [AREACOORD(loc)].")
 
-///Windup before shooting
-/obj/item/weapon/gun/launcher/rocket/proc/do_windup()
-	windup_checked = WEAPON_WINDUP_CHECKING
-	var/delay = 0.1 SECONDS
-	if(has_attachment(/obj/item/attachable/scope/mini))
-		delay += 0.2 SECONDS
-
-	if(gun_user.skills.getRating("firearms") < 0)
-		delay += 0.6 SECONDS
-
-	if(!do_after(gun_user, delay, TRUE, src, BUSY_ICON_DANGER)) //slight wind up
-		windup_checked = WEAPON_WINDUP_NOT_CHECKED
-		return
-	windup_checked = WEAPON_WINDUP_CHECKED
-	if(Fire())
-		playsound(loc,'sound/weapons/guns/fire/launcher.ogg', 50, TRUE)
-		return
-	windup_checked = WEAPON_WINDUP_NOT_CHECKED
+	log_combat(usr, usr, "fired the [src].")
+	log_explosion("[usr] fired the [src] at [AREACOORD(loc)].")
 
 
 /obj/item/weapon/gun/launcher/rocket/examine_ammo_count(mob/user)
@@ -967,7 +943,7 @@
 	icon_state = "m5"
 	item_state = "m5"
 	max_shells = 1 //codex
-	caliber = CALIBER_84MM //codex
+	caliber = "84mm rockets" //codex
 	load_method = SINGLE_CASING //codex
 	materials = list(/datum/material/metal = 10000)
 	current_mag = /obj/item/ammo_magazine/rocket/sadar
@@ -1011,7 +987,7 @@
 	icon_state = "m57a4"
 	item_state = "m57a4"
 	max_shells = 4 //codex
-	caliber = CALIBER_ROCKETARRAY //codex
+	caliber = "84mm rockets" //codex
 	load_method = MAGAZINE //codex
 	current_mag = /obj/item/ammo_magazine/rocket/m57a4
 	aim_slowdown = 2.75
@@ -1035,7 +1011,7 @@
 	icon_state = "t160"
 	item_state = "t160"
 	max_shells = 1 //codex
-	caliber = CALIBER_67MM //codex
+	caliber = "67mm shells" //codex
 	load_method = SINGLE_CASING //codex
 	materials = list(/datum/material/metal = 10000)
 	current_mag = /obj/item/ammo_magazine/rocket/recoilless
@@ -1069,7 +1045,7 @@
 	icon_state = "t72"
 	item_state = "t72"
 	max_shells = 1 //codex
-	caliber = CALIBER_84MM //codex
+	caliber = "84mm rockets" //codex
 	load_method = SINGLE_CASING //codex
 	current_mag = /obj/item/ammo_magazine/rocket/oneuse
 	flags_equip_slot = ITEM_SLOT_BELT
@@ -1103,7 +1079,7 @@
 	icon_state = "minigun"
 	item_state = "minigun"
 	max_shells = 500 //codex
-	caliber = CALIBER_762X51 //codex
+	caliber = "7.62x51mm" //codex
 	load_method = MAGAZINE //codex
 	fire_sound = 'sound/weapons/guns/fire/minigun.ogg'
 	unload_sound = 'sound/weapons/guns/interact/minigun_unload.ogg'
@@ -1136,25 +1112,12 @@
 	SSmonitor.stats.miniguns_in_use -= src
 
 //This is a minigun not a chaingun.
-/obj/item/weapon/gun/minigun/Fire()
-	if(windup_checked == WEAPON_WINDUP_NOT_CHECKED)
-		playsound(get_turf(src), 'sound/weapons/guns/fire/tank_minigun_start.ogg', 30)
-		INVOKE_ASYNC(src, .proc/do_windup)
+obj/item/weapon/gun/minigun/Fire(atom/target, mob/living/user, params, reflex = FALSE, dual_wield)
+	playsound(get_turf(src), 'sound/weapons/guns/fire/tank_minigun_start.ogg', 30)
+	if(!do_after(user, 0.15 SECONDS, TRUE, src, BUSY_ICON_DANGER, BUSY_ICON_DANGER, ignore_turf_checks = TRUE))
 		return
-	else if (windup_checked == WEAPON_WINDUP_CHECKING)//We are already in windup, continue
-		return
-	. = ..()
-	if(!.)
-		windup_checked = WEAPON_WINDUP_NOT_CHECKED
+	return ..()
 
-///Windup before firing
-/obj/item/weapon/gun/minigun/proc/do_windup()
-	windup_checked = WEAPON_WINDUP_CHECKING
-	if(!do_after(gun_user, 0.4 SECONDS, TRUE, src, BUSY_ICON_DANGER, BUSY_ICON_DANGER, ignore_turf_checks = TRUE))
-		windup_checked = WEAPON_WINDUP_NOT_CHECKED
-		return
-	windup_checked = WEAPON_WINDUP_CHECKED
-	SEND_SIGNAL(src, COMSIG_GUN_FIRE)
 
 /obj/item/weapon/gun/minigun/get_ammo_type()
 	if(!ammo)
@@ -1179,7 +1142,7 @@
 	icon_state = "railgun"
 	item_state = "railgun"
 	max_shells = 1 //codex
-	caliber = CALIBER_RAILGUN
+	caliber = "rail projectile"
 	fire_sound = 'sound/weapons/guns/fire/railgun.ogg'
 	fire_rattle = 'sound/weapons/guns/fire/railgun.ogg'
 	dry_fire_sound = 'sound/weapons/guns/fire/sniper_empty.ogg'

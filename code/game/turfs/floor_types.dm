@@ -313,9 +313,6 @@
 /turf/open/floor/cult
 	icon_state = "cult"
 
-/turf/open/floor/cult/clock
-	icon_state = "clockwork"
-
 /turf/open/floor/engine
 	name = "reinforced floor"
 	icon_state = "engine"
@@ -327,8 +324,6 @@
 	return
 
 /turf/open/floor/engine/attackby(obj/item/I, mob/user, params)
-	if(iscrowbar(I)) // Prevent generation of infinite 'floor_tile' objs caused by the overridden make_plating() above never clearing the var
-		return
 	. = ..()
 
 	if(iswrench(I))

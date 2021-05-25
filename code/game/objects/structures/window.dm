@@ -8,7 +8,7 @@
 	anchored = TRUE
 	layer = WINDOW_LAYER
 	flags_atom = ON_BORDER
-	resistance_flags = XENO_DAMAGEABLE | DROPSHIP_IMMUNE
+	resistance_flags = XENO_DAMAGEABLE
 	coverage = 20
 	var/dismantle = FALSE //If we're dismantling the window properly no smashy smashy
 	max_integrity = 15
@@ -390,17 +390,6 @@
 	name = "safety glass"
 	desc = "A very tough looking glass window with a special rod matrice, probably bullet proof."
 	max_integrity = 300
-
-/obj/structure/window/framed/mainship/spaceworthy
-	name = "cockpit window"
-	desc = "A very tough looking glass window with a special rod matrice, made to be space worthy."
-	max_integrity = 500
-	icon_state = "gray_window0_frame"
-	basestate = "gray_window"
-
-/obj/structure/window/framed/mainship/spaceworthy/Initialize()
-	. = ..()
-	AddElement(/datum/element/windowshutter/cokpitshutters)
 
 /obj/structure/window/framed/mainship/hull
 	name = "hull window"

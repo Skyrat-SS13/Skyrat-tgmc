@@ -115,8 +115,6 @@
 		message_admins("[header]:<br>[text]")
 		admin_ticket_log(target_ckey, "<font color='blue'>[header]</font>")
 		admin_ticket_log(target_ckey, text)
-		if(!check_rights(R_BAN))
-			return
 		if(browse)
 			browse_messages("[type]")
 		else

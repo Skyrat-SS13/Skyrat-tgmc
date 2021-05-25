@@ -1,5 +1,4 @@
 /datum/job/pmc
-	job_category = JOB_CAT_MARINE
 	access = ALL_PMC_ACCESS
 	minimal_access = ALL_PMC_ACCESS
 	skills_type = /datum/skills/pmc
@@ -18,7 +17,7 @@
 	jobtype = /datum/job/pmc/standard
 
 	id = /obj/item/card/id/silver
-	belt = /obj/item/storage/belt/gun/pistol/m4a3/vp70
+	belt = /obj/item/storage/belt/gun/m4a3/vp70
 	ears = /obj/item/radio/headset/distress/PMC
 	w_uniform = /obj/item/clothing/under/marine/veteran/PMC
 	shoes = /obj/item/clothing/shoes/veteran/PMC
@@ -62,7 +61,7 @@
 	jobtype = /datum/job/pmc/gunner
 
 	id = /obj/item/card/id/silver
-	belt = /obj/item/storage/belt/gun/pistol/m4a3/vp70
+	belt = /obj/item/storage/belt/gun/m4a3/vp70
 	ears = /obj/item/radio/headset/distress/PMC
 	w_uniform = /obj/item/clothing/under/marine/veteran/PMC
 	shoes = /obj/item/clothing/shoes/veteran/PMC
@@ -112,7 +111,7 @@
 	jobtype = /datum/job/pmc/sniper
 
 	id = /obj/item/card/id/silver
-	belt = /obj/item/storage/belt/gun/pistol/m4a3/vp70
+	belt = /obj/item/storage/belt/gun/m4a3/vp70
 	ears = /obj/item/radio/headset/distress/PMC
 	w_uniform = /obj/item/clothing/under/marine/veteran/PMC
 	shoes = /obj/item/clothing/shoes/veteran/PMC
@@ -145,7 +144,6 @@
 
 //PMC Leader
 /datum/job/pmc/leader
-	job_category = JOB_CAT_COMMAND
 	title = "PMC Leader"
 	paygrade = "PMC4"
 	skills_type = /datum/skills/SL/pmc
@@ -157,7 +155,7 @@
 	jobtype = /datum/job/pmc/leader
 
 	id = /obj/item/card/id/silver
-	belt = /obj/item/storage/belt/gun/pistol/m4a3/vp78
+	belt = /obj/item/storage/belt/gun/m4a3/vp78
 	ears = /obj/item/radio/headset/distress/PMC
 	w_uniform = /obj/item/clothing/under/marine/veteran/PMC/leader
 	shoes = /obj/item/clothing/shoes/veteran/PMC
