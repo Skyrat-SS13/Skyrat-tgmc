@@ -33,7 +33,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"activating" = 'sound/vox/activating.ogg',
 		"activated" = 'sound/vox/activated.ogg',
 		"activity" = 'sound/vox/activity.ogg',
+<<<<<<< HEAD
 		"actually" = 'sound/vox/actually.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"administer" = 'sound/vox/administer.ogg',
 		"administration" = 'sound/vox/administration.ogg',
 		"advance" = 'sound/vox/advance.ogg',
@@ -42,7 +45,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"after" = 'sound/vox/after.ogg',
 		"agent" = 'sound/vox/agent.ogg',
 		"ai" = 'sound/vox/ai.ogg',
+<<<<<<< HEAD
 		"air" = 'sound/vox/air.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"aircraft" = 'sound/vox/aircraft.ogg',
 		"alamo" = 'sound/vox/alamo.ogg',
 		"alarm" = 'sound/vox/alarm.ogg',
@@ -77,13 +83,19 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"arrest" = 'sound/vox/arrest.ogg',
 		"artificial" = 'sound/vox/artificial.ogg',
 		"ass" = 'sound/vox/ass.ogg',
+<<<<<<< HEAD
 		"asses" = 'sound/vox/asses.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"asshole" = 'sound/vox/asshole.ogg',
 		"assist" = 'sound/vox/assist.ogg',
 		"astartes" = 'sound/vox/astartes.ogg',
 		"at" = 'sound/vox/at.ogg',
 		"atomic" = 'sound/vox/atomic.ogg',
+<<<<<<< HEAD
 		"attachment" = 'sound/vox/attachment.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"attack" = 'sound/vox/attack.ogg',
 		"attacked" = 'sound/vox/attacked.ogg',
 		"attacking" = 'sound/vox/attacking.ogg',
@@ -100,8 +112,11 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"bad" = 'sound/vox/bad.ogg',
 		"bag" = 'sound/vox/bag.ogg',
 		"bags" = 'sound/vox/bags.ogg',
+<<<<<<< HEAD
 		"ball" = 'sound/vox/ball.ogg',
 		"balls" = 'sound/vox/balls.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"bar" = 'sound/vox/bar.ogg',
 		"barracks" = 'sound/vox/barracks.ogg',
 		"barricades" = 'sound/vox/barricades.ogg',
@@ -115,17 +130,26 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"before" = 'sound/vox/before.ogg',
 		"beginning" = 'sound/vox/beginning.ogg',
 		"behind" = 'sound/vox/behind.ogg',
+<<<<<<< HEAD
 		"b18" = 'sound/vox/beighteen.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"best" = 'sound/vox/best.ogg',
 		"beyond" = 'sound/vox/beyond.ogg',
 		"bicaridine" = 'sound/vox/bicaridine.ogg',
 		"biohazard" = 'sound/vox/biohazard.ogg',
 		"biological" = 'sound/vox/biological.ogg',
+<<<<<<< HEAD
 		"biomass" = 'sound/vox/biomass.ogg',
 		"big" = 'sound/vox/big.ogg',
 		"bizwarn" = 'sound/vox/bizwarn.ogg',
 		"blast" = 'sound/vox/blast.ogg',
 		"bleeding" = 'sound/vox/bleeding.ogg',
+=======
+		"big" = 'sound/vox/big.ogg',
+		"bizwarn" = 'sound/vox/bizwarn.ogg',
+		"blast" = 'sound/vox/blast.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"blind" = 'sound/vox/blind.ogg',
 		"blob" = 'sound/vox/blob.ogg',
 		"blocked" = 'sound/vox/blocked.ogg',
@@ -140,7 +164,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"bottom" = 'sound/vox/bottom.ogg',
 		"boys" = 'sound/vox/boys.ogg',
 		"brain" = 'sound/vox/brain.ogg',
+<<<<<<< HEAD
 		"brains" = 'sound/vox/brains.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"bravo" = 'sound/vox/bravo.ogg',
 		"breach" = 'sound/vox/breach.ogg',
 		"breached" = 'sound/vox/breached.ogg',
@@ -164,7 +191,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"calculate" = 'sound/vox/calculate.ogg',
 		"call" = 'sound/vox/call.ogg',
 		"called" = 'sound/vox/called.ogg',
+<<<<<<< HEAD
 		"calling" = 'sound/vox/calling.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"camera" = 'sound/vox/camera.ogg',
 		"cameras" = 'sound/vox/cameras.ogg',
 		"can" = 'sound/vox/can.ogg',
@@ -178,14 +208,20 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"carrier" = 'sound/vox/carrier.ogg',
 		"cave" = 'sound/vox/cave.ogg',
 		"caves" = 'sound/vox/caves.ogg',
+<<<<<<< HEAD
 		"cavity" = 'sound/vox/cavity.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"ceiling" = 'sound/vox/ceiling.ogg',
 		"celsius" = 'sound/vox/celsius.ogg',
 		"center" = 'sound/vox/center.ogg',
 		"central" = 'sound/vox/central.ogg',
 		"chair" = 'sound/vox/chair.ogg',
 		"chamber" = 'sound/vox/chamber.ogg',
+<<<<<<< HEAD
 		"chaos" = 'sound/vox/chaos.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"chapel" = 'sound/vox/chapel.ogg',
 		"charlie" = 'sound/vox/charlie.ogg',
 		"check" = 'sound/vox/check.ogg',
@@ -200,6 +236,7 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"clear" = 'sound/vox/clear.ogg',
 		"clearance" = 'sound/vox/clearance.ogg',
 		"clf" = 'sound/vox/clf.ogg',
+<<<<<<< HEAD
 		"clone" = 'sound/vox/clone.ogg',
 		"cloning" = 'sound/vox/cloning.ogg',
 		"close" = 'sound/vox/close.ogg',
@@ -213,6 +250,14 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"colonists" = 'sound/vox/colonists.ogg',
 		"colony" = 'sound/vox/colony.ogg',
 		"come" = 'sound/vox/come.ogg',
+=======
+		"close" = 'sound/vox/close.ogg',
+		"clowns" = 'sound/vox/clowns.ogg',
+		"code" = 'sound/vox/code.ogg',
+		"collider" = 'sound/vox/collider.ogg',
+		"colonists" = 'sound/vox/colonists.ogg',
+		"colony" = 'sound/vox/colony.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"command" = 'sound/vox/command.ogg',
 		"commander" = 'sound/vox/commander.ogg',
 		"communication" = 'sound/vox/communication.ogg',
@@ -223,6 +268,7 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"confirm" = 'sound/vox/confirm.ogg',
 		"confirmed" = 'sound/vox/confirmed.ogg',
 		"confirming" = 'sound/vox/confirming.ogg',
+<<<<<<< HEAD
 		"consume" = 'sound/vox/consume.ogg',
 		"containment" = 'sound/vox/containment.ogg',
 		"control" = 'sound/vox/control.ogg',
@@ -231,6 +277,12 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"cope" = 'sound/vox/cope.ogg',
 		"core" = 'sound/vox/core.ogg',
 		"corn" = 'sound/vox/corn.ogg',
+=======
+		"containment" = 'sound/vox/containment.ogg',
+		"control" = 'sound/vox/control.ogg',
+		"conveyor" = 'sound/vox/conveyor.ogg',
+		"core" = 'sound/vox/core.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"corporate" = 'sound/vox/corporate.ogg',
 		"corporation" = 'sound/vox/corporation.ogg',
 		"corpsman" = 'sound/vox/corpsman.ogg',
@@ -238,11 +290,17 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"corridor" = 'sound/vox/corridor.ogg',
 		"corrupted" = 'sound/vox/corrupted.ogg',
 		"could" = 'sound/vox/could.ogg',
+<<<<<<< HEAD
 		"crap" = 'sound/vox/crap.ogg',
 		"crash" = 'sound/vox/crash.ogg',
 		"crashed" = 'sound/vox/crashed.ogg',
 		"crate" = 'sound/vox/crate.ogg',
 		"crazy" = 'sound/vox/crazy.ogg',
+=======
+		"crash" = 'sound/vox/crash.ogg',
+		"crashed" = 'sound/vox/crashed.ogg',
+		"crate" = 'sound/vox/crate.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"crew" = 'sound/vox/crew.ogg',
 		"critical" = 'sound/vox/critical.ogg',
 		"cross" = 'sound/vox/cross.ogg',
@@ -256,7 +314,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"deactivated" = 'sound/vox/deactivated.ogg',
 		"dead" = 'sound/vox/dead.ogg',
 		"deaf" = 'sound/vox/deaf.ogg',
+<<<<<<< HEAD
 		"death" = 'sound/vox/death.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"decapitated" = 'sound/vox/decapitated.ogg',
 		"decompression" = 'sound/vox/decompression.ogg',
 		"decontamination" = 'sound/vox/decontamination.ogg',
@@ -295,11 +356,16 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"distortion" = 'sound/vox/distortion.ogg',
 		"do" = 'sound/vox/do.ogg',
 		"doctor" = 'sound/vox/doctor.ogg',
+<<<<<<< HEAD
 		"doctors" = 'sound/vox/doctors.ogg',
 		"dome" = 'sound/vox/dome.ogg',
 		"domes" = 'sound/vox/domes.ogg',
 		"doom" = 'sound/vox/doom.ogg',
 		"doomed" = 'sound/vox/doomed.ogg',
+=======
+		"dome" = 'sound/vox/dome.ogg',
+		"domes" = 'sound/vox/domes.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"doomsday" = 'sound/vox/doomsday.ogg',
 		"door" = 'sound/vox/door.ogg',
 		"doors" = 'sound/vox/doors.ogg',
@@ -342,7 +408,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"engaged" = 'sound/vox/engaged.ogg',
 		"engine" = 'sound/vox/engine.ogg',
 		"engineer" = 'sound/vox/engineer.ogg',
+<<<<<<< HEAD
 		"engineers" = 'sound/vox/engineers.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"engineering" = 'sound/vox/engineering.ogg',
 		"enter" = 'sound/vox/enter.ogg',
 		"entry" = 'sound/vox/entry.ogg',
@@ -352,10 +421,14 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"ert" = 'sound/vox/ert.ogg',
 		"escape" = 'sound/vox/escape.ogg',
 		"evacuate" = 'sound/vox/evacuate.ogg',
+<<<<<<< HEAD
 		"evacuation" = 'sound/vox/evacuation.ogg',
 		"every" = 'sound/vox/every.ogg',
 		"evolution" = 'sound/vox/evolution.ogg',
 		"evolve" = 'sound/vox/evolve.ogg',
+=======
+		"every" = 'sound/vox/every.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"exchange" = 'sound/vox/exchange.ogg',
 		"excrement" = 'sound/vox/excrement.ogg',
 		"exit" = 'sound/vox/exit.ogg',
@@ -379,7 +452,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"false" = 'sound/vox/false.ogg',
 		"farthest" = 'sound/vox/farthest.ogg',
 		"fast" = 'sound/vox/fast.ogg',
+<<<<<<< HEAD
 		"faster" = 'sound/vox/faster.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"field" = 'sound/vox/field.ogg',
 		"fifteen" = 'sound/vox/fifteen.ogg',
 		"fifth" = 'sound/vox/fifth.ogg',
@@ -388,7 +464,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"final" = 'sound/vox/final.ogg',
 		"fine" = 'sound/vox/fine.ogg',
 		"fire" = 'sound/vox/fire.ogg',
+<<<<<<< HEAD
 		"fired" = 'sound/vox/fired.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"firelock" = 'sound/vox/firelock.ogg',
 		"firelocks" = 'sound/vox/firelocks.ogg',
 		"firing" = 'sound/vox/firing.ogg',
@@ -401,7 +480,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"floodlight" = 'sound/vox/floodlight.ogg',
 		"floodlights" = 'sound/vox/floodlights.ogg',
 		"floor" = 'sound/vox/floor.ogg',
+<<<<<<< HEAD
 		"fob" = 'sound/vox/fob.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"foam" = 'sound/vox/foam.ogg',
 		"fool" = 'sound/vox/fool.ogg',
 		"fog" = 'sound/vox/fog.ogg',
@@ -411,7 +493,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"forces" = 'sound/vox/forces.ogg',
 		"forms" = 'sound/vox/forms.ogg',
 		"fort" = 'sound/vox/fort.ogg',
+<<<<<<< HEAD
 		"forward" = 'sound/vox/forward.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"found" = 'sound/vox/found.ogg',
 		"four" = 'sound/vox/four.ogg',
 		"fourteen" = 'sound/vox/fourteen.ogg',
@@ -427,13 +512,19 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"fucks" = 'sound/vox/fucks.ogg',
 		"fuel" = 'sound/vox/fuel.ogg',
 		"g" = 'sound/vox/g.ogg',
+<<<<<<< HEAD
 		"gas" = 'sound/vox/gas.ogg',
 		"gear" = 'sound/vox/gear.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"generator" = 'sound/vox/generator.ogg',
 		"get" = 'sound/vox/get.ogg',
 		"girder" = 'sound/vox/girder.ogg',
 		"girls" = 'sound/vox/girls.ogg',
+<<<<<<< HEAD
 		"give" = 'sound/vox/give.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"glory" = 'sound/vox/glory.ogg',
 		"go" = 'sound/vox/go.ogg',
 		"god" = 'sound/vox/god.ogg',
@@ -487,7 +578,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"highest" = 'sound/vox/highest.ogg',
 		"hijack" = 'sound/vox/hijack.ogg',
 		"hijacked" = 'sound/vox/hijacked.ogg',
+<<<<<<< HEAD
 		"him" = 'sound/vox/him.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"his" = 'sound/vox/his.ogg',
 		"hit" = 'sound/vox/hit.ogg',
 		"hits" = 'sound/vox/hits.ogg',
@@ -502,10 +596,15 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"hour" = 'sound/vox/hour.ogg',
 		"hours" = 'sound/vox/hours.ogg',
 		"how" = 'sound/vox/how.ogg',
+<<<<<<< HEAD
 		"hug" = 'sound/vox/hug.ogg',
 		"hugger" = 'sound/vox/hugger.ogg',
 		"huggers" = 'sound/vox/huggers.ogg',
 		"hugs" = 'sound/vox/hugs.ogg',
+=======
+		"hugger" = 'sound/vox/hugger.ogg',
+		"huggers" = 'sound/vox/huggers.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"human" = 'sound/vox/human.ogg',
 		"hundred" = 'sound/vox/hundred.ogg',
 		"hunter" = 'sound/vox/hunter.ogg',
@@ -531,16 +630,23 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"incoming" = 'sound/vox/incoming.ogg',
 		"incompetent" = 'sound/vox/incompetent.ogg',
 		"india" = 'sound/vox/india.ogg',
+<<<<<<< HEAD
 		"indirect" = 'sound/vox/indirect.ogg',
 		"infected" = 'sound/vox/infected.ogg',
 		"initiate" = 'sound/vox/initiate.ogg',
 		"initiated" = 'sound/vox/initiated.ogg',
 		"initiating" = 'sound/vox/initiating.ogg',
 		"injector" = 'sound/vox/injector.ogg',
+=======
+		"infected" = 'sound/vox/infected.ogg',
+		"initiate" = 'sound/vox/initiate.ogg',
+		"initiating" = 'sound/vox/initiating.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"inoperative" = 'sound/vox/inoperative.ogg',
 		"inside" = 'sound/vox/inside.ogg',
 		"inspection" = 'sound/vox/inspection.ogg',
 		"inspector" = 'sound/vox/inspector.ogg',
+<<<<<<< HEAD
 		"insurance" = 'sound/vox/insurance.ogg',
 		"intelligence" = 'sound/vox/intelligence.ogg',
 		"interchange" = 'sound/vox/interchange.ogg',
@@ -548,6 +654,12 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"into" = 'sound/vox/into.ogg',
 		"intruder" = 'sound/vox/intruder.ogg',
 		"invaded" = 'sound/vox/invaded.ogg',
+=======
+		"intelligence" = 'sound/vox/intelligence.ogg',
+		"interchange" = 'sound/vox/interchange.ogg',
+		"into" = 'sound/vox/into.ogg',
+		"intruder" = 'sound/vox/intruder.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"invalid" = 'sound/vox/invalid.ogg',
 		"invasion" = 'sound/vox/invasion.ogg',
 		"is" = 'sound/vox/is.ogg',
@@ -571,7 +683,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"laser" = 'sound/vox/laser.ogg',
 		"last" = 'sound/vox/last.ogg',
 		"launch" = 'sound/vox/launch.ogg',
+<<<<<<< HEAD
 		"lay" = 'sound/vox/lay.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"leader" = 'sound/vox/leader.ogg',
 		"leak" = 'sound/vox/leak.ogg',
 		"least" = 'sound/vox/least.ogg',
@@ -609,7 +724,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"lowest" = 'sound/vox/lowest.ogg',
 		"lungs" = 'sound/vox/lungs.ogg',
 		"lv" = 'sound/vox/lv.ogg',
+<<<<<<< HEAD
 		"lying" = 'sound/vox/lying.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"machete" = 'sound/vox/machete.ogg',
 		"machine" = 'sound/vox/machine.ogg',
 		"magmoor" = 'sound/vox/magmoor.ogg',
@@ -618,7 +736,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"maintenance" = 'sound/vox/maintenance.ogg',
 		"malfunction" = 'sound/vox/malfunction.ogg',
 		"man" = 'sound/vox/man.ogg',
+<<<<<<< HEAD
 		"map" = 'sound/vox/map.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"many" = 'sound/vox/mini.ogg',
 		"marine" = 'sound/vox/marine.ogg',
 		"marines" = 'sound/vox/marines.ogg',
@@ -666,7 +787,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"moron" = 'sound/vox/moron.ogg',
 		"moronic" = 'sound/vox/moronic.ogg',
 		"morons" = 'sound/vox/morons.ogg',
+<<<<<<< HEAD
 		"most" = 'sound/vox/most.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"moth" = 'sound/vox/moth.ogg',
 		"moths" = 'sound/vox/moths.ogg',
 		"motor" = 'sound/vox/motor.ogg',
@@ -678,14 +802,20 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"must" = 'sound/vox/must.ogg',
 		"mute" = 'sound/vox/mute.ogg',
 		"my" = 'sound/vox/my.ogg',
+<<<<<<< HEAD
 		"myself" = 'sound/vox/myself.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"nanite" = 'sound/vox/nanite.ogg',
 		"nanites" = 'sound/vox/nanites.ogg',
 		"nearest" = 'sound/vox/nearest.ogg',
 		"necro" = 'sound/vox/necro.ogg',
 		"necrosis" = 'sound/vox/necrosis.ogg',
+<<<<<<< HEAD
 		"neuro" = 'sound/vox/neuro.ogg',
 		"next" = 'sound/vox/next.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"nice" = 'sound/vox/nice.ogg',
 		"nine" = 'sound/vox/nine.ogg',
 		"nineteen" = 'sound/vox/nineteen.ogg',
@@ -700,7 +830,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"nuclear" = 'sound/vox/nuclear.ogg',
 		"number" = 'sound/vox/number.ogg',
 		"o" = 'sound/vox/o.ogg',
+<<<<<<< HEAD
 		"ob" = 'sound/vox/ob.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"objective" = 'sound/vox/objective.ogg',
 		"observation" = 'sound/vox/observation.ogg',
 		"obtain" = 'sound/vox/obtain.ogg',
@@ -717,11 +850,16 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"one" = 'sound/vox/one.ogg',
 		"online" = 'sound/vox/online.ogg',
 		"oof" = 'sound/vox/oof.ogg',
+<<<<<<< HEAD
 		"oorah" = 'sound/vox/oorah.ogg',
 		"op" = 'sound/vox/op.ogg',
 		"open" = 'sound/vox/open.ogg',
 		"operating" = 'sound/vox/operating.ogg',
 		"operation" = 'sound/vox/operation.ogg',
+=======
+		"open" = 'sound/vox/open.ogg',
+		"operating" = 'sound/vox/operating.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"operational" = 'sound/vox/operational.ogg',
 		"operations" = 'sound/vox/operations.ogg',
 		"operative" = 'sound/vox/operative.ogg',
@@ -745,7 +883,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"pain" = 'sound/vox/pain.ogg',
 		"pal" = 'sound/vox/pal.ogg',
 		"pathetic" = 'sound/vox/pathetic.ogg',
+<<<<<<< HEAD
 		"peace" = 'sound/vox/piece.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"panel" = 'sound/vox/panel.ogg',
 		"percent" = 'sound/vox/percent.ogg',
 		"perfect" = 'sound/vox/perfect.ogg',
@@ -753,15 +894,21 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"permitted" = 'sound/vox/permitted.ogg',
 		"personnel" = 'sound/vox/personnel.ogg',
 		"phoron" = 'sound/vox/phoron.ogg',
+<<<<<<< HEAD
 		"piece" = 'sound/vox/piece.ogg',
 		"pieces" = 'sound/vox/pieces.ogg',
 		"pill" = 'sound/vox/pill.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"pillar" = 'sound/vox/pillar.ogg',
 		"pipe" = 'sound/vox/pipe.ogg',
 		"piss" = 'sound/vox/piss.ogg',
 		"place" = 'sound/vox/place.ogg',
 		"plane" = 'sound/vox/plane.ogg',
+<<<<<<< HEAD
 		"planet" = 'sound/vox/planet.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"plant" = 'sound/vox/plant.ogg',
 		"plasma" = 'sound/vox/plasma.ogg',
 		"plasteel" = 'sound/vox/plasteel.ogg',
@@ -847,9 +994,12 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"rip" = 'sound/vox/rip.ogg',
 		"ripley" = 'sound/vox/ripley.ogg',
 		"ro" = 'sound/vox/ro.ogg',
+<<<<<<< HEAD
 		"road" = 'sound/vox/road.ogg',
 		"robot" = 'sound/vox/robot.ogg',
 		"robotic" = 'sound/vox/robotic.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"rocket" = 'sound/vox/rocket.ogg',
 		"roger" = 'sound/vox/roger.ogg',
 		"romeo" = 'sound/vox/romeo.ogg',
@@ -882,10 +1032,15 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"select" = 'sound/vox/select.ogg',
 		"selected" = 'sound/vox/selected.ogg',
 		"self" = 'sound/vox/self.ogg',
+<<<<<<< HEAD
 		"sell" = 'sound/vox/cell.ogg',
 		"sentinel" = 'sound/vox/sentinel.ogg',
 		"sentry" = 'sound/vox/sentry.ogg',
 		"serve" = 'sound/vox/serve.ogg',
+=======
+		"sentinel" = 'sound/vox/sentinel.ogg',
+		"sentry" = 'sound/vox/sentry.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"server" = 'sound/vox/server.ogg',
 		"service" = 'sound/vox/service.ogg',
 		"set" = 'sound/vox/set.ogg',
@@ -906,10 +1061,14 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"shoot" = 'sound/vox/shoot.ogg',
 		"shooting" = 'sound/vox/shooting.ogg',
 		"shop" = 'sound/vox/shop.ogg',
+<<<<<<< HEAD
 		"shot" = 'sound/vox/shot.ogg',
 		"shots" = 'sound/vox/shots.ogg',
 		"should" = 'sound/vox/should.ogg',
 		"shove" = 'sound/vox/shove.ogg',
+=======
+		"should" = 'sound/vox/should.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"shower" = 'sound/vox/shower.ogg',
 		"shrike" = 'sound/vox/shrike.ogg',
 		"shut" = 'sound/vox/shut.ogg',
@@ -921,8 +1080,11 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"sight" = 'sound/vox/sight.ogg',
 		"sign" = 'sound/vox/sign.ogg',
 		"silo" = 'sound/vox/silo.ogg',
+<<<<<<< HEAD
 		"single" = 'sound/vox/single.ogg',
 		"singular" = 'sound/vox/singular.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"site" = 'sound/vox/site.ogg',
 		"situation" = 'sound/vox/situation.ogg',
 		"six" = 'sound/vox/six.ogg',
@@ -935,7 +1097,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"smart" = 'sound/vox/smart.ogg',
 		"smg" = 'sound/vox/smg.ogg',
 		"smoke" = 'sound/vox/smoke.ogg',
+<<<<<<< HEAD
 		"sniper" = 'sound/vox/sniper.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"snow" = 'sound/vox/snow.ogg',
 		"so" = 'sound/vox/sospeech.ogg',
 		"soldier" = 'sound/vox/soldier.ogg',
@@ -946,24 +1111,36 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"sons" = 'sound/vox/sons.ogg',
 		"sorry" = 'sound/vox/sorry.ogg',
 		"south" = 'sound/vox/south.ogg',
+<<<<<<< HEAD
 		"space" = 'sound/vox/space.ogg',
 		"spaceacillin" = 'sound/vox/spaceacillin.ogg',
 		"spam" = 'sound/vox/spam.ogg',
 		"spit" = 'sound/vox/spit.ogg',
 		"spitter" = 'sound/vox/spitter.ogg',
 		"spread" = 'sound/vox/spread.ogg',
+=======
+		"spaceacillin" = 'sound/vox/spaceacillin.ogg',
+		"spit" = 'sound/vox/spit.ogg',
+		"spitter" = 'sound/vox/spitter.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"spring" = 'sound/vox/spring.ogg',
 		"squad" = 'sound/vox/squad.ogg',
 		"square" = 'sound/vox/square.ogg',
 		"staff" = 'sound/vox/staff.ogg',
 		"stairway" = 'sound/vox/stairway.ogg',
+<<<<<<< HEAD
 		"stand" = 'sound/vox/stand.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"station" = 'sound/vox/station.ogg',
 		"status" = 'sound/vox/status.ogg',
 		"sterile" = 'sound/vox/sterile.ogg',
 		"sterilization" = 'sound/vox/sterilization.ogg',
 		"sticky" = 'sound/vox/sticky.ogg',
+<<<<<<< HEAD
 		"still" = 'sound/vox/still.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"storage" = 'sound/vox/storage.ogg',
 		"strike" = 'sound/vox/strike.ogg',
 		"sub" = 'sound/vox/sub.ogg',
@@ -986,6 +1163,7 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"survival" = 'sound/vox/survival.ogg',
 		"survive" = 'sound/vox/survive.ogg',
 		"swipe" = 'sound/vox/swipe.ogg',
+<<<<<<< HEAD
 		"swiping" = 'sound/vox/swiping.ogg',
 		"switch" = 'sound/vox/switch.ogg',
 		"synth" = 'sound/vox/synth.ogg',
@@ -994,6 +1172,13 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"systems" = 'sound/vox/systems.ogg',
 		"tactical" = 'sound/vox/tactical.ogg',
 		"tad" = 'sound/vox/tad.ogg',
+=======
+		"switch" = 'sound/vox/switch.ogg',
+		"synth" = 'sound/vox/synth.ogg',
+		"system" = 'sound/vox/system.ogg',
+		"systems" = 'sound/vox/systems.ogg',
+		"tactical" = 'sound/vox/tactical.ogg',
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"tadpole" = 'sound/vox/tadpole.ogg',
 		"take" = 'sound/vox/take.ogg',
 		"taking" = 'sound/vox/taking.ogg',
@@ -1040,9 +1225,12 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"throwing" = 'sound/vox/throwing.ogg',
 		"time" = 'sound/vox/time.ogg',
 		"to" = 'sound/vox/two.ogg',
+<<<<<<< HEAD
 		"tool" = 'sound/vox/tool.ogg',
 		"toolbox" = 'sound/vox/toolbox.ogg',
 		"tools" = 'sound/vox/tools.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"top" = 'sound/vox/top.ogg',
 		"topside" = 'sound/vox/topside.ogg',
 		"touch" = 'sound/vox/touch.ogg',
@@ -1102,7 +1290,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"warn" = 'sound/vox/warn.ogg',
 		"warning" = 'sound/vox/warning.ogg',
 		"warrior" = 'sound/vox/warrior.ogg',
+<<<<<<< HEAD
 		"was" = 'sound/vox/was.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"waste" = 'sound/vox/waste.ogg',
 		"water" = 'sound/vox/water.ogg',
 		"we" = 'sound/vox/we.ogg',
@@ -1119,7 +1310,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"white" = 'sound/vox/white.ogg',
 		"wilco" = 'sound/vox/wilco.ogg',
 		"will" = 'sound/vox/will.ogg',
+<<<<<<< HEAD
 		"win" = 'sound/vox/win.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"window" = 'sound/vox/window.ogg',
 		"windows" = 'sound/vox/windows.ogg',
 		"wire" = 'sound/vox/wire.ogg',
@@ -1133,7 +1327,10 @@ GLOBAL_LIST_INIT(vox_sounds, list("!bloop" = 'sound/vox/!bloop.ogg',
 		"wrench" = 'sound/vox/wrench.ogg',
 		"woop" = 'sound/vox/woop.ogg',
 		"xeno" = 'sound/vox/xeno.ogg',
+<<<<<<< HEAD
 		"xenos" = 'sound/vox/xenos.ogg',
+=======
+>>>>>>> b264a06cd (Replaces Half Life AI vox with an original set, adds many new lines. (#9598))
 		"xenomorph" = 'sound/vox/xenomorph.ogg',
 		"xenomorphs" = 'sound/vox/xenomorphs.ogg',
 		"yankee" = 'sound/vox/yankee.ogg',
