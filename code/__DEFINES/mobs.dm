@@ -344,6 +344,12 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define IS_MOTH (1<<6)
 #define IS_SECTOID (1<<7)
 #define IS_MONKEY (1<<8)
+#define IS_CATHUMAN (1<<9)
+#define IS_Anthromorph (<<10)
+#define IS_GENEMODDER (<<11)
+#define IS_LIZARDPERSON (<<12)
+#define IS_AQUATIC (<<13)
+#define IS_INSECTOID (<<14)
 //=================================================
 
 //AFK status

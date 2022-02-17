@@ -96,3 +96,21 @@
 
 /mob/living/carbon/human/species/robot
 	race = "Combat Robot"
+
+/mob/living/carbon/human/species/cathuman
+	race = "Catperson"
+
+/mob/living/carbon/human/species/anthromorph
+	race = "Anthromorph"
+
+/mob/living/carbon/human/species/genemodder
+	race = "Genemodder"
+
+/mob/living/carbon/human/species/lizardperson
+	race = "Lizardperson"
+
+/mob/living/carbon/human/species/aquatic
+	race = "Aquatic"
+
+/mob/living/carbon/human/species/Insectoid
+	race = "Insectoid"
