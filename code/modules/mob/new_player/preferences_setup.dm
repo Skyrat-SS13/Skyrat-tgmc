@@ -1,19 +1,16 @@
 /datum/preferences/proc/randomize_appearance_for(mob/living/carbon/human/H)
-	gender = pick(MALE, FEMALE)
-	species = pick(get_playable_species())
-	synthetic_type = pick(SYNTH_TYPES)
+	if(H)
+		if(H.gender == MALE)
+			gender = MALE
+		else
+			gender = FEMALE
+
 	ethnicity = random_ethnicity()
 	body_type = random_body_type()
 
 	h_style = random_hair_style(gender, species)
 	f_style = random_facial_hair_style(gender, species)
-	grad_style = pick(GLOB.hair_gradients_list)
-	good_eyesight = pick(list(FALSE, TRUE))
-	citizenship = pick(CITIZENSHIP_CHOICES)
-	religion = pick(RELIGION_CHOICES)
-	nanotrasen_relation = pick(CORP_RELATIONS)
 	randomize_hair_color("hair")
-	randomize_hair_color("grad")
 	randomize_hair_color("facial")
 	randomize_eyes_color()
 	randomize_species_specific()
@@ -79,10 +76,6 @@
 			r_facial = red
 			g_facial = green
 			b_facial = blue
-		if("grad")
-			r_grad = red
-			g_grad = green
-			b_grad = blue
 
 /datum/preferences/proc/randomize_eyes_color()
 	var/red
@@ -135,6 +128,12 @@
 
 	if(!previewJob)
 		var/mob/living/carbon/human/dummy/mannequin = generate_or_wait_for_human_dummy(DUMMY_HUMAN_SLOT_PREFERENCES)
+		if(preview_pref == PREVIEW_PREF_NAKED)
+			mannequin.show_underwear = FALSE
+		else
+			mannequin.show_underwear = TRUE
+		mannequin.bodyparts_render_key = ""
+		mannequin.mutant_parts_render_key = ""
 		copy_to(mannequin)
 		COMPILE_OVERLAYS(mannequin)
 		parent.show_character_previews(new /mutable_appearance(mannequin))
@@ -148,71 +147,38 @@
 	var/mob/living/carbon/human/dummy/mannequin = generate_or_wait_for_human_dummy(DUMMY_HUMAN_SLOT_PREFERENCES)
 	copy_to(mannequin)
 
-	if(previewJob)
+	if(previewJob && preview_pref == PREVIEW_PREF_JOB)
 		mannequin.job = previewJob
 		previewJob.equip_dummy(mannequin, preference_source = parent)
 
+	if(preview_pref == PREVIEW_PREF_NAKED)
+		mannequin.show_underwear = FALSE
+	else
+		mannequin.show_underwear = TRUE
+
+	mannequin.bodyparts_render_key = ""
+	mannequin.mutant_parts_render_key = ""
 	COMPILE_OVERLAYS(mannequin)
 	parent.show_character_previews(new /mutable_appearance(mannequin))
 	unset_busy_human_dummy(DUMMY_HUMAN_SLOT_PREFERENCES)
 
 
 /datum/preferences/proc/randomize_species_specific()
-	moth_wings = pick(GLOB.moth_wings_list - "Burnt Off")
+	var/datum/species/S = GLOB.all_species[species]
+	features = S.get_random_features()
+	mutant_bodyparts = S.get_random_mutant_bodyparts(features)
+	body_markings = S.get_random_body_markings(features)
 
 
 /datum/preferences/proc/copy_to(mob/living/carbon/human/character, safety = FALSE)
-	var/new_name
+	character.set_species(species, pref_load = src)
+
 	if(random_name)
-		new_name = character.species.random_name(gender)
-	else
-		new_name = character.species.prefs_name(src)
+		character.real_name = character.species.random_name(gender)
+		character.name = character.real_name
 
 	if(!good_eyesight)
 		ENABLE_BITFIELD(character.disabilities, NEARSIGHTED)
-
-	character.real_name = new_name
-	character.name = character.real_name
-
-	character.flavor_text = flavor_text
-
-	character.med_record = med_record
-	character.sec_record = sec_record
-	character.gen_record = gen_record
-	character.exploit_record = exploit_record
-
-	character.age = age
-	character.gender = gender
-	character.ethnicity = ethnicity
-	character.body_type = body_type
-
-	character.r_eyes = r_eyes
-	character.g_eyes = g_eyes
-	character.b_eyes = b_eyes
-
-	character.r_hair = r_hair
-	character.g_hair = g_hair
-	character.b_hair = b_hair
-
-	character.r_grad	= r_grad
-	character.g_grad	= g_grad
-	character.b_grad	= b_grad
-
-	character.r_facial = r_facial
-	character.g_facial = g_facial
-	character.b_facial = b_facial
-
-	character.h_style = h_style
-	character.grad_style= grad_style
-	character.f_style = f_style
-
-	character.citizenship = citizenship
-	character.religion = religion
-
-	character.moth_wings = moth_wings
-	character.underwear = underwear
-	character.undershirt = undershirt
-	character.backpack = backpack
 
 	character.update_body()
 	character.update_hair()
@@ -220,9 +186,7 @@
 
 /datum/preferences/proc/random_character()
 	gender = pick(MALE, FEMALE)
-	var/speciestype = pick(GLOB.roundstart_species)
-	var/datum/species/S = GLOB.roundstart_species[speciestype]
-	species = S.name
+	var/datum/species/S = GLOB.all_species[species]
 	real_name = S.random_name(gender)
 	age = rand(AGE_MIN, AGE_MAX)
 	h_style = pick("Crewcut", "Bald", "Short Hair")
