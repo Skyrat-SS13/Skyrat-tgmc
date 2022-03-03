@@ -119,6 +119,18 @@
 	to_chat(attacher, span_warning("You cannot attach [src] to [attaching_to] while [attachments_by_slot[ATTACHMENT_SLOT_RAIL]] occupies [src]'s rail slot."))
 	return FALSE
 
+<<<<<<< HEAD
+=======
+/obj/item/weapon/gun/pistol/plasma_pistol/on_attach(obj/item/attached_to, mob/user)
+	flags_gun_features |= GUN_WIELDED_STABLE_FIRING_ONLY|GUN_WIELDED_FIRING_ONLY
+	return ..()
+
+/obj/item/weapon/gun/pistol/plasma_pistol/on_detach(obj/item/attached_to, mob/user)
+	flags_gun_features &= ~GUN_WIELDED_STABLE_FIRING_ONLY|GUN_WIELDED_FIRING_ONLY
+	return ..()
+
+
+>>>>>>> d9b2037f6 (This is the last time i fix this (#9717))
 /obj/item/weapon/gun/pistol/plasma_pistol/guardsman_pistol
 	name = "\improper Guardsman\'s plasma pistol"
 	desc = "FOR THE EMPEROR!"
