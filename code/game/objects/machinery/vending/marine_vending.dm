@@ -98,6 +98,7 @@
 			/obj/item/tool/extinguisher = -1,
 			/obj/item/tool/extinguisher/mini = -1,
 			/obj/item/weapon/shield/riot/marine = 6,
+			/obj/item/jetpack_marine = 3,
 			/obj/item/weapon/powerfist = -1,
 			/obj/item/stack/throwing_knife = -1,
 			/obj/item/weapon/twohanded/spear/tactical = -1,
@@ -160,13 +161,23 @@
 		),
 		"Utility" = list(
 			/obj/item/flashlight/combat = -1,
-			/obj/item/attachable/bayonetknife = -1,
+			/obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1,
 			/obj/item/weapon/combat_knife = -1,
+<<<<<<< HEAD
 			/obj/item/binoculars = -1,
 			/obj/item/compass = -1,
 			/obj/item/assembly/signaler = 20,
 			/obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1,
 			/obj/item/jetpack_marine = 3,
+=======
+			/obj/item/attachable/bayonetknife = -1,
+			/obj/item/tool/shovel/etool = -1,
+			/obj/item/tool/extinguisher = -1,
+			/obj/item/tool/extinguisher/mini = -1,
+			/obj/item/assembly/signaler = -1,
+			/obj/item/binoculars = -1,
+			/obj/item/compass = -1,
+>>>>>>> d86bba24df (Shovels for everyone! (#9730))
 		),
 	)
 
@@ -255,6 +266,7 @@
 			/obj/item/ammo_magazine/flamer_tank/large = 20,
 			/obj/item/ammo_magazine/flamer_tank = 20,
 			/obj/item/weapon/shield/riot/marine = 6,
+			/obj/item/jetpack_marine = 3,
 			/obj/item/weapon/powerfist = -1,
 			/obj/item/stack/throwing_knife = -1,
 			/obj/item/weapon/twohanded/spear/tactical = -1,
@@ -309,13 +321,23 @@
 		),
 		"Utility" = list(
 			/obj/item/flashlight/combat = -1,
-			/obj/item/attachable/bayonetknife = -1,
+			/obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1,
 			/obj/item/weapon/combat_knife = -1,
+<<<<<<< HEAD
 			/obj/item/binoculars = -1,
 			/obj/item/compass = -1,
 			/obj/item/assembly/signaler = 20,
 			/obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1,
 			/obj/item/jetpack_marine = 3,
+=======
+			/obj/item/attachable/bayonetknife = -1,
+			/obj/item/tool/shovel/etool = -1,
+			/obj/item/tool/extinguisher = -1,
+			/obj/item/tool/extinguisher/mini = -1,
+			/obj/item/assembly/signaler = -1,
+			/obj/item/binoculars = -1,
+			/obj/item/compass = -1,
+>>>>>>> d86bba24df (Shovels for everyone! (#9730))
 		),
 	)
 
@@ -418,6 +440,7 @@
 			/obj/item/ammo_magazine/flamer_tank/large = -1,
 			/obj/item/ammo_magazine/flamer_tank = -1,
 			/obj/item/weapon/shield/riot/marine = -1,
+			/obj/item/jetpack_marine = -1,
 			/obj/item/weapon/powerfist = -1,
 			/obj/item/stack/throwing_knife = -1,
 			/obj/item/weapon/twohanded/spear/tactical = -1,
@@ -466,13 +489,18 @@
 		),
 		"Utility" = list(
 			/obj/item/flashlight/combat = -1,
-			/obj/item/attachable/bayonetknife = -1,
+			/obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1,
 			/obj/item/weapon/combat_knife = -1,
+<<<<<<< HEAD
+=======
+			/obj/item/attachable/bayonetknife = -1,
+			/obj/item/tool/shovel/etool = -1,
+			/obj/item/tool/extinguisher = -1,
+			/obj/item/tool/extinguisher/mini = -1,
+			/obj/item/assembly/signaler = -1,
+>>>>>>> d86bba24df (Shovels for everyone! (#9730))
 			/obj/item/binoculars = -1,
 			/obj/item/compass = -1,
-			/obj/item/assembly/signaler = -1,
-			/obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1,
-			/obj/item/jetpack_marine = -1,
 		),
 	)
 
