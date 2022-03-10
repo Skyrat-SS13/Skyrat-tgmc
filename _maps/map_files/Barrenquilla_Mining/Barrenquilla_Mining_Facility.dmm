@@ -602,7 +602,6 @@
 /turf/open/lavaland/lava,
 /area/barren)
 "da" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/lavaland/basalt,
 /area/barren/cave/southwest)
 "db" = (
@@ -1073,9 +1072,16 @@
 /obj/machinery/door/airlock/mainship/generic/bathroom/toilet,
 /turf/open/floor/prison/sterilewhite,
 /area/barren/civilian)
+<<<<<<< HEAD
 "fj" = (
 /turf/open/lavaland/catwalk,
 /area/barren/cave/southeast)
+=======
+"fi" = (
+/obj/item/organ/xenos/eggsac,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/south)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "fl" = (
 /obj/machinery/smartfridge/chemistry,
 /turf/closed/wall,
@@ -1329,7 +1335,6 @@
 /turf/open/lavaland/basalt,
 /area/barren/cave/central)
 "gs" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/lavaland/basalt,
 /area/barren/cave/north)
 "gt" = (
@@ -1989,9 +1994,15 @@
 	dir = 4
 	},
 /turf/open/lavaland/basalt,
+<<<<<<< HEAD
 /area/barren/cave/south)
 "jz" = (
 /obj/item/toy/beach_ball,
+=======
+/area/bigredv2/caves/south)
+"jA" = (
+/obj/item/organ/xenos/acidgland,
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 /turf/open/lavaland/basalt,
 /area/barren)
 "jB" = (
@@ -2960,7 +2971,6 @@
 /turf/open/lavaland/catwalk,
 /area/barren/cave/south)
 "nJ" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/lavaland/basalt,
 /area/barren/cave/south)
 "nK" = (
@@ -3187,7 +3197,14 @@
 /turf/open/lavaland/lava/lpiece{
 	dir = 8
 	},
+<<<<<<< HEAD
 /area/barren/cave/west)
+=======
+/area/bigredv2/outside/c)
+"oT" = (
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/south)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "oU" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/prison/sterilewhite,
@@ -4919,9 +4936,15 @@
 /turf/open/floor,
 /area/barren/misc/genstorage)
 "xX" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/barren/cave/south)
+=======
+/obj/item/organ/xenos/acidgland,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/south)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "xY" = (
 /obj/machinery/mineral/processing_unit,
 /turf/open/floor/tile/dark2,
@@ -5203,10 +5226,17 @@
 	},
 /turf/open/floor/tile/dark2,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "zG" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/mainship,
 /area/barren/misc/crashed)
+=======
+"zF" = (
+/obj/item/organ/xenos/acidgland,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southeast)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "zH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/science/pathogenic_Isolator,
@@ -5698,7 +5728,6 @@
 /turf/open/floor/tile/vault,
 /area/barren/civilian)
 "Cg" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/floor/tile/dark2,
 /area/barren/misc/refinery)
 "Ch" = (
@@ -5722,7 +5751,15 @@
 /turf/open/lavaland/lava/corner{
 	dir = 1
 	},
+<<<<<<< HEAD
 /area/barren/cave/west)
+=======
+/area/bigredv2/outside/c)
+"Cl" = (
+/obj/item/organ/xenos/eggsac,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southeast)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Cn" = (
 /obj/machinery/door/airlock/freezer,
 /turf/open/floor/tile/dark2,
@@ -7254,6 +7291,7 @@
 /obj/machinery/power/geothermal,
 /turf/open/floor/tile/dark2,
 /area/barren/engie/engine)
+<<<<<<< HEAD
 "Ku" = (
 /obj/machinery/shower{
 	dir = 8
@@ -7269,6 +7307,13 @@
 	dir = 1
 	},
 /area/barren)
+=======
+"Ks" = (
+/obj/item/organ/xenos/eggsac,
+/obj/effect/xenomorph/acid,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southwest)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Kw" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 8
@@ -7580,7 +7625,11 @@
 "Mo" = (
 /obj/docking_port/stationary/crashmode,
 /turf/open/lavaland/basalt,
+<<<<<<< HEAD
 /area/barren/cave/west)
+=======
+/area/bigredv2/outside/w)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Mt" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/toolbox,
@@ -7863,6 +7912,12 @@
 /obj/structure/cable,
 /turf/open/floor,
 /area/barren/cave/lz1)
+<<<<<<< HEAD
+=======
+"NX" = (
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southeast)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "NY" = (
 /turf/open/floor/wood,
 /area/barren/cave/lz1)
@@ -8192,6 +8247,7 @@
 	},
 /turf/open/floor,
 /area/barren/cave/lz1)
+<<<<<<< HEAD
 "PY" = (
 /obj/structure/closet/crate/plastic,
 /obj/item/stack/sheet/wood{
@@ -8206,6 +8262,10 @@
 /turf/open/floor/tile/dark,
 /area/barren/cave/lz2)
 "Qb" = (
+=======
+"PZ" = (
+/obj/item/organ/xenos/acidgland,
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 /turf/open/lavaland/basalt,
 /area/barren/cave/central)
 "Qc" = (
@@ -8230,6 +8290,13 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/barren/cave/lz1)
+<<<<<<< HEAD
+=======
+"Qk" = (
+/obj/item/organ/xenos/hivenode,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southwest)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Qm" = (
 /obj/structure/cable,
 /obj/machinery/light/small{
@@ -8272,9 +8339,14 @@
 /turf/open/floor/tile/dark2,
 /area/barren/engie/engine)
 "Qx" = (
+<<<<<<< HEAD
 /obj/machinery/door/airlock/vault,
 /turf/open/floor,
 /area/storage/testroom)
+=======
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southwest)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Qy" = (
 /obj/structure/closet/wardrobe/science_white,
 /turf/open/floor/prison/sterilewhite,
@@ -9424,6 +9496,12 @@
 /obj/machinery/door/airlock/colony/research,
 /turf/open/floor/freezer,
 /area/barren/medical/research)
+<<<<<<< HEAD
+=======
+"WY" = (
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/south)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Xa" = (
 /obj/structure/closet/crate/hydroponics,
 /turf/open/floor,
@@ -9693,9 +9771,15 @@
 /turf/open/floor/freezer,
 /area/barren/civilian/cook)
 "YR" = (
+<<<<<<< HEAD
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor,
 /area/storage/testroom)
+=======
+/obj/item/organ/xenos/plasmavessel,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southeast)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "YS" = (
 /obj/item/lightstick/red/anchored,
 /obj/structure/cable,
@@ -9768,8 +9852,14 @@
 /turf/open/floor/plating,
 /area/maintenance/dormitory)
 "Zm" = (
+<<<<<<< HEAD
 /turf/open/floor,
 /area/storage/testroom)
+=======
+/obj/item/organ/xenos/acidgland,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southeast)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Zn" = (
 /obj/item/trash/used_stasis_bag,
 /turf/open/floor/tile/blue/whitebluecorner{
@@ -9782,6 +9872,13 @@
 	dir = 1
 	},
 /area/barren/security)
+<<<<<<< HEAD
+=======
+"Zq" = (
+/obj/item/organ/xenos/eggsac,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/south)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "Zs" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/mainship/black/full,
@@ -9803,9 +9900,15 @@
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
 "Zz" = (
+<<<<<<< HEAD
 /obj/effect/landmark/dropship_console_spawn_lz1,
 /turf/open/floor/plating,
 /area/shuttle/drop1/lz1)
+=======
+/obj/item/organ/xenos/acidgland,
+/turf/open/lavaland/basalt,
+/area/bigredv2/caves/southeast)
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 "ZB" = (
 /obj/structure/cargo_container/horizontal,
 /turf/open/floor,
@@ -27553,6 +27656,7 @@ ZW
 ZK
 ZK
 ZK
+<<<<<<< HEAD
 Yy
 Yy
 Yy
@@ -27605,6 +27709,60 @@ ZK
 ZK
 ZK
 ZK
+=======
+ZL
+ZL
+ZL
+ZL
+ZL
+ZL
+ZL
+Zg
+Zd
+Zd
+Zd
+Zd
+Zg
+Zg
+Zg
+BN
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zg
+Zg
+VJ
+ij
+Zg
+WF
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zg
+Zb
+Zg
+Zg
+Zg
+Zd
+Zd
+>>>>>>> 2b5d0f105f (Remove acid gas and plasma cutters (#9743))
 QA
 aI
 aI
