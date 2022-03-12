@@ -1116,7 +1116,6 @@
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/south)
 "eo" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/south)
@@ -1312,7 +1311,6 @@
 	},
 /area/icy_caves/caves)
 "eZ" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
 	},
@@ -2239,7 +2237,6 @@
 /turf/closed/ice/thin/single,
 /area/icy_caves/caves/west)
 "jA" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/floor/plating/ground/ice,
 /area/icy_caves/caves/south)
 "jB" = (
@@ -2300,7 +2297,6 @@
 	name = "Shaft Miner"
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/floor/plating/ground/ice,
 /area/icy_caves/caves/west)
 "jN" = (
@@ -3644,7 +3640,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/effect/spawner/random/powercell,
 /obj/item/explosive/plastique,
 /turf/open/floor/tile/dark,
@@ -4169,8 +4164,6 @@
 /area/icy_caves/caves/alienstuff)
 "rS" = (
 /obj/structure/table,
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/glasses/welding,
 /obj/item/explosive/plastique,
@@ -5448,9 +5441,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
-/obj/item/clothing/glasses/welding,
 /obj/item/explosive/plastique,
 /obj/machinery/light/small{
 	dir = 8
@@ -9194,9 +9184,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
-/obj/item/clothing/glasses/welding,
 /obj/item/explosive/plastique,
 /turf/open/floor/plating,
 /area/icy_caves/outpost/garage)
@@ -11493,7 +11480,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/effect/spawner/random/powercell,
 /obj/item/explosive/plastique,
 /turf/open/floor/plating,
