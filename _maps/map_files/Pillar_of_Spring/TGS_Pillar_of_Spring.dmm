@@ -1570,6 +1570,13 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
+"fg" = (
+/obj/machinery/marine_selector/clothes/medic,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
 "fh" = (
 /obj/structure/closet/lasertag/blue,
 /turf/open/floor/plating/mainship,
@@ -1954,6 +1961,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/sign/poster{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/mainship/living/pilotbunks)
 "gq" = (
@@ -3215,6 +3225,7 @@
 /obj/machinery/camera/autoname/mainship{
 	dir = 8
 	},
+/obj/machinery/computer/cryopod,
 /turf/open/floor/mainship/black{
 	dir = 4
 	},
@@ -4123,10 +4134,10 @@
 /turf/closed/wall/mainship/white,
 /area/mainship/medical/chemistry)
 "nm" = (
-/obj/machinery/light{
+/obj/machinery/atmospherics/components/unary/vent_pump/layer1,
+/obj/structure/sign/poster{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/layer1,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "nn" = (
@@ -4369,10 +4380,10 @@
 /turf/open/floor/mainship,
 /area/mainship/squads/general)
 "nZ" = (
-/obj/machinery/light,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "oa" = (
@@ -5027,6 +5038,9 @@
 /obj/structure/bed/chair/sofa/right,
 /obj/item/bedsheet/ce{
 	pixel_x = 6
+	},
+/obj/structure/sign/poster{
+	dir = 1
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hull/lower_hull)
@@ -5970,6 +5984,9 @@
 /obj/item/folder/black,
 /obj/machinery/power/apc/mainship,
 /obj/structure/cable,
+/obj/structure/sign/poster{
+	dir = 1
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/weapon_room)
 "tx" = (
@@ -5985,6 +6002,13 @@
 /mob/living/simple_animal/corgi/ian,
 /turf/open/floor/plating/mainship,
 /area/mainship/command/cic)
+"tz" = (
+/obj/machinery/marine_selector/clothes/engi,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mainship,
+/area/mainship/squads/general)
 "tA" = (
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/starboard_umbilical)
@@ -6043,6 +6067,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/structure/sign/prop4,
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
@@ -6461,6 +6486,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/sign/poster{
+	dir = 1
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hull/lower_hull)
 "uY" = (
@@ -6841,11 +6869,13 @@
 /turf/open/floor/mainship,
 /area/mainship/squads/general)
 "wg" = (
-/obj/machinery/computer/cryopod{
-	dir = 8
+/obj/structure/sign/poster{
+	dir = 1
 	},
-/turf/open/floor/mainship,
-/area/mainship/living/cryo_cells)
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
+/area/mainship/hallways/hangar)
 "wh" = (
 /obj/effect/decal/siding,
 /turf/open/floor/mainship/terragov/east,
@@ -7294,7 +7324,9 @@
 	},
 /area/mainship/squads/general)
 "xr" = (
-/obj/machinery/camera/autoname/mainship,
+/obj/structure/sign/poster{
+	dir = 1
+	},
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
@@ -9138,6 +9170,12 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/cic)
+"CZ" = (
+/obj/structure/sign/poster{
+	dir = 8
+	},
+/turf/closed/wall/mainship,
+/area/mainship/squads/req)
 "Db" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	on = 1
@@ -9826,6 +9864,17 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hull/lower_hull)
+<<<<<<< HEAD
+=======
+"ER" = (
+/obj/machinery/camera/autoname/mainship,
+/turf/open/floor/mainship,
+/area/mainship/squads/general)
+"EV" = (
+/obj/docking_port/stationary/supply,
+/turf/open/floor/mainship/empty,
+/area/mainship/squads/req)
+>>>>>>> 6b57e35606 (Poster Part 2 Redo: Putting Posters in Shipside  (#9767))
 "EW" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor/mainship/mono,
@@ -10216,6 +10265,7 @@
 /obj/machinery/camera/autoname/mainship{
 	dir = 8
 	},
+/obj/machinery/computer/cryopod,
 /turf/open/floor/mainship/black{
 	dir = 6
 	},
@@ -10937,12 +10987,13 @@
 /area/mainship/hull/lower_hull)
 "It" = (
 /obj/structure/cable,
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
 /area/mainship/squads/general)
 "Iu" = (
-/obj/machinery/light{
+/obj/structure/sign/poster{
 	dir = 1
 	},
 /turf/open/floor/mainship/floor,
@@ -10971,6 +11022,12 @@
 /obj/item/tool/kitchen/utensil/fork,
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
+"Iz" = (
+/obj/structure/sign/poster{
+	dir = 8
+	},
+/turf/closed/wall/mainship,
+/area/mainship/engineering/engineering_workshop)
 "IA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -12041,7 +12098,7 @@
 	},
 /area/mainship/squads/general)
 "LF" = (
-/obj/machinery/light,
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "LG" = (
@@ -12197,6 +12254,7 @@
 /turf/open/floor/mainship/sterile/side,
 /area/mainship/medical/medical_science)
 "Mf" = (
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/hangar/droppod)
 "Mg" = (
@@ -12970,23 +13028,19 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/hallways/starboard_umbilical)
-"Ou" = (
-/obj/machinery/vending/marineFood,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/turf/open/floor/mainship/black{
-	dir = 5
+"Ot" = (
+/obj/machinery/alarm{
+	dir = 1
 	},
+/obj/structure/sign/poster,
+/turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
+"Ou" = (
+/obj/structure/sign/poster{
+	dir = 4
+	},
+/turf/closed/wall/mainship/outer,
+/area/mainship/hull/lower_hull)
 "Ov" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -12997,6 +13051,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
 	},
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/port_missiles)
 "Ox" = (
@@ -13297,17 +13352,6 @@
 "Pt" = (
 /obj/structure/cable,
 /obj/machinery/vending/nanomed,
-/obj/machinery/vending/marineFood,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
 /turf/open/floor/mainship/black{
 	dir = 1
 	},
@@ -13788,6 +13832,7 @@
 /area/mainship/hallways/port_hallway)
 "QL" = (
 /obj/structure/sign/safety/cryogenic,
+/obj/structure/sign/prop3,
 /turf/closed/wall/mainship,
 /area/mainship/living/cryo_cells)
 "QM" = (
@@ -14805,6 +14850,11 @@
 /obj/machinery/door/firedoor/mainship,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/weapon_room)
+"Un" = (
+/obj/machinery/marine_selector/clothes/medic,
+/obj/machinery/light,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
 "Uo" = (
 /obj/machinery/door/airlock/mainship/marine/general/corps,
 /obj/machinery/door/firedoor/mainship,
@@ -15286,6 +15336,7 @@
 /obj/machinery/door/airlock/multi_tile/mainship/generic/cryo{
 	dir = 1
 	},
+/obj/structure/sign/prop4,
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
@@ -15405,20 +15456,6 @@
 "VW" = (
 /obj/machinery/power/apc/mainship,
 /obj/structure/cable,
-/obj/machinery/vending/marineFood,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
-/obj/item/reagent_containers/food/snacks/protein_pack,
 /turf/open/floor/mainship/black{
 	dir = 1
 	},
@@ -15935,6 +15972,11 @@
 /turf/open/floor/mainship/black{
 	dir = 5
 	},
+/area/mainship/squads/general)
+"XB" = (
+/obj/machinery/marine_selector/clothes/engi,
+/obj/machinery/light,
+/turf/open/floor/mainship,
 /area/mainship/squads/general)
 "XC" = (
 /obj/machinery/camera/autoname/mainship{
@@ -16696,6 +16738,9 @@
 /area/mainship/squads/req)
 "ZS" = (
 /obj/structure/mirror,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "ZT" = (
@@ -36906,7 +36951,7 @@ rc
 Qc
 Qc
 XX
-ad
+Ou
 XX
 Qc
 Qc
@@ -47187,7 +47232,7 @@ qG
 qG
 qG
 qG
-qG
+CZ
 qG
 qG
 NS
@@ -49446,7 +49491,7 @@ Tm
 rc
 rc
 Pa
-as
+wg
 as
 as
 ap
@@ -51091,7 +51136,7 @@ OQ
 OQ
 OQ
 OQ
-OQ
+Iz
 OQ
 OQ
 OQ
@@ -51307,17 +51352,17 @@ Zu
 WY
 Zu
 qC
-Ir
+fg
 WL
 Ir
 EY
-Ir
+Un
 qC
-jS
+tz
 EY
 jS
 fA
-jS
+XB
 qC
 sx
 dP
@@ -51835,7 +51880,7 @@ Co
 qC
 Sz
 dP
-AY
+Ot
 qC
 Ph
 jl
@@ -52865,7 +52910,7 @@ IH
 kv
 ii
 qC
-jl
+ER
 wf
 wf
 ob
@@ -54645,7 +54690,7 @@ Pm
 Mb
 Zo
 qC
-Ou
+PP
 Xw
 Yz
 PP
@@ -55160,17 +55205,17 @@ Mb
 sO
 SK
 SK
-wg
+dk
 UY
 WE
 dk
 SK
-wg
+dk
 WE
 qd
 dk
 SK
-wg
+dk
 WE
 qd
 dk

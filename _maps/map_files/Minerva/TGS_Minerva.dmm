@@ -1654,6 +1654,10 @@
 /obj/item/reagent_containers/glass/fertilizer/ez,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
+"fu" = (
+/obj/structure/sign/poster,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/hangar/droppod)
 "fv" = (
 /obj/structure/sink{
 	dir = 1;
@@ -4105,6 +4109,12 @@
 	},
 /turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
+"nP" = (
+/obj/structure/sign/poster{
+	dir = 8
+	},
+/turf/closed/wall/mainship,
+/area/mainship/squads/general)
 "nQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	dir = 8;
@@ -5216,6 +5226,12 @@
 /obj/effect/landmark/start/job/squadsmartgunner,
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cryo_cells)
+"rt" = (
+/obj/structure/sign/poster{
+	dir = 8
+	},
+/turf/closed/wall/mainship,
+/area/mainship/squads/req)
 "ru" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -6706,6 +6722,13 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/port_hallway)
+"wo" = (
+/obj/effect/landmark/start/latejoin,
+/obj/structure/sign/prop4,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
+/area/mainship/living/cryo_cells)
 "wp" = (
 /obj/structure/bed/chair/sofa/corner{
 	dir = 8
@@ -6997,6 +7020,13 @@
 	dir = 1
 	},
 /area/mainship/living/evacuation)
+"xc" = (
+/obj/machinery/camera/autoname/mainship{
+	dir = 1
+	},
+/obj/structure/sign/poster,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
 "xd" = (
 /turf/open/floor/mainship/black{
 	dir = 1
@@ -9212,6 +9242,25 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/general)
+<<<<<<< HEAD
+=======
+"DE" = (
+/obj/effect/landmark/start/latejoin,
+/obj/structure/sign/prop4,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
+/area/mainship/living/cryo_cells)
+"DF" = (
+/obj/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/effect/decal/warning_stripes/thin{
+	dir = 10
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
+>>>>>>> 6b57e35606 (Poster Part 2 Redo: Putting Posters in Shipside  (#9767))
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -11509,6 +11558,12 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/chemistry)
+"Kv" = (
+/obj/structure/sign/poster{
+	dir = 8
+	},
+/turf/closed/wall/mainship/outer,
+/area/mainship/hallways/hangar)
 "Kw" = (
 /obj/machinery/door/airlock/multi_tile/mainship/medidoor/medbay/free_access{
 	dir = 1;
@@ -12318,6 +12373,9 @@
 "MS" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
+/obj/structure/sign/poster{
+	dir = 1
+	},
 /turf/open/floor/mainship/floor,
 /area/mainship/shipboard/weapon_room)
 "MT" = (
@@ -12387,6 +12445,12 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+"Nj" = (
+/obj/structure/sign/poster{
+	dir = 8
+	},
+/turf/closed/wall/mainship,
+/area/mainship/living/evacuation)
 "Nk" = (
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 8
@@ -14009,6 +14073,12 @@
 	dir = 6
 	},
 /area/mainship/engineering/engineering_workshop)
+"Sl" = (
+/obj/structure/sign/poster{
+	dir = 4
+	},
+/turf/closed/wall/mainship,
+/area/mainship/squads/general)
 "Sm" = (
 /obj/structure/rack,
 /obj/item/stack/rods{
@@ -18600,7 +18670,7 @@ gN
 gP
 gP
 gN
-gN
+Nj
 gN
 gN
 gP
@@ -22482,7 +22552,7 @@ XE
 VS
 VS
 VS
-VS
+Kv
 VS
 VS
 VS
@@ -24642,7 +24712,7 @@ Am
 Am
 Am
 SP
-Am
+fu
 Vo
 cj
 Io
@@ -24764,9 +24834,15 @@ pL
 gY
 sm
 qy
+<<<<<<< HEAD
 uf
 vf
 vV
+=======
+Fp
+rt
+ug
+>>>>>>> 6b57e35606 (Poster Part 2 Redo: Putting Posters in Shipside  (#9767))
 wL
 gY
 Ot
@@ -25524,7 +25600,7 @@ Am
 Am
 Am
 SP
-Am
+fu
 Vo
 cj
 Io
@@ -26136,7 +26212,7 @@ mD
 lw
 sr
 sr
-sr
+Sl
 sr
 sr
 sr
@@ -26151,7 +26227,7 @@ sr
 sr
 sr
 sr
-sr
+Sl
 sr
 sr
 sr
@@ -26641,7 +26717,7 @@ tc
 Ae
 CT
 sr
-sr
+nP
 sr
 sr
 sr
@@ -27133,7 +27209,7 @@ Co
 HX
 tc
 JN
-Hp
+xc
 sr
 Ot
 zU
@@ -27410,7 +27486,7 @@ lw
 lw
 sr
 sr
-sr
+nP
 sr
 sr
 sr
@@ -27705,7 +27781,7 @@ Qh
 Qh
 ib
 ib
-vn
+wo
 ho
 wZ
 yb
@@ -28097,7 +28173,7 @@ sx
 sx
 ib
 ib
-Ef
+DE
 ho
 xd
 yf
