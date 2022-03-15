@@ -13369,7 +13369,6 @@
 "kzV" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/wall/r_wall,
-<<<<<<< HEAD
 /area/bigredv2/caves/southeast)
 "kyU" = (
 /obj/machinery/camera/autoname/mainship/dropship_one{
@@ -13400,9 +13399,6 @@
 /obj/item/ammo_magazine/rifle/m16,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/southeast)
-=======
-/area/bigredv2/caves/rock)
->>>>>>> 2cb9fff73f (Modularizes half of Big Red [MDB ignore] (#9750))
 "kBr" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave,
