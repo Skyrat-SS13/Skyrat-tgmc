@@ -146,8 +146,8 @@
 
 /datum/poster/bay_30
 	icon_state="bsposter30"
-	name = "Ambrosia Vulgaris"
-	desc = "Just looking at this poster makes you feel a little bit dizzy."
+	name = "No ERP"
+	desc = "This poster reminds the crew that Eroticism, Rape, and Pornography (but not pin up posters!) are banned on Nanotrasen stations."
 
 /datum/poster/bay_31
 	icon_state="bsposter31"
@@ -163,31 +163,30 @@
 	icon_state="bsposter33"
 	name = "Tools, tools, tools"
 	desc = "You can never have enough tools, thats for sure!"
-
 /datum/poster/bay_34
 	icon_state="bsposter34"
-	name = "Power Up!"
-	desc = "High reward, higher risk!"
+	name = "Lusty Xenomorph"
+	desc = "A heretical poster depicting the titular star of an equally heretical book."
 
 /datum/poster/bay_35
 	icon_state="bsposter35"
-<<<<<<< HEAD
 	name = "Lamarr"
 	desc = "This is a poster depicting the pet and mascot of the NSS Exodus science department."
-=======
 	name = "A Memory of a Space Hero"
 	desc = "The Unga weaves as the Unga wills. Even if he is using The Sword that Cannot Slay or Chase Xenomorphs, he will die Ungaing."
->>>>>>> 6b57e35606 (Poster Part 2 Redo: Putting Posters in Shipside  (#9767))
+	name = "TerraGov: United for Humanity"
+	desc = "A poster depicting TerraGov's logo and motto, reminding viewers of who's looking out for humankind against the Xenomorph menace."
+
 
 /datum/poster/bay_36
 	icon_state="bsposter36"
-	name = "Fancy Borg"
-	desc = "A poster depicting a cyborg using the service module. 'Fancy Borg' is written on it."
+	name = "Busty Backdoor Xeno Babes 6"
+	desc = "Get a load, or give, of these all natural Xenos!"
 
 /datum/poster/bay_37
 	icon_state="bsposter37"
-	name = "Fancier Borg"
-	desc = "A poster depicting a cyborg using the service module. 'Fancy Borg' is written on it. This is even fancier than the first poster."
+	name = "Shambler's Juice"
+	desc = "~Shake me up some of that Shambler's Juice!~"
 
 /datum/poster/bay_38
 	icon_state="bsposter38"
@@ -239,19 +238,12 @@
 	name = "Security pinup"
 	desc = "This is a pin-up poster. A dark skinned white haired girl poses in the sunlight wearing a tank top with her stomach exposed. The text on the poster states \"M, Succubus of Security.\" and a lipstick mark stains the top right corner, as if kissed by the model herself."
 
-/datum/poster/bay_48
-	icon_state="bsposter48"
-	name = "Borg pinup?"
-	desc = "This is a.. pin-up poster? It is a diagram on an old model of cyborg with a note scribbled in marker on the bottom, on the top there is a large XO written in red marker."
-
 /datum/poster/bay_49
 	icon_state="bsposter49"
 	name = "Engineering recruitment"
 	desc = "This is a poster showing an engineer relaxing by a computer, the text states \"Living the life! Join Engineering today!\""
-
-<<<<<<< HEAD
-=======
-/datum/poster/bay_50
+/
+datum/poster/bay_50
 	icon_state="bsposter50"
 	name = "Have a Puff"
 	desc = "Who cares about lung cancer when you're high as a kite?"
@@ -352,6 +344,12 @@
 	name = "Fruit Bowl"
 	desc = " Simple, yet awe-inspiring."
 
+
+/datum/poster/bay_70
+	icon_state="bsposter70"
+	name = "Enlist" // but I thought deathsquad was never acknowledged
+	desc = "Enlist in the Nanotrasen Deathsquadron reserves today!"
+
 /datum/poster/bay_71
 	icon_state="bsposter71"
 	name = "Moffuchi's Pizza"
@@ -378,7 +376,6 @@
 	desc = "Andromeda Bitters: good for the body, good for the soul. Made in New Trinidad, now and forever."
 
 /datum/poster/bay_76
-	icon_state="bsposter76"
 	name = "Miss Researcher 2558"
 	desc = "A large piece of space-resistant printed paper. This pin-up poster depicts a woman wearing a NanoTrasen labcoat, a bikini, and a sheepish grin. She's shyly posing atop some highly specialized research equipment."
 
@@ -386,4 +383,3 @@
 	icon_state="bsposter77"
 	name = "High-Class Martini"
 	desc = "I told you to shake it, no stirring."
->>>>>>> 6b57e35606 (Poster Part 2 Redo: Putting Posters in Shipside  (#9767))

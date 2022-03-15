@@ -115,9 +115,6 @@
 		X.visible_message(span_danger("[X] plows straight through [S]!"), null, null, 5)
 		S.deconstruct(FALSE) //We want to continue moving, so we do not reset throwing.
 		return // stay registered
-	if(istype(target, /obj/machinery/deployable/mounted/sentry))
-		var/obj/machinery/deployable/mounted/sentry/sentry = target
-		sentry.knock_down()
 	target.hitby(X, speed) //This resets throwing.
 	charge_complete()
 
@@ -136,7 +133,7 @@
 /datum/action/xeno_action/activable/forward_charge/use_ability(atom/A)
 	var/mob/living/carbon/xenomorph/X = owner
 
-	if(!do_after(X, windup_time, FALSE, X, BUSY_ICON_GENERIC, extra_checks = CALLBACK(src, .proc/can_use_ability, A, FALSE, XACT_USE_BUSY)))
+	if(!do_after(X, windup_time, FALSE, X, BUSY_ICON_DANGER, extra_checks = CALLBACK(src, .proc/can_use_ability, A, FALSE, XACT_USE_BUSY)))
 		return fail_activate()
 
 	var/mob/living/carbon/xenomorph/defender/defender = X
