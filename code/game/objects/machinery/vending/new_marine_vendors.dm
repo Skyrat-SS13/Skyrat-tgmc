@@ -710,8 +710,12 @@
 		/obj/item/whistle,
 		/obj/item/radio,
 		/obj/item/binoculars/tactical,
+<<<<<<< HEAD
 		/obj/item/attachable/motiondetector,
 		/obj/item/pinpointer/pool,
+=======
+		/obj/item/pinpointer,
+>>>>>>> c54399b1bc (New gamemode, nuclear war (or discrash or crashtess) (#9805))
 		/obj/item/clothing/glasses/hud/health,
 	)
 
