@@ -606,7 +606,6 @@
 /turf/open/lavaland/basalt,
 /area/barren/cave/southwest)
 "db" = (
-/mob/living/simple_animal/parrot/clock_hawk,
 /turf/open/lavaland/basalt,
 /area/barren/misc/clocknuke)
 "dd" = (
