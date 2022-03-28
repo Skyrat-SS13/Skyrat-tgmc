@@ -210,8 +210,6 @@
 	template_height = 15
 	keepcentered = TRUE
 
-<<<<<<< HEAD
-=======
 /datum/map_template/modular/bigred/eastone
 	name = "Big red east caves"
 	mappath = "_maps/modularmaps/big_red/bigredcavevar1.dmm"
