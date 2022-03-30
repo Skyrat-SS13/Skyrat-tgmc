@@ -253,6 +253,16 @@
 	icon_state = "freelancer_uniform"
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROTECTION_TEMPERATURE
 	has_sensor = 0
+<<<<<<< HEAD
+=======
+	starting_attachments = list(/obj/item/armor_module/storage/uniform/holster/freelancer)
+
+/obj/item/clothing/under/marine/veteran/freelancer/veteran
+	starting_attachments = list(/obj/item/armor_module/storage/uniform/holster/vp)
+
+
+//Dutch
+>>>>>>> 835d8055c6 (Outfit variant support and Freelancer variants (#9844))
 
 /obj/item/clothing/under/marine/veteran/dutch
 	name = "\improper Dutch's Dozen uniform"

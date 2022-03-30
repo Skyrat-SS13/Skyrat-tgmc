@@ -30,6 +30,11 @@
 		/obj/item/armor_module/storage/uniform/holster,
 		/obj/item/armor_module/storage/uniform/holster/armpit,
 		/obj/item/armor_module/storage/uniform/holster/waist,
+<<<<<<< HEAD
+=======
+		/obj/item/armor_module/storage/uniform/holster/freelancer,
+		/obj/item/armor_module/storage/uniform/holster/vp,
+>>>>>>> 835d8055c6 (Outfit variant support and Freelancer variants (#9844))
 		/obj/item/armor_module/armor/badge,
 		/obj/item/armor_module/armor/cape,
 		/obj/item/armor_module/armor/cape/half,
