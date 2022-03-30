@@ -210,8 +210,6 @@
 	template_height = 15
 	keepcentered = TRUE
 
-<<<<<<< HEAD
-=======
 /datum/map_template/modular/bigred/eastone
 	name = "Big red east caves"
 	mappath = "_maps/modularmaps/big_red/bigredcavevar1.dmm"
@@ -1037,7 +1035,6 @@ datum/map_template/modular/bigred/southetafive
 	template_width = 44
 	template_height = 22
 
->>>>>>> c69081b0c4 (LV624 additional cargo dome (#9778))
 /datum/map_template/modular/bigred/barracks
 	name = "Big red Barracks"
 	mappath = "_maps/modularmaps/big_red/barracks.dmm"
