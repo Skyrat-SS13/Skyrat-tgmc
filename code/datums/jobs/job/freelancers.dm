@@ -183,7 +183,6 @@
 	paygrade = "FRE3"
 	outfit = /datum/outfit/job/freelancer/grenadier
 
->>>>>>> 835d8055c6 (Outfit variant support and Freelancer variants (#9844))
 
 /datum/outfit/job/freelancer/grenadier
 	name = "Freelancer Veteran"
