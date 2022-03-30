@@ -1096,7 +1096,6 @@
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/south)
 "eo" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/south)
@@ -1288,7 +1287,6 @@
 	},
 /area/icy_caves/caves)
 "eZ" = (
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
 	},
@@ -2247,18 +2245,12 @@
 /turf/closed/ice/thin/single,
 /area/icy_caves/caves/west)
 "jA" = (
-<<<<<<< HEAD
-/obj/item/tool/pickaxe/plasmacutter,
-/turf/open/floor/plating/ground/ice,
-/area/icy_caves/caves/south)
-=======
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 4;
 	on = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/icy_caves/caves/northwestmonorail)
->>>>>>> 8e8f31a4b8 (Icy Caves fixes plus minor tweaks (#9837))
 "jB" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/ice,
@@ -2318,7 +2310,6 @@
 	name = "Shaft Miner"
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/tool/pickaxe/plasmacutter,
 /turf/open/floor/plating/ground/ice,
 /area/icy_caves/caves/west)
 "jN" = (
@@ -3698,7 +3689,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/northwestmonorail/hallway)
@@ -4233,8 +4223,6 @@
 /area/icy_caves/caves/alienstuff)
 "rS" = (
 /obj/structure/table,
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/glasses/welding,
 /obj/item/explosive/plastique,
@@ -5549,13 +5537,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-<<<<<<< HEAD
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
-/obj/item/clothing/glasses/welding,
-/obj/item/explosive/plastique,
-=======
->>>>>>> 8e8f31a4b8 (Icy Caves fixes plus minor tweaks (#9837))
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -9493,9 +9474,6 @@
 /obj/item/storage/box/lightstick/red,
 /obj/item/storage/box/lightstick,
 /obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
-/obj/item/clothing/glasses/welding,
 /obj/item/explosive/plastique,
 /turf/open/floor/plating,
 /area/icy_caves/outpost/garage)
@@ -11835,23 +11813,10 @@
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/northwestmonorail)
 "XR" = (
-<<<<<<< HEAD
-/obj/structure/closet/crate,
-/obj/item/storage/box/lightstick/red,
-/obj/item/storage/box/lightstick/red,
-/obj/item/storage/box/lightstick,
-/obj/item/storage/box/lightstick,
-/obj/item/tool/pickaxe/plasmacutter,
-/obj/effect/spawner/random/powercell,
-/obj/item/explosive/plastique,
-/turf/open/floor/plating,
-/area/icy_caves/outpost/garage)
-=======
 /obj/item/tool/surgery/hemostat,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/icy_caves/caves/northwestmonorail/morgue)
->>>>>>> 8e8f31a4b8 (Icy Caves fixes plus minor tweaks (#9837))
 "XS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
