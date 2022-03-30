@@ -356,6 +356,7 @@
 	dir = 5
 	},
 /obj/effect/ai_node,
+/obj/structure/sign/poster,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "be" = (
@@ -1110,6 +1111,13 @@
 /obj/structure/window/framed/mainship/requisitions,
 /turf/open/floor/plating,
 /area/mainship/squads/req)
+"dB" = (
+/obj/machinery/door/airlock/mainship/command/CPToffice{
+	dir = 2
+	},
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/living/commandbunks)
 "dC" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
@@ -1776,6 +1784,7 @@
 	},
 /obj/effect/ai_node,
 /obj/structure/cable,
+/obj/structure/sign/poster,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "fI" = (
@@ -3977,16 +3986,11 @@
 /turf/closed/wall/mainship/research/containment/wall/west,
 /area/mainship/medical/medical_science)
 "ni" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
+/obj/structure/sign/poster{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/carpet{
-	icon_state = "carpetside"
-	},
-/area/mainship/living/bridgebunks)
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/starboard_hull)
 "nj" = (
 /turf/open/floor/mainship/research/containment/floor2{
 	dir = 9
@@ -4174,6 +4178,15 @@
 	},
 /turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
+<<<<<<< HEAD
+=======
+"nP" = (
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
+>>>>>>> af089ce93f (Tweak Minerva and PoS for FCDR to have loadout vendor and change poster's positions (#9832))
 "nQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	dir = 8;
@@ -4961,6 +4974,13 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+"qv" = (
+/obj/structure/cable,
+/turf/open/floor/carpet{
+	dir = 1;
+	icon_state = "carpetside"
+	},
+/area/mainship/living/bridgebunks)
 "qw" = (
 /obj/machinery/power/apc/mainship,
 /turf/closed/wall/mainship,
@@ -7439,6 +7459,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/general)
+"yH" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/staffofficer,
+/turf/open/floor/carpet,
+/area/mainship/living/bridgebunks)
 "yI" = (
 /obj/machinery/door/poddoor/railing{
 	dir = 8;
@@ -9504,9 +9531,12 @@
 /turf/open/floor/mainship/silver,
 /area/mainship/medical/medical_science)
 "EQ" = (
-/obj/docking_port/stationary/marine_dropship/crash_target,
-/turf/closed/wall/mainship,
-/area/mainship/living/commandbunks)
+/obj/machinery/camera/autoname/mainship,
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
 "ER" = (
 /turf/closed/wall/mainship,
 /area/mainship/living/numbertwobunks)
@@ -9893,46 +9923,21 @@
 /area/mainship/living/evacuation)
 "FL" = (
 /obj/structure/table/woodentable,
-/obj/item/clipboard{
-	pixel_x = 5
-	},
-/obj/item/paper,
-/obj/item/tool/pen,
-/obj/machinery/camera/autoname/mainship{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/mainship/living/bridgebunks)
-"FN" = (
-/turf/open/floor/mainship/purple{
-	dir = 4
-	},
-/area/mainship/squads/general)
-"FO" = (
-/obj/structure/bed,
-/obj/item/bedsheet/captain,
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/landmark/start/job/staffofficer,
-/turf/open/floor/wood,
-/area/mainship/living/bridgebunks)
-"FP" = (
-/obj/structure/table/woodentable,
 /obj/item/storage/fancy/cigar,
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
 	},
 /turf/open/floor/wood,
 /area/mainship/living/commandbunks)
-"FQ" = (
-/obj/structure/closet/secure_closet/captain,
-/turf/open/floor/carpet{
-	dir = 9;
-	icon_state = "carpetside"
+"FN" = (
+/turf/open/floor/mainship/purple{
+	dir = 4
 	},
+/area/mainship/squads/general)
+"FO" = (
+/turf/open/floor/wood,
 /area/mainship/living/commandbunks)
-"FS" = (
+"FP" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
 	},
@@ -9945,7 +9950,7 @@
 	icon_state = "carpetside"
 	},
 /area/mainship/living/commandbunks)
-"FT" = (
+"FQ" = (
 /obj/structure/table/mainship,
 /obj/structure/paper_bin{
 	pixel_y = 5
@@ -9957,10 +9962,22 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/mainship/living/commandbunks)
-"FU" = (
+"FS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/hallways/port_hallway)
+"FT" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hop,
 /obj/effect/landmark/start/job/fieldcommander,
+/turf/open/floor/wood,
+/area/mainship/living/numbertwobunks)
+"FU" = (
 /turf/open/floor/wood,
 /area/mainship/living/numbertwobunks)
 "FV" = (
@@ -10206,6 +10223,7 @@
 /obj/item/fuelCell/full,
 /obj/item/assembly/prox_sensor,
 /obj/item/fuelCell/full,
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/orange{
 	dir = 10
 	},
@@ -10230,30 +10248,31 @@
 /turf/open/floor/wood,
 /area/mainship/living/bridgebunks)
 "GH" = (
-/obj/structure/bed/fancy,
-/obj/item/bedsheet/captain,
-/obj/effect/landmark/start/job/captain,
-/turf/open/floor/wood,
-/area/mainship/living/commandbunks)
-"GI" = (
-/turf/open/floor/carpet{
-	dir = 10;
-	icon_state = "carpetside"
-	},
-/area/mainship/living/commandbunks)
-"GJ" = (
 /obj/structure/cable,
 /turf/open/floor/carpet{
 	dir = 6;
 	icon_state = "carpetside"
 	},
 /area/mainship/living/commandbunks)
-"GK" = (
+"GI" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/wood,
 /area/mainship/living/commandbunks)
-"GM" = (
+"GJ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/camera/autoname/mainship{
+	dir = 8
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
+"GK" = (
 /obj/machinery/marine_selector/clothes/commander,
+/turf/open/floor/wood,
+/area/mainship/living/numbertwobunks)
+"GM" = (
+/obj/machinery/vending/uniform_supply,
 /turf/open/floor/wood,
 /area/mainship/living/numbertwobunks)
 "GN" = (
@@ -10453,9 +10472,7 @@
 	},
 /area/mainship/living/briefing)
 "Hp" = (
-/obj/machinery/camera/autoname/mainship{
-	dir = 1
-	},
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "Hq" = (
@@ -10590,12 +10607,14 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/bridgebunks)
 "HO" = (
-/obj/machinery/door/airlock/mainship/command/CPToffice{
-	dir = 2
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/structure/cable,
-/turf/open/floor/mainship/mono,
-/area/mainship/living/commandbunks)
+/obj/machinery/camera/autoname/mainship{
+	dir = 4
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
 "HP" = (
 /obj/machinery/door/airlock/mainship/command/FCDRquarters{
 	dir = 2
@@ -11003,6 +11022,8 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4
 	},
+/obj/effect/landmark/start/job/staffofficer,
+/obj/structure/cable,
 /turf/open/floor/carpet,
 /area/mainship/living/bridgebunks)
 "Jc" = (
@@ -11035,10 +11056,10 @@
 /turf/open/floor/carpet,
 /area/mainship/living/bridgebunks)
 "Ji" = (
-/obj/structure/cable,
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
 	},
+/obj/effect/landmark/start/job/staffofficer,
 /turf/open/floor/carpet,
 /area/mainship/living/bridgebunks)
 "Jk" = (
@@ -11049,6 +11070,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
+/obj/structure/bed/chair/comfy/beige{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/staffofficer,
 /turf/open/floor/carpet{
 	dir = 4;
 	icon_state = "carpetside"
@@ -11296,6 +11321,19 @@
 /obj/effect/decal/warning_stripes/thick,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
+"JW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/port_hull)
 "JX" = (
 /obj/structure/sign/vacuum,
 /turf/closed/wall/mainship/outer,
@@ -11352,18 +11390,9 @@
 	},
 /area/mainship/living/bridgebunks)
 "Ke" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/machinery/light,
-/obj/structure/cable,
-/turf/open/floor/carpet{
-	icon_state = "carpetside"
-	},
-/area/mainship/living/bridgebunks)
+/obj/docking_port/stationary/marine_dropship/crash_target,
+/turf/closed/wall/mainship,
+/area/mainship/living/commandbunks)
 "Kf" = (
 /obj/machinery/door_control/mainship/req{
 	dir = 4;
@@ -11455,6 +11484,16 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/chemistry)
+<<<<<<< HEAD
+=======
+"Kv" = (
+/obj/structure/closet/secure_closet/captain,
+/turf/open/floor/carpet{
+	dir = 9;
+	icon_state = "carpetside"
+	},
+/area/mainship/living/commandbunks)
+>>>>>>> af089ce93f (Tweak Minerva and PoS for FCDR to have loadout vendor and change poster's positions (#9832))
 "Kw" = (
 /obj/machinery/door/airlock/multi_tile/mainship/medidoor/medbay/free_access{
 	dir = 1;
@@ -11976,7 +12015,6 @@
 /obj/structure/bed,
 /obj/item/bedsheet/captain,
 /obj/machinery/light,
-/obj/effect/landmark/start/job/staffofficer,
 /turf/open/floor/wood,
 /area/mainship/living/bridgebunks)
 "Mb" = (
@@ -12340,6 +12378,15 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+<<<<<<< HEAD
+=======
+"Nj" = (
+/obj/effect/landmark/start/job/captain,
+/obj/structure/bed/fancy,
+/obj/item/bedsheet/captain,
+/turf/open/floor/wood,
+/area/mainship/living/commandbunks)
+>>>>>>> af089ce93f (Tweak Minerva and PoS for FCDR to have loadout vendor and change poster's positions (#9832))
 "Nk" = (
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 8
@@ -13984,6 +14031,15 @@
 	dir = 6
 	},
 /area/mainship/engineering/engineering_workshop)
+<<<<<<< HEAD
+=======
+"Sl" = (
+/turf/open/floor/carpet{
+	dir = 10;
+	icon_state = "carpetside"
+	},
+/area/mainship/living/commandbunks)
+>>>>>>> af089ce93f (Tweak Minerva and PoS for FCDR to have loadout vendor and change poster's positions (#9832))
 "Sm" = (
 /obj/structure/rack,
 /obj/item/stack/rods{
@@ -14163,6 +14219,12 @@
 	dir = 10
 	},
 /area/mainship/command/cic)
+"SU" = (
+/obj/machinery/camera/autoname/mainship{
+	dir = 1
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/general)
 "SV" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/marine_card,
@@ -15202,12 +15264,9 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cryo_cells)
 "VW" = (
-/obj/structure/cable,
-/turf/open/floor/carpet{
-	dir = 1;
-	icon_state = "carpetside"
-	},
-/area/mainship/living/bridgebunks)
+/obj/machinery/loadout_vendor,
+/turf/open/floor/wood,
+/area/mainship/living/numbertwobunks)
 "VX" = (
 /obj/machinery/light{
 	dir = 4
@@ -19683,7 +19742,7 @@ vw
 vw
 vw
 gQ
-Le
+JW
 fD
 XE
 hr
@@ -19955,10 +20014,10 @@ co
 co
 co
 DX
-EM
-EM
-EM
-EM
+EO
+EO
+EO
+EO
 EM
 IW
 EM
@@ -20053,10 +20112,10 @@ Av
 aw
 Sf
 DZ
-EM
+EO
 FL
-GF
-EM
+Nj
+EO
 Ia
 IX
 JY
@@ -20151,10 +20210,10 @@ cs
 cs
 cs
 Ea
-EM
+Ke
 FO
-GG
-HN
+FO
+EO
 lK
 IY
 Ka
@@ -20250,8 +20309,8 @@ YC
 KO
 Ed
 EO
-EO
-EO
+Kv
+Sl
 EO
 Ic
 IZ
@@ -20347,13 +20406,13 @@ BI
 aw
 ZR
 Eg
-EQ
+EO
 FP
 GH
-EO
-Ie
+dB
+qv
 Ja
-ni
+Kc
 EM
 GF
 LZ
@@ -20434,7 +20493,7 @@ pr
 qC
 kT
 kq
-tp
+FS
 uJ
 vw
 vw
@@ -20451,7 +20510,7 @@ GI
 EO
 Ie
 Je
-ni
+Kc
 HN
 GG
 Ma
@@ -20544,10 +20603,10 @@ BJ
 CI
 Ei
 EO
-FS
-GJ
-HO
-VW
+EO
+EO
+EO
+Ie
 Ji
 Kc
 EM
@@ -20641,13 +20700,13 @@ ty
 ty
 ty
 Ej
-EO
+ER
 FT
 GK
-EO
+ER
 Ic
 IZ
-Ke
+Kc
 EM
 GF
 LZ
@@ -20740,11 +20799,11 @@ BN
 ty
 Ek
 ER
-ER
-ER
+FU
+VW
 ER
 Ie
-Ja
+yH
 Kc
 HN
 GG
@@ -26216,7 +26275,7 @@ pW
 rk
 sr
 sX
-uq
+GJ
 sX
 sr
 ta
@@ -26313,11 +26372,11 @@ mE
 pX
 mE
 sr
-sY
+nP
 us
 AC
 sr
-tc
+nP
 tc
 yJ
 Pl
@@ -26513,7 +26572,7 @@ sr
 ut
 qm
 sr
-tc
+nP
 tc
 yG
 zZ
@@ -26525,7 +26584,7 @@ tc
 zZ
 fj
 sr
-IB
+SU
 JJ
 KM
 sr
@@ -26885,7 +26944,7 @@ YB
 XE
 XE
 Hr
-WD
+ni
 fv
 QM
 gI
@@ -27195,7 +27254,7 @@ oU
 mE
 mE
 sr
-sY
+EQ
 us
 tc
 sr
@@ -27294,7 +27353,7 @@ qh
 rr
 sr
 tf
-ux
+HO
 tf
 sr
 ta
