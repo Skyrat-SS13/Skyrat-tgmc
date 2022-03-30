@@ -710,7 +710,7 @@
 		/obj/item/whistle,
 		/obj/item/radio,
 		/obj/item/binoculars/tactical,
-		/obj/item/pinpointer/pool,
+		/obj/item/attachable/motiondetector,
 		/obj/item/clothing/glasses/hud/health,
 	)
 
