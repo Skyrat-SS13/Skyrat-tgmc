@@ -6663,15 +6663,14 @@
 /turf/open/floor/wood,
 /area/bigredv2/outside/bar)
 "aMJ" = (
+/obj/machinery/chem_dispenser/soda{
+	pixel_y = 32
+	},
 /obj/machinery/door_control{
 	dir = 8;
 	id = "Bar Complex";
 	name = "Storm Shutters"
 	},
-/obj/machinery/chem_dispenser/soda{
-	dir = 8
-	},
-/obj/structure/table/woodentable,
 /turf/open/floor/wood,
 /area/bigredv2/outside/bar)
 "aMK" = (
@@ -6791,6 +6790,7 @@
 /turf/open/floor/wood,
 /area/bigredv2/outside/bar)
 "aNY" = (
+/obj/structure/table/woodentable,
 /obj/item/trash/raisins,
 /turf/open/floor/wood,
 /area/bigredv2/outside/bar)
@@ -9341,7 +9341,6 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 6
 	},
-/obj/structure/cable,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
 "bnh" = (
@@ -9438,7 +9437,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
-/obj/structure/cable,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
 "bnG" = (
@@ -9499,8 +9497,8 @@
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
 "bof" = (
-/obj/machinery/computer/general_air_control,
-/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
 "boi" = (
@@ -13743,6 +13741,13 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor,
 /area/bigredv2/outside/engineering)
+"mZj" = (
+/obj/machinery/camera/autoname/mainship/dropship_one{
+	dir = 8;
+	pixel_x = 16
+	},
+/turf/closed/wall/r_wall,
+/area/bigredv2/caves/southeast)
 "nad" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -14346,10 +14351,11 @@
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
 "qPG" = (
-/obj/effect/ai_node,
-/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
-/turf/open/floor/plating/ground/mars/random/cave,
-/area/bigredv2/caves/northeast)
+/obj/machinery/miner/damaged,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 8
+	},
+/area/bigredv2/outside/virology)
 "qQd" = (
 /obj/effect/landmark/corpsespawner/scientist,
 /turf/open/floor/tile/dark/purple2/corner{
@@ -59896,16 +59902,16 @@ vyZ
 adu
 vyZ
 uLR
-uLR
-uLR
-uLR
-uLR
-qPG
-uLR
-qIY
-dGX
-dGX
-dGX
+vyZ
+vyZ
+vyZ
+vyZ
+adu
+vyZ
+kKe
+hqP
+hqP
+hqP
 dGX
 dGX
 dGX
