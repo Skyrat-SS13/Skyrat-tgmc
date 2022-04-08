@@ -5,6 +5,10 @@
 	if(incapacitated() || lying_angle || istype(loc, /obj/vehicle/multitile/root/cm_armored))
 		return
 
+<<<<<<< HEAD
+=======
+	var/slot_requested = use_alternate ?  client?.prefs?.preferred_slot_alt : client?.prefs?.preferred_slot
+>>>>>>> c5420c8c96 (Hot fix quick draw (#9967))
 	var/obj/item/I = get_active_held_item()
 	if(!I)
 		if(next_move > world.time)
