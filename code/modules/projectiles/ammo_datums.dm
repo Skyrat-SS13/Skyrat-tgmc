@@ -1566,8 +1566,7 @@ datum/ammo/bullet/revolver/tp44
 /datum/ammo/energy/tesla/ammo_process(obj/projectile/proj, damage)
 	zap_beam(proj, 4, damage)
 
-<<<<<<< HEAD
-=======
+
 /datum/ammo/energy/tesla/focused
 	flags_ammo_behavior = AMMO_ENERGY|SPECIAL_PROCESS|AMMO_IFF
 	shell_speed = 0.1
@@ -1585,7 +1584,6 @@ datum/ammo/bullet/revolver/tp44
 		X.use_plasma(0.3 * X.xeno_caste.plasma_max * X.xeno_caste.plasma_regen_limit) //Drains 30% of max plasma on hit
 
 
->>>>>>> 04a3a06441 (Tesla IFF mode (#9964))
 /datum/ammo/energy/droidblast
 	name = "energetic plasma bolt"
 	icon_state = "pulse2"
