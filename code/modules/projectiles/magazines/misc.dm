@@ -53,7 +53,7 @@
 	name = "box of 10x26mm (T-25)"
 	desc = "A box containing 320 rounds of 10x26mm caseless tuned for a T-25 smartrifle. It cannot be used for T-29 drums!"
 	icon_state = "box_t25"
-	default_ammo = /datum/ammo/bullet/smartgun/smartrifle
+	default_ammo = /datum/ammo/bullet/smartmachinegun
 	caliber = CALIBER_10x26_CASELESS
 	max_rounds = 320
 
