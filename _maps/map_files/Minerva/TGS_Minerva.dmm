@@ -1,15 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/decal/warning_stripes/thick{
-	dir = 4
-	},
-/obj/effect/decal/warning_stripes/thick{
-	dir = 8
-	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/tile/damaged/panel,
 /area/mainship/hallways/hangar)
 "ab" = (
 /obj/structure/droppod,
@@ -31,14 +22,18 @@
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar/droppod)
 "af" = (
-/obj/effect/decal/warning_stripes/thick/corner,
-/obj/effect/decal/warning_stripes/thick/corner{
-	dir = 1
+/obj/structure/rack,
+/obj/item/tool/screwdriver,
+/obj/item/tool/crowbar/red,
+/obj/effect/decal/warning_stripes/thick{
+	dir = 8
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "ag" = (
-/obj/effect/decal/warning_stripes/thick/corner,
+/obj/effect/decal/warning_stripes/thick/corner{
+	dir = 1
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "ah" = (
@@ -49,51 +44,46 @@
 	},
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar/droppod)
-"ai" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/layer1,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
-	},
-/area/mainship/hallways/hangar)
 "aj" = (
-/obj/effect/ai_node,
-/turf/open/floor/mainship/mono,
+/obj/structure/dropship_equipment/weapon/rocket_pod,
+/turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
 "an" = (
-/obj/structure/rack,
-/obj/item/tool/wrench,
-/obj/item/tool/extinguisher/mini,
-/obj/effect/decal/warning_stripes/thick{
-	dir = 4
-	},
-/obj/effect/decal/warning_stripes/thick{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 1
+/obj/effect/decal/warning_stripes/thick/corner,
+/obj/item/ammo_casing/bullet{
+	pixel_x = -7;
+	pixel_y = 5
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "ao" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 4
-	},
+/obj/effect/decal/warning_stripes/thick/corner,
+/turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "ap" = (
 /obj/machinery/light,
 /turf/open/floor/mainship_hull,
 /area/mainship/powered)
 "aq" = (
-/turf/open/floor/tile/damaged/panel,
+/obj/structure/rack,
+/obj/item/tool/wrench,
+/obj/item/tool/extinguisher/mini,
+/obj/effect/decal/warning_stripes/thick{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "at" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1,
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar/droppod)
+"au" = (
+/obj/structure/sign/poster,
+/turf/open/floor/wood,
+/area/mainship/living/pilotbunks)
 "av" = (
-/obj/structure/closet/firecloset/full,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "aw" = (
@@ -103,29 +93,23 @@
 	},
 /area/mainship/living/port_garden)
 "ax" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+/obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/effect/ai_node,
-/obj/machinery/light,
-/turf/open/floor/plating/plating_catwalk,
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "ay" = (
 /turf/open/floor/tile/damaged/five,
 /area/mainship/hallways/hangar)
 "az" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -7
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
 	},
-/turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "aA" = (
 /obj/structure/cable,
@@ -154,11 +138,16 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
+"aF" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/living/briefing)
 "aG" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/purple{
 	dir = 4
 	},
@@ -180,7 +169,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/effect/ai_node,
 /obj/machinery/light,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
@@ -203,7 +191,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar/droppod)
 "aL" = (
@@ -233,7 +220,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar/droppod)
 "aO" = (
@@ -241,6 +227,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "aP" = (
+/obj/effect/ai_node,
 /turf/open/floor/mainship/black{
 	dir = 5
 	},
@@ -257,9 +244,9 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/port_hull)
 "aR" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -10
+/obj/item/ammo_casing/bullet{
+	pixel_x = -6;
+	pixel_y = 6
 	},
 /turf/open/floor/mainship/blue{
 	dir = 8
@@ -355,7 +342,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
 	},
+<<<<<<< HEAD
 /obj/effect/ai_node,
+=======
+/obj/structure/sign/poster,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "be" = (
@@ -424,6 +415,9 @@
 /obj/effect/decal/warning_stripes/thick{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "bl" = (
@@ -435,12 +429,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar/droppod)
 "bm" = (
 /turf/open/floor/mainship/red{
-	dir = 4
+	dir = 5
 	},
 /area/mainship/living/briefing)
 "bn" = (
@@ -638,6 +631,15 @@
 	dir = 1
 	},
 /area/mainship/hallways/hangar)
+"bR" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
 "bT" = (
 /obj/machinery/dropship_part_fabricator,
 /turf/open/floor/mainship/cargo,
@@ -760,6 +762,18 @@
 "cs" = (
 /turf/open/floor/mainship/mono,
 /area/mainship/living/port_garden)
+<<<<<<< HEAD
+=======
+"ct" = (
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -2;
+	pixel_y = -6
+	},
+/obj/structure/dropship_equipment/weapon/minirocket_pod,
+/turf/open/floor/mainship/cargo,
+/area/mainship/hallways/hangar)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "cu" = (
 /turf/open/floor/mainship/blue{
 	dir = 4
@@ -835,12 +849,9 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/hangar)
 "cG" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -4;
-	pixel_y = -5
-	},
+/obj/machinery/camera/autoname/mainship,
 /turf/open/floor/mainship/blue{
-	dir = 4
+	dir = 5
 	},
 /area/mainship/living/briefing)
 "cH" = (
@@ -881,7 +892,6 @@
 /area/mainship/hallways/hangar)
 "cK" = (
 /obj/structure/cable,
-/obj/effect/ai_node,
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /turf/open/floor/plating/plating_catwalk,
@@ -941,6 +951,16 @@
 	icon_state = "carpetside"
 	},
 /area/mainship/command/corporateliaison)
+<<<<<<< HEAD
+=======
+"cW" = (
+/obj/item/ammo_casing/bullet{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/hallways/hangar)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "cX" = (
 /turf/open/floor/mainship/black/corner{
 	dir = 4
@@ -1070,6 +1090,9 @@
 /obj/effect/decal/warning_stripes/thick/corner{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "dw" = (
@@ -1082,9 +1105,8 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "dx" = (
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 4
-	},
+/obj/machinery/atmospherics/components/unary/vent_pump/layer1,
+/turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "dz" = (
 /obj/machinery/light{
@@ -1141,13 +1163,8 @@
 	},
 /area/mainship/squads/general)
 "dJ" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = 5;
-	pixel_y = -10
-	},
-/obj/item/ammo_casing/bullet{
-	pixel_x = -7;
-	pixel_y = 5
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
@@ -1160,15 +1177,6 @@
 /obj/structure/bed/chair/sofa/left,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
-"dM" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -7
-	},
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
-	},
-/area/mainship/hallways/hangar)
 "dO" = (
 /obj/docking_port/stationary/marine_dropship/minidropship,
 /turf/open/floor/plating,
@@ -1206,13 +1214,6 @@
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
 "dS" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -10
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/hallways/hangar)
-"dT" = (
 /obj/structure/dropship_equipment/weapon/heavygun,
 /obj/effect/decal/cleanable/blood/oil{
 	name = "grease";
@@ -1240,19 +1241,24 @@
 	},
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
+"dT" = (
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -2;
+	pixel_y = -6
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/mainship/mono,
+/area/mainship/hallways/hangar)
 "dU" = (
 /turf/open/floor/mainship/black/corner{
 	dir = 8
 	},
 /area/mainship/hallways/starboard_hallway)
 "dV" = (
-/obj/structure/dropship_equipment/weapon/rocket_pod,
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -2;
-	pixel_y = -6
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
 	},
-/turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
 "dX" = (
 /obj/structure/dropship_equipment/weapon/minirocket_pod,
@@ -1264,6 +1270,14 @@
 	dir = 9
 	},
 /area/mainship/hallways/hangar)
+<<<<<<< HEAD
+=======
+"dZ" = (
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "ea" = (
 /turf/open/floor/plating,
 /area/mainship/squads/req)
@@ -1282,6 +1296,7 @@
 /obj/item/paper,
 /obj/item/tool/pen,
 /obj/structure/paper_bin,
+/obj/item/tool/stamp/qm,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "ef" = (
@@ -1410,6 +1425,10 @@
 	pixel_x = -9;
 	pixel_y = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet/firecloset/full,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "eC" = (
@@ -1431,6 +1450,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /obj/structure/disposalpipe/segment,
 /mob/living/simple_animal/cat/martin,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "eG" = (
@@ -1551,6 +1571,7 @@
 	dir = 5
 	},
 /obj/structure/cable,
+/obj/effect/ai_node,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
 "fc" = (
@@ -1687,7 +1708,6 @@
 	dir = 5
 	},
 /obj/structure/cable,
-/obj/effect/ai_node,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
 "fA" = (
@@ -1737,7 +1757,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
-/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "fH" = (
@@ -1747,19 +1766,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
 	},
-/obj/effect/ai_node,
 /obj/structure/cable,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hallways/hangar)
-"fI" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
-	dir = 8
-	},
-/obj/effect/ai_node,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
-	dir = 8
-	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "fK" = (
@@ -1791,9 +1798,13 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "fP" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -7
+/obj/machinery/atmospherics/components/unary/vent_pump/layer1{
+	dir = 1;
+	on = 1
+	},
+/obj/item/ammo_casing/bullet{
+	pixel_x = 10;
+	pixel_y = 4
 	},
 /turf/open/floor/mainship/orange{
 	dir = 8
@@ -1821,9 +1832,9 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "fT" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = 8
+/obj/item/ammo_casing/bullet{
+	pixel_x = -3;
+	pixel_y = 7
 	},
 /turf/open/floor/mainship/red{
 	dir = 4
@@ -2060,7 +2071,6 @@
 /area/mainship/hull/starboard_hull)
 "gE" = (
 /obj/structure/cable,
-/obj/effect/ai_node,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -2192,10 +2202,8 @@
 	},
 /area/mainship/hallways/hangar)
 "gX" = (
-/obj/machinery/camera/autoname/mainship{
-	dir = 4
-	},
-/turf/open/floor/mainship/mono,
+/obj/vehicle/ridden/powerloader,
+/turf/open/floor/mainship/cargo,
 /area/mainship/squads/req)
 "gY" = (
 /turf/open/floor/mainship/mono,
@@ -2207,10 +2215,14 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "hc" = (
+/obj/structure/table/mainship,
+/obj/machinery/cell_charger,
+/obj/effect/spawner/random/powercell,
+/obj/effect/spawner/random/powercell,
 /obj/machinery/alarm{
 	dir = 8
 	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
 "hd" = (
 /obj/machinery/vending/tool,
@@ -2233,9 +2245,10 @@
 "hg" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/item/ammo_casing/bullet{
-	pixel_x = 4;
-	pixel_y = 8
+	pixel_x = -4;
+	pixel_y = 6
 	},
+/obj/effect/ai_node,
 /turf/open/floor/mainship/orange{
 	dir = 8
 	},
@@ -2295,6 +2308,14 @@
 "ht" = (
 /turf/open/floor/plating,
 /area/mainship/living/evacuation)
+"hu" = (
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -2;
+	pixel_y = -6
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/living/briefing)
 "hv" = (
 /obj/machinery/loadout_vendor,
 /turf/open/floor/mainship/mono,
@@ -2335,17 +2356,6 @@
 /obj/item/clothing/mask/gas,
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/port_hallway)
-"hE" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/effect/ai_node,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hallways/starboard_hallway)
 "hF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/structure/cable,
@@ -2409,16 +2419,26 @@
 /area/mainship/squads/req)
 "hR" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
+<<<<<<< HEAD
 /area/mainship/squads/req)
+=======
+/area/mainship/hallways/hangar/droppod)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "hS" = (
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
 "hT" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/disposalpipe/segment,
 /obj/effect/ai_node,
@@ -2427,8 +2447,33 @@
 "hU" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 8
+=======
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 	},
-/turf/open/floor/mainship/mono,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/hangar)
+"hU" = (
+/obj/item/frame/table,
+/obj/item/frame/table,
+/obj/item/frame/table,
+/obj/structure/rack,
+/obj/machinery/door_control{
+	dir = 8;
+	id = "reqaccess";
+	name = "Requisitions Access"
+	},
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/glass/reinforced{
+	amount = 30
+	},
+/obj/item/stack/sheet/wood/large_stack,
+/turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
 "hV" = (
 /obj/structure/table/gamblingtable,
@@ -2456,15 +2501,9 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/hull/starboard_hull)
 "hZ" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -5;
-	pixel_y = -6
-	},
-/turf/open/floor/mainship/purple{
-	dir = 8
-	},
-/area/mainship/living/briefing)
+/obj/machinery/vending/armor_supply,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
 "ia" = (
 /obj/machinery/cryopod/right,
 /obj/machinery/light{
@@ -2524,6 +2563,17 @@
 	dir = 5
 	},
 /area/space)
+"il" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/floor,
+/area/mainship/hallways/hangar)
 "in" = (
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
@@ -2665,6 +2715,7 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "iG" = (
+<<<<<<< HEAD
 /obj/effect/decal/warning_stripes/thin{
 	dir = 6
 	},
@@ -2697,6 +2748,48 @@
 	dir = 10
 	},
 /turf/open/floor/mainship/floor,
+=======
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+"iH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
+"iJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
+"iK" = (
+/obj/structure/closet/crate/weapon,
+/turf/open/floor/mainship/cargo,
+/area/mainship/squads/req)
+"iL" = (
+/obj/structure/supply_drop,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+"iM" = (
+/obj/machinery/vending/cargo_supply,
+/turf/open/floor/mainship/mono,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "iN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -2706,10 +2799,18 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
 "iO" = (
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/tool/extinguisher,
+/obj/item/tool/extinguisher/mini,
+/obj/structure/rack,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/lightreplacer,
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
 "iP" = (
 /obj/structure/table,
@@ -2752,6 +2853,15 @@
 	},
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lower_medical)
+"jd" = (
+/obj/item/ammo_casing/bullet{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/turf/open/floor/mainship/red{
+	dir = 4
+	},
+/area/mainship/living/briefing)
 "je" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -2837,7 +2947,7 @@
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
 "jx" = (
-/obj/structure/closet/crate,
+/obj/machinery/cic_maptable,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "jy" = (
@@ -2850,12 +2960,34 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "jA" = (
+/obj/effect/ai_node,
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/structure/disposalpipe/segment/corner,
 /turf/open/floor/plating/plating_catwalk,
+=======
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "jB" = (
 /obj/machinery/light{
@@ -2865,19 +2997,37 @@
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/self_destruct)
 "jC" = (
+<<<<<<< HEAD
 /obj/machinery/door/poddoor/railing{
 	id = "supply_elevator_railing"
 	},
 /turf/open/floor/mainship/floor,
+=======
+/obj/machinery/holopad,
+/turf/open/floor/mainship/mono,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "jD" = (
 /turf/open/floor/mainship/empty,
 /area/mainship/squads/req)
 "jF" = (
+<<<<<<< HEAD
 /obj/machinery/door/poddoor/railing{
 	dir = 8;
 	id = "supply_elevator_railing"
 	},
+=======
+/obj/effect/decal/warning_stripes/thin{
+	dir = 6
+	},
+/obj/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/machinery/door_control/mainship/req{
+	id = "qm_warehouse";
+	name = "Requisition Warehouse Shutters"
+	},
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "jG" = (
@@ -2909,10 +3059,11 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
 "jK" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = 8
+/obj/effect/decal/warning_stripes/engineer,
+/obj/effect/decal/warning_stripes/box/small{
+	dir = 1
 	},
+/obj/effect/decal/warning_stripes/box/small,
 /turf/open/floor/mainship/orange{
 	dir = 4
 	},
@@ -2934,6 +3085,11 @@
 "jM" = (
 /turf/open/floor/mainship/black{
 	dir = 8
+	},
+/area/mainship/hallways/starboard_hallway)
+"jO" = (
+/turf/open/floor/mainship/terragov/north{
+	dir = 6
 	},
 /area/mainship/hallways/starboard_hallway)
 "jP" = (
@@ -2985,6 +3141,17 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
+"jT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/docking_port/stationary/marine_dropship/crash_target,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/living/briefing)
 "jV" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -3077,7 +3244,7 @@
 /area/mainship/hallways/port_hallway)
 "kp" = (
 /turf/open/floor/mainship/blue{
-	dir = 8
+	dir = 9
 	},
 /area/mainship/living/briefing)
 "kq" = (
@@ -3101,12 +3268,6 @@
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/floor/mainship/mono,
 /area/mainship/engineering/engineering_workshop)
-"kv" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/squads/req)
 "kx" = (
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 2
@@ -3143,14 +3304,9 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/cryo_cells)
 "kC" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/turf/open/floor/mainship/blue{
-	dir = 4
-	},
-/area/mainship/living/briefing)
+/obj/machinery/vending/weapon,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
 "kE" = (
 /turf/closed/wall/mainship/outer,
 /area/mainship/shipboard/starboard_missiles)
@@ -3301,27 +3457,20 @@
 	},
 /area/mainship/medical/lower_medical)
 "lm" = (
-/obj/machinery/door/airlock/mainship/marine/requisitions,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
+/obj/machinery/door/airlock/multi_tile/mainship/marine/requisitions{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
+/obj/machinery/door/firedoor/multi_tile{
+	dir = 1
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "lo" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/mainship/mono,
+/obj/structure/closet/crate/ammo,
+/turf/open/floor/mainship/cargo,
 /area/mainship/squads/req)
 "lp" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -3344,12 +3493,22 @@
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
+=======
+/obj/machinery/computer/camera_advanced/overwatch/req,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+"lq" = (
+/obj/machinery/computer/supplydrop_console,
+/obj/structure/table/mainship,
+/turf/open/floor/mainship/mono,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "lr" = (
 /obj/machinery/telecomms/server/presets/command,
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/telecomms)
 "ls" = (
+<<<<<<< HEAD
 /obj/docking_port/stationary/supply,
 /turf/open/floor/mainship/empty,
 /area/mainship/squads/req)
@@ -3365,6 +3524,19 @@
 	dir = 4
 	},
 /area/mainship/squads/req)
+=======
+/obj/effect/decal/warning_stripes/thin,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/sign/poster,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/starboard_hull)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "lu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -3378,9 +3550,16 @@
 /turf/open/floor/mainship/black,
 /area/mainship/engineering/port_atmos)
 "lv" = (
-/obj/structure/table/mainship,
-/obj/item/lightreplacer,
-/obj/item/stack/cable_coil/twentyfive,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "lw" = (
@@ -3432,6 +3611,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/ai_node,
 /turf/open/floor/mainship/red{
 	dir = 1
 	},
@@ -3619,9 +3799,7 @@
 /area/mainship/medical/medical_science)
 "mk" = (
 /obj/effect/ai_node,
-/turf/open/floor/mainship/orange{
-	dir = 8
-	},
+/turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "ml" = (
 /obj/structure/bed/stool{
@@ -3658,8 +3836,8 @@
 /turf/closed/wall/mainship,
 /area/mainship/shipboard/starboard_missiles)
 "mr" = (
-/obj/vehicle/ridden/powerloader,
-/turf/open/floor/mainship/cargo,
+/obj/machinery/vending/uniform_supply,
+/turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "ms" = (
 /obj/machinery/computer/camera_advanced/overwatch/bravo{
@@ -3669,6 +3847,7 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/cic)
+<<<<<<< HEAD
 "mu" = (
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 4
@@ -3710,21 +3889,32 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+=======
+"my" = (
+/obj/machinery/computer/supplycomp,
+/obj/machinery/light{
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 	dir = 4
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "mA" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+=======
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
-/area/mainship/hallways/starboard_hallway)
+/area/mainship/squads/req)
 "mB" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -3733,6 +3923,9 @@
 	dir = 4
 	},
 /obj/effect/ai_node,
+=======
+/obj/structure/disposalpipe/segment,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
 "mC" = (
@@ -3751,9 +3944,8 @@
 /area/mainship/shipboard/firing_range)
 "mF" = (
 /obj/effect/ai_node,
-/obj/structure/cable,
-/turf/open/floor/mainship/cargo,
-/area/mainship/shipboard/firing_range)
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
 "mG" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -3779,7 +3971,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/firing_range)
 "mJ" = (
@@ -4003,7 +4194,13 @@
 /turf/open/floor/mainship/research,
 /area/mainship/medical/medical_science)
 "nz" = (
+<<<<<<< HEAD
 /obj/machinery/vending/uniform_supply,
+=======
+/obj/machinery/light{
+	dir = 8
+	},
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "nB" = (
@@ -4067,6 +4264,13 @@
 /obj/item/clothing/suit/replica,
 /turf/open/floor/mainship/red,
 /area/mainship/shipboard/firing_range)
+<<<<<<< HEAD
+=======
+"nJ" = (
+/obj/structure/disposalpipe/segment/corner,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "nK" = (
 /obj/effect/landmark/start/job/squadcorpsman,
 /turf/open/floor/mainship/cargo/arrow{
@@ -4152,6 +4356,7 @@
 /area/mainship/shipboard/starboard_missiles)
 "nX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/purple{
 	dir = 4
 	},
@@ -4305,10 +4510,6 @@
 	},
 /area/mainship/medical/medical_science)
 "ou" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -6;
-	pixel_y = 6
-	},
 /turf/open/floor/mainship/blue{
 	dir = 8
 	},
@@ -4434,10 +4635,15 @@
 /turf/open/floor/mainship/sterile/plain,
 /area/mainship/medical/lower_medical)
 "oI" = (
+<<<<<<< HEAD
 /obj/machinery/vending/armor_supply,
 /obj/machinery/light{
 	dir = 8
 	},
+=======
+/obj/machinery/autolathe,
+/obj/structure/sign/poster,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "oK" = (
@@ -4452,10 +4658,11 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/engineering/port_atmos)
 "oL" = (
-/obj/machinery/vending/MarineMed,
+/obj/machinery/holopad,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "oM" = (
+<<<<<<< HEAD
 /obj/effect/decal/warning_stripes/thin{
 	dir = 5
 	},
@@ -4494,10 +4701,16 @@
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/dark,
+/area/mainship/medical/lower_medical)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "oR" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
 	},
+/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/firing_range)
 "oS" = (
@@ -4619,6 +4832,10 @@
 "ps" = (
 /turf/closed/wall/mainship/research/containment/wall/purple,
 /area/mainship/medical/medical_science)
+"pt" = (
+/obj/machinery/vending/weapon,
+/turf/open/floor/mainship/mono,
+/area/mainship/living/briefing)
 "pu" = (
 /obj/structure/table/mainship,
 /obj/structure/paper_bin,
@@ -4730,6 +4947,7 @@
 /obj/item/clothing/mask/gas,
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
+<<<<<<< HEAD
 "pJ" = (
 /obj/machinery/vending/weapon,
 /obj/machinery/camera/autoname/mainship{
@@ -4737,6 +4955,8 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "pK" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -4749,6 +4969,7 @@
 	dir = 1
 	},
 /obj/effect/ai_node,
+<<<<<<< HEAD
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
 "pL" = (
@@ -4761,9 +4982,16 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+=======
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 8
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/mainship/squads/req)
+/area/mainship/hallways/hangar)
 "pM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4778,6 +5006,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "pN" = (
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
@@ -4790,6 +5019,17 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/req)
+=======
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/hallways/hangar)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "pO" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 8
@@ -4800,6 +5040,7 @@
 /obj/structure/window/framed/mainship,
 /turf/open/floor/plating,
 /area/mainship/command/self_destruct)
+<<<<<<< HEAD
 "pQ" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 1
@@ -4845,6 +5086,11 @@
 	dir = 8
 	},
 /turf/open/floor/mainship/mono,
+=======
+"pT" = (
+/obj/docking_port/stationary/supply,
+/turf/open/floor/mainship/empty,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "pV" = (
 /obj/machinery/camera/autoname/mainship{
@@ -4964,6 +5210,28 @@
 	},
 /turf/open/floor/mainship_hull,
 /area/space)
+<<<<<<< HEAD
+=======
+"qu" = (
+/obj/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
+"qv" = (
+/obj/structure/cable,
+/turf/open/floor/carpet{
+	dir = 1;
+	icon_state = "carpetside"
+	},
+/area/mainship/living/bridgebunks)
+"qw" = (
+/obj/structure/table/mainship,
+/obj/machinery/door_control/old/req,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "qx" = (
 /obj/structure/closet/firecloset,
 /obj/item/clothing/mask/gas,
@@ -4972,8 +5240,19 @@
 	},
 /area/mainship/living/evacuation)
 "qy" = (
+<<<<<<< HEAD
 /obj/machinery/computer/camera_advanced/overwatch/req,
 /turf/open/floor/mainship/mono,
+=======
+/obj/effect/decal/warning_stripes/thin{
+	dir = 5
+	},
+/obj/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/floor,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "qz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1,
@@ -5083,10 +5362,13 @@
 /obj/item/clothing/mask/gas,
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
+<<<<<<< HEAD
 "qT" = (
 /obj/machinery/vending/MarineMed,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "qU" = (
 /obj/machinery/alarm{
 	dir = 8
@@ -5096,10 +5378,8 @@
 	},
 /area/mainship/engineering/port_atmos)
 "qV" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/structure/cable,
-/turf/open/floor/mainship/mono,
+/obj/vehicle/ridden/motorbike,
+/turf/open/floor/mainship/cargo,
 /area/mainship/squads/req)
 "qW" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -5147,6 +5427,7 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "rg" = (
+<<<<<<< HEAD
 /obj/structure/rack,
 /obj/item/storage/firstaid/fire{
 	pixel_x = 3;
@@ -5157,6 +5438,15 @@
 /obj/machinery/light{
 	dir = 4
 	},
+=======
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/structure/cable,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "rk" = (
@@ -5222,6 +5512,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
+"rv" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/purple/side{
+	dir = 4
+	},
+/area/mainship/medical/chemistry)
 "rw" = (
 /obj/effect/landmark/start/job/squadleader,
 /obj/effect/landmark/start/job/squadleader,
@@ -5407,6 +5703,10 @@
 	dir = 4
 	},
 /area/mainship/medical/lower_medical)
+"sb" = (
+/obj/machinery/vending/MarineMed,
+/turf/open/floor/mainship/mono,
+/area/mainship/living/briefing)
 "sc" = (
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/sterile/purple/side{
@@ -5421,7 +5721,6 @@
 /turf/open/floor/mainship/sterile/plain,
 /area/mainship/medical/lower_medical)
 "sf" = (
-/obj/effect/ai_node,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -5463,6 +5762,11 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/telecomms)
+"sk" = (
+/turf/open/floor/mainship/terragov/north{
+	dir = 10
+	},
+/area/mainship/hallways/starboard_hallway)
 "sl" = (
 /obj/machinery/door/poddoor/mainship/ammo,
 /turf/open/floor/mainship/mono,
@@ -5601,51 +5905,65 @@
 	},
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
+"sK" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/mainship/purple{
+	dir = 9
+	},
+/area/mainship/living/briefing)
 "sL" = (
+/obj/machinery/door_control/mainship/req{
+	dir = 1;
+	id = "qm_warehouse";
+	name = "Requisition Warehouse Shutters"
+	},
+/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/structure/cable,
-/turf/open/floor/mainship/mono,
-/area/mainship/hallways/hangar)
-"sM" = (
-/obj/machinery/door/airlock/mainship/marine/requisitions,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /obj/structure/cable,
+=======
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
-"sN" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
+"sM" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
+/obj/structure/disposalpipe/junction,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "sO" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 9
-	},
-/obj/effect/ai_node,
-/obj/structure/cable,
+/obj/structure/table/mainship,
+/obj/item/stack/cable_coil/twentyfive,
+/obj/item/lightreplacer,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "sP" = (
+<<<<<<< HEAD
 /obj/structure/supply_drop,
 /turf/open/floor/mainship/mono,
+=======
+/obj/machinery/door/poddoor/railing{
+	dir = 1;
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/cargo/arrow,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "sQ" = (
 /obj/structure/cable,
@@ -5658,10 +5976,23 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "sT" = (
+<<<<<<< HEAD
 /obj/structure/rack,
 /obj/item/storage/belt/utility/full,
 /obj/item/storage/belt/utility/full,
 /obj/item/tool/weldpack,
+=======
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "sU" = (
@@ -5683,6 +6014,7 @@
 	},
 /area/mainship/hallways/hangar)
 "sV" = (
+<<<<<<< HEAD
 /obj/machinery/camera/autoname/mainship{
 	dir = 1
 	},
@@ -5700,6 +6032,13 @@
 	name = "Requisitions Access"
 	},
 /turf/open/floor/mainship/mono,
+=======
+/obj/machinery/door/poddoor/railing{
+	dir = 1;
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/floor,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "sX" = (
 /obj/machinery/marine_selector/clothes/smartgun,
@@ -5813,9 +6152,31 @@
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/port_hallway)
 "ts" = (
+<<<<<<< HEAD
 /obj/machinery/door/airlock/mainship/marine/requisitions,
+=======
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/secure/req{
+	dir = 1
+	},
+/obj/machinery/door/window{
+	dir = 2
+	},
+/obj/item/tool/hand_labeler,
+/obj/machinery/door/poddoor/shutters/mainship/req/ro{
+	dir = 2
+	},
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+"tt" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/mainship/red{
+	dir = 8
+	},
+/area/mainship/living/briefing)
 "tu" = (
 /obj/structure/closet/emcloset,
 /obj/item/clothing/mask/gas,
@@ -5885,11 +6246,20 @@
 /turf/open/floor/mainship/sterile/side,
 /area/mainship/medical/lounge)
 "tI" = (
+<<<<<<< HEAD
 /obj/effect/ai_node,
 /turf/open/floor/mainship/orange{
 	dir = 4
 	},
 /area/mainship/living/briefing)
+=======
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "tJ" = (
 /obj/structure/cable,
 /obj/effect/landmark/start/job/squadcorpsman,
@@ -6001,10 +6371,15 @@
 "ua" = (
 /obj/structure/cable,
 /obj/structure/cable,
-/obj/structure/closet/firecloset/full,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
+"uc" = (
+/turf/open/floor/mainship/terragov{
+	dir = 1
+	},
+/area/mainship/hallways/starboard_hallway)
 "ue" = (
+<<<<<<< HEAD
 /obj/machinery/door/poddoor/shutters{
 	dir = 8;
 	id = "reqaccess2"
@@ -6013,7 +6388,29 @@
 /area/mainship/squads/req)
 "uf" = (
 /obj/machinery/vending/cargo_supply,
+=======
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+"uf" = (
+/obj/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "ug" = (
 /obj/structure/window/framed/mainship/requisitions,
@@ -6039,12 +6436,24 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "un" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/ai_node,
+<<<<<<< HEAD
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+=======
+/turf/open/floor/mainship/sterile/dark,
+/area/mainship/medical/lower_medical)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "uq" = (
 /obj/machinery/light{
 	dir = 8
@@ -6056,9 +6465,19 @@
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/self_destruct)
 "us" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /obj/effect/ai_node,
-/turf/open/floor/mainship/floor,
-/area/mainship/squads/general)
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/port_hallway)
 "ut" = (
 /obj/machinery/door/airlock/mainship/marine/general/smart,
 /turf/open/floor/mainship/mono,
@@ -6154,7 +6573,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer1,
 /obj/structure/disposalpipe/junction,
-/obj/effect/ai_node,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
@@ -6313,7 +6731,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lower_medical)
 "uZ" = (
@@ -6384,6 +6801,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "vf" = (
+<<<<<<< HEAD
 /obj/machinery/cic_maptable,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
@@ -6397,6 +6815,24 @@
 /obj/item/reagent_containers/jerrycan,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/obj/effect/ai_node,
+/obj/machinery/light,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+"vg" = (
+/obj/structure/bed/chair/comfy/black,
+/turf/open/floor/mainship/silver/full,
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "vi" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/mainship/mono,
@@ -6522,6 +6958,7 @@
 /area/mainship/medical/lounge)
 "vG" = (
 /obj/effect/decal/cleanable/blood/oil,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/plain,
 /area/mainship/medical/lower_medical)
 "vH" = (
@@ -6598,9 +7035,10 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lower_medical)
 "vS" = (
-/obj/machinery/camera/autoname/mainship{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/structure/bed/chair/office/dark,
 /obj/machinery/door_control{
 	dir = 4;
@@ -6640,14 +7078,74 @@
 "vX" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/floor/mainship/orange{
+=======
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/multi_tile/mainship/marine/requisitions{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/multi_tile{
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 	dir = 1
 	},
 /area/mainship/squads/req)
+<<<<<<< HEAD
 "wb" = (
 /turf/open/floor/mainship/orange{
 	dir = 1
 	},
+=======
+"vT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/black{
+	dir = 8
+	},
+/area/mainship/hallways/starboard_hallway)
+"vU" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment/corner,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
+"vV" = (
+/obj/machinery/door/poddoor/shutters{
+	dir = 2;
+	id = "qm_warehouse";
+	name = "\improper Warehouse Shutters"
+	},
+/turf/open/floor/mainship/mono,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
+"vY" = (
+/obj/structure/window/framed/mainship/requisitions,
+/obj/machinery/door/poddoor/shutters/mainship/req/ro{
+	dir = 2
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+"wb" = (
+/obj/machinery/holopad,
+/turf/open/floor/mainship/floor,
+/area/mainship/hallways/starboard_hallway)
 "wd" = (
 /obj/structure/cable,
 /turf/open/floor/mainship/sterile/purple/side{
@@ -6867,33 +7365,12 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
-"wJ" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/secure/req{
-	dir = 1
-	},
-/obj/machinery/door/window{
-	dir = 2
-	},
-/obj/item/tool/hand_labeler,
-/obj/machinery/door/poddoor/shutters/mainship/req/ro{
-	dir = 2
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/squads/req)
 "wK" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 1
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/command/self_destruct)
-"wL" = (
-/obj/structure/window/framed/mainship/requisitions,
-/obj/machinery/door/poddoor/shutters/mainship/req/ro{
-	dir = 2
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/squads/req)
 "wM" = (
 /turf/closed/wall/mainship,
 /area/mainship/living/pilotbunks)
@@ -6912,6 +7389,7 @@
 /turf/open/floor/mainship/orange,
 /area/mainship/squads/req)
 "wQ" = (
+<<<<<<< HEAD
 /obj/machinery/autolathe,
 /obj/machinery/light,
 /turf/open/floor/mainship/mono,
@@ -6927,6 +7405,18 @@
 	dir = 8
 	},
 /turf/open/floor/mainship/mono,
+=======
+/obj/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "supply_elevator_railing"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /area/mainship/squads/req)
 "wT" = (
 /obj/structure/cable,
@@ -6998,6 +7488,21 @@
 	dir = 1
 	},
 /area/mainship/living/evacuation)
+<<<<<<< HEAD
+=======
+"xb" = (
+/obj/structure/table/reinforced,
+/obj/item/facepaint/green,
+/turf/open/floor/mainship/mono,
+/area/mainship/living/briefing)
+"xc" = (
+/obj/machinery/camera/autoname/mainship{
+	dir = 1
+	},
+/obj/structure/sign/poster,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "xd" = (
 /turf/open/floor/mainship/black{
 	dir = 1
@@ -7248,16 +7753,8 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
-"xR" = (
-/obj/machinery/line_nexter{
-	dir = 2
-	},
-/obj/machinery/camera/autoname/mainship{
-	dir = 4
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/squads/req)
 "xS" = (
+<<<<<<< HEAD
 /obj/structure/barricade/metal,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
@@ -7283,6 +7780,19 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/open/floor/mainship/red/full,
+/area/mainship/hallways/starboard_hallway)
+"xU" = (
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/engineering/port_atmos)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "xW" = (
 /obj/structure/flora/pottedplant/twentyone{
 	icon_state = "plant-12"
@@ -7432,7 +7942,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/autoname/mainship,
-/obj/effect/ai_node,
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
@@ -7443,8 +7952,9 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lounge)
 "yr" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -3
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -10
 	},
 /turf/open/floor/mainship/blue{
 	dir = 8
@@ -7511,13 +8021,10 @@
 	},
 /area/mainship/medical/lower_medical)
 "yA" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/computer/ordercomp,
-/turf/open/floor/mainship/mono,
+/turf/open/floor/mainship/floor,
 /area/mainship/hallways/starboard_hallway)
 "yB" = (
+<<<<<<< HEAD
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/starboard_hallway)
@@ -7528,16 +8035,23 @@
 	dir = 1
 	},
 /area/mainship/hallways/starboard_hallway)
+=======
+/obj/structure/window/framed/mainship/requisitions,
+/obj/machinery/door/poddoor/shutters{
+	dir = 2;
+	id = "qm_warehouse";
+	name = "\improper Warehouse Shutters"
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "yD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/item/ammo_casing/bullet{
-	pixel_x = -6;
-	pixel_y = 4
-	},
 /turf/open/floor/mainship/purple{
-	dir = 4
+	dir = 5
 	},
 /area/mainship/living/briefing)
+<<<<<<< HEAD
 "yE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -7547,6 +8061,8 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+=======
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "yF" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -7562,9 +8078,17 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/general)
 "yI" = (
+<<<<<<< HEAD
 /obj/machinery/roomba,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "yJ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -7789,6 +8313,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "zl" = (
@@ -7906,11 +8431,12 @@
 	},
 /area/mainship/medical/lower_medical)
 "zD" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = 5;
-	pixel_y = -8
+/obj/machinery/light{
+	dir = 1
 	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
 /area/mainship/living/briefing)
 "zE" = (
 /obj/machinery/body_scanconsole,
@@ -7943,9 +8469,6 @@
 	},
 /area/mainship/medical/lower_medical)
 "zI" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -7
-	},
 /turf/open/floor/mainship/orange{
 	dir = 4
 	},
@@ -7981,26 +8504,18 @@
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "zQ" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+/obj/structure/bed/chair{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/mainship/orange/full,
 /area/mainship/hallways/starboard_hallway)
 "zR" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+/obj/structure/bed/chair{
 	dir = 1
 	},
-/obj/effect/ai_node,
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/mainship/purple/full,
 /area/mainship/hallways/starboard_hallway)
+<<<<<<< HEAD
 "zS" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -8014,6 +8529,8 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+=======
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "zU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -8028,6 +8545,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
 "zV" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -8037,6 +8555,12 @@
 	},
 /obj/structure/disposalpipe/segment/corner,
 /obj/effect/ai_node,
+=======
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
 "zW" = (
@@ -8290,6 +8814,18 @@
 	},
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/operating_room_one)
+<<<<<<< HEAD
+=======
+"AH" = (
+/obj/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/effect/decal/warning_stripes/thin{
+	dir = 10
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "AI" = (
 /obj/machinery/door/poddoor/mainship/umbilical/south{
 	dir = 2;
@@ -8421,11 +8957,18 @@
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "AZ" = (
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-09"
+/obj/machinery/camera/autoname/mainship{
+	dir = 4
 	},
-/turf/open/floor/mainship/black,
-/area/mainship/hallways/starboard_hallway)
+/obj/structure/bed/chair/office/dark,
+/obj/machinery/door_control{
+	dir = 4;
+	id = "reqaccess2";
+	name = "Requisitions Access"
+	},
+/obj/effect/landmark/start/job/shiptech,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
 "Ba" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -8448,12 +8991,20 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "Bc" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/mainship/black,
-/area/mainship/hallways/starboard_hallway)
+/obj/structure/rack,
+/obj/item/storage/firstaid/fire{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/regular,
+/obj/item/storage/firstaid/adv,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/squads/req)
 "Bd" = (
+/obj/machinery/vending/shared_vending/marine_engi,
+/obj/machinery/alarm,
 /turf/open/floor/mainship/orange{
-	dir = 4
+	dir = 5
 	},
 /area/mainship/living/briefing)
 "Be" = (
@@ -8464,9 +9015,16 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/command/self_destruct)
 "Bf" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/mainship/black,
-/area/mainship/hallways/starboard_hallway)
+/obj/machinery/door/poddoor/railing{
+	id = "supply_elevator_railing"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
+/area/mainship/squads/req)
 "Bg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -8499,23 +9057,18 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
 "Bk" = (
-/obj/machinery/light{
-	dir = 8
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
 	},
-/obj/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
-"Bl" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/structure/disposalpipe/segment,
-/obj/effect/ai_node,
-/turf/open/floor/mainship/orange{
-	dir = 4
-	},
-/area/mainship/squads/general)
 "Bm" = (
 /obj/machinery/power/apc/mainship{
 	dir = 8
@@ -8528,14 +9081,13 @@
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
 "Bp" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = 5;
-	pixel_y = -5
-	},
-/turf/open/floor/mainship/red{
-	dir = 4
-	},
-/area/mainship/living/briefing)
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/disposalpipe/segment,
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
 "Bq" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/snacks/creamcheesebreadslice,
@@ -8563,13 +9115,10 @@
 /area/mainship/hull/port_hull)
 "Bw" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
-	dir = 8
-	},
-/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "By" = (
@@ -8621,6 +9170,19 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/port_hallway)
+<<<<<<< HEAD
+=======
+"BG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/living/briefing)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "BH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -8801,10 +9363,6 @@
 	dir = 4
 	},
 /area/mainship/medical/lower_medical)
-"Ce" = (
-/obj/structure/sign/safety/medical,
-/turf/closed/wall/mainship/white,
-/area/mainship/medical/lower_medical)
 "Cf" = (
 /turf/open/floor/plating{
 	icon_state = "warnplatecorner"
@@ -8824,8 +9382,14 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Cj" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/mainship/mono,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/mainship/living/briefing)
 "Ck" = (
 /obj/structure/disposalpipe/segment{
@@ -8840,8 +9404,15 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Cm" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/mainship/mono,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating/plating_catwalk,
 /area/mainship/living/briefing)
 "Cn" = (
 /obj/structure/flora/pottedplant/twentyone,
@@ -9050,25 +9621,6 @@
 /obj/docking_port/stationary/marine_dropship/crash_target,
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
-"CZ" = (
-/obj/machinery/camera/autoname/mainship,
-/turf/open/floor/mainship/red{
-	dir = 9
-	},
-/area/mainship/living/briefing)
-"Da" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mainship/red{
-	dir = 1
-	},
-/area/mainship/living/briefing)
-"Db" = (
-/turf/open/floor/mainship/red{
-	dir = 5
-	},
-/area/mainship/living/briefing)
 "Dd" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -9078,60 +9630,27 @@
 /area/mainship/hallways/hangar)
 "De" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/mainship/orange{
-	dir = 9
-	},
-/area/mainship/living/briefing)
-"Dg" = (
-/obj/machinery/vending/shared_vending/marine_engi,
-/obj/machinery/alarm,
-/turf/open/floor/mainship/orange{
-	dir = 5
-	},
+/turf/open/floor/mainship/black,
 /area/mainship/living/briefing)
 "Dh" = (
 /turf/open/floor/mainship/black{
 	dir = 4
 	},
 /area/mainship/command/self_destruct)
-"Di" = (
-/obj/machinery/vending/tool,
-/turf/open/floor/mainship/purple{
-	dir = 9
-	},
-/area/mainship/living/briefing)
 "Dk" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/mainship/purple{
-	dir = 5
-	},
-/area/mainship/living/briefing)
-"Dl" = (
-/turf/open/floor/mainship/blue{
-	dir = 9
-	},
-/area/mainship/living/briefing)
-"Dm" = (
-/turf/open/floor/mainship/blue{
-	dir = 1
-	},
+/turf/open/floor/mainship/black,
 /area/mainship/living/briefing)
 "Dn" = (
-/obj/machinery/camera/autoname/mainship,
-/turf/open/floor/mainship/blue{
-	dir = 5
+/obj/structure/flora/pottedplant/twentyone{
+	icon_state = "plant-09"
 	},
+/turf/open/floor/mainship/black,
 /area/mainship/living/briefing)
 "Do" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/structure/disposalpipe/segment,
-/obj/effect/ai_node,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hallways/starboard_hallway)
+/obj/structure/barricade/metal,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
 "Dp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -9179,6 +9698,25 @@
 	},
 /turf/open/floor/mainship/cargo,
 /area/mainship/hallways/hangar)
+<<<<<<< HEAD
+=======
+"Dy" = (
+/obj/structure/ship_ammo/minirocket,
+/turf/open/floor/mainship/cargo,
+/area/mainship/hallways/hangar)
+"Dz" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/ammo_casing/bullet{
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/turf/open/floor/mainship/purple{
+	dir = 8
+	},
+/area/mainship/living/briefing)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "DA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
@@ -9222,6 +9760,25 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/general)
+<<<<<<< HEAD
+=======
+"DE" = (
+/obj/effect/landmark/start/latejoin,
+/obj/structure/sign/prop4,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
+/area/mainship/living/cryo_cells)
+"DF" = (
+/obj/machinery/line_nexter{
+	dir = 2
+	},
+/obj/machinery/camera/autoname/mainship{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -9442,6 +9999,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+"Eo" = (
+/turf/open/floor/mainship/terragov/north{
+	dir = 4
+	},
+/area/mainship/hallways/starboard_hallway)
 "Ep" = (
 /turf/closed/wall/mainship/white,
 /area/mainship/medical/operating_room_two)
@@ -9463,24 +10025,18 @@
 /turf/open/floor/mainship/sterile,
 /area/mainship/medical/lower_medical)
 "Et" = (
-/obj/structure/closet/bombcloset,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/hallways/hangar)
+/obj/structure/closet/firecloset,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/mainship/cargo,
+/area/mainship/squads/req)
 "Eu" = (
-/obj/effect/ai_node,
-/turf/open/floor/mainship/red{
-	dir = 8
-	},
-/area/mainship/living/briefing)
+/obj/structure/closet/emcloset,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/mainship/cargo,
+/area/mainship/squads/req)
 "Ev" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/effect/ai_node,
-/turf/open/floor/mainship/purple{
-	dir = 4
-	},
+/turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Ew" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
@@ -9594,6 +10150,17 @@
 "EM" = (
 /turf/closed/wall/mainship,
 /area/mainship/living/bridgebunks)
+<<<<<<< HEAD
+=======
+"EN" = (
+/obj/machinery/door/poddoor/railing{
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "EO" = (
 /turf/closed/wall/mainship,
 /area/mainship/living/commandbunks)
@@ -9737,6 +10304,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/port_hallway)
 "Fc" = (
@@ -9827,11 +10395,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "Fm" = (
-/obj/machinery/holopad,
-/obj/item/ammo_casing/bullet{
-	pixel_x = -7;
-	pixel_y = 5
-	},
+/obj/machinery/vending/engivend,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Fn" = (
@@ -9841,6 +10405,15 @@
 	dir = 4
 	},
 /area/mainship/squads/general)
+<<<<<<< HEAD
+=======
+"Fp" = (
+/obj/machinery/door/poddoor/railing{
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "Fq" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/blue{
@@ -9869,14 +10442,6 @@
 	dir = 4
 	},
 /area/mainship/living/cafeteria_starboard)
-"Fu" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = -2;
-	pixel_y = -6
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/living/briefing)
 "Fv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
@@ -9947,8 +10512,7 @@
 /area/mainship/hull/port_hull)
 "FG" = (
 /obj/item/ammo_casing/bullet{
-	pixel_x = 4;
-	pixel_y = -9
+	pixel_x = -3
 	},
 /turf/open/floor/mainship/blue{
 	dir = 8
@@ -9964,9 +10528,8 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "FI" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -7
-	},
+/obj/structure/table/reinforced,
+/obj/item/tool/hand_labeler,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "FJ" = (
@@ -10093,6 +10656,18 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/mainship/living/numbertwobunks)
+<<<<<<< HEAD
+=======
+"FY" = (
+/obj/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "FZ" = (
 /obj/structure/disposalpipe/segment/corner{
 	dir = 4
@@ -10156,10 +10731,6 @@
 /obj/structure/window/framed/mainship/white,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lower_medical)
-"Gg" = (
-/obj/item/ammo_casing/bullet,
-/turf/open/floor/mainship/mono,
-/area/mainship/living/briefing)
 "Gh" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	dir = 2
@@ -10199,14 +10770,11 @@
 /turf/open/floor/mainship/sterile,
 /area/mainship/medical/lower_medical)
 "Gn" = (
-/obj/structure/rack,
-/obj/item/storage/box/sentry,
 /turf/open/floor/mainship/red{
 	dir = 8
 	},
 /area/mainship/living/briefing)
 "Go" = (
-/obj/effect/ai_node,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -10215,24 +10783,37 @@
 /area/mainship/hallways/hangar)
 "Gp" = (
 /obj/structure/table/reinforced,
-/obj/item/facepaint/green,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Gq" = (
-/obj/machinery/vending/uniform_supply,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/ROsign{
+	dir = 1
+	},
+/obj/machinery/computer/ordercomp,
 /turf/open/floor/mainship/mono,
-/area/mainship/living/briefing)
+/area/mainship/squads/req)
 "Gr" = (
-/obj/structure/table/reinforced,
+/obj/item/ammo_casing/bullet{
+	pixel_x = 5;
+	pixel_y = -10
+	},
+/obj/item/ammo_casing/bullet{
+	pixel_x = -7;
+	pixel_y = 5
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Gs" = (
-/obj/machinery/vending/armor_supply,
+/obj/machinery/vending/uniform_supply,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Gt" = (
-/obj/structure/table/reinforced,
-/obj/item/tool/hand_labeler,
+/obj/item/ammo_casing/bullet{
+	pixel_x = -2
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "Gu" = (
@@ -10371,13 +10952,7 @@
 /area/mainship/living/numbertwobunks)
 "GP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/item/ammo_casing/bullet{
-	pixel_x = -4;
-	pixel_y = 6
-	},
-/turf/open/floor/mainship/orange{
-	dir = 8
-	},
+/turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "GQ" = (
 /obj/structure/disposalpipe/trunk{
@@ -10467,7 +11042,8 @@
 	},
 /area/mainship/medical/lower_medical)
 "He" = (
-/obj/machinery/computer/camera_advanced/remote_fob,
+/obj/structure/rack,
+/obj/item/storage/box/sentry,
 /turf/open/floor/mainship/red{
 	dir = 8
 	},
@@ -10485,23 +11061,20 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/command/telecomms)
 "Hh" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/layer1{
-	dir = 1;
-	on = 1
-	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/item/ammo_casing/bullet{
-	pixel_x = 10;
-	pixel_y = 4
+	pixel_x = 4;
+	pixel_y = 8
 	},
 /turf/open/floor/mainship/orange{
 	dir = 8
 	},
 /area/mainship/living/briefing)
 "Hi" = (
-/obj/machinery/light{
-	dir = 4
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = 8
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/orange{
 	dir = 4
 	},
@@ -10517,17 +11090,19 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/engineering/port_atmos)
 "Hk" = (
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -7
+	},
 /turf/open/floor/mainship/orange{
 	dir = 8
 	},
 /area/mainship/living/briefing)
 "Hm" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/ammo_casing/bullet{
-	pixel_x = 9;
-	pixel_y = 5
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = -5;
+	pixel_y = -6
 	},
 /turf/open/floor/mainship/purple{
 	dir = 8
@@ -10537,10 +11112,7 @@
 /turf/closed/wall/mainship,
 /area/mainship/living/port_garden)
 "Ho" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 1
-	},
-/obj/effect/ai_node,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mainship/purple{
 	dir = 4
 	},
@@ -10584,6 +11156,14 @@
 	dir = 1
 	},
 /area/mainship/squads/general)
+<<<<<<< HEAD
+=======
+"Hw" = (
+/turf/open/floor/mainship/terragov/north{
+	dir = 9
+	},
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "Hx" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
@@ -10709,15 +11289,13 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/chemistry)
 "HU" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 1
-	},
+/obj/machinery/computer/camera_advanced/remote_fob,
 /turf/open/floor/mainship/red{
 	dir = 8
 	},
 /area/mainship/living/briefing)
 "HV" = (
-/obj/machinery/vending/weapon,
+/obj/machinery/vending/armor_supply,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "HW" = (
@@ -10863,6 +11441,18 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+<<<<<<< HEAD
+=======
+"Ip" = (
+/obj/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 1
+	},
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "Iq" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/med_data/laptop,
@@ -10999,7 +11589,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/effect/ai_node,
 /obj/machinery/camera/autoname/mainship{
 	dir = 8
 	},
@@ -11112,10 +11701,6 @@
 	},
 /turf/open/floor/carpet,
 /area/mainship/living/bridgebunks)
-"Jk" = (
-/obj/machinery/vending/engivend,
-/turf/open/floor/mainship/mono,
-/area/mainship/living/briefing)
 "Jl" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1,
 /obj/structure/disposalpipe/segment,
@@ -11200,7 +11785,6 @@
 /obj/structure/disposalpipe/segment/corner{
 	dir = 4
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/red{
 	dir = 8
 	},
@@ -11215,7 +11799,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/ai_node,
 /turf/open/floor/mainship/orange{
 	dir = 4
 	},
@@ -11232,7 +11815,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/effect/ai_node,
 /turf/open/floor/mainship/blue{
 	dir = 4
 	},
@@ -11423,7 +12005,12 @@
 	icon_state = "carpetside"
 	},
 /area/mainship/living/bridgebunks)
+"Kd" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/command/cic)
 "Ke" = (
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
@@ -11436,6 +12023,21 @@
 	icon_state = "carpetside"
 	},
 /area/mainship/living/bridgebunks)
+=======
+/obj/docking_port/stationary/marine_dropship/crash_target,
+/turf/closed/wall/mainship,
+/area/mainship/living/commandbunks)
+"Kf" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 9
+	},
+/obj/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "Kg" = (
 /obj/machinery/door/poddoor/shutters/mainship/cic/armory{
 	dir = 2
@@ -11469,6 +12071,7 @@
 /obj/machinery/door/airlock/mainship/maint{
 	name = "\improper Core Hatch"
 	},
+/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/medical/chemistry)
 "Kl" = (
@@ -11479,9 +12082,12 @@
 	},
 /area/mainship/medical/chemistry)
 "Km" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
 /obj/effect/ai_node,
-/turf/open/floor/mainship/sterile/dark,
-/area/mainship/medical/chemistry)
+/turf/open/floor/mainship/orange/full,
+/area/mainship/hallways/starboard_hallway)
 "Ko" = (
 /obj/machinery/computer/general_air_control/large_tank_control{
 	name = "Oxygen Supply Console";
@@ -11586,7 +12192,6 @@
 	},
 /area/mainship/living/briefing)
 "KI" = (
-/obj/docking_port/stationary/marine_dropship/crash_target,
 /turf/open/floor/mainship/blue{
 	dir = 10
 	},
@@ -11701,12 +12306,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
-"KY" = (
-/obj/effect/ai_node,
-/turf/open/floor/mainship/red{
-	dir = 4
-	},
-/area/mainship/squads/general)
 "KZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -11721,11 +12320,9 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/bridgebunks)
 "Ld" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -2
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/living/briefing)
+/obj/structure/table/mainship,
+/turf/open/floor/mainship/floor,
+/area/mainship/hallways/starboard_hallway)
 "Le" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -11741,6 +12338,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/purple/side{
 	dir = 8
 	},
@@ -11819,6 +12417,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
+/obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/chemistry)
 "Lp" = (
@@ -11939,15 +12538,6 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/engineering/port_atmos)
-"LH" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/turf/open/floor/mainship/orange{
-	dir = 1
-	},
-/area/mainship/living/briefing)
 "LK" = (
 /obj/machinery/bodyscanner{
 	dir = 8
@@ -12044,6 +12634,10 @@
 /turf/open/floor/wood,
 /area/mainship/living/bridgebunks)
 "Mb" = (
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = 8
+	},
 /turf/open/floor/mainship/purple{
 	dir = 4
 	},
@@ -12056,9 +12650,10 @@
 	},
 /area/mainship/medical/chemistry)
 "Me" = (
-/obj/structure/closet/toolcloset,
-/turf/open/floor/mainship/mono,
-/area/mainship/hallways/hangar)
+/obj/structure/table/mainship,
+/obj/item/megaphone,
+/turf/open/floor/mainship/floor,
+/area/mainship/hallways/starboard_hallway)
 "Mf" = (
 /obj/machinery/light,
 /obj/structure/table/mainship,
@@ -12142,22 +12737,21 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/effect/ai_node,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hallways/starboard_hallway)
-"Mq" = (
-/obj/structure/cable,
+=======
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
+"Mq" = (
+/obj/structure/bed/chair{
+	dir = 1
 	},
 /obj/effect/ai_node,
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/mainship/purple/full,
 /area/mainship/hallways/starboard_hallway)
 "Mr" = (
 /obj/structure/cable,
@@ -12244,6 +12838,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
+/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/living/grunt_rnr)
 "MA" = (
@@ -12315,6 +12910,14 @@
 "MO" = (
 /turf/open/floor/mainship/tcomms,
 /area/mainship/shipboard/weapon_room)
+<<<<<<< HEAD
+=======
+"MP" = (
+/turf/open/floor/mainship/terragov/north{
+	dir = 1
+	},
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "MQ" = (
 /obj/machinery/alarm,
 /turf/open/floor/mainship/floor,
@@ -12434,8 +13037,9 @@
 /turf/closed/wall/mainship/outer,
 /area/mainship/hull/port_hull)
 "Np" = (
+/obj/machinery/camera/autoname/mainship,
 /turf/open/floor/mainship/red{
-	dir = 8
+	dir = 9
 	},
 /area/mainship/living/briefing)
 "Nq" = (
@@ -12443,10 +13047,12 @@
 /area/mainship/shipboard/weapon_room)
 "Nr" = (
 /obj/item/ammo_casing/bullet{
-	pixel_x = 6;
-	pixel_y = -7
+	pixel_x = 5;
+	pixel_y = 6
 	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/mainship/orange{
+	dir = 1
+	},
 /area/mainship/living/briefing)
 "Ns" = (
 /turf/open/floor/mainship/floor,
@@ -12505,13 +13111,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "NB" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -7;
-	pixel_y = 5
-	},
-/turf/open/floor/mainship/purple{
-	dir = 1
-	},
+/turf/open/floor/mainship/black,
 /area/mainship/living/briefing)
 "NC" = (
 /obj/structure/closet/firecloset,
@@ -12746,11 +13346,10 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "Of" = (
-/obj/effect/ai_node,
-/turf/open/floor/mainship/blue{
-	dir = 4
+/turf/open/floor/mainship/terragov/north{
+	dir = 5
 	},
-/area/mainship/living/briefing)
+/area/mainship/hallways/starboard_hallway)
 "Og" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/junction,
@@ -13188,6 +13787,15 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/port_hallway)
+<<<<<<< HEAD
+=======
+"Px" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/open/floor/mainship/blue/full,
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "Py" = (
 /obj/structure/dropship_equipment/operatingtable,
 /turf/open/floor/mainship/cargo,
@@ -13329,6 +13937,13 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/engineering/engineering_workshop)
+<<<<<<< HEAD
+=======
+"PV" = (
+/obj/machinery/light,
+/turf/open/floor/mainship/mono,
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "PW" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -13418,6 +14033,12 @@
 	},
 /turf/open/floor/mainship/ai,
 /area/mainship/command/airoom)
+"Qj" = (
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/mainship/living/pilotbunks)
 "Qk" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -13581,7 +14202,7 @@
 "QJ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/mainship/orange{
-	dir = 8
+	dir = 9
 	},
 /area/mainship/living/briefing)
 "QK" = (
@@ -13747,12 +14368,10 @@
 /turf/open/floor/plating/mainship,
 /area/mainship/shipboard/weapon_room)
 "Rm" = (
-/obj/structure/rack,
-/obj/item/tool/screwdriver,
-/obj/item/tool/crowbar/red,
 /obj/effect/decal/warning_stripes/thick{
-	dir = 8
+	dir = 4
 	},
+/obj/structure/closet/toolcloset,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "Rn" = (
@@ -13810,6 +14429,16 @@
 	dir = 8
 	},
 /area/mainship/command/cic)
+"Ry" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/hangar)
 "Rz" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
@@ -13984,10 +14613,6 @@
 	},
 /area/mainship/living/port_garden)
 "Sg" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -3;
-	pixel_y = 7
-	},
 /turf/open/floor/mainship/red{
 	dir = 4
 	},
@@ -14087,6 +14712,9 @@
 /obj/structure/prop/mainship/sensor_computer1,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/weapon_room)
+"Sy" = (
+/turf/open/floor/mainship/terragov/north,
+/area/mainship/hallways/starboard_hallway)
 "Sz" = (
 /obj/structure/prop/mainship/sensor_computer2,
 /turf/open/floor/mainship/mono,
@@ -14423,6 +15051,15 @@
 	dir = 1
 	},
 /area/mainship/hallways/hangar)
+"Tt" = (
+/obj/item/ammo_casing/bullet{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/mainship/living/briefing)
 "Tv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -14668,12 +15305,10 @@
 	},
 /area/mainship/shipboard/weapon_room)
 "Uh" = (
-/obj/structure/rack,
-/obj/item/tool/wrench,
-/obj/item/tool/extinguisher/mini,
 /obj/effect/decal/warning_stripes/thick{
-	dir = 4
+	dir = 8
 	},
+/obj/structure/closet/bombcloset,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "Ui" = (
@@ -14739,6 +15374,15 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/port_hallway)
+"Us" = (
+/obj/item/ammo_casing/bullet{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/turf/open/floor/mainship/purple{
+	dir = 1
+	},
+/area/mainship/living/briefing)
 "Ut" = (
 /obj/machinery/light{
 	dir = 8
@@ -14762,11 +15406,21 @@
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/telecomms)
 "Uy" = (
+/obj/structure/rack,
+/obj/item/tool/wrench,
+/obj/item/tool/extinguisher/mini,
 /obj/effect/decal/warning_stripes/thick{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
+"Uz" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/command/self_destruct)
 "UA" = (
 /obj/machinery/telecomms/processor/preset_four,
 /turf/open/floor/mainship/tcomms,
@@ -14972,7 +15626,6 @@
 	on = 1
 	},
 /obj/machinery/light,
-/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/cic)
 "Vd" = (
@@ -14996,7 +15649,6 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/command/telecomms)
 "Vg" = (
-/obj/effect/ai_node,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
 	},
@@ -15004,6 +15656,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "Vh" = (
@@ -15058,9 +15711,9 @@
 /turf/closed/wall/mainship,
 /area/mainship/hallways/hangar/droppod)
 "Vp" = (
-/obj/item/ammo_casing/bullet{
-	pixel_x = -7;
-	pixel_y = 5
+/obj/effect/decal/cleanable/blood/oil{
+	name = "grease";
+	pixel_x = 8
 	},
 /turf/open/floor/mainship/red{
 	dir = 4
@@ -15111,6 +15764,20 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/orange,
 /area/mainship/engineering/engineering_workshop)
+"VB" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hallways/starboard_hallway)
 "VC" = (
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
@@ -15196,7 +15863,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar/droppod)
 "VQ" = (
@@ -15665,19 +16331,13 @@
 /turf/open/floor/plating,
 /area/mainship/command/self_destruct)
 "Xw" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
-/area/mainship/hallways/hangar)
+/area/mainship/hallways/starboard_hallway)
 "Xx" = (
 /obj/machinery/atmospherics/components/unary/tank/carbon_dioxide{
 	name = "Chemical Tank"
@@ -15707,6 +16367,14 @@
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/engineering/port_atmos)
+<<<<<<< HEAD
+=======
+"XD" = (
+/turf/open/floor/mainship/terragov/north{
+	dir = 8
+	},
+/area/mainship/hallways/starboard_hallway)
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 "XE" = (
 /turf/open/floor/mainship_hull,
 /area/space)
@@ -15734,9 +16402,8 @@
 /turf/open/floor/engine,
 /area/mainship/engineering/port_atmos)
 "XL" = (
-/obj/effect/decal/cleanable/blood/oil{
-	name = "grease";
-	pixel_x = 8
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
 	},
 /turf/open/floor/mainship/purple{
 	dir = 4
@@ -16072,6 +16739,14 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/engineering/engine_core)
+"YM" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mainship/blue{
+	dir = 1
+	},
+/area/mainship/living/briefing)
 "YN" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -16252,6 +16927,10 @@
 /obj/machinery/door/poddoor/shutters/mainship/selfdestruct,
 /turf/closed/wall/mainship,
 /area/mainship/command/self_destruct)
+"Zw" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/port_hull)
 "Zx" = (
 /turf/open/floor/mainship/mono,
 /area/mainship/command/self_destruct)
@@ -16268,6 +16947,13 @@
 /obj/structure/largecrate/supply/supplies/mre,
 /turf/open/floor/mainship/cargo,
 /area/mainship/command/self_destruct)
+"ZA" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/engineering/port_atmos)
 "ZB" = (
 /turf/open/floor/mainship/floor,
 /area/mainship/command/self_destruct)
@@ -16291,7 +16977,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable,
-/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/engineering/port_atmos)
 "ZF" = (
@@ -16314,7 +16999,6 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/engineering/port_atmos)
 "ZJ" = (
-/obj/effect/ai_node,
 /turf/open/floor/mainship/black{
 	dir = 4
 	},
@@ -16332,6 +17016,14 @@
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/mainship/mono,
 /area/mainship/engineering/engineering_workshop)
+"ZN" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mainship/orange{
+	dir = 4
+	},
+/area/mainship/living/briefing)
 "ZO" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/mainship/mono,
@@ -16349,6 +17041,7 @@
 /area/mainship/living/port_garden)
 "ZS" = (
 /obj/structure/closet/radiation,
+/obj/structure/sign/poster,
 /turf/open/floor/mainship/mono,
 /area/mainship/engineering/engine_core)
 "ZT" = (
@@ -21220,11 +21913,11 @@ VS
 VS
 VS
 VS
-aW
+hT
 bv
 NA
 NA
-VC
+av
 bE
 bE
 bE
@@ -21254,20 +21947,20 @@ BR
 BR
 BR
 ty
-Ek
-Ek
-eS
-Ek
+Zw
 Ek
 eS
 Ek
+Ek
+eS
+Zw
 Ek
 Ek
 eS
 Ek
 fx
 hz
-iw
+us
 jk
 Wg
 Rw
@@ -21314,7 +22007,7 @@ XE
 VS
 Uy
 du
-dx
+dQ
 dQ
 eB
 av
@@ -21508,12 +22201,12 @@ ZK
 YB
 XE
 VS
-an
-af
-VC
+ez
+AR
+mR
 dS
-VC
-ax
+eC
+CH
 aX
 OS
 bO
@@ -21606,11 +22299,11 @@ ZK
 YB
 XE
 VS
-ez
-AR
-mR
-dT
-eC
+af
+an
+az
+dP
+cW
 aW
 aZ
 VC
@@ -21668,7 +22361,7 @@ UO
 UU
 Xp
 Ym
-Zq
+UU
 xo
 Zq
 UU
@@ -21706,9 +22399,9 @@ XE
 VS
 Rm
 ag
-dM
-ai
-Wt
+dV
+dV
+dx
 aA
 aZ
 VC
@@ -21735,7 +22428,7 @@ qJ
 qJ
 sE
 qM
-uX
+un
 vK
 wB
 xG
@@ -21802,11 +22495,11 @@ ZK
 YB
 XE
 VS
-Me
-VC
-VC
-VC
-VC
+ay
+AR
+mR
+aj
+eC
 aW
 ba
 NA
@@ -21900,11 +22593,11 @@ ZK
 YB
 XE
 VS
-Et
-VC
-VC
+ay
+AR
+mR
 aj
-VC
+eC
 aC
 bb
 bw
@@ -21947,7 +22640,7 @@ GU
 HQ
 Iu
 Jq
-Km
+Jt
 Tv
 Jq
 Mg
@@ -21999,10 +22692,10 @@ YB
 XE
 VS
 Uh
-du
-dx
 ao
-Wu
+dP
+dP
+dT
 aD
 aZ
 VC
@@ -22097,10 +22790,10 @@ YB
 XE
 VS
 aq
-AR
-mR
+ag
 dV
-eC
+dV
+VC
 aW
 aZ
 VC
@@ -22125,13 +22818,13 @@ oE
 kt
 qM
 rY
-rY
+oM
 rY
 uZ
 vN
 wF
 xK
-vN
+zF
 zF
 AK
 BX
@@ -22195,10 +22888,10 @@ YB
 XE
 VS
 aa
-af
-VC
-VC
-VC
+AR
+mR
+ct
+eC
 aI
 OS
 OS
@@ -22350,7 +23043,7 @@ jk
 Qx
 RL
 Tk
-UZ
+Kd
 Wg
 Xv
 Xv
@@ -22394,9 +23087,9 @@ bk
 Ta
 dP
 Pm
-dz
+ax
 ua
-aW
+hT
 OS
 bT
 Ss
@@ -22535,7 +23228,7 @@ Hd
 HQ
 IA
 Jv
-Jv
+rv
 Jv
 Jv
 Mm
@@ -22624,7 +23317,7 @@ kt
 kt
 zO
 AS
-Ce
+kt
 kt
 kt
 Fg
@@ -22791,20 +23484,20 @@ VD
 bg
 Bb
 bX
-fI
+Ry
 gn
 bw
 bw
 bw
 bw
+BK
 bw
 bw
 bw
-Al
 vo
 Or
-js
 je
+js
 js
 Fl
 js
@@ -22829,11 +23522,11 @@ Fl
 RK
 Go
 js
-js
-js
-js
-js
 je
+js
+js
+js
+js
 js
 Og
 js
@@ -22889,7 +23582,7 @@ VD
 ID
 Zm
 Jw
-cF
+il
 gV
 dw
 ey
@@ -22938,7 +23631,7 @@ ey
 ey
 ey
 gE
-PC
+Bi
 PC
 Bi
 PC
@@ -23041,8 +23734,8 @@ VC
 VC
 VC
 Zx
-Sr
 ye
+Sr
 ye
 JC
 YH
@@ -24020,8 +24713,8 @@ VC
 VC
 VC
 VC
-Zx
-Sr
+Uz
+ye
 ye
 ye
 JC
@@ -24113,13 +24806,13 @@ eA
 eA
 eA
 eA
-Xw
+iy
+Bi
 PC
 PC
 Bi
-PC
 ye
-Sr
+ye
 Zx
 wK
 tn
@@ -24169,13 +24862,13 @@ bw
 bw
 bw
 bw
-bw
-bw
-bw
 BK
 bw
 bw
 bw
+bw
+bw
+pK
 Bw
 bw
 bw
@@ -24183,24 +24876,24 @@ bw
 bw
 bw
 Ow
-Bw
+Al
 bw
 bw
 bw
 Vg
 bw
+BK
 bw
-Bw
+bw
+Ry
 bw
 bw
 bw
 BK
 bw
-bw
-bw
 Wp
 Wp
-BK
+bw
 bw
 bw
 bw
@@ -24261,7 +24954,7 @@ Hr
 bj
 QM
 bO
-aW
+hT
 VC
 dz
 dY
@@ -24273,11 +24966,12 @@ gW
 iF
 VC
 VC
-dz
-az
+pN
+VC
 VC
 iF
 dz
+<<<<<<< HEAD
 pI
 qS
 dz
@@ -24285,16 +24979,26 @@ sL
 VC
 VC
 dz
+=======
 VC
-iF
+VC
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
+VC
+VC
+VC
+VC
+VC
+VC
+VC
+VC
+VC
+VC
 VC
 aW
+VC
 Wv
-dz
 VC
 VC
-VC
-dz
 VC
 VC
 VC
@@ -24371,11 +25075,12 @@ SA
 SA
 ug
 ug
-SA
+rg
 lm
 SA
 SA
 SA
+<<<<<<< HEAD
 ug
 ug
 SA
@@ -24388,14 +25093,28 @@ SA
 cj
 Io
 AZ
+=======
+SA
+gZ
+gY
+WS
+WS
+WS
+WS
+xS
+xS
+zQ
+zQ
+Ot
+BG
+Dn
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Cg
-CZ
-Eu
 Np
 Gn
 He
 HU
-Np
+tt
 Jx
 Ky
 Cg
@@ -24468,12 +25187,13 @@ gq
 gX
 hP
 jH
-jx
+Ir
 Bk
-lo
-mr
+gY
+sO
 nz
 oI
+<<<<<<< HEAD
 pJ
 qT
 kv
@@ -24483,17 +25203,28 @@ gY
 vS
 wJ
 xR
+=======
+SA
+Et
+gY
+PV
+MI
+yI
+WS
+xS
+xS
+zQ
+zQ
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Ot
-Io
-Jo
+BG
+NB
 Cg
-Da
-Ci
 zD
-Gp
-Gt
-Gr
 Ci
+xb
+FI
+Gp
 UJ
 KA
 Cg
@@ -24563,32 +25294,32 @@ ea
 ea
 ea
 gt
-gY
+dZ
 hQ
 CW
-jx
+gY
 jz
-lo
-mu
 gY
 gY
 gY
+Bc
+SA
+Eu
 gY
-gY
-sN
-gY
-gY
-vT
-wL
+PV
+MI
+yI
+WS
 xS
+xS
+zQ
+zQ
 Ot
-Io
-Jo
+BG
+NB
 Lp
-Db
-Bp
 bm
-bm
+jd
 Sg
 fT
 Vp
@@ -24649,8 +25380,13 @@ Am
 Am
 Am
 Am
+<<<<<<< HEAD
 SP
 yT
+=======
+hR
+fu
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Vo
 cj
 Io
@@ -24661,11 +25397,12 @@ ea
 ea
 ea
 gt
+mF
 gY
-hR
-hS
-hS
+gY
+gY
 jA
+<<<<<<< HEAD
 lp
 mv
 mv
@@ -24674,22 +25411,32 @@ pK
 qV
 qV
 sO
+=======
+SA
+ug
+ug
+SA
+SA
+qV
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 gY
-gY
-vU
-wL
+WS
+WS
+WS
+WS
 xS
+xS
+zQ
+zQ
 Ot
-hE
-Jo
+BG
+NB
 Ci
-Fu
+hu
 Ci
-Ci
-Gq
 Gs
 HV
-Ci
+pt
 Jy
 Ci
 Ci
@@ -24770,6 +25517,7 @@ jC
 oM
 pL
 gY
+<<<<<<< HEAD
 sm
 qy
 uf
@@ -24778,8 +25526,27 @@ vV
 wL
 gY
 Ot
+=======
+gY
+gY
+sT
+SA
+jF
+Fp
+Bf
+Fp
+EN
+Fp
+qy
+yA
+yA
+yA
+xS
+xS
+Km
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 zQ
-Bc
+Ot
 Cj
 De
 GP
@@ -24858,7 +25625,11 @@ ea
 ea
 gt
 gY
+<<<<<<< HEAD
 hS
+=======
+lo
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 iK
 jD
 jD
@@ -24869,6 +25640,7 @@ oN
 pL
 qW
 gY
+<<<<<<< HEAD
 fQ
 SA
 ug
@@ -24881,11 +25653,33 @@ Jo
 Ci
 LH
 Ci
+=======
+sT
+yB
+qu
+vi
+vi
+vi
+vi
+vi
+sV
+vg
+Ld
+yA
+yA
+yA
+yA
+yA
+Ot
+BG
+NB
+aF
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Nr
-Gr
-Gt
-Gp
 Ci
+Gp
+FI
+xb
 Jy
 gG
 Ci
@@ -24956,6 +25750,7 @@ ea
 ea
 gt
 gY
+<<<<<<< HEAD
 hS
 iK
 jD
@@ -24973,16 +25768,35 @@ vg
 vW
 wN
 xT
+=======
+hZ
+iM
+gY
+sT
+vV
+Ip
+vi
+vi
+vi
+vi
+vi
+sP
+vg
+Ld
+yA
+Hw
+XD
+sk
+yA
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Ot
-Io
-Jo
+BG
+NB
 Cg
-Dg
-tI
 Bd
 jK
 Hi
-Bd
+ZN
 zI
 Jz
 KD
@@ -24998,7 +25812,7 @@ QL
 TA
 Vr
 Wx
-XC
+ZA
 Yy
 ZE
 XC
@@ -25053,6 +25867,7 @@ ea
 ea
 ea
 gt
+<<<<<<< HEAD
 gY
 hS
 iL
@@ -25071,17 +25886,37 @@ vh
 vX
 wO
 xT
+=======
+jC
+jx
+iL
+gY
+sT
+vV
+qu
+vi
+vi
+pT
+vi
+vi
+sV
+vg
+Me
+wb
+MP
+uc
+Sy
+yA
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Ot
-Io
-Jo
+jT
+NB
 Cl
-Jk
-Ci
 Fm
 oL
+sb
 Cg
-oL
-Ci
+sb
 Jy
 Ci
 Cl
@@ -25139,11 +25974,11 @@ TY
 TY
 TY
 TY
-SP
+hR
 bo
 by
 by
-Io
+iH
 Jo
 SA
 eb
@@ -25151,6 +25986,7 @@ ea
 ea
 ea
 gt
+<<<<<<< HEAD
 gY
 hS
 iK
@@ -25169,16 +26005,36 @@ vi
 wb
 wO
 xT
+=======
+jD
+lp
+lq
+gY
+sT
+vV
+Ip
+vi
+vi
+vi
+vi
+vi
+sP
+vg
+Ld
+yA
+Of
+Eo
+jO
+yA
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Ot
-Io
-Jo
+BG
+NB
 Cg
-Di
+sK
 SN
-SN
-hZ
 Hm
-SN
+Dz
 SN
 OT
 KE
@@ -25250,6 +26106,7 @@ fk
 fB
 gt
 gY
+<<<<<<< HEAD
 hS
 iK
 jD
@@ -25271,12 +26128,35 @@ cj
 Io
 Jo
 Ci
+=======
+mr
+kC
+gY
+sT
+yB
+qu
+vi
+vi
+vi
+vi
+vi
+sV
+vg
+Ld
+yA
+yA
+yA
+yA
+yA
+Ot
+BG
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 NB
 dJ
-Ci
+Us
 Gr
 Gp
-Gt
+xb
 FI
 Ba
 rV
@@ -25290,9 +26170,15 @@ PM
 QQ
 Sb
 TC
+<<<<<<< HEAD
 Vu
 Wy
 XG
+=======
+Oy
+Wz
+xU
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 XG
 ZJ
 EU
@@ -25348,6 +26234,7 @@ SA
 SA
 SA
 gZ
+<<<<<<< HEAD
 hS
 iM
 jF
@@ -25366,8 +26253,28 @@ gY
 gY
 xU
 WS
+=======
+gY
+gY
+gY
+sL
+SA
+AH
+uf
+wQ
+uf
+FY
+uf
+Kf
+yA
+yA
+yA
+Px
+Px
+Mq
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 zR
-Bf
+Ot
 Cm
 Dk
 Ev
@@ -25380,7 +26287,7 @@ aG
 KG
 Ci
 Ot
-Mq
+VB
 Jo
 NH
 OH
@@ -25445,6 +26352,7 @@ eF
 fl
 fO
 gw
+<<<<<<< HEAD
 fO
 hT
 iN
@@ -25470,10 +26378,37 @@ Ci
 Ci
 Ci
 Ci
+=======
+iG
+iN
+iN
+mA
+vf
+SA
+ug
+ug
+SA
+SA
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Gq
+gY
+WS
+WS
+WS
+WS
+Px
+Px
+zR
+zR
+Ot
+BG
+NB
+Ci
+Ci
+Ci
 Gs
 HV
-Ci
+pt
 Jy
 Ci
 Ci
@@ -25531,8 +26466,13 @@ Am
 Am
 Am
 Am
+<<<<<<< HEAD
 SP
 uI
+=======
+hR
+fu
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Vo
 cj
 Io
@@ -25546,7 +26486,11 @@ ug
 gY
 gY
 gY
+nJ
+sM
+ue
 gY
+<<<<<<< HEAD
 gY
 gY
 my
@@ -25564,9 +26508,25 @@ SA
 cj
 zU
 Jo
+=======
+AZ
+ts
+DF
+gY
+gY
+PV
+MI
+yI
+WS
+Px
+Px
+zR
+zR
+Ot
+BG
+NB
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Cn
-Dl
-kp
 kp
 ou
 aR
@@ -25645,9 +26605,10 @@ hc
 hU
 iO
 gY
-fQ
+gY
 lv
 my
+<<<<<<< HEAD
 iO
 oQ
 pU
@@ -25662,14 +26623,30 @@ SA
 yC
 zU
 Jo
+=======
+qw
+vY
+Do
+gY
+gY
+PV
+MI
+yI
+WS
+Px
+Px
+zR
+zR
+Ot
+BG
+NB
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Cg
-Dm
-Ld
-Ci
+YM
 Gt
+FI
+xb
 Gp
-Gr
-Gg
 JA
 KJ
 Cg
@@ -25743,7 +26720,11 @@ SA
 SA
 SA
 ug
+gY
+vS
+SA
 ug
+<<<<<<< HEAD
 SA
 mz
 SA
@@ -25761,13 +26742,29 @@ cj
 zU
 AZ
 Cg
+=======
+vY
+Do
+gY
+gY
+WS
+WS
+WS
+WS
+Px
+Px
+zR
+zR
+Ot
+BG
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 Dn
-Of
+Cg
 cG
 cu
 cu
-kC
 cu
+Tt
 JB
 KL
 Cg
@@ -25788,7 +26785,7 @@ ZM
 Wz
 QI
 Ha
-oK
+RH
 XH
 XE
 XE
@@ -25839,27 +26836,36 @@ jM
 jM
 eg
 jM
-dC
 jM
 jM
-eg
-mA
+jM
+vT
+jM
 jM
 jM
 pV
 eg
 jM
 jM
+<<<<<<< HEAD
 WS
 WS
 WS
 eg
 dC
+=======
+jM
+jM
+jM
+jM
+jM
+jM
+jM
+jM
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 rL
 zU
 dU
-eg
-jM
 jM
 jM
 jM
@@ -25886,7 +26892,7 @@ ZO
 Wz
 Ln
 Ha
-RH
+oK
 XH
 XE
 hr
@@ -25939,9 +26945,10 @@ En
 En
 En
 En
-En
-En
+tI
+vU
 mB
+<<<<<<< HEAD
 En
 En
 En
@@ -25954,13 +26961,27 @@ un
 wT
 En
 yE
+=======
+Bj
+Bp
+Bj
+Bj
+Bj
+Bp
+Bj
+Bj
+Bj
+wT
+Bj
+Xw
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 zV
+bR
+iJ
+Bp
 Bj
 Bj
-Do
-Bj
-Bj
-Bj
+Bp
 Bj
 Bj
 Bj
@@ -26022,7 +27043,7 @@ YB
 XE
 XE
 Hr
-ID
+bh
 gB
 aP
 cN
@@ -26323,31 +27344,36 @@ cs
 dn
 Hn
 ei
-eJ
+au
 wM
 fW
 oa
 he
 wM
-eJ
+Qj
 ei
 lw
 lz
-mF
+nB
 nB
 mE
 pX
 mE
 sr
+<<<<<<< HEAD
 sY
 us
+=======
+nP
+tc
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 AC
 sr
 tc
 tc
 yJ
 Pl
-KY
+Pl
 Pe
 Dt
 FN
@@ -26438,7 +27464,7 @@ pZ
 mE
 sr
 sZ
-tc
+mk
 sZ
 sr
 wU
@@ -26820,7 +27846,7 @@ gH
 WD
 hW
 hW
-jI
+ls
 lO
 lE
 mK
@@ -26837,7 +27863,7 @@ st
 st
 yM
 Af
-Bl
+Cr
 Cr
 DA
 Ex
@@ -27124,7 +28150,7 @@ mE
 mE
 sr
 te
-tc
+mk
 te
 sr
 wU
@@ -27221,15 +28247,20 @@ oU
 mE
 mE
 sr
+<<<<<<< HEAD
 sY
 us
+=======
+EQ
+tc
+>>>>>>> 6d3eb91d9c (Change Minerva's Req, CAS armament area, and add Briefing Area (#10003))
 tc
 sr
 wV
 tc
 yJ
 dI
-mk
+dI
 dI
 DD
 sn
@@ -28026,7 +29057,7 @@ IK
 IK
 IK
 IK
-MA
+IK
 MA
 NO
 Pn
