@@ -59,6 +59,10 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
+"ak" = (
+/obj/machinery/door/airlock/multi_tile/mainship/generic/noglass,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "an" = (
 /obj/structure/rack,
 /obj/item/tool/wrench,
@@ -135,6 +139,14 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
+"aB" = (
+/obj/effect/decal/siding{
+	dir = 5
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 5
+	},
+/area/space)
 "aC" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -712,6 +724,12 @@
 	},
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
+"ch" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "ci" = (
 /obj/machinery/camera/autoname/mainship,
 /obj/structure/closet/toolcloset,
@@ -983,6 +1001,9 @@
 /obj/machinery/faxmachine,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
+"dd" = (
+/turf/open/floor/mainship/mono,
+/area/mainship/living/evacuation)
 "de" = (
 /obj/effect/decal/warning_stripes/thin,
 /turf/open/floor/mainship/terragov/north{
@@ -1277,6 +1298,11 @@
 /obj/machinery/camera/autoname/mainship,
 /turf/open/floor/plating,
 /area/mainship/squads/req)
+"ed" = (
+/obj/structure/cable,
+/obj/structure/bed/chair/wood,
+/turf/open/floor/freezer,
+/area/mainship/living/cafeteria_starboard)
 "ee" = (
 /obj/structure/table/mainship,
 /obj/item/paper,
@@ -1510,10 +1536,6 @@
 /obj/machinery/autodoc,
 /turf/open/floor/mainship/sterile,
 /area/mainship/medical/lower_medical)
-"eV" = (
-/obj/structure/sign/custodian,
-/turf/closed/wall/mainship,
-/area/mainship/hull/starboard_hull)
 "eW" = (
 /obj/structure/table/woodentable,
 /obj/machinery/computer/skills,
@@ -1934,6 +1956,14 @@
 	},
 /turf/open/floor/plating,
 /area/mainship/living/evacuation)
+"gj" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 9
+	},
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "gk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -2279,6 +2309,10 @@
 "ho" = (
 /turf/closed/wall/mainship,
 /area/mainship/living/cryo_cells)
+"hp" = (
+/mob/living/simple_animal/corgi/ranger,
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cafeteria_starboard)
 "hq" = (
 /obj/structure/window/framed/mainship/requisitions,
 /turf/open/floor/plating,
@@ -2487,43 +2521,58 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
 "id" = (
-/turf/open/floor/mainship/blue{
-	dir = 8
-	},
-/area/mainship/living/cryo_cells)
-"ie" = (
+/obj/machinery/cryopod/right,
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cryo_cells)
-"if" = (
-/obj/machinery/computer/cryopod{
+"ie" = (
+/obj/machinery/light{
+	light_color = "#da2f1b"
+	},
+/turf/open/floor/mainship_hull,
+/area/mainship/powered)
+"ih" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
+"ij" = (
+/obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/mainship/blue{
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
+"ik" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 6
+	},
+<<<<<<< HEAD
+/area/space)
+=======
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
+"il" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/area/mainship/living/cryo_cells)
-"ig" = (
-/obj/machinery/cryopod/right,
-/obj/machinery/light{
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/floor,
+/area/mainship/hallways/hangar)
+"im" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 1
+	},
+/obj/machinery/camera/autoname/mainship{
+	dir = 1
 	},
 /turf/open/floor/mainship/mono,
-/area/mainship/living/cryo_cells)
-"ih" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 9
-	},
-/area/space)
-"ij" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 1
-	},
-/area/space)
-"ik" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 5
-	},
-/area/space)
+/area/mainship/living/evacuation)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "in" = (
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
@@ -2732,20 +2781,21 @@
 /turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
 "iW" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 8
+/obj/effect/decal/warning_stripes/thin{
+	dir = 10
 	},
-/area/space)
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "iY" = (
-/turf/open/floor/mainship/terragov{
-	dir = 1
-	},
-/area/space)
+/obj/effect/decal/warning_stripes/thin,
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "iZ" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 4
-	},
-/area/space)
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/mainship/cargo/arrow,
+/area/mainship/living/cryo_cells)
 "jc" = (
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
 	dir = 1
@@ -3006,18 +3056,22 @@
 	},
 /area/mainship/living/cryo_cells)
 "jX" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 10
+/obj/effect/decal/warning_stripes/thin{
+	dir = 8
 	},
-/area/space)
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "jY" = (
-/turf/open/floor/mainship/terragov/north,
-/area/space)
-"jZ" = (
-/turf/open/floor/mainship/terragov/north{
-	dir = 6
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
 	},
-/area/space)
+/area/mainship/living/cryo_cells)
+"jZ" = (
+/obj/effect/decal/warning_stripes/thin,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "ka" = (
 /obj/structure/prop/mainship/name_stencil,
 /turf/open/floor/mainship_hull,
@@ -3049,6 +3103,10 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/living/evacuation)
+"kf" = (
+/obj/effect/decal/siding,
+/turf/open/floor/mainship/terragov/north,
+/area/space)
 "ki" = (
 /turf/open/floor/mainship/silver{
 	dir = 8
@@ -3131,18 +3189,14 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/cryo_cells)
 "kA" = (
-/turf/open/floor/mainship/blue{
-	dir = 4
-	},
-/area/mainship/living/cryo_cells)
-"kB" = (
 /obj/machinery/cryopod/right,
-/obj/machinery/camera/autoname/mainship{
-	dir = 8
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/living/cryo_cells)
 "kC" = (
+<<<<<<< HEAD
 /obj/item/ammo_casing/bullet{
 	pixel_x = 5;
 	pixel_y = 5
@@ -3160,6 +3214,11 @@
 	},
 /turf/closed/wall/mainship/outer,
 /area/mainship/shipboard/starboard_missiles)
+=======
+/obj/machinery/vending/weapon,
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "kI" = (
 /turf/open/floor/mainship_hull/dir{
 	dir = 10
@@ -3533,15 +3592,6 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/command/self_destruct)
-"lR" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/shipboard/starboard_missiles)
-"lS" = (
-/turf/open/floor/mainship/mono,
-/area/mainship/shipboard/starboard_missiles)
 "lV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -3654,9 +3704,6 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
-"mq" = (
-/turf/closed/wall/mainship,
-/area/mainship/shipboard/starboard_missiles)
 "mr" = (
 /obj/vehicle/ridden/powerloader,
 /turf/open/floor/mainship/cargo,
@@ -3831,7 +3878,9 @@
 "mO" = (
 /obj/structure/cable,
 /obj/effect/landmark/start/job/squadcorpsman,
-/turf/open/floor/mainship/floor,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
 /area/mainship/living/cryo_cells)
 "mP" = (
 /obj/structure/cable,
@@ -3866,6 +3915,14 @@
 	icon_state = "TGMC2"
 	},
 /turf/open/floor/mainship_hull,
+/area/space)
+"mX" = (
+/obj/effect/decal/siding{
+	dir = 1
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 1
+	},
 /area/space)
 "mY" = (
 /obj/structure/cable,
@@ -4074,22 +4131,24 @@
 	},
 /area/mainship/living/cryo_cells)
 "nL" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 4
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
 	},
-/obj/effect/landmark/start/job/squadcorpsman,
-/obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
 	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
 "nM" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
 /turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
 "nN" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
@@ -4106,6 +4165,8 @@
 /turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
 "nQ" = (
+=======
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	dir = 8;
 	on = 1
@@ -4116,40 +4177,32 @@
 	dir = 8
 	},
 /area/mainship/living/cryo_cells)
-"nR" = (
+"nO" = (
 /obj/effect/landmark/start/job/squadengineer,
-/turf/open/floor/mainship/floor,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
 /area/mainship/living/cryo_cells)
-"nS" = (
-/obj/structure/prop/mainship/missile_tube,
-/obj/structure/window/reinforced/toughened{
+"nP" = (
+/obj/structure/sign/poster{
 	dir = 1
 	},
-/turf/open/floor/mainship/mono,
-/area/mainship/shipboard/starboard_missiles)
-"nT" = (
-/obj/structure/prop/mainship/missile_tube,
-/obj/structure/prop/mainship/missile_tube,
-/obj/structure/window/reinforced/toughened{
-	dir = 8;
-	pixel_x = -4
-	},
-/obj/structure/window/reinforced/toughened{
-	dir = 1
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/general)
+"nQ" = (
+/obj/effect/decal/warning_stripes/thin,
+/obj/effect/decal/warning_stripes/thin{
+	dir = 4
 	},
 /turf/open/floor/mainship/mono,
-/area/mainship/shipboard/starboard_missiles)
-"nU" = (
-/obj/structure/prop/mainship/missile_tube,
-/obj/structure/window/reinforced/toughened{
-	dir = 8;
-	pixel_x = -4
+/area/mainship/hull/starboard_hull)
+"nR" = (
+/obj/docking_port/stationary/ert/target{
+	id = "starboard_target";
+	name = "Starboard"
 	},
-/obj/structure/window/reinforced/toughened{
-	dir = 1
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/shipboard/starboard_missiles)
+/turf/open/floor/plating/mainship,
+/area/mainship/hull/starboard_hull)
 "nX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mainship/purple{
@@ -4456,6 +4509,7 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
 "oM" = (
+<<<<<<< HEAD
 /obj/effect/decal/warning_stripes/thin{
 	dir = 5
 	},
@@ -4494,6 +4548,21 @@
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/dark,
+/area/mainship/medical/lower_medical)
+"oQ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/starboard_hull)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "oR" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
@@ -4532,24 +4601,12 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/port_hull)
 "oW" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/mainship/floor,
-/area/mainship/living/cryo_cells)
-"oX" = (
-/obj/machinery/light{
+/obj/effect/decal/warning_stripes/thin,
+/obj/effect/decal/warning_stripes/thin{
 	dir = 8
 	},
-/turf/open/floor/mainship/red{
-	dir = 8
-	},
-/area/mainship/shipboard/starboard_missiles)
-"oY" = (
-/turf/open/floor/mainship/red{
-	dir = 4
-	},
-/area/mainship/shipboard/starboard_missiles)
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "oZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 9
@@ -4561,10 +4618,6 @@
 /obj/machinery/light,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/engineering/port_atmos)
-"pa" = (
-/obj/structure/window/framed/mainship/hull,
-/turf/open/floor/plating,
-/area/mainship/shipboard/starboard_missiles)
 "pb" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /turf/open/floor/mainship/sterile/corner,
@@ -4921,28 +4974,6 @@
 /obj/item/healthanalyzer,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/firing_range)
-"qi" = (
-/turf/open/floor/mainship/red{
-	dir = 1
-	},
-/area/mainship/shipboard/starboard_missiles)
-"qj" = (
-/turf/open/floor/mainship/red/corner{
-	dir = 1
-	},
-/area/mainship/shipboard/starboard_missiles)
-"qk" = (
-/obj/structure/rack,
-/obj/item/tool/crowbar/red,
-/turf/open/floor/mainship/mono,
-/area/mainship/shipboard/starboard_missiles)
-"ql" = (
-/obj/structure/table/mainship,
-/obj/machinery/prop/mainship/computer,
-/turf/open/floor/mainship/red{
-	dir = 4
-	},
-/area/mainship/shipboard/starboard_missiles)
 "qm" = (
 /obj/structure/sign/prop1{
 	name = "Smartgunner Preparations"
@@ -5113,6 +5144,7 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+<<<<<<< HEAD
 "qY" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -5124,6 +5156,12 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "rb" = (
+=======
+"rg" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
 	},
@@ -5159,6 +5197,14 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+"rh" = (
+/obj/effect/decal/siding{
+	dir = 10
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 10
+	},
+/area/space)
 "rk" = (
 /obj/structure/table/mainship,
 /obj/item/weapon/gun/rifle/standard_carbine,
@@ -5212,21 +5258,20 @@
 /obj/structure/closet/toolcloset,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/firing_range)
-"rs" = (
-/obj/effect/landmark/start/job/squadsmartgunner,
-/turf/open/floor/mainship/floor,
-/area/mainship/living/cryo_cells)
 "ru" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/mainship/cargo/arrow,
+/obj/effect/landmark/start/job/squadleader,
+/obj/effect/landmark/start/latejoin,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
 /area/mainship/living/cryo_cells)
 "rw" = (
-/obj/effect/landmark/start/job/squadleader,
-/obj/effect/landmark/start/job/squadleader,
-/turf/open/floor/mainship/floor,
-/area/mainship/living/cryo_cells)
+/obj/effect/decal/warning_stripes/thin{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "rx" = (
 /obj/docking_port/stationary/marine_dropship/hangar/one,
 /obj/docking_port/stationary/marine_dropship/crash_target,
@@ -5241,17 +5286,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
-"rz" = (
-/turf/open/floor/mainship/red,
-/area/mainship/shipboard/starboard_missiles)
-"rA" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/turf/open/floor/mainship/red{
-	dir = 6
-	},
-/area/mainship/shipboard/starboard_missiles)
 "rC" = (
 /obj/structure/closet/emcloset,
 /obj/item/clothing/mask/gas,
@@ -5468,15 +5502,23 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar)
 "sm" = (
+<<<<<<< HEAD
 /obj/structure/bed/chair/office/dark,
 /obj/effect/landmark/start/job/shiptech,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/turf/open/floor/mainship/terragov{
+	dir = 1
+	},
+/area/space)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "sn" = (
 /turf/open/floor/mainship/blue{
 	dir = 8
 	},
 /area/mainship/squads/general)
+<<<<<<< HEAD
 "sp" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/mono,
@@ -5492,6 +5534,13 @@
 /obj/item/lightreplacer,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+"sq" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cafeteria_starboard)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "sr" = (
 /turf/closed/wall/mainship,
 /area/mainship/squads/general)
@@ -5510,12 +5559,6 @@
 	dir = 4
 	},
 /area/mainship/squads/general)
-"su" = (
-/obj/effect/landmark/start/job/squadsmartgunner,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 4
-	},
-/area/mainship/living/cryo_cells)
 "sv" = (
 /obj/machinery/light,
 /turf/open/floor/mainship/floor,
@@ -5523,14 +5566,13 @@
 "sw" = (
 /obj/effect/landmark/start/job/squadsmartgunner,
 /obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/floor,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
 /area/mainship/living/cryo_cells)
 "sx" = (
-/obj/effect/landmark/start/job/squadleader,
-/obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
-	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/mainship/mono,
 /area/mainship/living/cryo_cells)
 "sy" = (
 /obj/structure/table/woodentable,
@@ -5538,11 +5580,11 @@
 /turf/open/floor/wood,
 /area/mainship/medical/lounge)
 "sz" = (
-/obj/effect/landmark/start/job/squadleader,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
+/obj/machinery/door/airlock/multi_tile/mainship/generic/noglass{
+	dir = 1
 	},
-/area/mainship/living/cryo_cells)
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "sB" = (
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
@@ -5701,6 +5743,11 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+"sW" = (
+/obj/structure/table/mainship,
+/obj/item/pizzabox,
+/turf/open/floor/freezer,
+/area/mainship/living/cafeteria_starboard)
 "sX" = (
 /obj/machinery/marine_selector/clothes/smartgun,
 /turf/open/floor/mainship/floor,
@@ -5891,11 +5938,8 @@
 	},
 /area/mainship/living/briefing)
 "tJ" = (
-/obj/structure/cable,
-/obj/effect/landmark/start/job/squadcorpsman,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 4
-	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/mainship/floor,
 /area/mainship/living/cryo_cells)
 "tL" = (
 /obj/machinery/vending/dinnerware,
@@ -6064,9 +6108,15 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/general)
 "uu" = (
-/obj/effect/landmark/start/job/squadmarine,
-/turf/open/floor/mainship/floor,
-/area/mainship/living/cryo_cells)
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/starboard_hull)
 "uv" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -6388,6 +6438,7 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
 "vg" = (
+<<<<<<< HEAD
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
@@ -6397,6 +6448,19 @@
 /obj/item/reagent_containers/jerrycan,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+=======
+/obj/structure/bed/chair/comfy/black,
+/turf/open/floor/mainship/silver/full,
+/area/mainship/hallways/starboard_hallway)
+"vh" = (
+/obj/effect/decal/siding{
+	dir = 9
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 9
+	},
+/area/space)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "vi" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/mainship/mono,
@@ -6659,12 +6723,13 @@
 /turf/open/floor/plating,
 /area/mainship/living/evacuation)
 "wf" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 4
+	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/mob/living/simple_animal/corgi/ranger,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
-/area/mainship/living/cryo_cells)
+/area/mainship/hull/starboard_hull)
 "wh" = (
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 2
@@ -6898,6 +6963,7 @@
 /turf/closed/wall/mainship,
 /area/mainship/living/pilotbunks)
 "wN" = (
+<<<<<<< HEAD
 /obj/vehicle/ridden/motorbike{
 	dir = 4
 	},
@@ -6911,6 +6977,15 @@
 /obj/machinery/light,
 /turf/open/floor/mainship/orange,
 /area/mainship/squads/req)
+=======
+/obj/effect/decal/siding{
+	dir = 4
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 4
+	},
+/area/space)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "wQ" = (
 /obj/machinery/autolathe,
 /obj/machinery/light,
@@ -7004,28 +7079,35 @@
 	},
 /area/mainship/living/cafeteria_starboard)
 "xe" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/computer/cryopod{
+	dir = 1
+	},
 /turf/open/floor/mainship/black{
 	dir = 1
 	},
 /area/mainship/living/cafeteria_starboard)
 "xf" = (
-/obj/machinery/camera/autoname/mainship{
+/obj/effect/decal/warning_stripes/thin{
+	dir = 4
+	},
+/obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/mainship/black{
-	dir = 5
-	},
-/area/mainship/living/cafeteria_starboard)
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "xg" = (
 /turf/closed/wall/mainship,
 /area/mainship/living/cafeteria_starboard)
-"xi" = (
-/obj/machinery/door/airlock/mainship/generic/ert{
-	dir = 2
+"xh" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 1
 	},
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
+"xi" = (
+/obj/machinery/door/airlock/multi_tile/mainship/generic/noglass,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "xk" = (
@@ -7112,6 +7194,14 @@
 	dir = 1
 	},
 /area/mainship/medical/lounge)
+"xz" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "xA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
@@ -7306,25 +7396,29 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
 "ya" = (
-/obj/machinery/light{
+/obj/effect/decal/warning_stripes/thin{
 	dir = 8
 	},
-/turf/open/floor/mainship/black{
-	dir = 8
+/obj/machinery/light/small{
+	dir = 4
 	},
-/area/mainship/living/cafeteria_starboard)
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "yb" = (
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cafeteria_starboard)
 "yc" = (
-/turf/open/floor/mainship/black/corner,
-/area/mainship/living/cafeteria_starboard)
-"yd" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/mainship/black,
-/area/mainship/living/cafeteria_starboard)
+/obj/effect/landmark/start/job/squadcorpsman,
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cryo_cells)
+"yd" = (
+/obj/effect/landmark/start/job/squadengineer,
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cryo_cells)
 "ye" = (
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
@@ -7333,17 +7427,15 @@
 /turf/open/floor/mainship/black,
 /area/mainship/living/cafeteria_starboard)
 "yg" = (
-/obj/machinery/light{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/turf/open/floor/mainship/black{
-	dir = 6
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
-/area/mainship/living/cafeteria_starboard)
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/starboard_hull)
 "yh" = (
-/obj/machinery/door/airlock/mainship/maint{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -7360,7 +7452,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/obj/machinery/camera/autoname/mainship,
 /obj/effect/ai_node,
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
@@ -7386,6 +7477,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/camera/autoname/mainship,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "yl" = (
@@ -7431,8 +7523,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
 	},
+<<<<<<< HEAD
 /obj/machinery/camera/autoname/mainship,
 /obj/effect/ai_node,
+=======
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
@@ -7624,26 +7719,19 @@
 /area/mainship/living/cafeteria_starboard)
 "yQ" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
 	},
 /obj/effect/ai_node,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/visible,
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cafeteria_starboard)
 "yR" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/mainship/black{
-	dir = 4
-	},
+/turf/open/floor/mainship/black/corner,
 /area/mainship/living/cafeteria_starboard)
 "yS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -7671,12 +7759,10 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar/droppod)
 "yU" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 9
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
-/turf/open/floor/freezer,
+/turf/open/floor/mainship/black,
 /area/mainship/living/cafeteria_starboard)
 "yV" = (
 /obj/machinery/door/airlock/mainship/secure{
@@ -7686,41 +7772,33 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/command/self_destruct)
 "yW" = (
-/obj/structure/bed/chair/wood,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/freezer,
-/area/mainship/living/cafeteria_starboard)
-"yX" = (
-/obj/structure/bed/chair/wood,
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/freezer,
-/area/mainship/living/cafeteria_starboard)
-"yY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/open/floor/freezer,
+/turf/open/floor/mainship/black,
 /area/mainship/living/cafeteria_starboard)
+"yX" = (
+/obj/effect/landmark/start/job/squadleader,
+/obj/effect/landmark/start/job/squadleader,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
+	},
+/area/mainship/living/cryo_cells)
+"yY" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cryo_cells)
 "yZ" = (
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
 "za" = (
-/obj/structure/window/framed/mainship/requisitions,
-/turf/open/floor/mainship/mono,
-/area/mainship/living/cafeteria_starboard)
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cryo_cells)
 "zb" = (
 /obj/effect/decal/warning_stripes/thin{
 	dir = 6
-	},
-/obj/machinery/light{
-	dir = 8
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
@@ -8073,11 +8151,13 @@
 /turf/open/floor/mainship/cargo,
 /area/mainship/squads/general)
 "Aa" = (
-/obj/effect/landmark/start/job/squadengineer,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
+/obj/effect/decal/warning_stripes/thin{
+	dir = 4
 	},
-/area/mainship/living/cryo_cells)
+/obj/structure/cable,
+/obj/machinery/camera/autoname/mainship,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "Ab" = (
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
@@ -8120,8 +8200,8 @@
 /area/mainship/living/cafeteria_starboard)
 "Aj" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cafeteria_starboard)
 "Ak" = (
@@ -8161,8 +8241,7 @@
 	},
 /area/mainship/command/self_destruct)
 "Aq" = (
-/obj/structure/table/mainship,
-/obj/item/pizzabox,
+/obj/structure/bed/chair/wood,
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
 "Ar" = (
@@ -8189,6 +8268,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/structure/cable,
+/obj/machinery/camera/autoname/mainship,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "Av" = (
@@ -8599,18 +8679,12 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "BE" = (
-/obj/machinery/door/airlock/mainship/generic/ert{
-	name = "Shuttle Airlock"
+/obj/effect/landmark/start/latejoin,
+/obj/structure/sign/prop4,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/mainship/mono,
-/area/mainship/living/evacuation)
+/area/mainship/living/cryo_cells)
 "BF" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -8882,6 +8956,7 @@
 /area/mainship/squads/general)
 "Cu" = (
 /obj/machinery/holopad,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/black{
 	dir = 4
 	},
@@ -8895,6 +8970,7 @@
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 8
 	},
+/obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/cafeteria_starboard)
 "Cx" = (
@@ -9050,6 +9126,7 @@
 /obj/docking_port/stationary/marine_dropship/crash_target,
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
+<<<<<<< HEAD
 "CZ" = (
 /obj/machinery/camera/autoname/mainship,
 /turf/open/floor/mainship/red{
@@ -9069,6 +9146,15 @@
 	dir = 5
 	},
 /area/mainship/living/briefing)
+=======
+"Dc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mainship/black{
+	dir = 1
+	},
+/area/mainship/living/cafeteria_starboard)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "Dd" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -9222,6 +9308,22 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/squads/general)
+<<<<<<< HEAD
+=======
+"DE" = (
+/obj/effect/landmark/start/latejoin,
+/turf/open/floor/mainship/floor,
+/area/mainship/living/cryo_cells)
+"DF" = (
+/obj/machinery/line_nexter{
+	dir = 2
+	},
+/obj/machinery/camera/autoname/mainship{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/mainship/squads/req)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -9246,10 +9348,10 @@
 /area/mainship/living/cafeteria_starboard)
 "DK" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/disposalpipe/segment/corner,
 /obj/effect/ai_node,
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer1,
 /turf/open/floor/mainship/floor,
 /area/mainship/living/cafeteria_starboard)
 "DL" = (
@@ -9281,7 +9383,6 @@
 /obj/structure/cable,
 /obj/structure/cable,
 /obj/structure/cable,
-/obj/effect/ai_node,
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
 "DP" = (
@@ -9392,10 +9493,10 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/port_garden)
 "Ef" = (
-/obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
-	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mainship/mono,
 /area/mainship/living/cryo_cells)
 "Eg" = (
 /obj/structure/disposalpipe/segment{
@@ -9529,15 +9630,8 @@
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
 "EC" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/effect/ai_node,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hull/starboard_hull)
+/turf/open/floor/mainship/mono,
+/area/mainship/living/cryo_cells)
 "ED" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
@@ -9806,6 +9900,14 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
+"Fj" = (
+/obj/effect/decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 8
+	},
+/area/space)
 "Fk" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
@@ -10157,9 +10259,19 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lower_medical)
 "Gg" = (
+<<<<<<< HEAD
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/briefing)
+=======
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating/plating_catwalk,
+/area/mainship/hull/starboard_hull)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "Gh" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	dir = 2
@@ -10665,8 +10777,8 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
 "HL" = (
-/obj/machinery/door/airlock/mainship/generic/ert{
-	name = "Shuttle Airlock"
+/obj/machinery/door/airlock/multi_tile/mainship/generic/noglass{
+	dir = 1
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/living/evacuation)
@@ -11850,17 +11962,14 @@
 /turf/closed/wall/mainship/outer,
 /area/mainship/hull/port_hull)
 "Lt" = (
-/obj/machinery/door/airlock/mainship/maint{
-	dir = 8
+/obj/machinery/door/airlock/multi_tile/mainship/maint{
+	dir = 1
 	},
 /turf/open/floor/plating,
 /area/mainship/living/evacuation)
 "Lv" = (
 /obj/effect/decal/warning_stripes/thin{
 	dir = 5
-	},
-/obj/machinery/camera/autoname/mainship{
-	dir = 1
 	},
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
@@ -11972,10 +12081,6 @@
 	dir = 1
 	},
 /area/mainship/hallways/starboard_hallway)
-"LO" = (
-/obj/structure/janitorialcart,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hull/starboard_hull)
 "LQ" = (
 /obj/structure/sign/vacuum,
 /turf/closed/wall/mainship,
@@ -12394,9 +12499,20 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
 "Ni" = (
-/obj/effect/ai_node,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plating/plating_catwalk,
+<<<<<<< HEAD
 /area/mainship/hallways/starboard_hallway)
+=======
+/area/mainship/hull/starboard_hull)
+"Nj" = (
+/obj/effect/landmark/start/job/captain,
+/obj/structure/bed/fancy,
+/obj/item/bedsheet/captain,
+/turf/open/floor/wood,
+/area/mainship/living/commandbunks)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "Nk" = (
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 8
@@ -12422,6 +12538,7 @@
 /obj/effect/decal/warning_stripes/thick{
 	icon_state = "N-corner"
 	},
+/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
 "No" = (
@@ -13402,11 +13519,10 @@
 /turf/open/floor/mainship/ai,
 /area/mainship/command/airoom)
 "Qh" = (
-/obj/effect/landmark/start/job/squadsmartgunner,
-/obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 4
-	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mainship/cargo/arrow,
 /area/mainship/living/cryo_cells)
 "Qi" = (
 /obj/structure/cable,
@@ -14846,7 +14962,12 @@
 /area/mainship/command/cic)
 "UL" = (
 /obj/effect/landmark/start/job/squadcorpsman,
-/turf/open/floor/mainship/floor,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
 /area/mainship/living/cryo_cells)
 "UM" = (
 /obj/machinery/computer/camera_advanced/overwatch/bravo{
@@ -15089,8 +15210,18 @@
 /turf/open/floor/mainship/orange,
 /area/mainship/engineering/engineering_workshop)
 "Vu" = (
+<<<<<<< HEAD
 /turf/open/floor/mainship/orange,
 /area/mainship/engineering/engineering_workshop)
+=======
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mainship/black{
+	dir = 1
+	},
+/area/mainship/living/cafeteria_starboard)
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 "Vv" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mainship/orange,
@@ -15232,7 +15363,10 @@
 /area/mainship/medical/lower_medical)
 "VV" = (
 /obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/floor,
+/obj/structure/sign/prop4,
+/turf/open/floor/mainship/cargo/arrow{
+	dir = 4
+	},
 /area/mainship/living/cryo_cells)
 "VW" = (
 /obj/structure/cable,
@@ -15594,6 +15728,14 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/telecomms)
+"Xk" = (
+/obj/effect/decal/siding{
+	dir = 6
+	},
+/turf/open/floor/mainship/terragov/north{
+	dir = 6
+	},
+/area/space)
 "Xl" = (
 /obj/structure/window/framed/mainship/requisitions,
 /turf/open/floor/plating,
@@ -15722,10 +15864,13 @@
 /turf/closed/wall/mainship/outer,
 /area/mainship/engineering/port_atmos)
 "XI" = (
-/obj/effect/landmark/start/job/squadleader,
-/obj/effect/landmark/start/latejoin,
-/turf/open/floor/mainship/floor,
-/area/mainship/living/cryo_cells)
+/obj/effect/decal/warning_stripes/thin{
+	dir = 5
+	},
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "XJ" = (
 /turf/open/floor/engine,
 /area/mainship/engineering/port_atmos)
@@ -15807,15 +15952,6 @@
 	},
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/airoom)
-"XX" = (
-/obj/structure/rack,
-/obj/item/reagent_containers/glass/bucket/janibucket,
-/obj/item/tool/wet_sign,
-/obj/item/tool/wet_sign,
-/obj/item/tool/wet_sign,
-/obj/item/storage/bag/trash,
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/hull/starboard_hull)
 "XZ" = (
 /turf/open/floor/mainship/red/corner{
 	dir = 1
@@ -16256,11 +16392,8 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/command/self_destruct)
 "Zy" = (
-/obj/machinery/door/airlock/mainship/maint{
-	dir = 2
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/mainship/shipboard/starboard_missiles)
+/turf/open/floor/plating/mainship,
+/area/mainship/hull/starboard_hull)
 "Zz" = (
 /obj/machinery/light{
 	dir = 8
@@ -16301,11 +16434,9 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/engineering/port_atmos)
 "ZG" = (
-/obj/effect/landmark/start/job/squadmarine,
-/turf/open/floor/mainship/cargo/arrow{
-	dir = 8
-	},
-/area/mainship/living/cryo_cells)
+/obj/structure/cable,
+/turf/open/floor/mainship/mono,
+/area/mainship/hull/starboard_hull)
 "ZI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	dir = 8;
@@ -18604,7 +18735,7 @@ ht
 ht
 gN
 yh
-gN
+Lt
 gP
 gP
 gN
@@ -18616,7 +18747,7 @@ gP
 gP
 gP
 gN
-gN
+ht
 Lt
 LW
 MK
@@ -18705,7 +18836,7 @@ yi
 zb
 At
 At
-At
+FH
 At
 At
 FH
@@ -18713,8 +18844,8 @@ At
 At
 At
 At
-At
 FH
+At
 Lv
 LW
 ML
@@ -18813,7 +18944,7 @@ zf
 zf
 zf
 zf
-Lw
+im
 LW
 ML
 ML
@@ -19484,7 +19615,7 @@ tj
 uC
 vr
 hw
-gN
+dd
 yo
 zk
 Au
@@ -19586,12 +19717,12 @@ gN
 gN
 gN
 gN
-BE
+yj
+HL
 gN
 gN
 gN
-gN
-gN
+dd
 HL
 gN
 gN
@@ -19689,7 +19820,7 @@ kl
 kl
 tl
 kl
-kl
+vw
 vw
 kl
 tl
@@ -27513,14 +27644,14 @@ mN
 nK
 ib
 ia
-su
-su
+sw
+sw
 kz
 ia
 vn
 ho
 wX
-ya
+Yw
 yO
 Ai
 Tg
@@ -27598,20 +27729,20 @@ ZK
 YB
 XE
 XE
-XE
+ap
 Hr
-ID
+tX
 ho
 ib
-uu
-uu
+jW
+jW
 ib
 ib
 mO
 UL
 ib
 ib
-rs
+sw
 sw
 ib
 ib
@@ -27620,7 +27751,7 @@ ho
 wZ
 yb
 yP
-yb
+hp
 yb
 yb
 DI
@@ -27696,27 +27827,36 @@ ZK
 Gi
 XE
 XE
-ap
-Hr
-tX
-ho
+XE
+aO
+ID
+hq
 ib
-jW
-jW
-ib
-ib
-tJ
+iZ
+iU
+sx
+sx
+mP
 nL
-ib
-ib
+yc
+yc
 Qh
 Qh
+<<<<<<< HEAD
 ib
 ib
 vn
 ho
 wZ
 yb
+=======
+yY
+yY
+Qh
+Ef
+Dc
+sq
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 yQ
 Aj
 Aj
@@ -27796,25 +27936,25 @@ YB
 XE
 XE
 aO
-ID
+bh
 hq
 id
+iZ
 iU
-iU
-id
-id
+tJ
+tJ
 mP
 nM
-id
-id
+yd
+yd
 iU
 iU
-id
-id
+za
+za
 iU
-id
+EC
 xd
-yc
+yb
 yR
 Ak
 Ak
@@ -27893,28 +28033,28 @@ ZK
 YB
 XE
 XE
-aO
-bh
-hq
-ie
-iU
-iU
-ie
-ie
-mP
+Hr
+ID
+ho
+ib
+jY
+jY
+ib
+ib
+nO
 nN
-oW
-oW
+ib
+ib
 ru
 ru
-oW
-oW
-ru
-wf
+ib
+ib
+BE
+ho
 xe
-yd
+yb
 yU
-An
+yZ
 An
 An
 DM
@@ -27991,29 +28131,29 @@ ZK
 Gi
 XE
 XE
-aO
-ID
-hq
-if
-iU
-iU
+Hr
+tX
+ho
 kA
+jY
+jY
+ib
 kA
-iU
 nO
+nO
+ib
 kA
+yX
+ru
+ib
 kA
-iU
-iU
-kA
-kA
-iU
-kA
-xd
-yf
+DE
+ho
+Vu
+yb
 yW
 Aq
-Bo
+sW
 Cv
 Bq
 Bo
@@ -28090,8 +28230,9 @@ ZK
 YB
 ap
 Hr
-tX
+ID
 ho
+<<<<<<< HEAD
 ib
 ZG
 ZG
@@ -28106,11 +28247,27 @@ sx
 ib
 ib
 Ef
+=======
+>>>>>>> ef84e86079 (Add Minerva's starboard ERT shuttle landing zone (#10037))
 ho
-xd
-yf
-yX
-Ar
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+xg
+xg
+xg
+ed
 Bq
 Ar
 DO
@@ -28188,27 +28345,27 @@ ZK
 YB
 XE
 Hr
-ID
-ho
-ib
+gM
+Wh
+bA
+bA
+bA
 uu
-uu
-ib
-ib
-nR
-nR
-ib
-ib
-rw
-XI
-ib
-ib
-VV
-ho
-xd
-yf
-yY
-As
+bA
+bA
+bA
+Wh
+bA
+bA
+bA
+Wh
+bA
+mT
+Ni
+Gg
+oQ
+xg
+yZ
 Br
 As
 As
@@ -28286,26 +28443,26 @@ ZK
 Gi
 XE
 Hr
-ID
-ho
-ig
+Hr
+Hr
+Hr
+Hr
 ZG
+sz
+Hr
+Hr
+Hr
+Hr
 ZG
-kB
-ig
-Aa
-Aa
-ib
-ig
 sz
-sz
-kB
-ig
-Ef
-ho
-xf
+Hr
+Hr
+Hr
+Hr
+QM
+QM
 yg
-yZ
+xg
 yZ
 Bu
 yZ
@@ -28321,7 +28478,7 @@ KV
 IQ
 by
 MD
-Ni
+by
 NO
 Pp
 Qm
@@ -28383,28 +28540,28 @@ ZK
 ZK
 ZK
 YB
+XE
+XE
 Hr
-tX
-ho
-ho
-hq
-hq
-ho
-ho
-hq
-hq
-ho
-ho
-hq
-hq
-ho
-ho
-ho
-ho
+ih
+ik
+rw
+wf
+xf
+rw
+rw
+rw
+rw
+rw
+xf
+rw
+Aa
+rw
+XI
+ak
+yg
 xg
 xg
-za
-za
 xg
 Cw
 xg
@@ -28481,32 +28638,32 @@ ZK
 ZK
 ZK
 YB
+XE
+XE
 Hr
+ij
+jZ
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xh
+ch
 gM
 Wh
 bA
 bA
 bA
-Wh
-bA
 mT
-bA
 Wh
-bA
-bA
-bA
-Wh
-bA
-mT
-wh
-bA
-bA
-Wh
-bA
-bA
-bA
-bA
-EC
 bA
 bA
 bA
@@ -28515,7 +28672,7 @@ Wh
 JV
 KX
 bA
-EC
+Wh
 wh
 Nm
 bA
@@ -28579,24 +28736,24 @@ ZK
 ZK
 ZK
 Gi
+XE
+ie
 Hr
-Hr
-Hr
-Hr
-aO
-aO
-kE
-kE
-kE
-kE
-kE
-qi
-rz
-mq
-eV
-QM
-eM
-Hr
+ik
+nQ
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xh
 Hr
 aO
 aO
@@ -28679,23 +28836,23 @@ ZK
 ZK
 YB
 XE
-XE
-RC
-XE
-XE
-kH
-lR
-lS
-nS
-oX
-qj
-rz
-mq
-LO
-XX
-WD
+aO
+iY
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xh
 Hr
-RC
 XE
 XE
 XE
@@ -28777,23 +28934,23 @@ ZK
 ZK
 YB
 XE
-XE
-XE
-XE
-XE
-kH
-lS
-lS
-nT
-lS
-qk
-rz
+aO
+iY
+nR
 Zy
-WD
-qY
-WD
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xh
 Hr
-XE
 XE
 XE
 XE
@@ -28807,9 +28964,9 @@ HI
 aO
 XE
 XE
-XE
-XE
-XE
+vh
+Fj
+rh
 XE
 XE
 XE
@@ -28875,23 +29032,23 @@ ZK
 ZK
 YB
 XE
-XE
-XE
-XE
-XE
-kH
-lS
-lS
-nU
-oY
-ql
-rA
-kE
+aO
+iY
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xh
 Hr
-Hr
-Hr
-Hr
-XE
 XE
 XE
 XE
@@ -28905,9 +29062,9 @@ HJ
 Hr
 XE
 XE
-XE
-XE
-XE
+mX
+sm
+kf
 XE
 XE
 XE
@@ -28972,24 +29129,24 @@ ZK
 ZK
 ZK
 YB
-XE
-XE
-XE
-XE
-XE
-kE
-kE
-kE
-kE
-pa
-pa
-pa
-kE
-XE
-XE
-XE
-XE
-XE
+ie
+Hr
+iW
+oW
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xz
+Hr
 XE
 XE
 XE
@@ -29003,9 +29160,9 @@ Hr
 Hr
 XE
 XE
-XE
-XE
-XE
+aB
+wN
+Xk
 XE
 XE
 XE
@@ -29071,23 +29228,23 @@ ZK
 ZK
 Gi
 XE
-XE
-Zl
-Zl
-Zl
-XE
-XE
-XE
-RC
-XE
-XE
-XE
-RC
-XE
-XE
-XE
-XE
-XE
+Hr
+ij
+jZ
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+xh
+Hr
 XE
 XE
 XE
@@ -29169,23 +29326,23 @@ ZK
 ZK
 ZK
 YB
-hr
+Hr
 ih
 iW
 jX
-YB
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
+jX
+ya
+jX
+jX
+jX
+jX
+jX
+ya
+jX
+jX
+jX
+gj
+Hr
 XE
 XE
 XE
@@ -29267,23 +29424,23 @@ ZK
 ZK
 ZK
 YB
-hr
-ij
-iY
-jY
-YB
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
-XE
+Hr
+Hr
+Hr
+Hr
+Hr
+Hr
+aO
+aO
+aO
+Hr
+Hr
+Hr
+Hr
+Hr
+Hr
+Hr
+Hr
 XE
 XE
 XE
@@ -29365,16 +29522,16 @@ ZK
 ZK
 ZK
 YB
-hr
-ik
-iZ
-jZ
-YB
 XE
 XE
 XE
 XE
 XE
+RC
+XE
+XE
+XE
+RC
 XE
 XE
 XE
@@ -29464,9 +29621,9 @@ ZK
 ZK
 YB
 XE
-Wm
-Wm
-Wm
+XE
+XE
+XE
 XE
 XE
 Zl
