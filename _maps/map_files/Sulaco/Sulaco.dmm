@@ -12151,10 +12151,23 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/stripesquare,
 /area/sulaco/engineering/engine_monitoring)
+<<<<<<< HEAD
 "faO" = (
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/open/floor/plating/platebotc,
 /area/sulaco/maintenance/lower_maint)
+=======
+"faC" = (
+/obj/structure/cable,
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/obj/machinery/researchcomp,
+/turf/open/floor/prison/whitegreen/corner{
+	dir = 4
+	},
+/area/sulaco/medbay)
+>>>>>>> 702aee1660 (add two research consoles (#10047))
 "fbS" = (
 /obj/machinery/firealarm{
 	dir = 4
@@ -12229,7 +12242,14 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/machinery/firealarm,
+=======
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/power/apc/mainship,
+>>>>>>> 702aee1660 (add two research consoles (#10047))
 /turf/open/floor/prison/whitegreen/corner{
 	dir = 1
 	},
@@ -21479,9 +21499,25 @@
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/structure/window/framed/mainship/gray/toughened,
 /turf/open/floor/plating/platebotc,
 /area/sulaco/engineering/atmos)
+=======
+/obj/structure/cable,
+/obj/effect/decal/warning_stripes/thin{
+	dir = 1
+	},
+/turf/open/floor/prison/bright_clean,
+/area/sulaco/hangar/droppod)
+"uIX" = (
+/obj/structure/cable,
+/obj/machinery/researchcomp,
+/turf/open/floor/prison/whitegreen/corner{
+	dir = 8
+	},
+/area/sulaco/medbay)
+>>>>>>> 702aee1660 (add two research consoles (#10047))
 "uJg" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/prison,
