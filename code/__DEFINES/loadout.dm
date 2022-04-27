@@ -72,7 +72,13 @@ GLOBAL_LIST_INIT(engineer_gear_listed_products, list(
 		/obj/item/clothing/glasses/welding/superior = list(CAT_ENGSUP, "Superior welding goggles", 2, "black"),
 		/obj/item/armor_module/module/welding/superior = list(CAT_ENGSUP, "Superior welding module", 2, "black"),
 		/obj/item/tool/pickaxe/plasmacutter = list(CAT_ENGSUP, "Plasma cutter", 20, "black"),
+<<<<<<< HEAD
 		/obj/item/storage/box/minisentry = list(CAT_ENGSUP, "UA-580 point defense sentry kit", 50, "black"),
+=======
+		/obj/item/explosive/plastique = list(CAT_ENGSUP, "Plastique explosive", 2, "black"),
+		/obj/item/detpack = list(CAT_ENGSUP, "Detonation pack", 5, "black"),
+		/obj/item/storage/box/minisentry = list(CAT_ENGSUP, "ST-580 point defense sentry kit", 50, "black"),
+>>>>>>> 5a5c05efd5 (Change most guns nomenclature (#10055))
 		/obj/item/attachable/buildasentry = list(CAT_ENGSUP, "Build-A-Sentry Attachment", 30, "black"),
 		/obj/item/explosive/plastique = list(CAT_ENGSUP, "Plastique explosive", 2, "black"),
 		/obj/item/detpack = list(CAT_ENGSUP, "Detonation pack", 5, "black"),
@@ -135,7 +141,7 @@ GLOBAL_LIST_INIT(leader_gear_listed_products, list(
 		/obj/item/storage/pouch/explosive/razorburn = list(CAT_LEDSUP, "Pack of Razorburn grenades", 24, "orange"),
 		/obj/item/explosive/grenade/chem_grenade/razorburn_large = list(CAT_LEDSUP, "Razorburn canister", 21, "black"),
 		/obj/item/explosive/grenade/chem_grenade/razorburn_smol = list(CAT_LEDSUP, "Razorburn grenade", 6, "black"),
-		/obj/item/weapon/gun/flamer/big_flamer/marinestandard = list(CAT_LEDSUP, "TL-84 flamethrower", 12, "black"),
+		/obj/item/weapon/gun/flamer/big_flamer/marinestandard = list(CAT_LEDSUP, "FL-84 flamethrower", 12, "black"),
 		/obj/item/ammo_magazine/flamer_tank = list(CAT_LEDSUP, "Flamethrower tank", 4, "black"),
 		/obj/item/storage/backpack/marine/radiopack = list(CAT_LEDSUP, "Radio Pack", 15, "black"),
 		/obj/item/storage/firstaid/adv = list(CAT_LEDSUP, "Advanced firstaid kit", 10, "orange"),
