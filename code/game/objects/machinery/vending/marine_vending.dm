@@ -836,7 +836,7 @@
 			/obj/item/stack/medical/heal_pack/ointment = -1,
 			/obj/item/stack/medical/heal_pack/advanced/bruise_pack = 32,
 			/obj/item/stack/medical/heal_pack/advanced/burn_pack = 32,
-			/obj/item/stack/medical/splint = 16,
+			/obj/item/stack/medical/splint = -1,
 		),
 		"Misc" = list(
 			/obj/item/healthanalyzer = 12,
@@ -973,6 +973,7 @@
 
 	products = list(
 		/obj/structure/closet/crate/mortar_ammo/mortar_kit = 1,
+		/obj/structure/closet/crate/mortar_ammo/howitzer_kit = 1,
 		/obj/item/storage/box/sentry = 3,
 		/obj/item/storage/box/tl102 = 1,
 	)
@@ -1069,6 +1070,7 @@
 			/obj/item/armor_module/module/binoculars = -1,
 			/obj/item/armor_module/module/tyr_head = -1,
 			/obj/item/armor_module/module/antenna = -1,
+			/obj/item/armor_module/module/antenna/cat = -1,
 			/obj/item/armor_module/module/mimir_environment_protection/mark1 = -1,
 			/obj/item/armor_module/module/mimir_environment_protection/mimir_helmet/mark1 = -1,
 			/obj/item/armor_module/module/tyr_extra_armor/mark1 = -1,
