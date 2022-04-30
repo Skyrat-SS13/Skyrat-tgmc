@@ -47,6 +47,11 @@ GLOBAL_PROTECT(exp_specialmap)
 	var/exp_type_department = ""
 
 	var/datum/outfit/job/outfit
+	///whether the job has multiple outfits
+	var/multiple_outfits = FALSE
+	///list of outfit variants
+	var/list/datum/outfit/job/outfits = list()
+
 	var/skills_type = /datum/skills
 
 	var/display_order = JOB_DISPLAY_ORDER_DEFAULT
@@ -274,6 +279,7 @@ GLOBAL_PROTECT(exp_specialmap)
 
 /mob/living/carbon/human/apply_assigned_role_to_spawn(datum/job/assigned_role, client/player, datum/squad/assigned_squad, admin_action = FALSE)
 	. = ..()
+
 	LAZYADD(GLOB.alive_human_list_faction[faction], src)
 	comm_title = job.comm_title
 	if(job.outfit)
