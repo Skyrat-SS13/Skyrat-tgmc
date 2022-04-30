@@ -6083,7 +6083,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/structure/sign/prop4,
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
@@ -15401,7 +15400,6 @@
 /obj/machinery/door/airlock/multi_tile/mainship/generic/cryo{
 	dir = 1
 	},
-/obj/structure/sign/prop4,
 /turf/open/floor/mainship/cargo/arrow{
 	dir = 8
 	},
