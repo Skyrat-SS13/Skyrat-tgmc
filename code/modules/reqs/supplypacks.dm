@@ -261,13 +261,8 @@ WEAPONS
 	available_against_xeno_only = TRUE
 
 /datum/supply_packs/weapons/recoillesskit
-<<<<<<< HEAD
-	name = "T-160 Recoilless rifle kit"
-	contains = list(/obj/item/storage/box/recoilless_system)
-=======
 	name = "RL-160 Recoilless rifle kit"
 	contains = list(/obj/item/storage/holster/backholster/rpg/full)
->>>>>>> 5a5c05efd5 (Change most guns nomenclature (#10055))
 	cost = 40
 	available_against_xeno_only = TRUE
 
