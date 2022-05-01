@@ -949,7 +949,7 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/medical)
 "adK" = (
-/obj/machinery/computer/nuke_disk_generator/green,
+/obj/machinery/computer/rdconsole,
 /turf/open/floor/tile/white,
 /area/bigredv2/outside/virology)
 "adL" = (
@@ -23843,6 +23843,7 @@
 "nAe" = (
 /obj/effect/landmark/corpsespawner/doctor,
 /turf/open/floor/tile/white,
+<<<<<<< HEAD
 /area/bigredv2/outside/medical)
 "nCY" = (
 /obj/structure/largecrate/random/barrel/blue,
@@ -23860,6 +23861,13 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/blue/taupeblue,
 /area/bigredv2/caves/southeast)
+=======
+/area/bigredv2/outside/virology)
+"nzC" = (
+/obj/machinery/miner/damaged/platinum,
+/turf/open/ground/jungle/clear,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> fa1b0fe6a8 (Shuffle Big Red disk locations (#10079))
 "nEP" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/marking/asteroidwarning,
@@ -24504,6 +24512,7 @@
 /obj/effect/landmark/corpsespawner/scientist,
 /turf/open/floor/tile/dark,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "poJ" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/asteroidfloor,
@@ -24512,6 +24521,8 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/s)
+=======
+>>>>>>> fa1b0fe6a8 (Shuffle Big Red disk locations (#10079))
 "ppc" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
@@ -49974,7 +49985,7 @@ bzA
 bxN
 bxg
 bxA
-eIX
+bxg
 bxN
 bBg
 bBu
@@ -50400,7 +50411,7 @@ bxH
 bwT
 bwT
 byl
-bxg
+eIX
 bBr
 bwJ
 bzp
@@ -51474,7 +51485,7 @@ hLG
 blq
 jNI
 jNI
-poJ
+jNI
 jNI
 jNI
 bwF
@@ -54752,7 +54763,7 @@ bAW
 bwF
 bBp
 bBp
-bBp
+nzC
 bBp
 bBp
 bwF
@@ -59655,7 +59666,7 @@ aqV
 rHu
 aTn
 kGT
-vtp
+gga
 gga
 gga
 gga
