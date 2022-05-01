@@ -27,7 +27,7 @@
 		/obj/item/tank/emergency_oxygen,
 		/obj/item/storage/bible,
 		/obj/item/storage/belt/sparepouch,
-		/obj/item/storage/large_holster/blade,
+		/obj/item/storage/holster/blade,
 		/obj/item/weapon/claymore,
 		/obj/item/storage/belt/gun,
 		/obj/item/storage/belt/knifepouch,
@@ -209,7 +209,7 @@
 		/obj/item/attachable/bayonetknife,
 		/obj/item/storage/belt/sparepouch,
 		/obj/item/hailer,
-		/obj/item/storage/large_holster/blade,
+		/obj/item/storage/holster/blade,
 		/obj/item/storage/belt/gun,
 	)
 
@@ -284,7 +284,7 @@
 	allowed = list(
 		/obj/item/weapon/gun,
 		/obj/item/storage/belt/sparepouch,
-		/obj/item/storage/large_holster/blade,
+		/obj/item/storage/holster/blade,
 		/obj/item/weapon/claymore,
 		/obj/item/storage/belt/gun,
 		/obj/item/storage/belt/knifepouch,
@@ -553,7 +553,7 @@
 		/obj/item/weapon/combat_knife,
 		/obj/item/attachable/bayonetknife,
 		/obj/item/storage/belt/sparepouch,
-		/obj/item/storage/large_holster/blade,
+		/obj/item/storage/holster/blade,
 		/obj/item/weapon/twohanded,
 	)
 	flags_armor_features = ARMOR_LAMP_OVERLAY
@@ -675,6 +675,26 @@
 		/obj/item/armor_module/storage/ammo_mag/freelancer,
 	)
 
+/obj/item/clothing/suit/storage/faction/freelancer/leader/two
+	attachments_allowed = list(
+		/obj/item/armor_module/module/valkyrie_autodoc,
+		/obj/item/armor_module/storage/ammo_mag/freelancer_two,
+	)
+	starting_attachments = list(
+		/obj/item/armor_module/module/valkyrie_autodoc,
+		/obj/item/armor_module/storage/ammo_mag/freelancer_two,
+	)
+
+/obj/item/clothing/suit/storage/faction/freelancer/leader/three
+	attachments_allowed = list(
+		/obj/item/armor_module/module/valkyrie_autodoc,
+		/obj/item/armor_module/storage/ammo_mag/freelancer_three,
+	)
+	starting_attachments = list(
+		/obj/item/armor_module/module/valkyrie_autodoc,
+		/obj/item/armor_module/storage/ammo_mag/freelancer_three,
+	)
+
 /obj/item/clothing/suit/storage/faction/freelancer/medic
 	pockets = null
 	attachments_by_slot = list(
@@ -719,7 +739,7 @@
 		/obj/item/weapon/combat_knife,
 		/obj/item/attachable/bayonetknife,
 		/obj/item/storage/belt/sparepouch,
-		/obj/item/storage/large_holster/blade,
+		/obj/item/storage/holster/blade,
 		/obj/item/weapon/baseballbat,
 	)
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
@@ -734,7 +754,7 @@
 		/obj/item/weapon/gun/,
 		/obj/item/tank/emergency_oxygen,
 		/obj/item/storage/belt/sparepouch,
-		/obj/item/storage/large_holster/blade,
+		/obj/item/storage/holster/blade,
 		/obj/item/storage/belt/gun,
 	)
 

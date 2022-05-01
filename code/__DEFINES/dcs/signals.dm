@@ -165,6 +165,8 @@
 #define COMSIG_ATOM_SET_LIGHT "atom_set_light"					//from base of atom/set_light(): (l_range, l_power, l_color)
 #define COMSIG_ATOM_BULLET_ACT "atom_bullet_act"				//from base of atom/bullet_act(): (/obj/projectile)
 #define COMSIG_ATOM_INITIALIZED_ON "atom_initialized_on"		//called from atom/Initialize() of target: (atom/target)
+//from SSatoms InitAtom - Only if the  atom was not deleted or failed initialization
+#define COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZE "atom_init_success"
 #define COMSIG_ATOM_ORBIT_BEGIN "atom_orbit_begin"				//called when an atom starts orbiting another atom: (atom)
 #define COMSIG_ATOM_ORBIT_STOP "atom_orbit_stop"				//called when an atom stops orbiting another atom: (atom)
 #define COMSIG_ATOM_ACIDSPRAY_ACT "atom_acidspray_act"			//called when acid spray acts on an entity; associated with /acidspray_act(): (obj/effect/xenomorph/spray/acid_puddle)
@@ -225,6 +227,7 @@
 #define COMSIG_TURF_WEED_REMOVED "turf_weed_removed"
 #define COMSIG_TURF_THROW_ENDED_HERE "turf_throw_ended_here"						//From atom/movable/throw_at, sent right after a throw ends
 #define COMSIG_TURF_RESUME_PROJECTILE_MOVE "resume_projetile"
+#define COMSIG_TURF_PROJECTILE_MANIPULATED "projectile_manipulated"
 
 // /obj signals
 #define COMSIG_OBJ_SETANCHORED "obj_setanchored"				//called in /obj/structure/setAnchored(): (value)
@@ -704,10 +707,8 @@
 #define COMSIG_XENOABILITY_GRAPPLE_TOSS "xenoability_grapple_toss"
 #define COMSIG_XENOABILITY_JAB "xenoability_jab"
 
-#define COMSIG_XENOABILITY_PLACE_WARP_BEACON "xenoability_place_warp_shadow"
-#define COMSIG_XENOABILITY_HYPERPOSITION "xenoability_hyperposition"
-#define COMSIG_XENOABILITY_PHASE_SHIFT "xenoability_phase_shift"
-#define COMSIG_XENOABILITY_RESYNC "xenoability_resync"
+#define COMSIG_XENOABILITY_PORTAL "xenoablity_portal"
+#define COMSIG_XENOABILITY_PORTAL_ALTERNATE "xenoability_portal_alternate"
 #define COMSIG_XENOABILITY_BLINK "xenoability_blink"
 #define COMSIG_XENOABILITY_BANISH "xenoability_banish"
 #define COMSIG_XENOABILITY_RECALL "xenoability_recall"
