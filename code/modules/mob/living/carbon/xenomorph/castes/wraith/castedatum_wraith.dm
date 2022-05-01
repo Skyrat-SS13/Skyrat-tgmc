@@ -9,7 +9,7 @@
 	wound_type = "wraith" //used to match appropriate wound overlays
 
 	// *** Melee Attacks *** //
-	melee_damage = 51
+	melee_damage = 17
 
 	// *** Speed *** //
 	speed = -1
@@ -45,10 +45,7 @@
 		/datum/action/xeno_action/activable/blink,
 		/datum/action/xeno_action/activable/banish,
 		/datum/action/xeno_action/recall,
-		/datum/action/xeno_action/place_warp_shadow,
-		/datum/action/xeno_action/hyperposition,
-		/datum/action/xeno_action/phase_shift,
-		/datum/action/xeno_action/resync,
+		/datum/action/xeno_action/portal,
 	)
 
 /datum/xeno_caste/wraith/young
@@ -85,7 +82,7 @@
 	upgrade = XENO_UPGRADE_TWO
 
 	// *** Melee Attacks *** //
-	melee_damage = 60
+	melee_damage = 20
 
 	// *** Speed *** //
 	speed = -1.2
@@ -111,7 +108,7 @@
 	upgrade = XENO_UPGRADE_THREE
 
 	// *** Melee Attacks *** //
-	melee_damage = 60
+	melee_damage = 20
 
 	// *** Speed *** //
 	speed = -1.25
@@ -136,7 +133,7 @@
 	upgrade = XENO_UPGRADE_FOUR
 
 	// *** Melee Attacks *** //
-	melee_damage = 60
+	melee_damage = 20
 
 	// *** Speed *** //
 	speed = -1.25
@@ -157,10 +154,7 @@
 		/datum/action/xeno_action/activable/blink,
 		/datum/action/xeno_action/activable/banish,
 		/datum/action/xeno_action/recall,
-		/datum/action/xeno_action/place_warp_shadow,
-		/datum/action/xeno_action/hyperposition,
-		/datum/action/xeno_action/phase_shift,
-		/datum/action/xeno_action/resync,
+		/datum/action/xeno_action/portal,
 		/datum/action/xeno_action/timestop,
 	)
 

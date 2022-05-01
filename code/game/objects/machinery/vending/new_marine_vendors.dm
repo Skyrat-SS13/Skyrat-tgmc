@@ -419,7 +419,7 @@
 		/obj/effect/essentials_set/xenonauten_heavy/leader = list(CAT_AMR, "Xenonauten heavy armor kit", 0, "orange"),
 		/obj/item/storage/backpack/marine/satchel = list(CAT_BAK, "Satchel", 0, "black"),
 		/obj/item/storage/backpack/marine/standard = list(CAT_BAK, "Backpack", 0, "black"),
-		/obj/item/storage/large_holster/blade/machete/full = list(CAT_BAK, "Machete scabbard", 0, "black"),
+		/obj/item/storage/holster/blade/machete/full = list(CAT_BAK, "Machete scabbard", 0, "black"),
 		/obj/item/armor_module/storage/uniform/black_vest = list(CAT_WEB, "Tactical black vest", 0, "black"),
 		/obj/item/armor_module/storage/uniform/webbing = list(CAT_WEB, "Tactical webbing", 0, "black"),
 		/obj/item/armor_module/storage/uniform/holster = list(CAT_WEB, "Shoulder handgun holster", 0, "black"),
@@ -683,7 +683,6 @@
 		/obj/item/explosive/grenade/chem_grenade/razorburn_smol,
 		/obj/item/clothing/gloves/marine/insulated,
 		/obj/item/cell/high,
-		/obj/item/tool/shovel/etool,
 		/obj/item/lightreplacer,
 		/obj/item/circuitboard/apc,
 		/obj/item/tool/solderingtool,
@@ -695,9 +694,9 @@
 		/obj/item/beacon/supply_beacon,
 		/obj/item/beacon/supply_beacon,
 		/obj/item/whistle,
-		/obj/item/radio,
+		/obj/item/compass,
 		/obj/item/binoculars/tactical,
-		/obj/item/attachable/motiondetector,
+		/obj/item/pinpointer,
 		/obj/item/clothing/glasses/hud/health,
 	)
 
@@ -902,7 +901,7 @@
 	desc = "A set of specialized gear for close-quarters combat and enhanced chemical effectiveness."
 	spawned_gear_list = list(
 		/obj/item/armor_module/module/chemsystem,
-		/obj/item/storage/large_holster/blade/machete/full_harvester,
+		/obj/item/storage/holster/blade/machete/full_harvester,
 		/obj/item/paper/chemsystem,
 	)
 
