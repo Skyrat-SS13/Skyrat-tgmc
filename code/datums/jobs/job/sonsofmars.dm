@@ -207,6 +207,7 @@
 	job_category = JOB_CAT_COMMAND
 	title = "SOM Leader"
 	paygrade = "SOM3"
+	skills_type = /datum/skills/sl
 	outfit = /datum/outfit/job/som/leader
 
 /datum/job/som/leader/hvh
