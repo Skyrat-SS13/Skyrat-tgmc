@@ -106,8 +106,13 @@
 // This is a deployed IFF-less MACHINEGUN, has 500 rounds, drums do not fit anywhere but your belt slot and your back slot. But it has 500 rounds. That's nice.
 
 /obj/item/weapon/gun/heavymachinegun
+<<<<<<< HEAD
 	name = "\improper MG-08/495 heavy machinegun"
 	desc = "An absolute monster of a weapon, this is a watercooled heavy machinegun modernized by some crazy armorer. The pinnacle at holding a chokepoint. Holds 500 rounds of 10x28mm caseless in a box case. IS NOT IFF CAPABLE. Aiming carefully recommended. Can be repaired with a blowtorch once deployed."
+=======
+	name = "\improper HMG-08 heavy machinegun"
+	desc = "An absolute monster of a weapon, this is a watercooled heavy machinegun modernized by some crazy armorer with a wheeling kit included. Considering the mish mash of parts for the wheeling kit, you think its from another model of the gun. The pinnacle at holding a chokepoint. Holds 500 rounds of 10x28mm caseless in a box case. IS NOT IFF CAPABLE. Aiming carefully recommended. Can be repaired with a blowtorch once deployed. Alt Right click to unanchor and reanchor it."
+>>>>>>> 688c778f55 (MG08 is now moveable,sprite by me. Makes a generic moveable deployable gun. (#10081))
 
 	w_class = WEIGHT_CLASS_HUGE
 	flags_equip_slot = ITEM_SLOT_BACK
@@ -141,7 +146,7 @@
 
 	deploy_time = 8 SECONDS
 	undeploy_time = 3 SECONDS
-	deployed_item = /obj/machinery/deployable/mounted
+	deployed_item = /obj/machinery/deployable/mounted/moveable
 
 	max_integrity = 200
 	soft_armor = list("melee" = 0, "bullet" = 50, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 0, "fire" = 0, "acid" = 0)
@@ -244,10 +249,9 @@
 	burst_amount = 1
 	undeploy_time = 2000 SECONDS
 	max_integrity = 500
-	deployed_item = /obj/machinery/deployable/mounted/atgun
+	deployed_item = /obj/machinery/deployable/mounted/moveable/atgun
 
-/obj/machinery/deployable/mounted/atgun
-	anchored = FALSE // You can wheel this around!
+/obj/machinery/deployable/mounted/moveable/atgun
 	var/obj/item/storage/internal/ammo_rack/sponson = /obj/item/storage/internal/ammo_rack
 	resistance_flags = XENO_DAMAGEABLE|UNACIDABLE
 
@@ -257,23 +261,12 @@
 	max_w_class = WEIGHT_CLASS_BULKY
 	can_hold = list(/obj/item/ammo_magazine/standard_atgun)
 
-/obj/machinery/deployable/mounted/atgun/Initialize()
+/obj/machinery/deployable/mounted/moveable/atgun/Initialize()
 	. = ..()
 	sponson = new sponson(src)
 
-/obj/machinery/deployable/mounted/atgun/attack_hand_alternate(mob/living/user)
+/obj/machinery/deployable/mounted/moveable/atgun/attack_hand_alternate(mob/living/user)
 	return sponson.open(user)
-
-/obj/machinery/deployable/mounted/atgun/AltRightClick(mob/living/user)
-	if(!Adjacent(user) || user.lying_angle || user.incapacitated() || !ishuman(user))
-		return
-
-	if(!anchored)
-		anchored = TRUE
-		to_chat(user, span_warning("You have anchored the gun to the ground. It may not be moved."))
-	else
-		anchored = FALSE
-		to_chat(user, span_warning("You unanchored the gun from the gruond. It may be moved."))
 
 /obj/item/storage/internal/ammo_rack/handle_mousedrop(mob/user, obj/over_object)
 	if(!ishuman(user) || user.lying_angle || user.incapacitated())
@@ -283,7 +276,7 @@
 		open(user)
 		return FALSE
 
-/obj/machinery/deployable/mounted/atgun/ex_act(severity)
+/obj/machinery/deployable/mounted/moveable/atgun/ex_act(severity)
 	switch(severity)
 		if(EXPLODE_DEVASTATE)
 			take_damage(800)
