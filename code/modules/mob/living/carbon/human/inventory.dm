@@ -15,7 +15,6 @@
 	if(incapacitated() || lying_angle)
 		return
 
-
 	var/slot_requested = use_alternate ?  client?.prefs?.preferred_slot_alt : client?.prefs?.preferred_slot
 	var/obj/item/I = get_active_held_item()
 	if(!I)
