@@ -131,3 +131,4 @@
 		D.update_icon()
 	else
 		to_chat(user, span_warning("This cell is already at maximum charge!"))
+	
