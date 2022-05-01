@@ -11,7 +11,7 @@
 	wound_type = "defender" //used to match appropriate wound overlays
 
 	// *** Melee Attacks *** //
-	melee_damage = 54
+	melee_damage = 17
 
 	// *** Speed *** //
 	speed = -0.3
@@ -50,7 +50,7 @@
 		/datum/action/xeno_action/fortify,
 		/datum/action/xeno_action/activable/forward_charge,
 		/datum/action/xeno_action/tail_sweep,
-		/datum/action/xeno_action/activable/regenerate_skin,
+		/datum/action/xeno_action/regenerate_skin,
 	)
 
 /datum/xeno_caste/defender/young
@@ -91,7 +91,7 @@
 	upgrade = XENO_UPGRADE_TWO
 
 	// *** Melee Attacks *** //
-	melee_damage = 63
+	melee_damage = 21
 
 	// *** Speed *** //
 	speed = -0.5
@@ -121,7 +121,7 @@
 	ancient_message = "We are incredibly resilient, we can control the battle through sheer force."
 
 	// *** Melee Attacks *** //
-	melee_damage = 63
+	melee_damage = 21
 
 	// *** Speed *** //
 	speed = -0.6
@@ -151,7 +151,7 @@
 	primordial_message = "We are the aegis of the hive. Let nothing pierce our guard."
 
 	// *** Melee Attacks *** //
-	melee_damage = 63
+	melee_damage = 21
 
 	// *** Speed *** //
 	speed = -0.6
@@ -178,6 +178,6 @@
 		/datum/action/xeno_action/fortify,
 		/datum/action/xeno_action/activable/forward_charge,
 		/datum/action/xeno_action/tail_sweep,
-		/datum/action/xeno_action/activable/regenerate_skin,
-		/datum/action/xeno_action/activable/centrifugal_force,
+		/datum/action/xeno_action/regenerate_skin,
+		/datum/action/xeno_action/centrifugal_force,
 	)
