@@ -9,7 +9,7 @@
 	wound_type = "warrior" //used to match appropriate wound overlays
 
 	// *** Melee Attacks *** //
-	melee_damage = 60
+	melee_damage = 20
 
 	// *** Speed *** //
 	speed = -0.2
@@ -32,7 +32,7 @@
 	caste_flags = CASTE_CAN_BE_QUEEN_HEALED|CASTE_EVOLUTION_ALLOWED|CASTE_CAN_BE_GIVEN_PLASMA|CASTE_CAN_BE_LEADER|CASTE_IS_STRONG|CASTE_CAN_BECOME_KING
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 30, "bullet" = 40, "laser" = 40, "energy" = 30, "bomb" = XENO_BOMB_RESIST_2, "bio" = 36, "rad" = 36, "fire" = 40, "acid" = 36)
+	soft_armor = list("melee" = 30, "bullet" = 40, "laser" = 40, "energy" = 30, "bomb" = 20, "bio" = 36, "rad" = 36, "fire" = 40, "acid" = 36)
 
 	// *** Warrior Abilities *** //
 	agility_speed_increase = -0.6
@@ -73,7 +73,7 @@
 	upgrade_threshold = TIER_TWO_MATURE_THRESHOLD
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 34, "bullet" = 45, "laser" = 45, "energy" = 34, "bomb" = XENO_BOMB_RESIST_2, "bio" = 36, "rad" = 36, "fire" = 45, "acid" = 36)
+	soft_armor = list("melee" = 34, "bullet" = 45, "laser" = 45, "energy" = 34, "bomb" = 20, "bio" = 36, "rad" = 36, "fire" = 45, "acid" = 36)
 
 	// *** Warrior Abilities *** //
 	agility_speed_increase = -0.6
@@ -86,7 +86,7 @@
 	upgrade = XENO_UPGRADE_TWO
 
 	// *** Melee Attacks *** //
-	melee_damage = 69
+	melee_damage = 23
 
 	// *** Speed *** //
 	speed = -0.45
@@ -102,7 +102,7 @@
 	upgrade_threshold = TIER_TWO_ELDER_THRESHOLD
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 38, "bullet" = 50, "laser" = 50, "energy" = 38, "bomb" = XENO_BOMB_RESIST_2, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 40)
+	soft_armor = list("melee" = 38, "bullet" = 50, "laser" = 50, "energy" = 38, "bomb" = 20, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 40)
 
 	// *** Warrior Abilities *** //
 	agility_speed_increase = -0.6
@@ -115,7 +115,7 @@
 	upgrade = XENO_UPGRADE_THREE
 
 	// *** Melee Attacks *** //
-	melee_damage = 69
+	melee_damage = 23
 
 	// *** Speed *** //
 	speed = -0.5
@@ -131,7 +131,7 @@
 	upgrade_threshold = TIER_TWO_ANCIENT_THRESHOLD
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 42, "bullet" = 55, "laser" = 55, "energy" = 42, "bomb" = XENO_BOMB_RESIST_2, "bio" = 50, "rad" = 50, "fire" = 55, "acid" = 50)
+	soft_armor = list("melee" = 42, "bullet" = 55, "laser" = 55, "energy" = 42, "bomb" = 20, "bio" = 50, "rad" = 50, "fire" = 55, "acid" = 50)
 
 	// *** Warrior Abilities *** //
 	agility_speed_increase = -0.6
@@ -144,7 +144,7 @@
 	upgrade = XENO_UPGRADE_FOUR
 
 	// *** Melee Attacks *** //
-	melee_damage = 69
+	melee_damage = 23
 
 	// *** Speed *** //
 	speed = -0.5
@@ -157,7 +157,7 @@
 	max_health = 350
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 42, "bullet" = 55, "laser" = 55, "energy" = 42, "bomb" = XENO_BOMB_RESIST_2, "bio" = 50, "rad" = 50, "fire" = 55, "acid" = 50)
+	soft_armor = list("melee" = 42, "bullet" = 55, "laser" = 55, "energy" = 42, "bomb" = 20, "bio" = 50, "rad" = 50, "fire" = 55, "acid" = 50)
 
 	// *** Warrior Abilities *** //
 	agility_speed_increase = -0.6

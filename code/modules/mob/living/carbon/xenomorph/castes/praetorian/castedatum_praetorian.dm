@@ -9,7 +9,7 @@
 	wound_type = "praetorian" //used to match appropriate wound overlays
 
 	// *** Melee Attacks *** //
-	melee_damage = 60
+	melee_damage = 20
 
 	// *** Speed *** //
 	speed = -0.2
@@ -30,7 +30,7 @@
 	caste_flags = CASTE_CAN_BE_QUEEN_HEALED|CASTE_CAN_BE_GIVEN_PLASMA|CASTE_CAN_BE_LEADER|CASTE_CAN_BECOME_KING
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 30, "bullet" = 35, "laser" = 35, "energy" = 35, "bomb" = XENO_BOMB_RESIST_0, "bio" = 28, "rad" = 28, "fire" = 35, "acid" = 28)
+	soft_armor = list("melee" = 30, "bullet" = 35, "laser" = 35, "energy" = 35, "bomb" = 0, "bio" = 28, "rad" = 28, "fire" = 35, "acid" = 28)
 
 	// *** Ranged Attack *** //
 	spit_delay = 1.3 SECONDS
@@ -81,7 +81,7 @@
 	upgrade_threshold = TIER_THREE_MATURE_THRESHOLD
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 35, "bullet" = 40, "laser" = 40, "energy" = 40, "bomb" = XENO_BOMB_RESIST_0, "bio" = 33, "rad" = 33, "fire" = 40, "acid" = 33)
+	soft_armor = list("melee" = 35, "bullet" = 40, "laser" = 40, "energy" = 40, "bomb" = 0, "bio" = 33, "rad" = 33, "fire" = 40, "acid" = 33)
 
 	// *** Ranged Attack *** //
 	spit_delay = 1.2 SECONDS
@@ -99,7 +99,7 @@
 	upgrade = XENO_UPGRADE_TWO
 
 	// *** Melee Attacks *** //
-	melee_damage = 69
+	melee_damage = 23
 
 	// *** Speed *** //
 	speed = -0.4
@@ -115,7 +115,7 @@
 	upgrade_threshold = TIER_THREE_ELDER_THRESHOLD
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 40, "bullet" = 45, "laser" = 45, "energy" = 45, "bomb" = XENO_BOMB_RESIST_0, "bio" = 35, "rad" = 35, "fire" = 45, "acid" = 35)
+	soft_armor = list("melee" = 40, "bullet" = 45, "laser" = 45, "energy" = 45, "bomb" = 0, "bio" = 35, "rad" = 35, "fire" = 45, "acid" = 35)
 
 	// *** Ranged Attack *** //
 	spit_delay = 1.1 SECONDS
@@ -134,7 +134,7 @@
 	ancient_message = "We are the strongest ranged fighter around. Our spit is devastating and we can fire nearly a constant stream."
 
 	// *** Melee Attacks *** //
-	melee_damage = 69
+	melee_damage = 23
 
 	// *** Speed *** //
 	speed = -0.5
@@ -150,7 +150,7 @@
 	upgrade_threshold = TIER_THREE_ANCIENT_THRESHOLD
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 45, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = XENO_BOMB_RESIST_1, "bio" = 38, "rad" = 38, "fire" = 50, "acid" = 38)
+	soft_armor = list("melee" = 45, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = 10, "bio" = 38, "rad" = 38, "fire" = 50, "acid" = 38)
 
 	// *** Ranged Attack *** //
 	spit_delay = 1 SECONDS
@@ -169,7 +169,7 @@
 	primordial_message = "The strongest of acids flows through our veins, let's reduce them to dust."
 
 	// *** Melee Attacks *** //
-	melee_damage = 69
+	melee_damage = 23
 
 	// *** Speed *** //
 	speed = -0.5
@@ -182,7 +182,7 @@
 	max_health = 360
 
 	// *** Defense *** //
-	soft_armor = list("melee" = 45, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = XENO_BOMB_RESIST_1, "bio" = 38, "rad" = 38, "fire" = 50, "acid" = 38)
+	soft_armor = list("melee" = 45, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = 10, "bio" = 38, "rad" = 38, "fire" = 50, "acid" = 38)
 
 	// *** Ranged Attack *** //
 	spit_delay = 1 SECONDS
