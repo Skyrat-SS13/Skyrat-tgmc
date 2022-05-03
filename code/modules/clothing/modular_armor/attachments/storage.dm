@@ -10,6 +10,7 @@
 	icon = 'icons/mob/modular/modular_armor_modules.dmi'
 	icon_state = "mod_is_bag"
 	slot = ATTACHMENT_SLOT_STORAGE
+	w_class = WEIGHT_CLASS_BULKY
 	///Internal storage of the module. Its parent is switched to the parent item when attached.
 	var/obj/item/storage/internal/storage = /obj/item/storage/internal/modular
 	///If TRUE it will add extra overlays for the items within.
@@ -110,6 +111,28 @@
 	storage =  /obj/item/storage/internal/modular/ammo_mag
 	slowdown = 0.1
 
+/obj/item/armor_module/storage/ammo_mag/freelancer/Initialize()
+	. = ..()
+	new /obj/item/ammo_magazine/rifle/m16(storage)
+	new /obj/item/ammo_magazine/rifle/m16(storage)
+	new /obj/item/ammo_magazine/rifle/m16(storage)
+	new /obj/item/ammo_magazine/rifle/m16(storage)
+
+/obj/item/armor_module/storage/ammo_mag/freelancer_two/Initialize()
+	. = ..()
+	new /obj/item/ammo_magazine/rifle/tx11(storage)
+	new /obj/item/ammo_magazine/rifle/tx11(storage)
+	new /obj/item/ammo_magazine/rifle/tx11(storage)
+	new /obj/item/ammo_magazine/rifle/tx11(storage)
+
+/obj/item/armor_module/storage/ammo_mag/freelancer_three/Initialize()
+	. = ..()
+	new /obj/item/ammo_magazine/rifle/tx54(storage)
+	new /obj/item/ammo_magazine/rifle/tx54(storage)
+	new /obj/item/ammo_magazine/rifle/tx54/incendiary(storage)
+	new /obj/item/ammo_magazine/rifle/tx54/incendiary(storage)
+
+
 /obj/item/storage/internal/modular/ammo_mag
 	max_storage_space = 15
 	storage_slots = 4
@@ -179,6 +202,22 @@
 	icon_state = "mod_medic_bag"
 	storage =  /obj/item/storage/internal/modular/medical
 
+/obj/item/armor_module/storage/medical/freelancer/Initialize()
+	. = ..()
+	new /obj/item/stack/medical/heal_pack/advanced/bruise_pack(storage)
+	new /obj/item/stack/medical/heal_pack/advanced/burn_pack(storage)
+	new /obj/item/storage/pill_bottle/meralyne(storage)
+	new /obj/item/storage/pill_bottle/dermaline(storage)
+	new /obj/item/storage/pill_bottle/tramadol(storage)
+
+/obj/item/armor_module/storage/medical/basic/Initialize()
+	. = ..()
+	new /obj/item/storage/pill_bottle/packet/bicaridine(storage)
+	new /obj/item/storage/pill_bottle/packet/kelotane(storage)
+	new /obj/item/storage/pill_bottle/packet/tramadol(storage)
+	new /obj/item/stack/medical/splint(storage)
+	new /obj/item/reagent_containers/hypospray/autoinjector/inaprovaline(storage)
+
 /obj/item/storage/internal/modular/medical
 	max_storage_space = 30
 	storage_slots = 5
@@ -218,3 +257,18 @@
 	slowdown = 0
 	show_storage = TRUE
 	flags_attach_features = NONE
+
+/obj/item/armor_module/storage/helmet/som_leader/Initialize()
+	. = ..()
+	new /obj/item/reagent_containers/hypospray/autoinjector/combat_advanced(storage)
+	new /obj/item/reagent_containers/hypospray/autoinjector/combat_advanced(storage)
+
+/obj/item/armor_module/storage/helmet/som_vet/Initialize()
+	. = ..()
+	new /obj/item/reagent_containers/hypospray/autoinjector/oxycodone(storage)
+	new /obj/item/reagent_containers/hypospray/autoinjector/russian_red(storage)
+
+/obj/item/armor_module/storage/helmet/som/Initialize()
+	. = ..()
+	new /obj/item/reagent_containers/hypospray/autoinjector/oxycodone(storage)
+	new /obj/item/reagent_containers/hypospray/autoinjector/combat(storage)

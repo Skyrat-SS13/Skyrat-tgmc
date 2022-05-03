@@ -663,7 +663,6 @@
 	w_class = WEIGHT_CLASS_BULKY
 	storage_type_limits = list(
 		/obj/item/weapon/gun = 1,
-		/obj/item/cell/lasgun/lasrifle = 2,
 	)
 	storage_slots = 7
 	max_storage_space = 15
@@ -745,7 +744,7 @@
 
 /obj/item/storage/belt/gun/pistol/examine(mob/user, distance, infix, suffix)
 	. = ..()
-	to_chat(user, span_notice("To perform a reload with the amunition inside, disable right click and right click on the belt with an empty pistol."))
+	. += span_notice("To perform a reload with the amunition inside, disable right click and right click on the belt with an empty pistol.")
 
 /obj/item/storage/belt/gun/pistol/m4a3
 	name = "\improper M4A3 holster rig"
@@ -817,6 +816,13 @@
 	desc = "A belt with origins to old colony security holster rigs."
 	icon_state = "som_belt_pistol"
 	item_state = "som_belt_pistol"
+
+//No overlays, sprite not positioned to allow for it
+/obj/item/storage/belt/gun/pistol/m4a3/som/update_gun_icon()
+	if(current_gun)
+		playsound(src,drawSound, 15, 1)
+	else
+		playsound(src,sheatheSound, 15, 1)
 
 /obj/item/storage/belt/gun/pistol/stand
 	name = "\improper M276 pattern M4A3 holster rig"
@@ -955,8 +961,8 @@
 	INVOKE_ASYNC(src, .proc/handle_item_insertion, new_gun)
 
 /obj/item/storage/belt/gun/ts34
-	name = "\improper M276 pattern TS-34 shotgun holster rig"
-	desc = "A purpose built belt-holster assembly that holds a TS-34 shotgun and one shell box or 2 handfuls."
+	name = "\improper M276 pattern SH-34 shotgun holster rig"
+	desc = "A purpose built belt-holster assembly that holds a SH-34 shotgun and one shell box or 2 handfuls."
 	icon_state = "ts34_holster"
 	item_state = "ts34_holster"
 	max_w_class = 4 //So it can hold the shotgun.
