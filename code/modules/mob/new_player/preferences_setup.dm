@@ -179,7 +179,6 @@
 	if(!good_eyesight)
 		ENABLE_BITFIELD(character.disabilities, NEARSIGHTED)
 
-<<<<<<< HEAD
 	character.real_name = new_name
 	character.name = character.real_name
 
@@ -222,8 +221,6 @@
 	character.undershirt = undershirt
 	character.backpack = backpack
 
-=======
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	character.update_body()
 	character.update_hair()
 
