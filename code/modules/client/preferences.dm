@@ -42,25 +42,17 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	var/show_typing = TRUE
 	var/windowflashing = TRUE
-<<<<<<< HEAD
 	var/clientfps = 0
-=======
-	var/focus_chat = FALSE
-	var/clientfps = 40
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 	// Custom Keybindings
 	var/list/key_bindings = null
 
-<<<<<<< HEAD
 	// Custom emotes list
 	var/list/custom_emotes = list()
 
 	/// Current tab index of the game preferences ui
 	var/tab_index = CHARACTER_CUSTOMIZATION
 
-=======
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	///Saves chemical recipes based on client so they persist through games
 	var/list/chem_macros = list()
 
@@ -85,12 +77,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/preferred_squad = "None"
 	var/alternate_option = RETURN_TO_LOBBY
 	var/preferred_slot = SLOT_S_STORE
-<<<<<<< HEAD
 	var/preferred_slot_alt = SLOT_BACK
 	var/list/gear
-=======
-	var/list/gear = list()
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	var/list/job_preferences = list()
 
 	//Clothing
@@ -153,7 +141,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	///Should we automatically fit the viewport?
 	var/auto_fit_viewport = TRUE
 
-<<<<<<< HEAD
 	var/parallax
 
 	///The loadout manager
@@ -171,7 +158,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/map_name = "player_pref_map"
 	var/obj/screen/map_view/screen_main
 	var/obj/screen/background/screen_bg
-=======
 	var/current_tab = 0
 	var/character_tab = 0
 
@@ -184,7 +170,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/mismatched_parts = FALSE
 
 	var/preview_pref = PREVIEW_PREF_JOB
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 	/// If unique action will only act on the item in the active hand. If false, it will try to act on the item on the inactive hand as well in certain conditions.
 	var/unique_action_use_active_hand = TRUE
@@ -210,13 +195,10 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	random_character()
 	menuoptions = list()
 	key_bindings = deepCopyList(GLOB.hotkey_keybinding_list_by_key) // give them default keybinds and update their movement keys
-<<<<<<< HEAD
 	for(var/i in 1 to CUSTOM_EMOTE_SLOTS)
 		var/datum/custom_emote/emote = new
 		emote.id = i
 		custom_emotes += emote
-=======
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	C.update_movement_keys(src)
 	loadout_manager = new
 
@@ -313,17 +295,17 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<a href='?_src_=prefs;preference=jobmenu'>Set Role Preferences</a><br>"
 					dat += "<a href='?_src_=prefs;preference=keybindings_menu'>Keybindings</a>"
 					dat += "</center>"
-				
+
 					dat += "<div class='row'>"
 					dat += "<div class='column'>"
-				
-				
-				
+
+
+
 					dat += "<h2>Identity</h2>"
-				
+
 					if(is_banned_from(user.ckey, "Appearance"))
 						dat += "You are banned from using custom names and appearances.<br>"
-				
+
 					dat += "<b>Name:</b> "
 					dat += "<a href='?_src_=prefs;preference=name_real'><b>[real_name]</b></a>"
 					dat += "<a href='?_src_=prefs;preference=randomize_name'>(R)</a>"
@@ -342,11 +324,11 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<b>AI name:</b>"
 					dat += "<a href='?_src_=prefs;preference=ai_name'>[ai_name]</a>"
 					dat += "<br><br>"
-				
-				
-				
+
+
+
 					dat += "<h2>Body</h2>"
-				
+
 					dat += "<b>Age:</b> <a href='?_src_=prefs;preference=age'>[age]</a><br>"
 					dat += "<b>Gender:</b> <a href='?_src_=prefs;preference=gender'>[gender == MALE ? MALE : FEMALE]</a><br>"
 					dat += "<b>Ethnicity:</b> <a href='?_src_=prefs;preference=ethnicity'>[ethnicity]</a><br>"
@@ -359,56 +341,56 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(current_species.preferences)
 						for(var/preference_id in current_species.preferences)
 							dat += "<b>[current_species.preferences[preference_id]]:</b> <a href='?_src_=prefs;preference=[preference_id]'><b>[vars[preference_id]]</b></a><br>"
-				
+
 					dat += "<a href='?_src_=prefs;preference=random'>Randomize</a>"
-				
-				
-				
+
+
+
 					dat += "<h2>Occupation Choices:</h2>"
-				
+
 					for(var/role in BE_SPECIAL_FLAGS)
 						var/n = BE_SPECIAL_FLAGS[role]
 						var/ban_check_name
-				
+
 						switch(role)
 							if("Xenomorph")
 								ban_check_name = ROLE_XENOMORPH
-				
+
 							if("Xeno Queen")
 								ban_check_name = ROLE_XENO_QUEEN
-				
+
 						if(is_banned_from(user.ckey, ban_check_name))
 							dat += "<b>[role]:</b> <a href='?_src_=prefs;preference=bancheck;role=[role]'>BANNED</a><br>"
 						else
 							dat += "<b>[role]:</b> <a href='?_src_=prefs;preference=be_special;flag=[n]'>[CHECK_BITFIELD(be_special, n) ? "Yes" : "No"]</a><br>"
-				
+
 					dat += "<br><b>Preferred Squad:</b> <a href ='?_src_=prefs;preference=squad'>[preferred_squad]</a><br>"
-				
-				
-				
-				
+
+
+
+
 					dat += "</div>"
 					dat += "<div class='column'>"
-				
-				
-				
-				
+
+
+
+
 					dat += "<h2>Marine Gear:</h2>"
 					if(gender == MALE)
 						dat += "<b>Underwear:</b> <a href ='?_src_=prefs;preference=underwear'>[GLOB.underwear_m[underwear]]</a><br>"
 					else
 						dat += "<b>Underwear:</b> <a href ='?_src_=prefs;preference=underwear'>[GLOB.underwear_f[underwear]]</a><br>"
-				
+
 					dat += "<b>Undershirt:</b> <a href='?_src_=prefs;preference=undershirt'>[GLOB.undershirt_t[undershirt]]</a><br>"
-				
+
 					dat += "<b>Backpack Type:</b> <a href ='?_src_=prefs;preference=backpack'>[GLOB.backpacklist[backpack]]</a><br>"
-				
+
 					dat += "<b>Custom Loadout:</b> "
 					var/total_cost = 0
-				
+
 					if(!islist(gear))
 						gear = list()
-				
+
 					if(length(gear))
 						dat += "<br>"
 						for(var/i in GLOB.gear_datums)
@@ -417,27 +399,27 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 								continue
 							total_cost += G.cost
 							dat += "[i] ([G.cost] points) <a href ='?_src_=prefs;preference=loadoutremove;gear=[i]'>\[remove\]</a><br>"
-				
+
 						dat += "<b>Used:</b> [total_cost] points."
 					else
 						dat += "None"
-				
+
 					if(total_cost < MAX_GEAR_COST)
 						dat += " <a href ='?_src_=prefs;preference=loadoutadd'>\[add\]</a>"
 						if(length(gear))
 							dat += " <a href ='?_src_=prefs;preference=loadoutclear'>\[clear\]</a>"
-				
-				
-				
+
+
+
 					dat += "<h2>Background Information:</h2>"
-				
+
 					dat += "<b>Citizenship</b>: <a href ='?_src_=prefs;preference=citizenship'>[citizenship]</a><br/>"
 					dat += "<b>Religion</b>: <a href ='?_src_=prefs;preference=religion'>[religion]</a><br/>"
 					dat += "<b>Corporate Relation:</b> <a href ='?_src_=prefs;preference=corporation'>[nanotrasen_relation]</a><br>"
 					dat += "<br>"
-				
+
 					dat += "<a href ='?_src_=prefs;preference=records'>Character Records</a><br>"
-				
+
 					dat += "<a href ='?_src_=prefs;preference=flavor_text'>Character Description</a><br>"
 
 				if(1) //Appearances
@@ -572,18 +554,18 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			dat += "<b>Tooltips:</b> <a href='?_src_=prefs;preference=tooltips'>[(tooltips) ? "Shown" : "Hidden"]</a><br>"
 			dat += "<b>FPS:</b> <a href='?_src_=prefs;preference=clientfps'>[clientfps]</a><br>"
 			dat += "<b>Fit Viewport:</b> <a href='?_src_=prefs;preference=auto_fit_viewport'>[auto_fit_viewport ? "Auto" : "Manual"]</a><br>"
-		
+
 			dat += "<h2>Chat Message Settings:</h2>"
 			dat += "<b>Mute self combat messages:</b> <a href='?_src_=prefs;preference=mute_self_combat_messages'>[mute_self_combat_messages ? "Enabled" : "Disabled"]</a><br>"
 			dat += "<b>Mute others combat messages:</b> <a href='?_src_=prefs;preference=mute_others_combat_messages'>[mute_others_combat_messages ? "Enabled" : "Disabled"]</a><br>"
 			dat += "<b>Mute xeno health alert messages:</b> <a href='?_src_=prefs;preference=mute_xeno_health_alert_messages'>[mute_xeno_health_alert_messages ? "Yes" : "No"]</a><br>"
-		
+
 			dat += "<h2>Runechat Settings:</h2>"
 			dat += "<b>Show Runechat Chat Bubbles:</b> <a href='?_src_=prefs;preference=chat_on_map'>[chat_on_map ? "Enabled" : "Disabled"]</a><br>"
 			dat += "<b>Runechat message char limit:</b> <a href='?_src_=prefs;preference=max_chat_length;task=input'>[max_chat_length]</a><br>"
 			dat += "<b>See Runechat for non-mobs:</b> <a href='?_src_=prefs;preference=see_chat_non_mob'>[see_chat_non_mob ? "Enabled" : "Disabled"]</a><br>"
 			dat += "<b>See Runechat emotes:</b> <a href='?_src_=prefs;preference=see_rc_emotes'>[see_rc_emotes ? "Enabled" : "Disabled"]</a><br>"
-		
+
 			dat += "<h2>UI Customization:</h2>"
 			dat += "<b>Style:</b> <a href='?_src_=prefs;preference=ui'>[ui_style]</a><br>"
 			dat += "<b>Color</b>: <a href='?_src_=prefs;preference=uicolor'>[ui_style_color]</a> <table style='display:inline;' bgcolor='[ui_style_color]'><tr><td>__</td></tr></table><br>"
