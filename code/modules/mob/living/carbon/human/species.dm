@@ -126,12 +126,8 @@
 	var/see_in_dark
 
 	var/datum/namepool/namepool = /datum/namepool
-<<<<<<< HEAD
 	var/special_death_message = "You have perished." // Special death message that gets overwritten if possible.
 	///Whether it is possible with this race roundstart
-=======
-	var/special_death_message = "<big>You have perished.</big><br><small>But it is not the end of you yet... if you still have your body or an unbursted corpse, wait until somebody can resurrect you...</small>" // Special death message that gets overwritten if possible.
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	var/joinable_roundstart = FALSE
 
 	var/list/default_mutant_bodyparts = list()
@@ -153,9 +149,6 @@
 	if(species_flags & GREYSCALE_BLOOD)
 		brute_damage_icon_state = "greyscale"
 
-<<<<<<< HEAD
-/datum/species/proc/create_organs(mob/living/carbon/human/organless_human) //Handles creation of mob organs and limbs.
-=======
 /datum/species/proc/get_random_features()
 	return MANDATORY_FEATURE_LIST
 
@@ -177,7 +170,6 @@
 		return assemble_body_markings_from_set(BMS, features, src)
 
 /datum/species/proc/create_organs(mob/living/carbon/human/H) //Handles creation of mob organs and limbs.
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 	organless_human.limbs = list()
 	organless_human.internal_organs = list()
@@ -217,7 +209,6 @@
 
 /datum/species/proc/hug(mob/living/carbon/human/H, mob/living/target)
 	if(H.zone_selected == "head")
-<<<<<<< HEAD
 		H.visible_message(span_notice("[H] pats [target] on the head."), \
 					span_notice("You pat [target] on the head."), null, 4)
 	else if(H.zone_selected == "l_hand" && CONFIG_GET(flag/fun_allowed))
@@ -226,10 +217,6 @@
 	else if (H.zone_selected == "r_hand" && CONFIG_GET(flag/fun_allowed))
 		H.visible_message(span_notice("[H] holds [target] 's right hand."), \
 					span_notice("You hold [target]'s right hand."), null, 4)
-=======
-		H.visible_message("<span class='notice'>[H] pats [target] on the head.</span>", \
-					"<span class='notice'>You pat [target] on the head.</span>", null, 4)
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	else
 		H.visible_message(span_notice("[H] hugs [target] to make [target.p_them()] feel better!"), \
 					span_notice("You hug [target] to make [target.p_them()] feel better!"), null, 4)
@@ -382,13 +369,10 @@
 	warcries = list(MALE = "male_warcry", FEMALE = "female_warcry")
 	joinable_roundstart = TRUE
 
-<<<<<<< HEAD
-=======
 	uses_ethnic_sprites = TRUE
 
 	//If you wanted to add a species-level ability:
 	/*abilities = list(/client/proc/test_ability)*/
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /datum/species/genemodder
 	name = "Genemodder"
@@ -438,28 +422,8 @@
 	deform = 'icons/mob/human_races/r_vatborn.dmi'
 	namepool = /datum/namepool/vatborn
 
-<<<<<<< HEAD
 /datum/species/human/vatborn/prefs_name(datum/preferences/prefs)
 	return prefs.real_name
-=======
-	joinable_roundstart = FALSE //Currently has some sprite issues
-
-//Slightly tougher humans.
-/datum/species/human/hero
-	name = "Human Hero"
-	name_plural = "Human Heroes"
-	brute_mod = 0.55
-	burn_mod = 0.55
-	unarmed_type = /datum/unarmed_attack/punch/strong
-
-	cold_level_1 = 220
-	cold_level_2 = 180
-	cold_level_3 = 80
-	heat_level_1 = 390
-	heat_level_2 = 480
-	heat_level_3 = 1100
-	joinable_roundstart = FALSE
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /datum/species/human/vatgrown
 	name = "Vat-Grown Human"
@@ -1033,6 +997,7 @@
 	eyes = "blank_eyes"
 	speech_verb_override = "flutters"
 	count_human = TRUE
+	joinable_roundstart = TRUE
 
 	species_flags = HAS_LIPS|HAS_NO_HAIR|HAS_SKIN_COLOR
 
@@ -1048,16 +1013,11 @@
 
 	namepool = /datum/namepool/moth
 
-<<<<<<< HEAD
 /datum/species/moth/handle_fire(mob/living/carbon/human/H)
 	if(H.moth_wings != "Burnt Off" && H.bodytemperature >= 400 && H.fire_stacks > 0)
 		to_chat(H, span_danger("Your precious wings burn to a crisp!"))
 		H.moth_wings = "Burnt Off"
 		H.update_body()
-=======
-	joinable_roundstart = TRUE
-	gets_random_bodymarkings = TRUE
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 	default_mutant_bodyparts = list("wings" = ACC_RANDOM, "neck_fluff" = ACC_RANDOM, "moth_antennae" = ACC_RANDOM)
 
@@ -1090,19 +1050,12 @@
 
 	reagent_tag = IS_MOTH
 
-<<<<<<< HEAD
-/datum/species/moth/post_species_loss(mob/living/carbon/human/H)
-	. = ..()
-	H.remove_overlay(MOTH_WINGS_LAYER)
-	H.remove_underlay(MOTH_WINGS_BEHIND_LAYER)
-=======
 	namepool = /datum/namepool/moth
 
 	joinable_roundstart = TRUE
 	gets_random_bodymarkings = TRUE
 
 	default_mutant_bodyparts = list("tail" = "None", "snout" = "None", "horns" = "None", "ears" = ACC_RANDOM, "wings" = ACC_RANDOM, "neck_fluff" = ACC_RANDOM, "moth_antennae" = ACC_RANDOM)
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /datum/species/sectoid
 	name = "Sectoid"
