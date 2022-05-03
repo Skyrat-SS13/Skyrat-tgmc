@@ -3,12 +3,8 @@
 	real_name = "unknown"
 	icon = 'icons/mob/human.dmi'
 	icon_state = "body_m_s"
-<<<<<<< HEAD
 	blocks_emissive = EMISSIVE_BLOCK_UNIQUE
 	hud_possible = list(HEALTH_HUD, STATUS_HUD_SIMPLE, STATUS_HUD, XENO_EMBRYO_HUD, XENO_REAGENT_HUD, WANTED_HUD, SQUAD_HUD_TERRAGOV, SQUAD_HUD_REBEL, ORDER_HUD, PAIN_HUD, XENO_DEBUFF_HUD, HEART_STATUS_HUD)
-=======
-	hud_possible = list(HEALTH_HUD, STATUS_HUD_SIMPLE, STATUS_HUD, XENO_EMBRYO_HUD, XENO_REAGENT_HUD, WANTED_HUD, SQUAD_HUD, ORDER_HUD, PAIN_HUD)
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	health_threshold_crit = -50
 	melee_damage = 5
 	m_intent = MOVE_INTENT_WALK
@@ -91,7 +87,7 @@
 
 
 	//Life variables
-	
+
 	///How long the human is dead, in life ticks, which is 2 seconds
 	var/dead_ticks = 0
 
