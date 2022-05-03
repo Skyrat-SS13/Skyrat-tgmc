@@ -1,18 +1,9 @@
-<<<<<<< HEAD
- # SolFed Marine Corps
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/tgstation/TerraGov-Marine-Corps.svg)](https://isitmaintained.com/project/tgstation/TerraGov-Marine-Corps "Percentage of issues still open") [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/tgstation/TerraGov-Marine-Corps.svg)](https://isitmaintained.com/project/tgstation/TerraGov-Marine-Corps "Average time to resolve an issue")
-=======
->>>>>>> 061d746bab (README Rework (#9981))
 
 <h1>
 
-<<<<<<< HEAD
- This is a fork based off the August-2021 version of TerraGov Marine Corps. To see the original, GPL repo, go [here](https://github.com/MrStonedOne/cmhistory)
-=======
-TerraGov Marine Corps 
+Solfed Marine Corps
 [![Badge Issues]][Issues]
 [![Badge Time]][Time]
->>>>>>> 061d746bab (README Rework (#9981))
 
 </h1>
 
@@ -26,7 +17,7 @@ TerraGov Marine Corps 
 
 ## Licensing
 
-This fork is based on the `July 2018` version of **[ColonialMarines]** .
+This fork is based on the `August 2021` version of **[TerraGov Marine Corps]** .
 
 <br>
 <br>
@@ -102,5 +93,5 @@ Asset Type      | Source                                 | License
 
 [Byond]: https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a
 
-[ColonialMarines]: https://github.com/MrStonedOne/cmhistory
+[TerraGov Marine Corps]: https://github.com/tgstation/TerraGov-Marine-Corps
 [FreeSound.org]: https://freesound.org/people/nicStage/sounds/127731/
