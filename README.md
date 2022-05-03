@@ -46,9 +46,9 @@ Asset Type      | Source                                 | License
 <!----------------------------------{ Badges }--------------------------------->
 
 [Badge Resentment]: https://forthebadge.com/images/badges/built-with-resentment.svg
-[Badge Issues]: https://isitmaintained.com/badge/open/tgstation/TerraGov-Marine-Corps.svg
+[Badge Issues]: http://isitmaintained.com/badge/open/Skyrat-SS13/Skyrat-tgmc.svg
 [Badge Byond]: https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif
-[Badge Time]: https://isitmaintained.com/badge/resolution/tgstation/TerraGov-Marine-Corps.svg
+[Badge Time]: http://isitmaintained.com/badge/resolution/Skyrat-SS13/Skyrat-tgmc.svg
 [Badge Dept]: https://forthebadge.com/images/badges/contains-technical-debt.svg
 
 
@@ -88,8 +88,8 @@ Asset Type      | Source                                 | License
 
 <!-----------------------------------{ Other }--------------------------------->
 
-[Issues]: https://isitmaintained.com/project/tgstation/TerraGov-Marine-Corps 'Percentage of issues still open'
-[Time]: https://isitmaintained.com/project/tgstation/TerraGov-Marine-Corps 'Average time to resolve an issue'
+[Issues]: https://isitmaintained.com/project/Skyrat-SS13/Skyrat-tgmc 'Percentage of issues still open'
+[Time]: https://isitmaintained.com/project/Skyrat-SS13/Skyrat-tgmc 'Average time to resolve an issue'
 
 [Byond]: https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a
 
