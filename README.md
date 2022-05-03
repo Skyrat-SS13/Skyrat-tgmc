@@ -1,7 +1,7 @@
 
 <h1>
 
-Solfed Marine Corps
+Solfed Marine Corp
 [![Badge Issues]][Issues]
 [![Badge Time]][Time]
 
