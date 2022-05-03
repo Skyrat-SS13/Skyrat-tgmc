@@ -3,6 +3,7 @@
 	b_type = pick(7;"O-", 38;"O+", 6;"A-", 34;"A+", 2;"B-", 9;"B+", 1;"AB-", 3;"AB+")
 	blood_type = b_type
 
+	dna = new()
 	if(!species)
 		set_species()
 
@@ -31,10 +32,13 @@
 	issue_order_hold.give_action(src)
 	var/datum/action/skill/issue_order/focus/issue_order_focus = new
 	issue_order_focus.give_action(src)
+<<<<<<< HEAD
 	var/datum/action/innate/order/rally_order/send_rally_order = new
 	send_rally_order.give_action(src)
 	var/datum/action/innate/message_squad/screen_orders = new
 	screen_orders.give_action(src)
+=======
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 	//makes order hud visible
 	var/datum/atom_hud/H = GLOB.huds[DATA_HUD_ORDER]
@@ -42,15 +46,25 @@
 
 	randomize_appearance()
 
+<<<<<<< HEAD
 	RegisterSignal(src, COMSIG_ATOM_ACIDSPRAY_ACT, .proc/acid_spray_entered)
 	RegisterSignal(src, list(COMSIG_KB_QUICKEQUIP, COMSIG_CLICK_QUICKEQUIP), .proc/async_do_quick_equip)
 	RegisterSignal(src, COMSIG_KB_QUICKEQUIPALT, .proc/async_do_quick_equip_alt)
+=======
+	RegisterSignal(src, COMSIG_ATOM_ACIDSPRAY_ACT, .proc/acid_spray_crossed)
+	RegisterSignal(src, list(COMSIG_KB_QUICKEQUIP, COMSIG_CLICK_QUICKEQUIP), .proc/do_quick_equip)
+	RegisterSignal(src, COMSIG_KB_HOLSTER, .proc/do_holster)
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	RegisterSignal(src, COMSIG_KB_UNIQUEACTION, .proc/do_unique_action)
 	RegisterSignal(src, COMSIG_GRAB_SELF_ATTACK, .proc/fireman_carry_grabbed) // Fireman carry
 	RegisterSignal(src, COMSIG_KB_GIVE, .proc/give_signal_handler)
 	AddComponent(/datum/component/footstep, FOOTSTEP_MOB_HUMAN)
+<<<<<<< HEAD
 	AddComponent(/datum/component/bump_attack, FALSE, FALSE)
 	AddElement(/datum/element/ridable, /datum/component/riding/creature/human)
+=======
+
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /mob/living/carbon/human/proc/human_z_changed(datum/source, old_z, new_z)
 	SIGNAL_HANDLER
@@ -88,6 +102,8 @@
 	LAZYREMOVE(GLOB.alive_human_list_faction[faction], src)
 	LAZYREMOVE(GLOB.humans_by_zlevel["[z]"], src)
 	GLOB.dead_human_list -= src
+	QDEL_NULL(dna)
+
 	return ..()
 
 /mob/living/carbon/human/Stat()
@@ -763,9 +779,15 @@
 	if(!can_be_firemanned(target) || incapacitated(restrained_flags = RESTRAINED_NECKGRAB))
 		to_chat(src, span_warning("You can't fireman carry [target] while they're standing!"))
 		return
+<<<<<<< HEAD
 	visible_message(span_notice("[src] starts lifting [target] onto [p_their()] back..."),
 	span_notice("You start to lift [target] onto your back..."))
 	var/delay = 5 SECONDS - LERP(0 SECONDS, 4 SECONDS, skills.getPercent("medical", SKILL_MEDICAL_MASTER))
+=======
+	visible_message("<span class='notice'>[src] starts lifting [target] onto [p_their()] back...</span>",
+	"<span class='notice'>You start to lift [target] onto your back...</span>")
+	var/delay = 1 SECONDS + LERP(0 SECONDS, 4 SECONDS, skills.getPercent("medical", SKILL_MEDICAL_MASTER))
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	if(!do_mob(src, target, delay, target_display = BUSY_ICON_HOSTILE))
 		visible_message(span_warning("[src] fails to fireman carry [target]!"))
 		return
@@ -891,21 +913,17 @@
 /mob/living/carbon/human/species
 	var/race = null
 
-/mob/living/carbon/human/species/set_species(new_species, default_colour)
+/mob/living/carbon/human/species/set_species(new_species, default_colour, datum/preferences/pref_load)
 	if(!new_species)
 		new_species = race
 	return ..()
 
-/mob/living/carbon/human/proc/set_species(new_species, default_colour)
+/mob/living/carbon/human/proc/set_species(new_species, default_colour, datum/preferences/pref_load)
 
 	if(!new_species)
 		new_species = "Human"
 
 	if(species)
-
-		if(species.name && species.name == new_species) //we're already that species.
-			return
-
 		// Clear out their species abilities.
 		species.remove_inherent_verbs(src)
 
@@ -921,23 +939,7 @@
 
 	dextrous = species.has_fine_manipulation
 
-	if(species.default_language_holder)
-		language_holder = new species.default_language_holder(src)
-
-	if(species.base_color && default_colour)
-		//Apply colour.
-		r_skin = hex2num(copytext(species.base_color,2,4))
-		g_skin = hex2num(copytext(species.base_color,4,6))
-		b_skin = hex2num(copytext(species.base_color,6,8))
-	else
-		r_skin = 0
-		g_skin = 0
-		b_skin = 0
-
-	if(species.hair_color)
-		r_hair = hex2num(copytext(species.hair_color, 2, 4))
-		g_hair = hex2num(copytext(species.hair_color, 4, 6))
-		b_hair = hex2num(copytext(species.hair_color, 6, 8))
+	set_appearances(default_colour, pref_load)
 
 	species.handle_post_spawn(src)
 
@@ -954,6 +956,86 @@
 	add_movespeed_modifier(MOVESPEED_ID_SPECIES, TRUE, 0, NONE, TRUE, species.slowdown)
 	species.on_species_gain(src, oldspecies) //todo move most of the stuff in this proc to here
 	return TRUE
+
+/mob/living/carbon/human/proc/set_appearances(default_colour, datum/preferences/pref_load)
+	if(pref_load)
+		real_name = pref_load.real_name
+		name = real_name
+
+		flavor_text = pref_load.flavor_text
+
+		med_record = pref_load.med_record
+		sec_record = pref_load.sec_record
+		gen_record = pref_load.gen_record
+		exploit_record = pref_load.exploit_record
+
+		age = pref_load.age
+		gender = pref_load.gender
+		ethnicity = pref_load.ethnicity
+		body_type = pref_load.body_type
+
+		r_eyes = pref_load.r_eyes
+		g_eyes = pref_load.g_eyes
+		b_eyes = pref_load.b_eyes
+
+		r_hair = pref_load.r_hair
+		g_hair = pref_load.g_hair
+		b_hair = pref_load.b_hair
+
+		r_grad	= pref_load.r_grad
+		g_grad	= pref_load.g_grad
+		b_grad	= pref_load.b_grad
+
+		r_facial = pref_load.r_facial
+		g_facial = pref_load.g_facial
+		b_facial = pref_load.b_facial
+
+		h_style = pref_load.h_style
+		grad_style= pref_load.grad_style
+		f_style = pref_load.f_style
+
+		citizenship = pref_load.citizenship
+		religion = pref_load.religion
+
+		underwear = pref_load.underwear
+		undershirt = pref_load.undershirt
+		backpack = pref_load.backpack
+
+		dna.features = pref_load.features.Copy()
+		dna.mutant_bodyparts = pref_load.mutant_bodyparts.Copy()
+		dna.body_markings = pref_load.body_markings.Copy()
+	else
+		if(species.default_language_holder)
+			language_holder = new species.default_language_holder(src)
+
+		if(species.base_color && default_colour)
+			//Apply colour.
+			r_skin = hex2num(copytext(species.base_color,2,4))
+			g_skin = hex2num(copytext(species.base_color,4,6))
+			b_skin = hex2num(copytext(species.base_color,6,8))
+		else
+			r_skin = 0
+			g_skin = 0
+			b_skin = 0
+
+		if(species.hair_color)
+			r_hair = hex2num(copytext(species.hair_color, 2, 4))
+			g_hair = hex2num(copytext(species.hair_color, 4, 6))
+			b_hair = hex2num(copytext(species.hair_color, 6, 8))
+
+		dna.features = species.get_random_features()
+		dna.mutant_bodyparts = species.get_random_mutant_bodyparts(features)
+		dna.body_markings = species.get_random_body_markings(features)
+
+	features = dna.features.Copy()
+	var/list/finalized_mutantparts = list()
+	for(var/key in dna.mutant_bodyparts)
+		var/datum/mutant_accessory/MA = GLOB.mutant_accessories[key][dna.mutant_bodyparts[key][MUTANT_INDEX_NAME]]
+		if(!MA.factual)
+			continue
+		finalized_mutantparts[key] = dna.mutant_bodyparts[key].Copy()
+	mutant_bodyparts = finalized_mutantparts
+	body_markings = dna.body_markings.Copy()
 
 
 /mob/living/carbon/human/reagent_check(datum/reagent/R)
@@ -988,9 +1070,14 @@
 				light_off++
 	if(guns)
 		for(var/obj/item/weapon/gun/lit_gun in contents)
+<<<<<<< HEAD
 			var/obj/item/attachable/flashlight/lit_rail_flashlight = LAZYACCESS(lit_gun.attachments_by_slot, ATTACHMENT_SLOT_RAIL)
 			if(!isattachmentflashlight(lit_rail_flashlight))
+=======
+			if(!isattachmentflashlight(lit_gun.rail))
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 				continue
+			var/obj/item/attachable/flashlight/lit_rail_flashlight = lit_gun.rail
 			lit_rail_flashlight.turn_light(src, FALSE, 0, FALSE, forced)
 			light_off++
 	if(flares)
@@ -1132,7 +1219,7 @@
 
 	ethnicity = random_ethnicity()
 
-	age = rand(17, 55)
+	age = rand(18, 55)
 
 	update_hair()
 	update_body()

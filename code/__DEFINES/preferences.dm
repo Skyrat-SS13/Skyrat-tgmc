@@ -8,10 +8,14 @@
 #define BE_OVERFLOW 1
 #define RETURN_TO_LOBBY 2
 
+<<<<<<< HEAD
 //Do not decrease this unless you know what you are doing. It can be safely increased
 #define CUSTOM_EMOTE_SLOTS 10
 
 #define JOBS_PRIORITY_HIGH 3
+=======
+#define JOBS_PRIORITY_HIGH   3
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 #define JOBS_PRIORITY_MEDIUM 2
 #define JOBS_PRIORITY_LOW 1
 #define JOBS_PRIORITY_NEVER 0
@@ -157,10 +161,7 @@
 	"White",\
 	"Slimecore",\
 	"Operative",\
-	"Clockwork",\
-	"Glass",\
-	"Minimalist",\
-	"Holo"\
+	"Clockwork"\
 	)
 
 #define BE_SPECIAL_FLAGS list(\
@@ -169,3 +170,5 @@
 	"End of Round Deathmatch" = BE_DEATHMATCH,\
 	"Prefer Squad over Role" = BE_SQUAD_STRICT\
 	)
+
+#define MANDATORY_FEATURE_LIST list("mcolor" = "FFFFBB","mcolor2" = "FFFFBB","mcolor3" = "FFFFBB", "skin_color" = "FFEEDD")

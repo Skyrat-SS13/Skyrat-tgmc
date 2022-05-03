@@ -126,9 +126,19 @@
 	var/see_in_dark
 
 	var/datum/namepool/namepool = /datum/namepool
+<<<<<<< HEAD
 	var/special_death_message = "You have perished." // Special death message that gets overwritten if possible.
 	///Whether it is possible with this race roundstart
+=======
+	var/special_death_message = "<big>You have perished.</big><br><small>But it is not the end of you yet... if you still have your body or an unbursted corpse, wait until somebody can resurrect you...</small>" // Special death message that gets overwritten if possible.
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	var/joinable_roundstart = FALSE
+
+	var/list/default_mutant_bodyparts = list()
+	var/specific_alpha = 255
+
+	var/uses_ethnic_sprites = FALSE
+	var/gets_random_bodymarkings = FALSE
 
 /datum/species/New()
 	if(hud_type)
@@ -143,7 +153,31 @@
 	if(species_flags & GREYSCALE_BLOOD)
 		brute_damage_icon_state = "greyscale"
 
+<<<<<<< HEAD
 /datum/species/proc/create_organs(mob/living/carbon/human/organless_human) //Handles creation of mob organs and limbs.
+=======
+/datum/species/proc/get_random_features()
+	return MANDATORY_FEATURE_LIST
+
+/datum/species/proc/get_random_mutant_bodyparts(list/features)
+	var/list/compiled = list()
+	for(var/key in default_mutant_bodyparts)
+		compiled[key] = GetDefaultMutantpart(src, key, features)
+	return compiled
+
+/datum/species/proc/get_random_body_markings(list/features)
+	if(!gets_random_bodymarkings)
+		return list()
+	else
+		var/list/candidates = get_body_marking_sets_for_species(src)
+		if(!length(candidates))
+			return list()
+		var/name = pick(candidates)
+		var/datum/body_marking_set/BMS = GLOB.body_marking_sets[name]
+		return assemble_body_markings_from_set(BMS, features, src)
+
+/datum/species/proc/create_organs(mob/living/carbon/human/H) //Handles creation of mob organs and limbs.
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 	organless_human.limbs = list()
 	organless_human.internal_organs = list()
@@ -183,6 +217,7 @@
 
 /datum/species/proc/hug(mob/living/carbon/human/H, mob/living/target)
 	if(H.zone_selected == "head")
+<<<<<<< HEAD
 		H.visible_message(span_notice("[H] pats [target] on the head."), \
 					span_notice("You pat [target] on the head."), null, 4)
 	else if(H.zone_selected == "l_hand" && CONFIG_GET(flag/fun_allowed))
@@ -191,6 +226,10 @@
 	else if (H.zone_selected == "r_hand" && CONFIG_GET(flag/fun_allowed))
 		H.visible_message(span_notice("[H] holds [target] 's right hand."), \
 					span_notice("You hold [target]'s right hand."), null, 4)
+=======
+		H.visible_message("<span class='notice'>[H] pats [target] on the head.</span>", \
+					"<span class='notice'>You pat [target] on the head.</span>", null, 4)
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	else
 		H.visible_message(span_notice("[H] hugs [target] to make [target.p_them()] feel better!"), \
 					span_notice("You hug [target] to make [target.p_them()] feel better!"), null, 4)
@@ -341,9 +380,56 @@
 	coughs = list(MALE = "male_cough", FEMALE = "female_cough")
 	burstscreams = list(MALE = "male_preburst", FEMALE = "female_preburst")
 	warcries = list(MALE = "male_warcry", FEMALE = "female_warcry")
-	special_death_message = "<big>You have perished.</big><br><small>But it is not the end of you yet... if you still have your body or an unbursted corpse, wait until somebody can resurrect you...</small>"
 	joinable_roundstart = TRUE
 
+<<<<<<< HEAD
+=======
+	uses_ethnic_sprites = TRUE
+
+	//If you wanted to add a species-level ability:
+	/*abilities = list(/client/proc/test_ability)*/
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
+
+/datum/species/genemodder
+	name = "Genemodder"
+	name_plural = "Genemodders"
+	unarmed_type = /datum/unarmed_attack/punch
+	species_flags = HAS_SKIN_TONE|HAS_LIPS|HAS_UNDERWEAR
+	count_human = TRUE
+
+	screams = list(MALE = "male_scream", FEMALE = "female_scream")
+	paincries = list(MALE = "male_pain", FEMALE = "female_pain")
+	goredcries = list(MALE = "male_gored", FEMALE = "female_gored")
+	gasps = list(MALE = "male_gasp", FEMALE = "female_gasp")
+	coughs = list(MALE = "male_cough", FEMALE = "female_cough")
+	burstscreams = list(MALE = "male_preburst", FEMALE = "female_preburst")
+	warcries = list(MALE = "male_warcry", FEMALE = "female_warcry")
+	joinable_roundstart = TRUE
+
+	uses_ethnic_sprites = TRUE
+
+	default_mutant_bodyparts = list("tail" = "None", "snout" = "None", "horns" = "None", "ears" = "None", "wings" = "None", "neck_fluff" = "None", "moth_antennae" = "None")
+
+/datum/species/humanoid
+	name = "Humanoid"
+	name_plural = "Humanoids"
+	unarmed_type = /datum/unarmed_attack/punch
+	species_flags = HAS_SKIN_COLOR|HAS_LIPS|HAS_UNDERWEAR
+	count_human = TRUE
+
+	icobase = 'icons/mob/human_races/r_mammal.dmi'
+	deform = 'icons/mob/human_races/r_def_mammal.dmi'
+
+	screams = list(MALE = "male_scream", FEMALE = "female_scream")
+	paincries = list(MALE = "male_pain", FEMALE = "female_pain")
+	goredcries = list(MALE = "male_gored", FEMALE = "female_gored")
+	gasps = list(MALE = "male_gasp", FEMALE = "female_gasp")
+	coughs = list(MALE = "male_cough", FEMALE = "female_cough")
+	burstscreams = list(MALE = "male_preburst", FEMALE = "female_preburst")
+	warcries = list(MALE = "male_warcry", FEMALE = "female_warcry")
+	joinable_roundstart = TRUE
+
+	default_mutant_bodyparts = list("tail" = "None", "snout" = "None", "horns" = "None", "ears" = "None", "wings" = "None", "neck_fluff" = "None", "moth_antennae" = "None")
 
 /datum/species/human/vatborn
 	name = "Vatborn"
@@ -352,8 +438,28 @@
 	deform = 'icons/mob/human_races/r_vatborn.dmi'
 	namepool = /datum/namepool/vatborn
 
+<<<<<<< HEAD
 /datum/species/human/vatborn/prefs_name(datum/preferences/prefs)
 	return prefs.real_name
+=======
+	joinable_roundstart = FALSE //Currently has some sprite issues
+
+//Slightly tougher humans.
+/datum/species/human/hero
+	name = "Human Hero"
+	name_plural = "Human Heroes"
+	brute_mod = 0.55
+	burn_mod = 0.55
+	unarmed_type = /datum/unarmed_attack/punch/strong
+
+	cold_level_1 = 220
+	cold_level_2 = 180
+	cold_level_3 = 80
+	heat_level_1 = 390
+	heat_level_2 = 480
+	heat_level_3 = 1100
+	joinable_roundstart = FALSE
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /datum/species/human/vatgrown
 	name = "Vat-Grown Human"
@@ -551,11 +657,100 @@
 	reagent_tag = IS_UNATHI
 	base_color = "#066000"
 
+	joinable_roundstart = TRUE
+
+	default_mutant_bodyparts = list("frills" = "Simple", "horns" = ACC_RANDOM, "snout" = ACC_RANDOM, "body_markings" = ACC_RANDOM, "tail" = ACC_RANDOM, "spines" = ACC_RANDOM)
+
+/datum/species/unathi/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/random = rand(1,5)
+	//Choose from a variety of green or brown colors, with a darker secondary and tertiary
+	switch(random)
+		if(1)
+			main_color = "11CC00"
+			second_color = "118800"
+		if(2)
+			main_color = "55CC11"
+			second_color = "55AA11"
+		if(3)
+			main_color = "77AA11"
+			second_color = "668711"
+		if(4)
+			main_color = "886622"
+			second_color = "774411"
+		if(5)
+			main_color = "33BB11"
+			second_color = "339911"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = second_color
+	return returned
+
+/datum/species/lizardperson
+	name = "Lizardperson"
+	name_plural = "lizardperson"
+	icobase = 'icons/mob/human_races/r_lizard.dmi'
+	deform = 'icons/mob/human_races/r_def_lizard.dmi'
+	default_language_holder = /datum/language_holder/unathi
+	tail = "sogtail"
+	unarmed_type = /datum/unarmed_attack/claws
+	secondary_unarmed_type = /datum/unarmed_attack/bite/strong
+	taste_sensitivity = TASTE_SENSITIVE
+	gluttonous = 1
+
+	cold_level_1 = 280 //Default 260 - Lower is better
+	cold_level_2 = 220 //Default 200
+	cold_level_3 = 130 //Default 120
+
+	heat_level_1 = 420 //Default 360 - Higher is better
+	heat_level_2 = 480 //Default 400
+	heat_level_3 = 1100 //Default 1000
+
+	species_flags = HAS_LIPS|HAS_UNDERWEAR|HAS_SKIN_COLOR
+
+	flesh_color = "#34AF10"
+
+	reagent_tag = IS_UNATHI
+	base_color = "#066000"
+
+	joinable_roundstart = TRUE
+
+	default_mutant_bodyparts = list("frills" = "Simple", "horns" = ACC_RANDOM, "snout" = ACC_RANDOM, "body_markings" = ACC_RANDOM, "tail" = ACC_RANDOM, "spines" = ACC_RANDOM)
+
+/datum/species/lizardperson/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/random = rand(1,5)
+	//Choose from a variety of green or brown colors, with a darker secondary and tertiary
+	switch(random)
+		if(1)
+			main_color = "11CC00"
+			second_color = "118800"
+		if(2)
+			main_color = "55CC11"
+			second_color = "55AA11"
+		if(3)
+			main_color = "77AA11"
+			second_color = "668711"
+		if(4)
+			main_color = "886622"
+			second_color = "774411"
+		if(5)
+			main_color = "33BB11"
+			second_color = "339911"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = second_color
+	return returned
+
 /datum/species/tajaran
 	name = "Tajara"
 	name_plural = "Tajaran"
-	icobase = 'icons/mob/human_races/r_tajaran.dmi'
-	deform = 'icons/mob/human_races/r_def_tajaran.dmi'
+	icobase = 'icons/mob/human_races/r_mammal.dmi'
+	deform = 'icons/mob/human_races/r_def_mammal.dmi'
 	default_language_holder = /datum/language_holder/tajaran
 	tail = "tajtail"
 	unarmed_type = /datum/unarmed_attack/claws
@@ -573,9 +768,224 @@
 	flesh_color = "#AFA59E"
 	base_color = "#333333"
 
+	joinable_roundstart = TRUE
+	gets_random_bodymarkings = TRUE
+
+	default_mutant_bodyparts = list("tail" = ACC_RANDOM, "snout" = ACC_RANDOM, "ears" = ACC_RANDOM)
+
+/datum/species/tajaran/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/random = rand(1,5)
+	//Choose from a variety of mostly coldish, animal, matching colors
+	switch(random)
+		if(1)
+			main_color = "BBAA88"
+			second_color = "AAAA99"
+		if(2)
+			main_color = "777766"
+			second_color = "888877"
+		if(3)
+			main_color = "AA9988"
+			second_color = "AAAA99"
+		if(4)
+			main_color = "EEEEDD"
+			second_color = "FFEEEE"
+		if(5)
+			main_color = "DDCC99"
+			second_color = "DDCCAA"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = second_color
+	return returned
+
+/datum/species/vulpkanin
+	name = "Vulpkanin"
+	name_plural = "Vulpkanins"
+	icobase = 'icons/mob/human_races/r_mammal.dmi'
+	deform = 'icons/mob/human_races/r_def_mammal.dmi'
+	unarmed_type = /datum/unarmed_attack/claws
+
+	species_flags = HAS_LIPS|HAS_UNDERWEAR|HAS_SKIN_COLOR
+
+	flesh_color = "#AFA59E"
+	base_color = "#333333"
+
+	joinable_roundstart = TRUE
+	gets_random_bodymarkings = TRUE
+
+	default_mutant_bodyparts = list("tail" = ACC_RANDOM, "snout" = ACC_RANDOM, "ears" = ACC_RANDOM)
+
+/datum/species/vulpkanin/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/random = rand(1,5)
+	//Choose from a variety of mostly brightish, animal, matching colors
+	switch(random)
+		if(1)
+			main_color = "FFAA00"
+			second_color = "FFDD44"
+		if(2)
+			main_color = "FF8833"
+			second_color = "FFAA33"
+		if(3)
+			main_color = "FFCC22"
+			second_color = "FFDD88"
+		if(4)
+			main_color = "FF8800"
+			second_color = "FFFFFF"
+		if(5)
+			main_color = "999999"
+			second_color = "EEEEEE"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = second_color
+	return returned
+
+/datum/species/mammal
+	name = "Anthropomorph"
+	name_plural = "Anthropomorph"
+	icobase = 'icons/mob/human_races/r_mammal.dmi'
+	deform = 'icons/mob/human_races/r_def_mammal.dmi'
+	unarmed_type = /datum/unarmed_attack/claws
+
+	species_flags = HAS_LIPS|HAS_UNDERWEAR|HAS_SKIN_COLOR
+
+	flesh_color = "#AFA59E"
+	base_color = "#333333"
+
+	joinable_roundstart = TRUE
+	gets_random_bodymarkings = TRUE
+
+	default_mutant_bodyparts = list("tail" = ACC_RANDOM, "snout" = ACC_RANDOM, "horns" = "None", "ears" = ACC_RANDOM, "wings" = "None", "neck_fluff" = "None", "moth_antennae" = "None")
+
+/datum/species/mammal/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/third_color
+	var/random = rand(1,6)
+	switch(random)
+		if(1)
+			main_color = "FFFFFF"
+			second_color = "333333"
+			third_color = "333333"
+		if(2)
+			main_color = "FFFFDD"
+			second_color = "DD6611"
+			third_color = "AA5522"
+		if(3)
+			main_color = "DD6611"
+			second_color = "FFFFFF"
+			third_color = "DD6611"
+		if(4)
+			main_color = "CCCCCC"
+			second_color = "FFFFFF"
+			third_color = "FFFFFF"
+		if(5)
+			main_color = "AA5522"
+			second_color = "CC8833"
+			third_color = "FFFFFF"
+		if(6)
+			main_color = "FFFFDD"
+			second_color = "FFEECC"
+			third_color = "FFDDBB"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = third_color
+	return returned
+
+/datum/species/akula
+	name = "Akula"
+	name_plural = "Akulan"
+	icobase = 'icons/mob/human_races/r_akula.dmi'
+	deform = 'icons/mob/human_races/r_def_akula.dmi'
+
+	species_flags = HAS_LIPS|HAS_UNDERWEAR|HAS_SKIN_COLOR
+
+	flesh_color = "#AFA59E"
+	base_color = "#333333"
+
+	joinable_roundstart = TRUE
+
+	default_mutant_bodyparts = list("tail" = ACC_RANDOM, "snout" = ACC_RANDOM, "ears" = ACC_RANDOM)
+
+/datum/species/akula/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/random = rand(1,5)
+	//Choose from a variety of sharkish colors, with a whiter secondary and tertiary
+	switch(random)
+		if(1)
+			main_color = "668899"
+			second_color = "BBCCDD"
+		if(2)
+			main_color = "334455"
+			second_color = "DDDDEE"
+		if(3)
+			main_color = "445566"
+			second_color = "DDDDEE"
+		if(4)
+			main_color = "666655"
+			second_color = "DDDDEE"
+		if(5)
+			main_color = "444444"
+			second_color = "DDDDEE"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = second_color
+	return returned
+
+/datum/species/aquatic
+	name = "Aquatic"
+	name_plural = "Aquatics"
+	icobase = 'icons/mob/human_races/r_akula.dmi'
+	deform = 'icons/mob/human_races/r_def_akula.dmi'
+
+	species_flags = HAS_LIPS|HAS_UNDERWEAR|HAS_SKIN_COLOR
+
+	flesh_color = "#AFA59E"
+	base_color = "#333333"
+
+	joinable_roundstart = TRUE
+	gets_random_bodymarkings = TRUE
+
+	default_mutant_bodyparts = list("tail" = ACC_RANDOM, "snout" = ACC_RANDOM, "horns" = "None", "ears" = ACC_RANDOM, "wings" = "None", "neck_fluff" = "None", "moth_antennae" = "None")
+
+/datum/species/aquatic/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/second_color
+	var/random = rand(1,5)
+	//Choose from a variety of sharkish colors, with a whiter secondary and tertiary
+	switch(random)
+		if(1)
+			main_color = "668899"
+			second_color = "BBCCDD"
+		if(2)
+			main_color = "334455"
+			second_color = "DDDDEE"
+		if(3)
+			main_color = "445566"
+			second_color = "DDDDEE"
+		if(4)
+			main_color = "666655"
+			second_color = "DDDDEE"
+		if(5)
+			main_color = "444444"
+			second_color = "DDDDEE"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = second_color
+	returned["mcolor3"] = second_color
+	return returned
+
 /datum/species/skrell
 	name = "Skrell"
 	name_plural = "Skrell"
+	eyes = "eyes_skrell"
 	icobase = 'icons/mob/human_races/r_skrell.dmi'
 	deform = 'icons/mob/human_races/r_def_skrell.dmi'
 	default_language_holder = /datum/language_holder/skrell
@@ -587,6 +997,33 @@
 
 	reagent_tag = IS_SKRELL
 
+	joinable_roundstart = TRUE
+
+	default_mutant_bodyparts = list("skrell_hair" = ACC_RANDOM)
+
+/datum/species/skrell/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	var/main_color
+	var/random = rand(1,6)
+	//Choose from a range of green-blue colors
+	switch(random)
+		if(1)
+			main_color = "44FF77"
+		if(2)
+			main_color = "22FF88"
+		if(3)
+			main_color = "22FFBB"
+		if(4)
+			main_color = "22FFFF"
+		if(5)
+			main_color = "22BBFF"
+		if(6)
+			main_color = "2266FF"
+	returned["mcolor"] = main_color
+	returned["mcolor2"] = main_color
+	returned["mcolor3"] = main_color
+	return returned
+
 /datum/species/moth
 	name = "Moth"
 	name_plural = "Moth"
@@ -597,8 +1034,7 @@
 	speech_verb_override = "flutters"
 	count_human = TRUE
 
-	species_flags = HAS_LIPS|HAS_NO_HAIR
-	preferences = list("moth_wings" = "Wings")
+	species_flags = HAS_LIPS|HAS_NO_HAIR|HAS_SKIN_COLOR
 
 	screams = list("neuter" = 'sound/voice/moth_scream.ogg')
 	paincries = list("neuter" = 'sound/voice/human_male_pain_3.ogg')
@@ -612,40 +1048,61 @@
 
 	namepool = /datum/namepool/moth
 
+<<<<<<< HEAD
 /datum/species/moth/handle_fire(mob/living/carbon/human/H)
 	if(H.moth_wings != "Burnt Off" && H.bodytemperature >= 400 && H.fire_stacks > 0)
 		to_chat(H, span_danger("Your precious wings burn to a crisp!"))
 		H.moth_wings = "Burnt Off"
 		H.update_body()
+=======
+	joinable_roundstart = TRUE
+	gets_random_bodymarkings = TRUE
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
-/datum/species/moth/proc/update_moth_wings(mob/living/carbon/human/H)
-	H.remove_overlay(MOTH_WINGS_LAYER)
-	H.remove_underlay(MOTH_WINGS_BEHIND_LAYER)
+	default_mutant_bodyparts = list("wings" = ACC_RANDOM, "neck_fluff" = ACC_RANDOM, "moth_antennae" = ACC_RANDOM)
 
-	var/datum/sprite_accessory/moth_wings/wings = GLOB.moth_wings_list[H.moth_wings]
+/datum/species/moth/get_random_features()
+	var/list/returned = MANDATORY_FEATURE_LIST
+	returned["mcolor"] = "FFE8A7"
+	returned["mcolor2"] = "FFE8A7"
+	returned["mcolor3"] = "FFE8A7"
+	return returned
 
-	if(wings)
-		H.overlays_standing[MOTH_WINGS_LAYER] = image(wings.icon, icon_state = "m_moth_wings_[wings.icon_state]_FRONT")
-		H.underlays_standing[MOTH_WINGS_BEHIND_LAYER] = image(wings.icon, icon_state = "m_moth_wings_[wings.icon_state]_BEHIND")
-		H.apply_overlay(MOTH_WINGS_LAYER)
-		H.apply_underlay(MOTH_WINGS_BEHIND_LAYER)
+/datum/species/Insectoid
+	name = "Insectoid"
+	name_plural = "Insectoids"
+	icobase = 'icons/mob/human_races/r_moth.dmi'
+	deform = 'icons/mob/human_races/r_moth.dmi'
+	default_language_holder = /datum/language_holder/moth
+	eyes = "blank_eyes"
+	speech_verb_override = "flutters"
+	count_human = TRUE
 
-/datum/species/moth/update_body(mob/living/carbon/human/H)
-	update_moth_wings(H)
+	species_flags = HAS_LIPS|HAS_NO_HAIR|HAS_SKIN_COLOR
 
-/datum/species/moth/update_inv_head(mob/living/carbon/human/H)
-	update_moth_wings(H)
+	screams = list("neuter" = 'sound/voice/moth_scream.ogg')
+	paincries = list("neuter" = 'sound/voice/human_male_pain_3.ogg')
+	goredcries = list("neuter" = 'sound/voice/moth_scream.ogg')
+	burstscreams = list("neuter" = 'sound/voice/moth_scream.ogg')
+	warcries = list("neuter" = 'sound/voice/moth_scream.ogg')
 
-/datum/species/moth/update_inv_w_uniform(mob/living/carbon/human/H)
-	update_moth_wings(H)
+	flesh_color = "#E5CD99"
 
-/datum/species/moth/update_inv_wear_suit(mob/living/carbon/human/H)
-	update_moth_wings(H)
+	reagent_tag = IS_MOTH
 
+<<<<<<< HEAD
 /datum/species/moth/post_species_loss(mob/living/carbon/human/H)
 	. = ..()
 	H.remove_overlay(MOTH_WINGS_LAYER)
 	H.remove_underlay(MOTH_WINGS_BEHIND_LAYER)
+=======
+	namepool = /datum/namepool/moth
+
+	joinable_roundstart = TRUE
+	gets_random_bodymarkings = TRUE
+
+	default_mutant_bodyparts = list("tail" = "None", "snout" = "None", "horns" = "None", "ears" = ACC_RANDOM, "wings" = ACC_RANDOM, "neck_fluff" = ACC_RANDOM, "moth_antennae" = ACC_RANDOM)
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /datum/species/sectoid
 	name = "Sectoid"
@@ -1135,7 +1592,7 @@ GLOBAL_VAR_INIT(join_as_robot_allowed, TRUE)
 		return 0
 
 	if(victim.protection_aura)
-		damage = round(damage * ((10 - victim.protection_aura) / 10))
+		damage = round(damage * ((15 - victim.protection_aura) / 15))
 
 	var/datum/limb/organ = null
 	if(isorgan(def_zone))

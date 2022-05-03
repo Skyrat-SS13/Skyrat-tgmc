@@ -4,8 +4,13 @@
 		g = "f"
 	return g
 
+<<<<<<< HEAD
 /proc/get_limb_icon_name(datum/species/S, gender, limb_name, ethnicity)
 	if(S.name == "Human" || S.name == "Synthetic")
+=======
+/proc/get_limb_icon_name(datum/species/S, body_type, gender, limb_name, ethnicity)
+	if(S.uses_ethnic_sprites)
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 		switch(limb_name)
 			if ("torso")
 				return "[ethnicity]_torso_[get_gender_name(gender)]"

@@ -3,8 +3,12 @@
 	real_name = "unknown"
 	icon = 'icons/mob/human.dmi'
 	icon_state = "body_m_s"
+<<<<<<< HEAD
 	blocks_emissive = EMISSIVE_BLOCK_UNIQUE
 	hud_possible = list(HEALTH_HUD, STATUS_HUD_SIMPLE, STATUS_HUD, XENO_EMBRYO_HUD, XENO_REAGENT_HUD, WANTED_HUD, SQUAD_HUD_TERRAGOV, SQUAD_HUD_REBEL, ORDER_HUD, PAIN_HUD, XENO_DEBUFF_HUD, HEART_STATUS_HUD)
+=======
+	hud_possible = list(HEALTH_HUD, STATUS_HUD_SIMPLE, STATUS_HUD, XENO_EMBRYO_HUD, XENO_REAGENT_HUD, WANTED_HUD, SQUAD_HUD, ORDER_HUD, PAIN_HUD)
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	health_threshold_crit = -50
 	melee_damage = 5
 	m_intent = MOVE_INTENT_WALK
@@ -42,9 +46,6 @@
 	var/g_skin = 0
 	var/b_skin = 0
 
-	//Species specific
-	var/moth_wings = "Plain"
-
 	var/lip_style		//no lipstick by default- arguably misleading, as it could be used for general makeup
 
 	var/age = 30		//Player's age (pure fluff)
@@ -74,8 +75,6 @@
 	var/obj/item/l_store = null
 	var/obj/item/s_store = null
 
-	var/icon/stand_icon = null
-
 	var/speech_problem_flag = 0
 
 	var/special_voice = "" // For changing our voice. Used by a symptom.
@@ -92,7 +91,7 @@
 
 
 	//Life variables
-
+	
 	///How long the human is dead, in life ticks, which is 2 seconds
 	var/dead_ticks = 0
 
@@ -133,5 +132,16 @@
 
 	COOLDOWN_DECLARE(xeno_push_delay)
 
-	/// This is the cooldown on suffering additional effects for when shock gets high
-	COOLDOWN_DECLARE(last_shock_effect)
+	//Current features and mutant bodyparts, those can change if for example your tail gets cut off. For original information check the DNA datum
+	var/list/features = MANDATORY_FEATURE_LIST
+	var/list/list/mutant_bodyparts = list()
+	var/list/list/body_markings = list()
+
+	var/datum/dna/dna
+
+	var/bodyparts_render_key = ""
+	var/mutant_parts_render_key = ""
+
+	var/try_hide_mutant_parts = FALSE
+
+	var/show_underwear = TRUE

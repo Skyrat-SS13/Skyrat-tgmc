@@ -150,7 +150,6 @@
 	READ_FILE(S["parallax"], parallax)
 	READ_FILE(S["tooltips"], tooltips)
 	READ_FILE(S["key_bindings"], key_bindings)
-	READ_FILE(S["custom_emotes"], custom_emotes)
 	READ_FILE(S["chem_macros"], chem_macros)
 
 	READ_FILE(S["mute_self_combat_messages"], mute_self_combat_messages)
@@ -203,7 +202,6 @@
 	tooltips		= sanitize_integer(tooltips, FALSE, TRUE, initial(tooltips))
 
 	key_bindings 	= sanitize_islist(key_bindings, list())
-	custom_emotes   = sanitize_is_full_emote_list(custom_emotes)
 	chem_macros 	= sanitize_islist(chem_macros, list())
 
 	mute_self_combat_messages	= sanitize_integer(mute_self_combat_messages, FALSE, TRUE, initial(mute_self_combat_messages))
@@ -254,10 +252,15 @@
 	show_typing		= sanitize_integer(show_typing, FALSE, TRUE, initial(show_typing))
 	ghost_hud 		= sanitize_integer(ghost_hud, NONE, MAX_BITFLAG, initial(ghost_hud))
 	windowflashing	= sanitize_integer(windowflashing, FALSE, TRUE, initial(windowflashing))
+<<<<<<< HEAD
 	auto_fit_viewport = sanitize_integer(auto_fit_viewport, FALSE, TRUE, initial(auto_fit_viewport))
 	widescreenpref = sanitize_integer(widescreenpref, FALSE, TRUE, initial(widescreenpref))
 	pixel_size = sanitize_float(pixel_size, PIXEL_SCALING_AUTO, PIXEL_SCALING_3X, 0.5, initial(pixel_size))
 	scaling_method  = sanitize_text(scaling_method, initial(scaling_method))
+=======
+	auto_fit_viewport= sanitize_integer(auto_fit_viewport, FALSE, TRUE, initial(auto_fit_viewport))
+	key_bindings	= sanitize_islist(key_bindings, list())
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	chem_macros		= sanitize_islist(chem_macros, list())
 	ghost_vision	= sanitize_integer(ghost_vision, FALSE, TRUE, initial(ghost_vision))
 	ghost_orbit		= sanitize_inlist(ghost_orbit, GLOB.ghost_orbits, initial(ghost_orbit))
@@ -303,6 +306,10 @@
 	WRITE_FILE(S["pixel_size"], pixel_size)
 	WRITE_FILE(S["scaling_method"], scaling_method)
 	WRITE_FILE(S["menuoptions"], menuoptions)
+<<<<<<< HEAD
+=======
+	WRITE_FILE(S["key_bindings"], key_bindings)
+>>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 	WRITE_FILE(S["chem_macros"], chem_macros)
 	WRITE_FILE(S["ghost_vision"], ghost_vision)
 	WRITE_FILE(S["ghost_orbit"], ghost_orbit)
@@ -403,8 +410,6 @@
 	READ_FILE(S["g_eyes"], g_eyes)
 	READ_FILE(S["b_eyes"], b_eyes)
 
-	READ_FILE(S["moth_wings"], moth_wings)
-
 	READ_FILE(S["citizenship"], citizenship)
 	READ_FILE(S["religion"], religion)
 	READ_FILE(S["nanotrasen_relation"], nanotrasen_relation)
@@ -414,6 +419,10 @@
 	READ_FILE(S["gen_record"], gen_record)
 	READ_FILE(S["exploit_record"], exploit_record)
 	READ_FILE(S["flavor_text"], flavor_text)
+
+	READ_FILE(S["features"], features)
+	READ_FILE(S["mutant_bodyparts"], mutant_bodyparts)
+	READ_FILE(S["body_markings"], body_markings)
 
 
 	be_special		= sanitize_integer(be_special, NONE, MAX_BITFLAG, initial(be_special))
@@ -461,8 +470,6 @@
 	g_eyes			= sanitize_integer(g_eyes, 0, 255, initial(g_eyes))
 	b_eyes			= sanitize_integer(b_eyes, 0, 255, initial(b_eyes))
 
-	moth_wings		= sanitize_inlist(moth_wings, GLOB.moth_wings_list, initial(moth_wings))
-
 	citizenship		= sanitize_inlist(citizenship, CITIZENSHIP_CHOICES, initial(citizenship))
 	religion		= sanitize_inlist(religion, RELIGION_CHOICES, initial(religion))
 	nanotrasen_relation = sanitize_inlist(nanotrasen_relation, CORP_RELATIONS, initial(nanotrasen_relation))
@@ -481,6 +488,27 @@
 		ai_name = "ARES v3.2"
 	if(!real_name)
 		real_name = GLOB.namepool[/datum/namepool].get_random_name(gender)
+
+	features = SANITIZE_LIST(features)
+	//Validate features
+	for(var/key in MANDATORY_FEATURE_LIST)
+		if(!features[key])
+			features[key] = MANDATORY_FEATURE_LIST[key]
+
+	mutant_bodyparts = SANITIZE_LIST(mutant_bodyparts)
+	//Validate bodyparts
+	var/datum/species/current_species = GLOB.all_species[species]
+	for(var/key in current_species.default_mutant_bodyparts)
+		if(!mutant_bodyparts[key])
+			mutant_bodyparts[key] = GetDefaultMutantpart(current_species, key, features)
+		validate_color_keys_for_part(key)
+
+	//validating body markings
+	body_markings = SANITIZE_LIST(body_markings)
+	for(var/zone in body_markings)
+		for(var/name in body_markings[zone])
+			if(!(name in GLOB.body_markings_per_limb[zone]))
+				body_markings[zone] -= name
 
 	return TRUE
 
@@ -544,8 +572,6 @@
 	g_eyes			= sanitize_integer(g_eyes, 0, 255, initial(g_eyes))
 	b_eyes			= sanitize_integer(b_eyes, 0, 255, initial(b_eyes))
 
-	moth_wings		= sanitize_inlist(moth_wings, GLOB.moth_wings_list, initial(moth_wings))
-
 	citizenship		= sanitize_inlist(citizenship, CITIZENSHIP_CHOICES, initial(citizenship))
 	religion		= sanitize_inlist(religion, RELIGION_CHOICES, initial(religion))
 	nanotrasen_relation = sanitize_inlist(nanotrasen_relation, CORP_RELATIONS, initial(nanotrasen_relation))
@@ -599,8 +625,6 @@
 	WRITE_FILE(S["g_eyes"], g_eyes)
 	WRITE_FILE(S["b_eyes"], b_eyes)
 
-	WRITE_FILE(S["moth_wings"], moth_wings)
-
 	WRITE_FILE(S["citizenship"], citizenship)
 	WRITE_FILE(S["religion"], religion)
 	WRITE_FILE(S["nanotrasen_relation"], nanotrasen_relation)
@@ -610,6 +634,10 @@
 	WRITE_FILE(S["gen_record"], gen_record)
 	WRITE_FILE(S["exploit_record"], exploit_record)
 	WRITE_FILE(S["flavor_text"], flavor_text)
+
+	WRITE_FILE(S["features"], features)
+	WRITE_FILE(S["mutant_bodyparts"], mutant_bodyparts)
+	WRITE_FILE(S["body_markings"], body_markings)
 
 	return TRUE
 
