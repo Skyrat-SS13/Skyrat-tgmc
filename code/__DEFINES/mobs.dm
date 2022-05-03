@@ -387,44 +387,6 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 
 
 // Human Overlay Indexes
-<<<<<<< HEAD
-#define HEADBITE_LAYER 30
-#define LASER_LAYER 29 //For sniper targeting laser
-#define MOTH_WINGS_LAYER 28
-#define MUTANTRACE_LAYER 27
-#define MUTATIONS_LAYER 26
-#define DAMAGE_LAYER 25
-#define UNIFORM_LAYER 24
-#define TAIL_LAYER 23 //bs12 specific. this hack is probably gonna come back to haunt me
-#define ID_LAYER 22
-#define SHOES_LAYER 21
-#define GLOVES_LAYER 20
-#define BELT_LAYER 19
-#define GLASSES_LAYER 18
-#define SUIT_LAYER 17 //Possible make this an overlay of somethign required to wear a belt?
-#define HAIR_LAYER 16 //TODO: make part of head layer?
-#define EARS_LAYER 15
-#define FACEMASK_LAYER 14
-#define GOGGLES_LAYER 13	//For putting Ballistic goggles and potentially other things above masks
-#define HEAD_LAYER 12
-#define COLLAR_LAYER 11
-#define SUIT_STORE_LAYER 10
-#define BACK_LAYER 9
-#define CAPE_LAYER 8
-#define HANDCUFF_LAYER 7
-#define L_HAND_LAYER 6
-#define R_HAND_LAYER 5
-#define BURST_LAYER 4 //Chestburst overlay
-#define OVERHEALTH_SHIELD_LAYER 3
-#define TARGETED_LAYER 2 //for target sprites when held at gun point, and holo cards.
-#define FIRE_LAYER 1 //If you're on fire
-
-#define TOTAL_LAYERS 30
-
-#define MOTH_WINGS_BEHIND_LAYER 1
-
-#define TOTAL_UNDERLAYS 1
-=======
 #define HEADBITE_LAYER			32
 #define LASER_LAYER				31 //For sniper targeting laser27
 #define MUTATIONS_LAYER			30
@@ -461,7 +423,6 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define TOTAL_LAYERS			32
 
 #define TOTAL_UNDERLAYS			0
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 #define ANTI_CHAINSTUN_TICKS 2
 
@@ -473,14 +434,6 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define STAMINA_EXHAUSTION_DEBUFF_STACKS 6 //Amount of slow and stagger stacks applied on stamina exhaustion events
 
 
-<<<<<<< HEAD
-//Shock defines
-
-#define LIVING_SHOCK_EFFECT_COOLDOWN 10 SECONDS
-
-
-=======
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 //Xeno Defines
 
 #define XENO_DEFAULT_VENT_ENTER_TIME 4.5 SECONDS //Standard time for a xeno to enter a vent.
@@ -505,19 +458,11 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 
 #define PLASMA_TRANSFER_AMOUNT 100
 
-<<<<<<< HEAD
 #define XENO_LARVAL_AMOUNT_RECURRING 5
 #define XENO_LARVAL_CHANNEL_TIME 0.25 SECONDS
 
 #define XENO_NEURO_AMOUNT_RECURRING 5
 #define XENO_NEURO_CHANNEL_TIME 0.25 SECONDS
-=======
-#define XENO_LARVAL_AMOUNT_RECURRING		10
-#define XENO_LARVAL_CHANNEL_TIME			1.5 SECONDS
-
-#define XENO_NEURO_AMOUNT_RECURRING			10
-#define XENO_NEURO_CHANNEL_TIME				1.5 SECONDS
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 #define XENO_HEALTH_ALERT_TRIGGER_PERCENT 0.25 //If a xeno is damaged while its current hit points are less than this percent of its maximum, we send out an alert to the hive
 #define XENO_HEALTH_ALERT_TRIGGER_THRESHOLD 50 //If a xeno is damaged while its current hit points are less than this amount, we send out an alert to the hive
@@ -549,7 +494,6 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define CASTE_HIDE_IN_STATUS (1<<10)
 #define CASTE_QUICK_HEAL_STANDING (1<<11) // Xenomorphs heal standing same if they were resting.
 #define CASTE_CAN_HEAL_WITHOUT_QUEEN (1<<12) // Xenomorphs can heal even without a queen on the same z level
-<<<<<<< HEAD
 #define CASTE_INNATE_PLASMA_REGEN (1<<13) // Xenos get full plasma regardless if they are on weeds or not
 #define CASTE_ACID_BLOOD (1<<14) //The acid blood effect which damages humans near xenos that take damage
 #define CASTE_CAN_HOLD_JELLY (1<<15)//whether we can hold fireproof jelly in our hands
@@ -559,12 +503,6 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define CASTE_CAN_BECOME_KING (1<<19) //Can be choose to become a king
 #define CASTE_CAN_RIDE_CRUSHER (1<<20) //Can ride a crusher
 #define CASTE_IS_A_MINION (1<<21) //That's a dumb ai
-=======
-#define CASTE_INNATE_PLASMA_REGEN 	(1<<13) // Xenos get full plasma regardless if they are on weeds or not
-#define CASTE_ACID_BLOOD (1<<13) //The acid blood effect which damages humans near xenos that take damage
-#define CASTE_CAN_HOLD_JELLY (1<<14)//whether we can hold fireproof jelly in our hands
-#define CASTE_IS_STRONG (1<<15)//can tear open acided walls without being big
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 //Charge-Crush
 #define CHARGE_OFF 0
@@ -657,10 +595,7 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 //carrier defines
 #define CARRIER_HUGGER_THROW_SPEED 2
 #define CARRIER_HUGGER_THROW_DISTANCE 5
-<<<<<<< HEAD
 #define CARRIER_SLASH_HUGGER_DAMAGE 25
-=======
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 //Defiler defines
 #define DEFILER_GAS_CHANNEL_TIME 0.5 SECONDS
@@ -729,15 +664,8 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define WRAITH_BANISH_NONFRIENDLY_LIVING_MULTIPLIER 0.5
 #define WRAITH_BANISH_VERY_SHORT_MULTIPLIER 0.3
 
-<<<<<<< HEAD
 #define WRAITH_TELEPORT_DEBUFF_STAGGER_STACKS 2 //Stagger and slow stacks applied to adjacent living hostiles before/after a teleport
 #define WRAITH_TELEPORT_DEBUFF_SLOWDOWN_STACKS 3 //Stagger and slow stacks applied to adjacent living hostiles before/after a teleport
-=======
-#define WRAITH_PHASE_SHIFT_WINDUP			1 SECONDS
-#define WRAITH_PHASE_SHIFT_DURATION			5 SECONDS
-#define WRAITH_PHASE_SHIFT_DURATION_WARNING	0.7
-#define WRAITH_PHASE_SHIFT_ALPHA			128 //50% transparency
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 //Warrior defines
 
@@ -762,13 +690,10 @@ GLOBAL_LIST_INIT(xenoupgradetiers, list(XENO_UPGRADE_BASETYPE, XENO_UPGRADE_INVA
 #define CHARLIE_SQUAD "charlie_squad"
 #define DELTA_SQUAD "delta_squad"
 
-<<<<<<< HEAD
 #define ALPHA_SQUAD_REBEL "alpha_squad_rebel"
 #define BRAVO_SQUAD_REBEL "bravo_squad_rebel"
 #define CHARLIE_SQUAD_REBEL "charlie_squad_rebel"
 #define DELTA_SQUAD_REBEL "delta_squad_rebel"
-=======
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 #define TYPING_INDICATOR_LIFETIME 3 SECONDS	//Grace period after which typing indicator disappears regardless of text in chatbar.
 
