@@ -1,18 +1,9 @@
-<<<<<<< HEAD
- # SolFed Marine Corps
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/tgstation/TerraGov-Marine-Corps.svg)](https://isitmaintained.com/project/tgstation/TerraGov-Marine-Corps "Percentage of issues still open") [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/tgstation/TerraGov-Marine-Corps.svg)](https://isitmaintained.com/project/tgstation/TerraGov-Marine-Corps "Average time to resolve an issue")
-=======
->>>>>>> 061d746bab (README Rework (#9981))
 
 <h1>
 
-<<<<<<< HEAD
- This is a fork based off the August-2021 version of TerraGov Marine Corps. To see the original, GPL repo, go [here](https://github.com/MrStonedOne/cmhistory)
-=======
 TerraGov Marine Corps 
 [![Badge Issues]][Issues]
 [![Badge Time]][Time]
->>>>>>> 061d746bab (README Rework (#9981))
 
 </h1>
 
