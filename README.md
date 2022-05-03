@@ -1,7 +1,7 @@
 
 <h1>
 
-TerraGov Marine Corps 
+Solfed Marine Corps
 [![Badge Issues]][Issues]
 [![Badge Time]][Time]
 
@@ -17,7 +17,7 @@ TerraGov Marine Corps 
 
 ## Licensing
 
-This fork is based on the `July 2018` version of **[ColonialMarines]** .
+This fork is based on the `August 2021` version of **[TerraGov Marine Corps]** .
 
 <br>
 <br>
@@ -93,5 +93,5 @@ Asset Type      | Source                                 | License
 
 [Byond]: https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a
 
-[ColonialMarines]: https://github.com/MrStonedOne/cmhistory
+[TerraGov Marine Corps]: https://github.com/tgstation/TerraGov-Marine-Corps
 [FreeSound.org]: https://freesound.org/people/nicStage/sounds/127731/
