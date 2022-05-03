@@ -206,7 +206,6 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 	else if(href_list["preference"])
 		if(!client?.prefs)
 			return
-<<<<<<< HEAD
 		stack_trace("This code path is no longer valid, migrate this to new TGUI prefs")
 		return
 
@@ -230,9 +229,6 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 				var/mob/dead/observer/ghost = usr
 				ghost.abstract_move(resin_silo.loc)
 				break
-=======
-		client.prefs.process_link(src, href_list)
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 /mob/proc/ghostize(can_reenter_corpse = TRUE, aghosting = FALSE)
 	if(!key || isaghost(src))
@@ -347,16 +343,8 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 			else
 				stat("Respawn timer:", "[(status_value / 60) % 60]:[add_leading(num2text(status_value % 60), 2, "0")]")
 			if(SSticker.mode?.flags_round_type & MODE_INFESTATION)
-<<<<<<< HEAD
 				if(larva_position)
 					stat("Position in larva candidate queue: ", "[larva_position]")
-=======
-				status_value = (timeofdeath + GLOB.xenorespawntime - world.time) * 0.1
-				if(status_value <= 0)
-					stat("Xeno respawn timer:", "<b>READY</b>")
-				else
-					stat("Xeno respawn timer:", "[(status_value / 60) % 60]:[add_leading(num2text(status_value % 60), 2, "0")]")
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 				var/datum/job/xeno_job = SSjob.GetJobType(/datum/job/xenomorph)
 				var/stored_larva = xeno_job.total_positions - xeno_job.current_positions
 				if(stored_larva)
@@ -453,12 +441,8 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 	if(!A)
 		return
 
-<<<<<<< HEAD
 	abstract_move(pick(get_area_turfs(A)))
 	update_parallax_contents()
-=======
-	loc = pick(get_area_turfs(A))
->>>>>>> 35f698cda9c60223a009f3e619faf2bf6e47d703
 
 
 /mob/dead/observer/verb/follow_ghost()
