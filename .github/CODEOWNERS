@@ -4,6 +4,7 @@
 # In the event that multiple org members are to be informed of changes
 # to the same file or dir, add them to the end under Multiple Owners
 
+<<<<<<< HEAD
 # SpaceLove
 /code/datum/gamemodes/ @spacelovess13
 
@@ -14,3 +15,9 @@
 /code/datums/supplypacks.dm @spacelovess13
 /code/modules/shuttle/ @spacelovess13
 /code/controllers/subsystem/points.dm @spacelovess13
+=======
+# spookydonut
+/code/datums/supplypacks.dm @spookydonut
+/code/modules/shuttle/ @spookydonut
+/code/controllers/subsystem/points.dm @spookydonut
+>>>>>>> 0b1d033fcc ("This CODEOWNERS file contains errors" (#10266))
