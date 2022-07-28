@@ -510,15 +510,15 @@
 /datum/atom_hud/squad_rebel
 	hud_icons = list(SQUAD_HUD_REBEL, MACHINE_HEALTH_HUD, MACHINE_AMMO_HUD)
 
+/datum/atom_hud/squad_som
+	hud_icons = list(SQUAD_HUD_SOM, MACHINE_HEALTH_HUD, MACHINE_AMMO_HUD)
 
 /mob/proc/hud_set_job(faction = FACTION_TERRAGOV)
 	return
 
 
 /mob/living/carbon/human/hud_set_job(faction = FACTION_TERRAGOV)
-<<<<<<< HEAD
 	var/hud_type = faction == FACTION_TERRAGOV ? SQUAD_HUD_TERRAGOV : SQUAD_HUD_REBEL
-=======
 	var/hud_type
 	if(faction == FACTION_TERRAGOV)
 		hud_type = SQUAD_HUD_TERRAGOV
@@ -528,7 +528,6 @@
 		hud_type = SQUAD_HUD_SOM
 	else
 		return
->>>>>>> 3d778ed9fa (Fix a runtime when setting up hud with a neutral faction mob (#10640))
 	var/image/holder = hud_list[hud_type]
 	holder.icon_state = ""
 	holder.overlays.Cut()
