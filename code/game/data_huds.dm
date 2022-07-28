@@ -518,6 +518,7 @@
 
 
 /mob/living/carbon/human/hud_set_job(faction = FACTION_TERRAGOV)
+	var/hud_type = faction == FACTION_TERRAGOV ? SQUAD_HUD_TERRAGOV : SQUAD_HUD_REBEL
 	var/hud_type
 	if(faction == FACTION_TERRAGOV)
 		hud_type = SQUAD_HUD_TERRAGOV
@@ -525,6 +526,8 @@
 		hud_type = SQUAD_HUD_REBEL
 	else if(faction == FACTION_SOM)
 		hud_type = SQUAD_HUD_SOM
+	else
+		return
 	var/image/holder = hud_list[hud_type]
 	holder.icon_state = ""
 	holder.overlays.Cut()
