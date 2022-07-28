@@ -516,7 +516,19 @@
 
 
 /mob/living/carbon/human/hud_set_job(faction = FACTION_TERRAGOV)
+<<<<<<< HEAD
 	var/hud_type = faction == FACTION_TERRAGOV ? SQUAD_HUD_TERRAGOV : SQUAD_HUD_REBEL
+=======
+	var/hud_type
+	if(faction == FACTION_TERRAGOV)
+		hud_type = SQUAD_HUD_TERRAGOV
+	else if(faction == FACTION_TERRAGOV_REBEL)
+		hud_type = SQUAD_HUD_REBEL
+	else if(faction == FACTION_SOM)
+		hud_type = SQUAD_HUD_SOM
+	else
+		return
+>>>>>>> 3d778ed9fa (Fix a runtime when setting up hud with a neutral faction mob (#10640))
 	var/image/holder = hud_list[hud_type]
 	holder.icon_state = ""
 	holder.overlays.Cut()
