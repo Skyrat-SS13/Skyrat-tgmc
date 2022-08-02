@@ -8,13 +8,26 @@
 	dir = 1
 	},
 /area/bigredv2/caves/lambda_lab)
+<<<<<<< HEAD
 "f" = (
 /obj/effect/landmark/weed_node,
+=======
+"c" = (
+/obj/effect/ai_node,
+/obj/effect/landmark/excavation_site_spawner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
 "g" = (
 /turf/closed/wall/r_wall,
 /area/bigredv2/caves/rock)
+<<<<<<< HEAD
+=======
+"h" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "j" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/tile/whiteyellow{
@@ -28,12 +41,24 @@
 "o" = (
 /turf/closed/wall/r_wall,
 /area/bigredv2/caves/lambda_lab)
+<<<<<<< HEAD
 "q" = (
 /turf/open/floor/plating,
 /area/bigredv2/caves/lambda_lab)
 "s" = (
 /obj/effect/ai_node,
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"p" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"q" = (
+/turf/open/floor/plating,
+/area/bigredv2/caves/lambda_lab)
+"v" = (
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
 "w" = (
@@ -59,6 +84,7 @@
 "H" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
+<<<<<<< HEAD
 "I" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -76,6 +102,29 @@
 /obj/effect/landmark/xeno_resin_wall,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
+=======
+"J" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"K" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/northeast)
+"M" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"U" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"V" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "W" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave,

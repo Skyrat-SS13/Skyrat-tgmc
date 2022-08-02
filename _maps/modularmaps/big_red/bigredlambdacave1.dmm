@@ -1,4 +1,5 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
 "a" = (
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
@@ -17,11 +18,34 @@
 /area/bigredv2/caves/northeast)
 "w" = (
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+=======
+"g" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"h" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"I" = (
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
 "K" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
+<<<<<<< HEAD
+=======
+"L" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"R" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 w

@@ -765,7 +765,11 @@
 
 	for(var/turf/sticky_tile AS in RANGE_TURFS(1, loc))
 		if(!locate(/obj/effect/xenomorph/spray) in sticky_tile.contents)
+<<<<<<< HEAD
 			new /obj/effect/alien/resin/sticky/thin(sticky_tile)
+=======
+			new /obj/alien/resin/sticky/thin(sticky_tile)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 	var/armor_block
 	for(var/mob/living/target in range(1, loc))

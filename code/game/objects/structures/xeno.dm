@@ -56,7 +56,11 @@
 		if(EXPLODE_LIGHT)
 			take_damage((rand(50, 100)))
 
+<<<<<<< HEAD
 /obj/effect/alien/effect_smoke(obj/effect/particle_effect/smoke/S)
+=======
+/obj/alien/effect_smoke(obj/effect/particle_effect/smoke/S)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	. = ..()
 	if(!.)
 		return

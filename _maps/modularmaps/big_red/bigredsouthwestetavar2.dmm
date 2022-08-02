@@ -18,6 +18,17 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"bt" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"bC" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cg" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/nanotrasen_lab/inside)
@@ -39,6 +50,7 @@
 	dir = 4
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "dP" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -54,6 +66,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
+=======
+"eC" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"eH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/red2/corner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/nanotrasen_lab/inside)
 "fU" = (
 /obj/structure/table,
@@ -85,11 +106,29 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "gP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark/red2/corner{
 	dir = 8
 	},
+=======
+"hJ" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"iu" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"iZ" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"ju" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/nanotrasen_lab/inside)
 "jv" = (
 /obj/effect/ai_node,
@@ -131,16 +170,43 @@
 	dir = 6
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"oH" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oL" = (
 /obj/structure/xenoautopsy/tank/hugger,
 /turf/open/floor/tile/dark/red2/corner{
 	dir = 8
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "pt" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/south)
+=======
+"pz" = (
+/obj/effect/landmark/start/job/xenomorph,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"pW" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"qt" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/wall/r_wall,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"qR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qZ" = (
 /turf/open/floor/tile/dark/red2{
 	dir = 8
@@ -160,6 +226,7 @@
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plating,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "ry" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 1
@@ -169,6 +236,16 @@
 /area/bigredv2/outside/nanotrasen_lab/inside)
 "rU" = (
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+=======
+"rW" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"sQ" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/xeno_resin_wall,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/south)
 "tI" = (
@@ -211,6 +288,13 @@
 	dir = 4
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"ym" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yU" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave/rock,
@@ -310,11 +394,19 @@
 	dir = 8
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"Eq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "EC" = (
 /turf/open/floor/tile/dark/red2{
 	dir = 4
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "EW" = (
 /turf/closed/wall/r_wall,
 /area/bigredv2/outside/nanotrasen_lab/inside)
@@ -323,11 +415,33 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/south)
+=======
+"EF" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"EK" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"EW" = (
+/turf/closed/wall/r_wall,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"Gm" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hc" = (
 /turf/open/floor/tile/dark/red2/corner{
 	dir = 4
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "IX" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/wall/r_wall,
@@ -339,6 +453,39 @@
 /obj/item/xenos_claw,
 /turf/open/floor/tile/dark/red2/corner{
 	dir = 8
+=======
+"HO" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"Ir" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/south)
+"IA" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2/corner,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"IU" = (
+/obj/effect/landmark/xeno_resin_wall,
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"Jq" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark/red2{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
 "JI" = (
@@ -347,6 +494,14 @@
 	dir = 1
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"Kj" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KI" = (
 /turf/open/floor/tile/dark/red2{
 	dir = 6
@@ -369,6 +524,16 @@
 	},
 /turf/open/ground/jungle/clear,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"LO" = (
+/obj/structure/table,
+/obj/effect/spawner/random/technology_scanner,
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 4
+	},
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LR" = (
 /obj/structure/closet/l3closet/scientist,
 /turf/open/floor/tile/darkgreen/darkgreen2{
@@ -419,6 +584,7 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "RH" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
@@ -426,6 +592,16 @@
 "RQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
+=======
+"RD" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"Sf" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/nanotrasen_lab/inside)
 "Sq" = (
 /obj/structure/closet/l3closet/scientist,
@@ -433,9 +609,25 @@
 	dir = 5
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "TD" = (
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+=======
+"TQ" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"TS" = (
+/obj/structure/table,
+/obj/machinery/light,
+/obj/effect/spawner/random/technology_scanner,
+/obj/item/xenos_claw,
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/outside/nanotrasen_lab/inside)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Un" = (
 /turf/open/floor/tile/dark/red2/corner{
 	dir = 8
@@ -445,6 +637,17 @@
 /obj/structure/closet/crate/secure,
 /turf/open/floor/tile/dark/red2/corner,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
+=======
+"UB" = (
+/obj/effect/landmark/start/job/xenomorph,
+/turf/open/floor/tile/dark,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"UG" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VX" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
@@ -453,6 +656,7 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "WC" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -460,6 +664,14 @@
 "WG" = (
 /obj/effect/landmark/start/job/xenomorph,
 /turf/open/floor/plating/ground/mars/random/sand,
+=======
+"WX" = (
+/obj/structure/table,
+/obj/effect/spawner/random/technology_scanner,
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/nanotrasen_lab/inside)
 "Xl" = (
 /turf/open/floor/plating,
@@ -488,7 +700,15 @@
 	dir = 8
 	},
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "YW" = (
+=======
+"Zi" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/south)
+"Zl" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/ground/jungle/clear,
 /area/bigredv2/outside/nanotrasen_lab/inside)

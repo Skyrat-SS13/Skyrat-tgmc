@@ -1,14 +1,27 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
 "a" = (
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+=======
+"f" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark{
+	
+	},
+/area/bigredv2/outside/se)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "h" = (
 /turf/closed/wall,
 /area/bigredv2/outside/se)
 "k" = (
 /turf/open/floor/podhatch/floor,
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "s" = (
+=======
+"u" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark{
 	},
@@ -30,11 +43,21 @@
 "I" = (
 /turf/closed/wall,
 /area/bigredv2/caves/rock)
+<<<<<<< HEAD
 "V" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark{
 	},
 /area/bigredv2/outside/se)
+=======
+"U" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"W" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 h

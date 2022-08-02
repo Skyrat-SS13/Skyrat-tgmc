@@ -1,11 +1,24 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
 "aU" = (
 /obj/effect/ai_node,
 /turf/open/floor/asteroidfloor,
+=======
+"ab" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/s)
 "br" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
+=======
+"bJ" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cc" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -16,11 +29,18 @@
 	},
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
 "dy" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 1
 	},
+=======
+"cK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/asteroidfloor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/s)
 "ed" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
@@ -33,6 +53,30 @@
 	},
 /turf/open/floor/marking/asteroidwarning,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
+=======
+"es" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/bigredv2/outside/se)
+"ez" = (
+/obj/effect/ai_node,
+/obj/structure/cable,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/bigredv2/outside/se)
+"eO" = (
+/obj/effect/landmark/weed_node,
+/obj/structure/cable,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+	},
+/area/bigredv2/outside/se)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fa" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 9
@@ -41,6 +85,15 @@
 	dir = 6
 	},
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
+=======
+"fN" = (
+/obj/structure/table,
+/obj/item/tool/lighter/random,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fW" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 1
@@ -64,6 +117,7 @@
 "hB" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "hS" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -75,6 +129,10 @@
 "hT" = (
 /obj/effect/landmark/weed_node,
 /obj/structure/cable,
+=======
+"hG" = (
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/asteroidfloor,
 /area/bigredv2/outside/s)
 "iw" = (
@@ -84,10 +142,21 @@
 	dir = 4
 	},
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "jp" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+=======
+"ii" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"js" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/bigredv2/outside/se)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jt" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/east)
@@ -106,9 +175,21 @@
 "kX" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "ln" = (
 /obj/structure/bed/chair{
 	dir = 4
+=======
+"lv" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"lG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 8;
+	on = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor,
@@ -124,6 +205,17 @@
 "mw" = (
 /turf/open/floor/asteroidfloor,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
+=======
+"mF" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/outside/s)
+"mL" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nb" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 8
@@ -133,6 +225,13 @@
 /obj/structure/closet/wardrobe/atmospherics_yellow,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
+=======
+"nf" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ng" = (
 /obj/machinery/door/poddoor/two_tile_ver,
 /turf/open/floor/plating/ground/mars/random/dirt,
@@ -160,10 +259,18 @@
 	},
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
 "pA" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+=======
+"po" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pJ" = (
 /obj/item/clothing/head/warning_cone,
 /turf/open/floor/asteroidfloor,
@@ -174,6 +281,7 @@
 	dir = 5
 	},
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "rv" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/cable,
@@ -192,12 +300,36 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/se)
+=======
+"rW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/ai_node,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+"st" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"sC" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tk" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/s)
 "tU" = (
 /turf/open/floor/marking/asteroidwarning,
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "ud" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -208,6 +340,11 @@
 "uJ" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open/floor/plating/ground/mars/cavetodirt{
+=======
+"uG" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 1
 	},
 /area/bigredv2/outside/se)
@@ -240,15 +377,44 @@
 	},
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
 "xg" = (
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+=======
+"xc" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/marking/asteroidwarning,
+/area/bigredv2/outside/se)
+"xg" = (
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"xk" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"xp" = (
+/obj/effect/ai_node,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xR" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "yq" = (
 /obj/effect/landmark/weed_node,
+=======
+"yN" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/s)
 "zp" = (
@@ -279,6 +445,7 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
 "Bi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
@@ -334,6 +501,30 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/se)
+=======
+"BN" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/outside/se)
+"Dy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/obj/structure/cable,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+"EZ" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 1
+	},
+/area/bigredv2/outside/se)
+"FS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gp" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
@@ -362,13 +553,36 @@
 /obj/item/clothing/head/warning_cone,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
+=======
+"Ii" = (
+/obj/effect/landmark/weed_node,
+/obj/structure/cable,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+"IH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/headset/survivor,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"IP" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/se)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jg" = (
 /obj/machinery/computer/atmos_alert,
 /obj/structure/table,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
 "Jv" = (
 /obj/effect/landmark/weed_node,
+=======
+"Ji" = (
+/obj/structure/window_frame/colony,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/structure/cable,
 /turf/open/floor/marking/asteroidwarning{
 	dir = 1
@@ -387,6 +601,7 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
 "Ka" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/excavation_site_spawner,
@@ -395,10 +610,35 @@
 "Kn" = (
 /turf/closed/wall/r_wall,
 /area/bigredv2/outside/s)
+=======
+"JM" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+"JN" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"Kn" = (
+/turf/closed/wall/r_wall,
+/area/bigredv2/outside/s)
+"Lb" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LD" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+<<<<<<< HEAD
 "LM" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -406,6 +646,15 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
+=======
+"LI" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mc" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 1
@@ -451,6 +700,15 @@
 	},
 /turf/open/floor/marking/asteroidwarning,
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
+=======
+"Qo" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 1
+	},
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Qp" = (
 /obj/machinery/door/poddoor/two_tile_hor{
 	name = "\improper Eta Lab Lockdown"
@@ -460,6 +718,7 @@
 "Qq" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
 "Qs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -467,6 +726,10 @@
 /area/bigredv2/outside/s)
 "QP" = (
 /obj/effect/landmark/lv624/fog_blocker,
+=======
+"Re" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/se)
 "RB" = (
@@ -475,6 +738,7 @@
 "RV" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/bigredv2/outside/s)
+<<<<<<< HEAD
 "Sd" = (
 /obj/effect/ai_node,
 /obj/structure/cable,
@@ -482,6 +746,25 @@
 	dir = 4
 	},
 /area/bigredv2/outside/se)
+=======
+"RX" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/outside/se)
+"SI" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/structure/cable,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+"Tg" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/outside/s)
+"Ts" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/s)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TB" = (
 /obj/structure/window/framed/colony/reinforced/hull,
 /turf/open/floor/plating,
@@ -502,11 +785,26 @@
 	dir = 9
 	},
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
 "VI" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/se)
 "Wd" = (
 /obj/effect/landmark/weed_node,
+=======
+"Va" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/s)
+"Vb" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"VI" = (
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/se)
+"Wr" = (
+/obj/effect/landmark/lv624/fog_blocker,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/outside/s)
 "WB" = (
@@ -515,6 +813,7 @@
 	dir = 8;
 	on = 1
 	},
+<<<<<<< HEAD
 /turf/open/floor,
 /area/bigredv2/outside/filtration_plant)
 "Xz" = (
@@ -522,6 +821,18 @@
 /obj/effect/landmark/weed_node,
 /obj/structure/cable,
 /turf/open/floor/asteroidfloor,
+=======
+/obj/effect/ai_node,
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+/area/bigredv2/outside/filtration_plant)
+"Xt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/marking/asteroidwarning,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/s)
 "XH" = (
 /obj/structure/cable,
@@ -562,6 +873,14 @@
 	dir = 4
 	},
 /area/bigredv2/outside/se)
+<<<<<<< HEAD
+=======
+"Zd" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating,
+/area/bigredv2/outside/filtration_plant)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 RB

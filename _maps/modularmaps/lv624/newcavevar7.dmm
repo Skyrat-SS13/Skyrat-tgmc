@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
+=======
+"as" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/wall/r_wall,
+/area/lv624/ground/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "au" = (
 /turf/open/ground/river,
 /area/lv624/ground/caves/central2)
@@ -8,6 +15,20 @@
 	icon_state = "beachcorner"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"bj" = (
+/turf/closed/mineral/smooth,
+/area/lv624/ground/caves/rock)
+"bu" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"eb" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eE" = (
 /obj/structure/rack,
 /obj/item/tool/shovel,
@@ -39,8 +60,13 @@
 "kc" = (
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "li" = (
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"kd" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central1)
 "ls" = (
@@ -94,6 +120,7 @@
 	dir = 6
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "rJ" = (
 /turf/closed/mineral/smooth,
 /area/lv624/ground/caves/central1)
@@ -117,6 +144,21 @@
 /turf/open/floor/tile/vault{
 	dir = 8
 	},
+=======
+"sG" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/lv624/ground/caves/rock)
+"tz" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"uB" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central1)
 "vy" = (
 /obj/machinery/door/airlock/mainship/secure/locked/free_access{
@@ -125,6 +167,7 @@
 	},
 /turf/open/floor/tile/dark,
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "xh" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
@@ -140,6 +183,11 @@
 /area/lv624/ground/caves/central1)
 "xA" = (
 /obj/effect/landmark/weed_node,
+=======
+"xw" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central1)
 "yI" = (
@@ -151,7 +199,11 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "DJ" = (
+=======
+"By" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central3)
@@ -159,8 +211,27 @@
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "Hl" = (
 /obj/effect/landmark/xeno_resin_wall,
+=======
+"Gb" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/iron{
+	amount = 5
+	},
+/obj/item/stack/sheet/mineral/platinum,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/tile/vault{
+	dir = 8
+	},
+/area/lv624/ground/caves/central1)
+"HV" = (
+/obj/effect/landmark/excavation_site_spawner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
 "Ic" = (
@@ -175,7 +246,11 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "JZ" = (
+=======
+"Ka" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/mineral/smooth,
 /area/lv624/ground/caves/rock)
@@ -190,11 +265,26 @@
 /area/lv624/ground/caves/rock)
 "Mo" = (
 /obj/structure/rack,
+<<<<<<< HEAD
+=======
+/obj/item/tool/shovel,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/open/floor/tile/vault{
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
+=======
+"LK" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central2)
+"LL" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MU" = (
 /obj/structure/jungle/plantbot1/alien,
 /turf/open/ground/river,
@@ -214,6 +304,17 @@
 "OY" = (
 /turf/open/floor,
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
+=======
+"OZ" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"Qj" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QS" = (
 /turf/closed/wall/r_wall,
 /area/lv624/ground/caves/rock)
@@ -251,10 +352,18 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "Tq" = (
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/closed/wall/r_wall,
 /area/lv624/ground/caves/rock)
+=======
+"Tr" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ux" = (
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central1)
@@ -266,6 +375,16 @@
 "UU" = (
 /turf/open/floor/tile/dark,
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
+=======
+"Vp" = (
+/obj/structure/rack,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/tile/vault{
+	dir = 8
+	},
+/area/lv624/ground/caves/central1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VW" = (
 /turf/open/ground/coast{
 	dir = 5

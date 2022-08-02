@@ -46,6 +46,16 @@
 "ai" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/yard/central)
+<<<<<<< HEAD
+=======
+"aj" = (
+/obj/structure/table,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/tech_supply,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "al" = (
 /obj/item/storage/belt/lifesaver/full,
 /obj/item/storage/belt/lifesaver/full,
@@ -54,6 +64,7 @@
 /obj/structure/table,
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
 "ao" = (
 /obj/effect/ai_node,
 /obj/structure/cable,
@@ -61,6 +72,13 @@
 	dir = 8
 	},
 /area/outpost/caves/south)
+=======
+"an" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science/research)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "aq" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2{
@@ -81,6 +99,14 @@
 	dir = 9
 	},
 /area/outpost/hallway/central)
+<<<<<<< HEAD
+=======
+"at" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "au" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
@@ -219,6 +245,13 @@
 /obj/item/clothing/under/colonist,
 /turf/open/floor/wood,
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"aW" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "aX" = (
 /obj/machinery/landinglight/ds2/delaythree{
 	dir = 1
@@ -245,10 +278,21 @@
 	dir = 5
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "be" = (
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/west)
+=======
+"bf" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bg" = (
 /obj/structure/largecrate/random/secure,
 /turf/open/floor/tile/dark/brown2{
@@ -268,10 +312,27 @@
 	dir = 9
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
 "bk" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north_east)
+=======
+"bj" = (
+/obj/structure/table,
+/obj/structure/cable,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 8
+	},
+/area/outpost/engineering)
+"bl" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bm" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -306,11 +367,26 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/brig/armoury)
+<<<<<<< HEAD
 "bt" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north)
+=======
+"bu" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/south_east)
+"bv" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bw" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -328,6 +404,13 @@
 	dir = 1
 	},
 /area/outpost/arrivals/securitylz2)
+<<<<<<< HEAD
+=======
+"by" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/dmg1,
+/area/outpost/science/xenobiology)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bz" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -369,12 +452,19 @@
 	dir = 5
 	},
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "bI" = (
 /obj/effect/landmark/corpsespawner/scientist{
 	corpseback = null;
 	corpseshoes = /obj/item/clothing/shoes/black;
 	corpseuniform = /obj/item/clothing/under/colonist;
 	name = "Colonist Chang Lin"
+=======
+"bK" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/yard/east)
@@ -488,6 +578,20 @@
 	dir = 6
 	},
 /area/outpost/brig)
+<<<<<<< HEAD
+=======
+"cm" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/south)
+"cn" = (
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "co" = (
 /turf/open/floor/plating/asteroidwarning{
 	dir = 8
@@ -496,12 +600,17 @@
 "cp" = (
 /turf/open/floor/tile/dark,
 /area/outpost/brig/armoury)
+<<<<<<< HEAD
 "cq" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/cavetodirt,
 /area/outpost/caves/north)
 "cs" = (
 /obj/effect/landmark/corpsespawner/doctor,
+=======
+"ct" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "cv" = (
@@ -510,14 +619,28 @@
 /area/outpost/caves/west)
 "cw" = (
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/west)
+=======
+/obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
+/obj/effect/spawner/random/tool,
+/turf/open/floor/tile/dark/yellow2,
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cy" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 4
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
+=======
+"cz" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cB" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 8
@@ -564,8 +687,18 @@
 	dir = 8
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "cN" = (
 /obj/effect/ai_node,
+=======
+"cK" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/south_cent)
+"cM" = (
+/obj/effect/landmark/excavation_site_spawner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/caves/east)
 "cO" = (
@@ -625,6 +758,21 @@
 	dir = 4
 	},
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"cY" = (
+/obj/machinery/optable,
+/obj/item/tank/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay/surgery)
+"cZ" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "da" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/brown2/corner{
@@ -638,12 +786,43 @@
 /obj/item/clothing/head/flatcap,
 /turf/open/floor/wood,
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"df" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dg" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/tile/dark/blue2{
 	dir = 9
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"dh" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 9
+	},
+/area/outpost/caves/south)
+"dj" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark/brown2/corner,
+/area/outpost/hallway/central)
+"dk" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -658,12 +837,32 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
+=======
+"dn" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "do" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/tile/dark/blue2{
 	dir = 8
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"dp" = (
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+"dq" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dr" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/lz1)
@@ -688,6 +887,16 @@
 "dw" = (
 /turf/open/floor/plating/dmg2,
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"dx" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 4
+	},
+/area/outpost/hallway/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dy" = (
 /obj/structure/closet/secure_closet/RD,
 /turf/open/floor/tile/dark/purple2{
@@ -728,6 +937,7 @@
 	dir = 8
 	},
 /area/outpost/medbay/security)
+<<<<<<< HEAD
 "dJ" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 4
@@ -737,6 +947,25 @@
 	dir = 1
 	},
 /area/outpost/hallway/south_west)
+=======
+"dH" = (
+/obj/effect/landmark/corpsespawner/doctor{
+	corpsebelt = /obj/item/storage/belt/lifesaver/full;
+	corpsegloves = /obj/item/clothing/gloves/latex;
+	corpsepocket2 = /obj/item/storage/pouch/medkit/firstaid;
+	corpseradio = /obj/item/radio/headset/survivor;
+	corpseshoes = /obj/item/clothing/shoes/snow;
+	corpsesuit = /obj/item/clothing/suit/storage/snow_suit/doctor;
+	name = "Colonist Doctor"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"dI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaythree,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dK" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 1
@@ -780,6 +1009,7 @@
 	dir = 6
 	},
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
 "dT" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -787,6 +1017,19 @@
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/tile/dark/yellow2{
 	dir = 4
+=======
+"dV" = (
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/caves/east)
+"dW" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+"dX" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_14";
+	name = "SOM exit point 14"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/engineering)
 "dU" = (
@@ -804,6 +1047,22 @@
 	dir = 1
 	},
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"dZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/engineering)
+"ea" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark2,
+/area/outpost/arrivals/securitylz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eb" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -823,6 +1082,14 @@
 "ee" = (
 /turf/closed/wall/r_wall,
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
+=======
+"ef" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eg" = (
 /obj/machinery/door/airlock/mainship/research/glass/free_access{
 	dir = 8
@@ -856,6 +1123,14 @@
 /obj/machinery/light/small,
 /turf/open/floor/tile/dark/yellow2,
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"el" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "em" = (
 /obj/item/attachable/extended_barrel,
 /obj/item/attachable/gyro,
@@ -883,9 +1158,16 @@
 	dir = 9
 	},
 /area/outpost/yard/south)
+<<<<<<< HEAD
 "es" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 4
+=======
+"er" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
@@ -944,12 +1226,19 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "eF" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 2
 	},
 /turf/closed/mineral/smooth/bigred,
 /area/outpost/lz2)
+=======
+"eE" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eG" = (
 /obj/structure/table,
 /obj/structure/xenoautopsy,
@@ -957,6 +1246,13 @@
 	dir = 1
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
+=======
+"eH" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 8
@@ -968,8 +1264,14 @@
 	dir = 4
 	},
 /area/outpost/caves/south)
+<<<<<<< HEAD
 "eL" = (
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"eM" = (
+/obj/item/tool/pen,
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/central)
 "eN" = (
@@ -983,11 +1285,21 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
 "eQ" = (
 /obj/structure/table,
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/plating,
 /area/outpost/engineering/engine)
+=======
+"eP" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 8
+	},
+/area/outpost/dormitories)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eR" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -1003,6 +1315,13 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
+=======
+"eV" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eX" = (
 /turf/closed/wall/r_wall,
 /area/outpost/medbay/surgery)
@@ -1020,10 +1339,17 @@
 	dir = 6
 	},
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
 "fb" = (
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning{
 	dir = 10
+=======
+"fa" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/blue2{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/lz1)
 "fc" = (
@@ -1041,6 +1367,7 @@
 	dir = 4
 	},
 /area/outpost/arrivals/securitylz2)
+<<<<<<< HEAD
 "fg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -1051,6 +1378,16 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/cavetodirt,
 /area/outpost/caves/north_east)
+=======
+"fe" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north)
+"ff" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fi" = (
 /obj/structure/cable,
 /obj/machinery/light/small,
@@ -1062,6 +1399,19 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
+=======
+"fl" = (
+/obj/structure/table,
+/obj/structure/cable,
+/obj/effect/spawner/random/powercell,
+/obj/effect/spawner/random/powercell,
+/obj/effect/spawner/random/powercell,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 8
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fm" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 1
@@ -1076,6 +1426,15 @@
 	},
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
+=======
+"fo" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 1
+	},
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fp" = (
 /obj/structure/table,
 /obj/item/paper,
@@ -1122,6 +1481,16 @@
 /obj/item/radio,
 /turf/open/floor/tile/dark,
 /area/outpost/science/rd_office)
+<<<<<<< HEAD
+=======
+"fy" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_14";
+	name = "TGMC exit point 14"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fz" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /turf/open/floor/tile/dark,
@@ -1170,6 +1539,16 @@
 	dir = 10
 	},
 /area/outpost/yard/north)
+<<<<<<< HEAD
+=======
+"fJ" = (
+/obj/machinery/landinglight/ds2{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fK" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 1
@@ -1189,11 +1568,18 @@
 	dir = 4
 	},
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "fO" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark/yellow2{
 	dir = 10
+=======
+"fP" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/engineering)
 "fQ" = (
@@ -1213,12 +1599,17 @@
 	dir = 4
 	},
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
 "fS" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 1
 	},
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+=======
+"fV" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "fT" = (
@@ -1259,6 +1650,23 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/outpost/medbay/surgery)
+<<<<<<< HEAD
+=======
+"ga" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/east)
+"gb" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark/red2{
+	dir = 1
+	},
+/area/outpost/brig)
+"gc" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gd" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 5
@@ -1305,6 +1713,15 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark/red2,
 /area/outpost/engineering/security)
+<<<<<<< HEAD
+=======
+"gl" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark/purple2{
+	dir = 5
+	},
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gm" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/tile/dark/blue2{
@@ -1377,6 +1794,18 @@
 	},
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"gy" = (
+/obj/effect/ai_node,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/tile/dark/purple2{
+	dir = 6
+	},
+/area/outpost/science/xenobiology)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gz" = (
 /obj/machinery/light{
 	dir = 1
@@ -1386,11 +1815,30 @@
 "gA" = (
 /turf/open/floor/tile/dark2,
 /area/outpost/cargo/engineering)
+<<<<<<< HEAD
 "gD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/landinglight/ds2/delaytwo,
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/lz1)
+=======
+"gB" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 8
+	},
+/area/outpost/hallway/northern)
+"gE" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gF" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/tile/dark/purple2{
@@ -1466,6 +1914,7 @@
 	dir = 9
 	},
 /obj/effect/ai_node,
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "gV" = (
@@ -1473,11 +1922,27 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
 /area/outpost/science)
+=======
+/turf/open/floor/tile/dark/yellow2{
+	dir = 10
+	},
+/area/outpost/engineering/hallway)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gW" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 1
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"gX" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2{
+	dir = 6
+	},
+/area/outpost/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gY" = (
 /obj/machinery/vending/engivend,
 /turf/open/floor/tile/dark/yellow2{
@@ -1514,6 +1979,13 @@
 	dir = 6
 	},
 /area/outpost/caves/south)
+<<<<<<< HEAD
+=======
+"hf" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hg" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 1
@@ -1533,10 +2005,17 @@
 	dir = 8
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "hk" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
 /area/outpost/medbay)
+=======
+"hj" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hl" = (
 /obj/machinery/power/apc/drained{
 	dir = 8
@@ -1546,6 +2025,7 @@
 	dir = 4
 	},
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
 "hp" = (
 /obj/effect/landmark/xeno_resin_door,
 /obj/effect/decal/cleanable/blood/writing{
@@ -1557,6 +2037,27 @@
 /obj/effect/landmark/corpsespawner/chef,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/yard/south_east)
+=======
+"hm" = (
+/obj/structure/table/reinforced,
+/obj/effect/landmark/dropship_console_spawn_lz2,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 5
+	},
+/area/outpost/lz2)
+"hn" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_west)
+"ho" = (
+/obj/effect/landmark/fob_sentry,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+"hq" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hs" = (
 /turf/open/floor/plating/dmg1,
 /area/outpost/arrivals)
@@ -1618,10 +2119,27 @@
 /turf/open/floor/plating/asteroidwarning{
 	dir = 10
 	},
+<<<<<<< HEAD
 /area/outpost/lz2)
 "hH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
+=======
+/obj/effect/spawner/random/bomb_supply,
+/obj/effect/spawner/random/bomb_supply,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/tech_supply,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 5
+	},
+/area/outpost/engineering)
+"hG" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/dirttosand{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 4
 	},
 /obj/effect/ai_node,
@@ -1683,10 +2201,17 @@
 	dir = 4
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
 "hS" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 6
+=======
+"hU" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_24";
+	name = "SOM exit point 24"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -1719,6 +2244,13 @@
 	dir = 6
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"ia" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ib" = (
 /obj/machinery/door/airlock/mainship/security/glass/free_access{
 	dir = 2
@@ -1742,6 +2274,14 @@
 /obj/machinery/light,
 /turf/open/floor/tile/dark/purple2,
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
+=======
+"ie" = (
+/obj/effect/ai_node,
+/obj/structure/cable,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "if" = (
 /obj/machinery/door/airlock/mainship/engineering/free_access{
 	dir = 2
@@ -1789,6 +2329,13 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/purple2,
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
+=======
+"in" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "io" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/lz2)
@@ -1818,6 +2365,13 @@
 "ir" = (
 /turf/open/floor/plating/dmg3,
 /area/outpost/cargo/security)
+<<<<<<< HEAD
+=======
+"is" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "it" = (
 /obj/machinery/vending/MarineMed/Blood,
 /turf/open/floor/tile/dark/blue2{
@@ -1859,6 +2413,17 @@
 /obj/machinery/computer/med_data,
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
+=======
+"iB" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "iC" = (
 /obj/machinery/door/airlock/mainship/security/glass/free_access{
 	dir = 1;
@@ -1882,6 +2447,19 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south)
+<<<<<<< HEAD
+=======
+"iG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/item/weapon/gun/revolver/cmb,
+/obj/item/attachable/heavy_barrel,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "iH" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 9
@@ -1930,9 +2508,19 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/brown2/corner,
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "iO" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
+=======
+"iQ" = (
+/obj/effect/landmark/corpsespawner/engineer{
+	corpseback = /obj/item/storage/backpack;
+	corpsehelmet = /obj/item/clothing/head/welding;
+	corpseidjob = "Engineer";
+	corpseshoes = /obj/item/clothing/shoes/black;
+	name = "Colonist Ted Jarka"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
@@ -1952,6 +2540,20 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
+=======
+"iS" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_22";
+	name = "SOM exit point 22"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"iT" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "iU" = (
 /obj/structure/largecrate/guns/russian,
 /turf/open/floor/tile/dark/brown2{
@@ -1988,6 +2590,13 @@
 	dir = 10
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"ja" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jb" = (
 /obj/machinery/landinglight/ds2/delaytwo{
 	dir = 1
@@ -2009,6 +2618,7 @@
 	},
 /turf/open/floor/tile/dark/red2,
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
 "jh" = (
 /obj/structure/cable,
 /obj/machinery/light/small{
@@ -2017,6 +2627,19 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark/purple2{
 	dir = 5
+=======
+"jg" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/north_east)
+"ji" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/science/xenobiology)
 "jj" = (
@@ -2033,6 +2656,15 @@
 	dir = 8
 	},
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
+=======
+"jm" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 9
+	},
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jo" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
 	dir = 2
@@ -2056,6 +2688,14 @@
 	dir = 9
 	},
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"js" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jt" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
@@ -2103,6 +2743,16 @@
 	},
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/lz2)
+<<<<<<< HEAD
+=======
+"jC" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 6
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jD" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -2142,12 +2792,45 @@
 /obj/item/tool/pen,
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "jN" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 4
 	},
 /area/outpost/hallway/east)
+=======
+"jK" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 9
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 6
+	},
+/area/outpost/hallway/central)
+"jL" = (
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 10
+	},
+/area/outpost/caves/north_east)
+"jM" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/east)
+"jO" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 5
+	},
+/area/outpost/yard/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jP" = (
 /obj/machinery/light,
 /turf/open/floor/tile/dark/brown2,
@@ -2174,10 +2857,26 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "jV" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark2,
 /area/outpost/cargo)
+=======
+"jW" = (
+/obj/effect/landmark/excavation_site_spawner,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 8
+	},
+/area/outpost/caves/west)
+"jX" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/yard/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jY" = (
 /obj/structure/largecrate/supply/supplies/flares,
 /turf/open/floor/tile/dark/brown2{
@@ -2188,6 +2887,14 @@
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /turf/open/floor/tile/dark,
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"ka" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -2215,6 +2922,25 @@
 	},
 /turf/open/floor/tile/dark2,
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"kg" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/yard/east)
+"kh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 4
+	},
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ki" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 4
@@ -2277,10 +3003,22 @@
 /obj/item/storage/pill_bottle/tramadol,
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay)
+<<<<<<< HEAD
 "kr" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north_west)
+=======
+"ks" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kt" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2293,10 +3031,21 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark2,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "kv" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 4
+=======
+"kx" = (
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/cargo)
+"ky" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/yard/west)
 "kz" = (
@@ -2362,6 +3111,14 @@
 	dir = 1
 	},
 /area/outpost/hallway/south_cent)
+<<<<<<< HEAD
+=======
+"kK" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/yellow2,
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
@@ -2502,10 +3259,18 @@
 "lg" = (
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/cargo/engineering)
+<<<<<<< HEAD
 "lh" = (
 /obj/structure/table,
 /obj/machinery/light/small{
 	dir = 1
+=======
+"li" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 6
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/spawner/random/bomb_supply,
 /obj/effect/spawner/random/bomb_supply,
@@ -2555,6 +3320,25 @@
 	dir = 6
 	},
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
+=======
+"lr" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/northern)
+"ls" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 4
+	},
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lt" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -2629,10 +3413,25 @@
 	dir = 6
 	},
 /area/outpost/lz2)
+<<<<<<< HEAD
 "lF" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/tile/dark,
 /area/outpost/medbay/storage)
+=======
+"lE" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 1
+	},
+/area/outpost/science/rd_office)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lG" = (
 /obj/machinery/door/airlock/multi_tile/mainship/research{
 	dir = 8
@@ -2641,24 +3440,46 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/outpost/science)
+<<<<<<< HEAD
 "lI" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 5
 	},
 /area/outpost/hallway/south_cent)
+=======
+"lH" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+"lJ" = (
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lK" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 4
 	},
 /area/outpost/yard/central)
+<<<<<<< HEAD
 "lM" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/red2,
 /area/outpost/brig)
+=======
+"lL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 9
+	},
+/area/outpost/hallway/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lN" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 1
@@ -2669,17 +3490,39 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "lR" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/red2,
 /area/outpost/brig)
+=======
+"lO" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science/xenobiology)
+"lP" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lS" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 8
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"lT" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lV" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 8
@@ -2732,6 +3575,13 @@
 /obj/docking_port/stationary/marine_dropship/lz1,
 /turf/open/floor/plating,
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"mg" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mh" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -2773,6 +3623,7 @@
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "mq" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/dirt,
@@ -2781,6 +3632,11 @@
 /obj/effect/landmark/excavation_site_spawner,
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/dirttosand{
+=======
+"mt" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 8
 	},
 /area/outpost/caves/west)
@@ -2812,6 +3668,19 @@
 	dir = 1
 	},
 /area/outpost/caves/south)
+<<<<<<< HEAD
+=======
+"mz" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/blue2{
+	dir = 1
+	},
+/area/outpost/medbay/surgery)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mA" = (
 /obj/structure/table,
 /turf/open/floor/tile/dark,
@@ -2822,6 +3691,7 @@
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "mC" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidfloor,
@@ -2833,6 +3703,13 @@
 "mE" = (
 /obj/effect/landmark/xeno_resin_door,
 /obj/effect/decal/cleanable/blood/writing,
+=======
+"mF" = (
+/obj/effect/landmark/xeno_resin_door,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "mG" = (
@@ -2857,6 +3734,13 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
+=======
+"mL" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mM" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 8
@@ -2888,6 +3772,7 @@
 	dir = 1
 	},
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
 "mW" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2,
@@ -2906,6 +3791,20 @@
 	dir = 1
 	},
 /area/outpost/engineering/engine)
+=======
+"mS" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+"mV" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mZ" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2,
@@ -2913,6 +3812,16 @@
 "na" = (
 /turf/open/floor/plating/ground/mars/dirttosand,
 /area/outpost/yard/west)
+<<<<<<< HEAD
+=======
+"nb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delayone,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nc" = (
 /obj/structure/table,
 /obj/structure/paper_bin,
@@ -2937,6 +3846,13 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/engineering/hallway)
+<<<<<<< HEAD
+=======
+"ng" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science/xenobiology)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nh" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/brown2{
@@ -2954,6 +3870,16 @@
 	dir = 1
 	},
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
+=======
+"nk" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 8
+	},
+/area/outpost/hallway/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nl" = (
 /obj/machinery/door/airlock/multi_tile/mainship/research{
 	dir = 1
@@ -2982,18 +3908,54 @@
 	dir = 4
 	},
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
 "nq" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 1
 	},
 /area/outpost/caves/south)
+=======
+"nr" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/yard/north_east)
+"ns" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 10
+	},
+/area/outpost/hallway/central)
+"nu" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nv" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
+=======
+"nw" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nx" = (
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay)
@@ -3004,6 +3966,17 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
+=======
+"nz" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/cargo/office)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nA" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
@@ -3016,10 +3989,19 @@
 "nB" = (
 /turf/open/floor/plating/dmg2,
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
 "nD" = (
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/yard/east)
+=======
+"nE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nF" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -3029,6 +4011,7 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/security)
+<<<<<<< HEAD
 "nH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -3044,6 +4027,18 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
+=======
+"nG" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/dmg1,
+/area/outpost/medbay)
+"nL" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nM" = (
 /obj/machinery/door/airlock/mainship/medical/free_access{
 	dir = 8
@@ -3061,6 +4056,7 @@
 	dir = 8
 	},
 /area/outpost/science)
+<<<<<<< HEAD
 "nP" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -3071,6 +4067,12 @@
 	dir = 6
 	},
 /area/outpost/hallway/west)
+=======
+"nO" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nR" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 1
@@ -3135,6 +4137,13 @@
 /obj/machinery/computer/area_atmos,
 /turf/open/floor/plating,
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
+=======
+"oc" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "od" = (
 /obj/machinery/light{
 	dir = 4
@@ -3146,6 +4155,15 @@
 "oe" = (
 /turf/closed/wall/r_wall,
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"of" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 9
+	},
+/area/outpost/hallway/south_cent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "og" = (
 /obj/structure/largecrate/supply/supplies/mre,
 /turf/open/floor/tile/dark/brown2{
@@ -3162,6 +4180,18 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"oj" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ok" = (
 /obj/structure/table,
 /obj/item/tool/pen,
@@ -3217,9 +4247,16 @@
 	dir = 1
 	},
 /area/outpost/yard/east)
+<<<<<<< HEAD
 "ov" = (
 /obj/effect/landmark/start/job/xenomorph,
 /obj/effect/decal/cleanable/blood/writing{
+=======
+"ox" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_magazine/revolver,
+/turf/open/floor/tile/dark/brown2{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 1
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -3227,10 +4264,26 @@
 "oy" = (
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/cargo)
+<<<<<<< HEAD
 "oB" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/effect/landmark/weed_node,
+=======
+"oz" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/dirttosand,
+/area/outpost/caves/north_west)
+"oA" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 5
+	},
+/area/outpost/caves/south)
+"oC" = (
+/obj/structure/cable,
+/obj/effect/landmark/start/job/survivor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
 	},
@@ -3269,6 +4322,15 @@
 	dir = 1
 	},
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
+=======
+"oL" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oM" = (
 /turf/open/floor/plating/asteroidwarning{
 	dir = 1
@@ -3315,8 +4377,16 @@
 "oR" = (
 /turf/open/floor/tile/dark/brown2/corner,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "oT" = (
 /obj/effect/ai_node,
+=======
+"oS" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_11";
+	name = "SOM exit point 11"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/west)
 "oU" = (
@@ -3434,6 +4504,7 @@
 	dir = 5
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "pr" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
@@ -3441,6 +4512,19 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 10
+=======
+"po" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_12";
+	name = "SOM exit point 12"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+"pp" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/hallway/central)
 "ps" = (
@@ -3449,6 +4533,14 @@
 	},
 /turf/open/ground/river,
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
+=======
+"pt" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pv" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/north_east)
@@ -3463,6 +4555,21 @@
 "py" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"pA" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering/hallway)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pB" = (
 /obj/machinery/door/airlock/mainship/research/glass/free_access{
 	dir = 8
@@ -3475,7 +4582,19 @@
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "pE" = (
+=======
+"pD" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner,
+/area/outpost/hallway/west)
+"pF" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
 /area/outpost/engineering)
@@ -3498,15 +4617,55 @@
 	dir = 9
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "pK" = (
 /turf/closed/wall/r_wall,
 /area/outpost/science)
+=======
+"pI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 4
+	},
+/area/outpost/science/xenobiology)
+"pJ" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"pK" = (
+/turf/closed/wall/r_wall,
+/area/outpost/science)
+"pL" = (
+/obj/machinery/chem_master,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/blue2{
+	dir = 1
+	},
+/area/outpost/medbay/chemistry)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pN" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plating,
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
+=======
+"pO" = (
+/obj/effect/landmark/corpsespawner/doctor{
+	corpseback = null;
+	corpsegloves = /obj/item/clothing/gloves/latex;
+	name = "Colonist Mio Linno"
+	},
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pP" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /obj/structure/cable,
@@ -3559,8 +4718,18 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/brig)
+<<<<<<< HEAD
 "pX" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
+=======
+"pZ" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north)
+"qb" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 1
 	},
 /obj/effect/ai_node,
@@ -3592,6 +4761,11 @@
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
 	},
+<<<<<<< HEAD
+=======
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/outpost/hallway/south_west)
 "qh" = (
 /obj/machinery/autodoc,
@@ -3602,6 +4776,15 @@
 	dir = 8
 	},
 /area/outpost/hallway/central)
+<<<<<<< HEAD
+=======
+"qj" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 10
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qk" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
@@ -3613,6 +4796,7 @@
 	dir = 8
 	},
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "qn" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/dirt,
@@ -3623,6 +4807,13 @@
 	dir = 4
 	},
 /area/outpost/yard/central)
+=======
+"qp" = (
+/obj/structure/table/reinforced,
+/obj/effect/landmark/dropship_console_spawn_lz1,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qr" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 1
@@ -3633,9 +4824,16 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "qu" = (
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning{
+=======
+"qt" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 1
 	},
 /area/outpost/lz1)
@@ -3780,10 +4978,37 @@
 	dir = 9
 	},
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
 "qU" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_east)
+=======
+"qT" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering/hallway)
+"qV" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/west)
+"qW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 1
+	},
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qX" = (
 /obj/machinery/landinglight/ds2{
 	dir = 4
@@ -3792,6 +5017,21 @@
 	dir = 8
 	},
 /area/outpost/lz2)
+<<<<<<< HEAD
+=======
+"qZ" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/yard/south_east)
+"ra" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 4
+	},
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rb" = (
 /turf/open/floor/tile/dark/red2{
 	dir = 8
@@ -3933,6 +5173,16 @@
 	dir = 6
 	},
 /area/outpost/yard/south)
+<<<<<<< HEAD
+=======
+"rB" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rC" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -4011,6 +5261,16 @@
 "rQ" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/caves/west)
+<<<<<<< HEAD
+=======
+"rR" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rU" = (
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/office)
@@ -4043,9 +5303,31 @@
 	dir = 9
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
 "se" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north_east)
+=======
+"sc" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig)
+"sd" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/yard/central)
+"se" = (
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+"sf" = (
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 9
+	},
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -4071,10 +5353,28 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
 "sm" = (
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
+=======
+"sl" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/south_east)
+"so" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 9
+	},
+/area/outpost/dormitories)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sp" = (
 /obj/machinery/light{
 	dir = 8
@@ -4086,6 +5386,18 @@
 	dir = 10
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"sq" = (
+/obj/machinery/landinglight/ds2/delaytwo{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sr" = (
 /obj/machinery/landinglight/ds2/delayone{
 	dir = 8
@@ -4094,6 +5406,17 @@
 	dir = 8
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"ss" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "st" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 4
@@ -4130,6 +5453,17 @@
 	},
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"sy" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/south_cent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sz" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/item/storage/box/gloves{
@@ -4152,6 +5486,7 @@
 	dir = 4
 	},
 /area/outpost/caves/north_west)
+<<<<<<< HEAD
 "sC" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/dirttosand{
@@ -4160,6 +5495,10 @@
 /area/outpost/caves/south)
 "sI" = (
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+=======
+"sE" = (
+/obj/effect/landmark/corpsespawner/chef,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_east)
 "sJ" = (
@@ -4184,6 +5523,13 @@
 	dir = 9
 	},
 /area/outpost/caves/south)
+<<<<<<< HEAD
+=======
+"sN" = (
+/obj/effect/landmark/fob_sentry,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sO" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2{
@@ -4269,6 +5615,16 @@
 	},
 /turf/open/floor/tile/dark/red2,
 /area/outpost/cargo/security)
+<<<<<<< HEAD
+=======
+"tk" = (
+/obj/effect/landmark/start/job/survivor,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 1
+	},
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tl" = (
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/cargo)
@@ -4308,8 +5664,14 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/tile/dark,
 /area/outpost/medbay/chemistry)
+<<<<<<< HEAD
 "ts" = (
 /obj/effect/landmark/weed_node,
+=======
+"tt" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
 	},
@@ -4365,6 +5727,15 @@
 	id = "TGMC_11";
 	name = "TGMC exit point 11"
 	},
+<<<<<<< HEAD
+=======
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+"tF" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_east)
 "tH" = (
@@ -4436,12 +5807,16 @@
 /turf/open/floor/tile/dark/brown2{
 	dir = 8
 	},
+<<<<<<< HEAD
 /area/outpost/hallway/south_west)
 "tX" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 1
 	},
 /obj/effect/ai_node,
+=======
+/obj/effect/landmark/excavation_site_spawner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals)
 "tY" = (
@@ -4449,6 +5824,15 @@
 	dir = 10
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"tZ" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ua" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 4
@@ -4490,6 +5874,15 @@
 	dir = 4
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"uk" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/yard/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "um" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/cargo)
@@ -4554,17 +5947,25 @@
 	dir = 1
 	},
 /area/outpost/caves/north_west)
+<<<<<<< HEAD
 "uz" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 8
 	},
 /area/outpost/yard/south_east)
+=======
+"ux" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uB" = (
 /turf/open/floor/tile/dark/blue2{
 	dir = 8
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "uF" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
@@ -4575,6 +5976,32 @@
 	dir = 8
 	},
 /area/outpost/hallway/northern)
+=======
+"uC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaythree{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/lz2)
+"uD" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/tile/dark/brown2{
+	dir = 8
+	},
+/area/outpost/hallway/northern)
+"uG" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/arrivals)
+"uH" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uI" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 4
@@ -4593,6 +6020,7 @@
 	dir = 4
 	},
 /area/outpost/yard/north_east)
+<<<<<<< HEAD
 "uP" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/closed/mineral/smooth/bigred,
@@ -4601,6 +6029,26 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north_west)
+=======
+"uN" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 5
+	},
+/area/outpost/science)
+"uO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uR" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/floor/plating/icefloor,
@@ -4613,9 +6061,26 @@
 	dir = 8
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "uU" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north)
+=======
+"uT" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_12";
+	name = "TGMC exit point 12"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+"uU" = (
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north)
+"uV" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning,
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uW" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 8
@@ -4638,7 +6103,19 @@
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
 	},
+<<<<<<< HEAD
 /area/outpost/hallway/south_cent)
+=======
+/obj/effect/decal/cleanable/blood,
+/obj/item/radio,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/northern)
+"vb" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig/gear_room)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vc" = (
 /obj/machinery/door/airlock/multi_tile/mainship/medidoor,
 /turf/open/floor/tile/dark,
@@ -4746,6 +6223,15 @@
 	},
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
+=======
+"vy" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 5
+	},
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vz" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
@@ -4765,6 +6251,15 @@
 	dir = 8
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"vC" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 4
+	},
+/area/outpost/hallway/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vD" = (
 /obj/structure/largecrate/random/secure,
 /turf/open/floor/tile/dark/brown2{
@@ -4792,6 +6287,14 @@
 	dir = 8
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
+=======
+"vI" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science/xenobiology)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vJ" = (
 /obj/machinery/power/apc/drained{
 	dir = 4
@@ -4823,16 +6326,53 @@
 	dir = 4
 	},
 /area/outpost/lz2)
+<<<<<<< HEAD
+=======
+"vO" = (
+/obj/structure/table,
+/obj/effect/spawner/random/toolbox,
+/obj/item/radio,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vP" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/tile/dark/blue2{
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "vT" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/yard/south)
+=======
+"vQ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/spawner/random/powercell,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+"vR" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"vS" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/cavetodirt,
+/area/outpost/caves/north_east)
+"vU" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 9
+	},
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vV" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
@@ -4851,7 +6391,11 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/effect/landmark/weed_node,
+=======
+/obj/effect/decal/cleanable/blood,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark,
 /area/outpost/medbay)
 "wa" = (
@@ -4908,6 +6452,18 @@
 	dir = 1
 	},
 /area/outpost/yard/south)
+<<<<<<< HEAD
+=======
+"wk" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north)
+"wl" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science/hydponics)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wm" = (
 /obj/machinery/door/airlock/mainship/engineering/free_access{
 	dir = 2
@@ -4920,6 +6476,14 @@
 /obj/machinery/floodlight/landing,
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"wo" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wp" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
@@ -4947,6 +6511,7 @@
 	dir = 5
 	},
 /area/outpost/yard/north_east)
+<<<<<<< HEAD
 "wv" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -4954,6 +6519,12 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/central)
+=======
+"wu" = (
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ww" = (
 /turf/closed/wall/r_wall,
 /area/outpost/hallway/central)
@@ -4997,6 +6568,30 @@
 	dir = 5
 	},
 /area/outpost/medbay/security)
+<<<<<<< HEAD
+=======
+"wE" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+"wG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark/brown2{
+	dir = 4
+	},
+/area/outpost/hallway/northern)
+"wJ" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 10
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wK" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 1
@@ -5027,10 +6622,17 @@
 	dir = 6
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
 "wP" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
 /area/outpost/science/xenobiology)
+=======
+"wQ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wR" = (
 /obj/structure/closet/radiation,
 /obj/machinery/light,
@@ -5038,6 +6640,23 @@
 	dir = 10
 	},
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
+=======
+"wS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/south_west)
+"wT" = (
+/obj/effect/landmark/sensor_tower,
+/turf/open/floor/tile/dark/blue2{
+	dir = 10
+	},
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wU" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 4
@@ -5064,6 +6683,13 @@
 	dir = 8
 	},
 /area/outpost/cargo/security)
+<<<<<<< HEAD
+=======
+"wZ" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xa" = (
 /obj/machinery/door/airlock/multi_tile/mainship/research{
 	dir = 1
@@ -5087,6 +6713,7 @@
 	dir = 1
 	},
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "xe" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark/red2{
@@ -5096,6 +6723,20 @@
 "xg" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/rock)
+=======
+"xd" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/asteroidwarning,
+/area/outpost/yard/north)
+"xg" = (
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/rock)
+"xh" = (
+/obj/structure/cable,
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/dormitories)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xi" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/laceup,
@@ -5133,11 +6774,45 @@
 /turf/open/floor/plating/asteroidwarning{
 	dir = 4
 	},
+<<<<<<< HEAD
 /area/outpost/lz2)
+=======
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/wood,
+/area/outpost/dormitories)
+"xo" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 5
+	},
+/area/outpost/lz1)
+"xp" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"xq" = (
+/obj/structure/bed/chair/office/dark,
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark,
+/area/outpost/cargo/office)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xs" = (
 /obj/structure/cable,
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"xt" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xu" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -5173,8 +6848,17 @@
 	dir = 4
 	},
 /area/outpost/engineering/security)
+<<<<<<< HEAD
 "xz" = (
 /obj/effect/decal/cleanable/blood/writing{
+=======
+"xA" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/effect/spawner/random/powercell,
+/obj/effect/spawner/random/powercell,
+/turf/open/floor/tile/dark/yellow2{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/drip,
@@ -5197,6 +6881,22 @@
 "xD" = (
 /turf/open/floor/tile/damaged/three,
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"xE" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_13";
+	name = "TGMC exit point 13"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+"xF" = (
+/obj/effect/landmark/corpsespawner/doctor,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 10
+	},
+/area/outpost/yard/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xG" = (
 /obj/machinery/power/smes/buildable/empty/dist,
 /obj/structure/cable,
@@ -5235,10 +6935,23 @@
 	dir = 1
 	},
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "xR" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/tile/dark,
 /area/outpost/science/research)
+=======
+"xQ" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/spawner/random/toolbox,
+/obj/item/radio,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xT" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 1
@@ -5249,10 +6962,19 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/engineering)
+<<<<<<< HEAD
 "xV" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/south_east)
+=======
+"xU" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 1
+	},
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xW" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -5273,6 +6995,14 @@
 	dir = 1
 	},
 /area/outpost/cargo/office)
+<<<<<<< HEAD
+=======
+"ya" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yb" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 4
@@ -5283,6 +7013,16 @@
 	dir = 1
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"yd" = (
+/obj/effect/landmark/start/job/survivor,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark/blue2{
+	dir = 8
+	},
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ye" = (
 /turf/closed/wall/r_wall,
 /area/outpost/brig)
@@ -5330,6 +7070,19 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/science/rd_office)
+<<<<<<< HEAD
+=======
+"ym" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/blue2/corner{
+	dir = 8
+	},
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yn" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
@@ -5357,6 +7110,15 @@
 	dir = 1
 	},
 /area/outpost/hallway/northern)
+<<<<<<< HEAD
+=======
+"yr" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/yard/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ys" = (
 /turf/closed/wall/r_wall,
 /area/outpost/cargo/engineering)
@@ -5369,6 +7131,7 @@
 	dir = 5
 	},
 /area/outpost/hallway/east)
+<<<<<<< HEAD
 "yz" = (
 /turf/open/floor/tile/damaged/five,
 /area/outpost/cargo)
@@ -5379,6 +7142,66 @@
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/dmg1,
 /area/outpost/medbay)
+=======
+"yy" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+"yz" = (
+/turf/open/floor/tile/damaged/five,
+/area/outpost/cargo)
+"yA" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/west)
+"yB" = (
+/turf/closed/wall/r_wall,
+/area/outpost/science/security)
+"yD" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering)
+"yE" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/east)
+"yG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 8
+	},
+/area/outpost/hallway/south_west)
+"yH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig)
+"yI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 8
+	},
+/area/outpost/hallway/northern)
+"yJ" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yK" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 1
@@ -5393,6 +7216,14 @@
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"yO" = (
+/obj/effect/landmark/excavation_site_spawner,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yP" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/tile/dark/brown2{
@@ -5424,6 +7255,25 @@
 	dir = 10
 	},
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
+=======
+"yU" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/central)
+"yV" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 1
+	},
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering/hallway)
+"yW" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yY" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
@@ -5434,11 +7284,16 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "za" = (
 /obj/effect/landmark/start/job/xenomorph,
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 6
 	},
+=======
+"zd" = (
+/obj/effect/landmark/xeno_silo_spawn,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "zb" = (
@@ -5588,12 +7443,20 @@
 	dir = 4
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "zF" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 4
 	},
 /area/outpost/caves/south)
+=======
+"zE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/prisoner,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig/wardens_office)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zG" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 5
@@ -5611,6 +7474,13 @@
 	dir = 1
 	},
 /area/outpost/lz2)
+<<<<<<< HEAD
+=======
+"zJ" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zK" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/tile/dark/red2{
@@ -5636,10 +7506,21 @@
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"zP" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 6
+	},
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zQ" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark2,
 /area/outpost/arrivals/securitylz2)
+<<<<<<< HEAD
 "zR" = (
 /obj/structure/cable,
 /obj/effect/landmark/excavation_site_spawner,
@@ -5650,6 +7531,20 @@
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south)
+=======
+"zT" = (
+/obj/structure/table,
+/obj/effect/spawner/random/technology_scanner,
+/turf/open/floor/tile/dark,
+/area/outpost/science/xenobiology)
+"zW" = (
+/obj/structure/table,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zX" = (
 /obj/structure/table,
 /obj/item/tool/pen,
@@ -5706,6 +7601,21 @@
 	dir = 9
 	},
 /area/outpost/hallway/west)
+<<<<<<< HEAD
+=======
+"Ai" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 6
+	},
+/area/outpost/lz1)
+"Aj" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/caves/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Al" = (
 /obj/machinery/atmospherics/components/unary/vent_pump,
 /turf/open/floor/tile/dark/brown2{
@@ -5722,12 +7632,19 @@
 /obj/item/clothing/head/chefhat,
 /turf/open/floor/wood,
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "Ao" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 6
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
+=======
+"Ap" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Aq" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark2,
@@ -5742,6 +7659,15 @@
 	dir = 4
 	},
 /area/outpost/science/hydponics)
+<<<<<<< HEAD
+=======
+"At" = (
+/obj/effect/landmark/sensor_tower,
+/turf/open/floor/tile/dark/purple2{
+	dir = 1
+	},
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Au" = (
 /obj/machinery/button/door/open_only/landing_zone/lz2,
 /obj/structure/window/reinforced{
@@ -5772,6 +7698,7 @@
 	dir = 10
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
 "AA" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -5785,6 +7712,12 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark2,
 /area/outpost/arrivals/securitylz2)
+=======
+"Az" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AD" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/large,
@@ -5806,11 +7739,28 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
+=======
+"AG" = (
+/obj/structure/cable,
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AH" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 10
 	},
 /area/outpost/yard/central)
+<<<<<<< HEAD
+=======
+"AI" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AK" = (
 /obj/structure/largecrate/random/barrel,
 /turf/open/floor/tile/dark/brown2{
@@ -5820,6 +7770,16 @@
 "AL" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/caves/north_west)
+<<<<<<< HEAD
+=======
+"AN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaytwo,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AO" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2{
@@ -5872,6 +7832,7 @@
 	dir = 1
 	},
 /area/outpost/caves/south_west)
+<<<<<<< HEAD
 "AY" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -5885,6 +7846,17 @@
 /obj/item/ammo_magazine/rifle/mpi_km,
 /turf/open/floor/tile/dark/red2,
 /area/outpost/brig/armoury)
+=======
+"AX" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay/storage)
+"AZ" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ba" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
@@ -5896,10 +7868,17 @@
 "Bb" = (
 /turf/open/floor/tile/dark,
 /area/outpost/cargo)
+<<<<<<< HEAD
 "Bc" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2/corner{
 	dir = 4
+=======
+"Bd" = (
+/obj/effect/landmark/nuke_spawn,
+/turf/open/floor/tile/dark/red2{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/hallway/south_west)
 "Be" = (
@@ -5908,6 +7887,15 @@
 	dir = 1
 	},
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
+=======
+"Bf" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bg" = (
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_west)
@@ -6005,6 +7993,19 @@
 	dir = 10
 	},
 /area/outpost/brig)
+<<<<<<< HEAD
+=======
+"By" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/central)
+"Bz" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BB" = (
 /turf/open/floor/tile/dark/blue2{
 	dir = 4
@@ -6015,6 +8016,14 @@
 	dir = 6
 	},
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
+=======
+"BD" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/dormitories)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BE" = (
 /obj/machinery/power/apc/drained{
 	dir = 8
@@ -6030,6 +8039,15 @@
 	dir = 6
 	},
 /area/outpost/arrivals/securitylz2)
+<<<<<<< HEAD
+=======
+"BH" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BJ" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/south_east)
@@ -6065,17 +8083,37 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_cent)
+<<<<<<< HEAD
 "BT" = (
+=======
+"BR" = (
+/obj/effect/landmark/start/job/xenomorph,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"BU" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/yard/central)
+"BW" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/structure/cable,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/red2{
 	dir = 6
 	},
+<<<<<<< HEAD
 /area/outpost/brig)
 "BV" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
+=======
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/hallway/south_cent)
 "BX" = (
@@ -6091,6 +8129,19 @@
 	dir = 9
 	},
 /area/outpost/yard/north_east)
+<<<<<<< HEAD
+=======
+"BZ" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 1
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cb" = (
 /turf/open/floor/tile/dark/red2{
 	dir = 8
@@ -6101,11 +8152,20 @@
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 1
 	},
+<<<<<<< HEAD
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
 	},
 /area/outpost/arrivals)
+=======
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"Ce" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cf" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 10
@@ -6170,6 +8230,18 @@
 /obj/structure/cable,
 /turf/open/floor/plating/asteroidwarning,
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"Cr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delayone,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/lz1)
+"Cs" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ct" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
@@ -6259,9 +8331,34 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
 "CU" = (
 /turf/open/ground/river,
 /area/outpost/engineering/engine)
+=======
+"CT" = (
+/obj/structure/cable,
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+"CU" = (
+/turf/open/ground/river,
+/area/outpost/engineering/engine)
+"CV" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering)
+"CW" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CX" = (
 /obj/item/attachable/quickfire,
 /turf/open/floor/tile/dark/brown2{
@@ -6271,6 +8368,7 @@
 "CY" = (
 /turf/open/floor/plating/asteroidwarning,
 /area/outpost/yard/central)
+<<<<<<< HEAD
 "Da" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -6281,6 +8379,12 @@
 	dir = 1
 	},
 /area/outpost/medbay/surgery)
+=======
+"CZ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Db" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 2
@@ -6319,6 +8423,7 @@
 "Dk" = (
 /turf/closed/wall/r_wall,
 /area/outpost/lz2)
+<<<<<<< HEAD
 "Dl" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/decal/cleanable/dirt,
@@ -6329,6 +8434,11 @@
 /area/outpost/engineering)
 "Dm" = (
 /obj/effect/landmark/xeno_silo_spawn,
+=======
+"Dp" = (
+/obj/effect/landmark/xeno_resin_door,
+/obj/effect/decal/cleanable/blood/writing,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south)
 "Do" = (
@@ -6343,6 +8453,21 @@
 	},
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay/chemistry)
+<<<<<<< HEAD
+=======
+"Dr" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 10
+	},
+/area/outpost/yard/north_east)
+"Dt" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Du" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -6399,6 +8524,15 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/east)
+<<<<<<< HEAD
+=======
+"DF" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DG" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 8
@@ -6408,6 +8542,16 @@
 /obj/machinery/landinglight/ds2/delaytwo,
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"DI" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_22";
+	name = "TGMC exit point 22"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DJ" = (
 /obj/machinery/bioprinter{
 	stored_metal = 1000
@@ -6416,12 +8560,28 @@
 	dir = 5
 	},
 /area/outpost/medbay/surgery)
+<<<<<<< HEAD
+=======
+"DK" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DN" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 4
 	},
 /turf/open/floor/tile/dark2,
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"DO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DP" = (
 /obj/structure/table,
 /obj/item/radio,
@@ -6524,12 +8684,24 @@
 	dir = 9
 	},
 /area/outpost/yard/central)
+<<<<<<< HEAD
 "El" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 2
 	},
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+=======
+"Ej" = (
+/obj/structure/table,
+/obj/effect/spawner/random/powercell,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+"Ek" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Em" = (
 /obj/structure/table,
 /obj/item/radio,
@@ -6544,6 +8716,15 @@
 	},
 /turf/open/floor/tile/dark/brown2/corner,
 /area/outpost/hallway/west)
+<<<<<<< HEAD
+=======
+"Eo" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/yard/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ep" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -6600,6 +8781,13 @@
 "EA" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/central)
+<<<<<<< HEAD
+=======
+"EB" = (
+/obj/effect/landmark/fob_sentry_rebel,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "EC" = (
 /turf/open/floor/plating/asteroidwarning{
 	dir = 1
@@ -6608,6 +8796,13 @@
 "ED" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/yard/north)
+<<<<<<< HEAD
+=======
+"EF" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "EG" = (
 /turf/closed/wall/r_wall,
 /area/outpost/science/hydponics)
@@ -6663,12 +8858,19 @@
 	dir = 6
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
 "ER" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 4
 	},
 /area/outpost/caves/north_west)
+=======
+"EQ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ES" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 1
@@ -6711,6 +8913,19 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"Fa" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/yard/north_east)
+"Fb" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 6
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fc" = (
 /turf/open/floor/plating/asteroidwarning{
 	dir = 8
@@ -6737,10 +8952,23 @@
 /obj/structure/table,
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "Fg" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/south)
+=======
+"Fh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 1
+	},
+/area/outpost/hallway/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fi" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 6
@@ -6787,6 +9015,16 @@
 /obj/structure/table,
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
+=======
+"Fq" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/arrivals)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fr" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -6831,10 +9069,19 @@
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
+<<<<<<< HEAD
 "Fx" = (
 /obj/effect/landmark/fob_sentry,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/east)
+=======
+"Fy" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fz" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -6917,14 +9164,27 @@
 	dir = 1
 	},
 /obj/effect/ai_node,
+<<<<<<< HEAD
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_cent)
+=======
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/lz2)
+"FQ" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "FR" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/purple2{
 	dir = 8
 	},
 /area/outpost/science/hydponics)
+<<<<<<< HEAD
 "FS" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/effect/landmark/weed_node,
@@ -6942,12 +9202,37 @@
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 9
+=======
+"FT" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 5
+	},
+/area/outpost/caves/north_west)
+"FU" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_13";
+	name = "SOM exit point 13"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+"FX" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/south_cent)
+"FY" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "FZ" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north_west)
+<<<<<<< HEAD
 "Ga" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
@@ -6957,6 +9242,12 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 5
+=======
+"Gb" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 9
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/cargo)
 "Ge" = (
@@ -6996,6 +9287,15 @@
 	},
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"Gl" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 4
+	},
+/area/outpost/hallway/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gm" = (
 /obj/structure/table,
 /obj/machinery/computer3/laptop,
@@ -7003,12 +9303,33 @@
 	dir = 4
 	},
 /area/outpost/arrivals/securitylz2)
+<<<<<<< HEAD
 "Gn" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 9
 	},
 /area/outpost/hallway/south_cent)
+=======
+"Go" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/south)
+"Gp" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay/chemistry)
+"Gq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gs" = (
 /obj/machinery/computer/nuke_disk_generator/red,
 /turf/open/floor/tile/dark/purple2{
@@ -7047,10 +9368,20 @@
 /obj/item/trash/cheesie,
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "GA" = (
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north)
+=======
+"GB" = (
+/obj/effect/landmark/excavation_site_spawner,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GC" = (
 /obj/structure/closet/secure_closet/security,
 /obj/machinery/light,
@@ -7063,6 +9394,7 @@
 "GE" = (
 /turf/open/floor/tile/damaged/panel,
 /area/outpost/cargo)
+<<<<<<< HEAD
 "GF" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone,
 /turf/closed/mineral/smooth/bigred,
@@ -7073,12 +9405,29 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/purple2{
 	dir = 5
+=======
+"GG" = (
+/obj/effect/landmark/corpsespawner/scientist{
+	corpseback = null;
+	corpseshoes = /obj/item/clothing/shoes/black;
+	corpseuniform = /obj/item/clothing/under/colonist;
+	name = "Colonist Chang Lin"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/science)
 "GI" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_west)
+<<<<<<< HEAD
+=======
+"GJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/hallway/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GL" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 9
@@ -7180,6 +9529,15 @@
 	dir = 8
 	},
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"Hf" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 1
+	},
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hg" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 8
@@ -7195,6 +9553,13 @@
 "Hm" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_east)
+<<<<<<< HEAD
+=======
+"Hn" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hp" = (
 /obj/structure/table,
 /obj/machinery/light/small{
@@ -7214,6 +9579,24 @@
 "Hr" = (
 /turf/open/floor/plating/ground/mars/dirttosand,
 /area/outpost/lz2)
+<<<<<<< HEAD
+=======
+"Hs" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/south)
+"Ht" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+"Hu" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_24";
+	name = "TGMC exit point 24"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hw" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
@@ -7268,6 +9651,17 @@
 	dir = 10
 	},
 /area/outpost/brig/armoury)
+<<<<<<< HEAD
+=======
+"HG" = (
+/obj/effect/landmark/corpsespawner/miner{
+	corpseback = /obj/item/storage/backpack;
+	corpseidjob = "Laborer";
+	name = "Colonist Roester Kalin"
+	},
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HH" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 10
@@ -7291,6 +9685,26 @@
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"HL" = (
+/obj/effect/ai_node,
+/obj/structure/cable,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/yard/east)
+"HM" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner,
+/area/outpost/hallway/northern)
+"HN" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone,
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HP" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/yard/south_east)
@@ -7316,6 +9730,13 @@
 	dir = 4
 	},
 /area/outpost/caves/north)
+<<<<<<< HEAD
+=======
+"HV" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HW" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/blue2{
@@ -7349,6 +9770,7 @@
 /obj/machinery/light,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/east)
+<<<<<<< HEAD
 "Ib" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidwarning,
@@ -7361,6 +9783,13 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2/corner,
 /area/outpost/hallway/northern)
+=======
+"Ic" = (
+/obj/effect/landmark/xeno_resin_door,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "If" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark2,
@@ -7411,6 +9840,14 @@
 "Ip" = (
 /turf/closed/wall/r_wall,
 /area/outpost/hallway/south_cent)
+<<<<<<< HEAD
+=======
+"Iq" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ir" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/tile/dark/brown2{
@@ -7444,6 +9881,15 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"Ix" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/yard/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Iy" = (
 /obj/structure/mirror{
 	pixel_x = 24
@@ -7460,9 +9906,16 @@
 	dir = 6
 	},
 /area/outpost/medbay/security)
+<<<<<<< HEAD
 "IB" = (
 /obj/machinery/landinglight/ds2{
 	dir = 4
+=======
+"IA" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning{
@@ -7487,6 +9940,13 @@
 	dir = 1
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"IH" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "II" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/mars/dirttosand{
@@ -7504,6 +9964,7 @@
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /turf/open/floor/tile/dark/yellow2,
 /area/outpost/engineering/hallway)
+<<<<<<< HEAD
 "IN" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/tile/dark,
@@ -7520,6 +9981,16 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_east)
+=======
+"IL" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+"IM" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "IS" = (
 /obj/structure/table,
 /obj/structure/paper_bin,
@@ -7603,6 +10074,7 @@
 	dir = 9
 	},
 /area/outpost/medbay/surgery)
+<<<<<<< HEAD
 "Jj" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
@@ -7614,6 +10086,12 @@
 	dir = 10
 	},
 /area/outpost/yard/north_east)
+=======
+"Jl" = (
+/obj/effect/landmark/corpsespawner/doctor,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jn" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -7623,6 +10101,7 @@
 	dir = 10
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
 "Jq" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -7631,6 +10110,13 @@
 /area/outpost/hallway/central)
 "Jr" = (
 /obj/effect/landmark/weed_node,
+=======
+"Jo" = (
+/obj/machinery/landinglight/ds2/delayone{
+	dir = 1
+	},
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidwarning,
 /area/outpost/yard/north)
 "Js" = (
@@ -7654,6 +10140,15 @@
 "Jv" = (
 /turf/open/floor/tile/dark/brown2/corner,
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
+=======
+"Jw" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 10
+	},
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jx" = (
 /obj/structure/cable,
 /obj/item/trash/mre,
@@ -7669,6 +10164,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump,
 /turf/open/floor/tile/dark2,
 /area/outpost/cargo)
+<<<<<<< HEAD
 "JA" = (
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -7684,6 +10180,11 @@
 /turf/open/floor/tile/dark/purple2{
 	dir = 4
 	},
+=======
+"JE" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/outpost/science)
 "JD" = (
 /obj/effect/landmark/patrol_point{
@@ -7761,6 +10262,13 @@
 	dir = 9
 	},
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
+=======
+"JP" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "JQ" = (
 /obj/machinery/landinglight/ds2/delaythree{
 	dir = 8
@@ -7837,6 +10345,27 @@
 "Ke" = (
 /turf/closed/wall/r_wall,
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
+=======
+"Kf" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 10
+	},
+/area/outpost/hallway/south_west)
+"Kg" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Kh" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 1
@@ -7851,9 +10380,16 @@
 	dir = 6
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "Kk" = (
 /obj/machinery/light{
 	dir = 4
+=======
+"Kj" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 4
@@ -7928,10 +10464,19 @@
 	dir = 1
 	},
 /area/outpost/engineering/hallway)
+<<<<<<< HEAD
 "Kz" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/yard/central)
+=======
+"KA" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KB" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -7941,6 +10486,14 @@
 	dir = 6
 	},
 /area/outpost/hallway/northern)
+<<<<<<< HEAD
+=======
+"KC" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KD" = (
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/south_cent)
@@ -8009,6 +10562,25 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"KN" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_23";
+	name = "SOM exit point 23"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"KO" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 1
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KP" = (
 /obj/machinery/door/airlock/mainship/research/glass/free_access{
 	dir = 8
@@ -8077,12 +10649,36 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/cargo/security)
+<<<<<<< HEAD
 "Lh" = (
+=======
+"Lf" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"Li" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"Ll" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/shotgun/pump/cmb,
+/obj/item/ammo_magazine/shotgun,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig/armoury)
+"Lm" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
 	},
+<<<<<<< HEAD
 /obj/effect/ai_node,
+=======
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark,
 /area/outpost/engineering)
 "Ln" = (
@@ -8091,6 +10687,19 @@
 	dir = 9
 	},
 /area/outpost/arrivals/securitylz2)
+<<<<<<< HEAD
+=======
+"Lo" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/east)
+"Lq" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ls" = (
 /obj/structure/largecrate/random/barrel/red,
 /obj/machinery/light{
@@ -8100,6 +10709,15 @@
 	dir = 9
 	},
 /area/outpost/cargo/engineering)
+<<<<<<< HEAD
+=======
+"Lv" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/dormitories)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lw" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -8118,11 +10736,41 @@
 	dir = 8
 	},
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"Ly" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lz" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 9
 	},
 /area/outpost/cargo/engineering)
+<<<<<<< HEAD
+=======
+"LA" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+"LB" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/dmg3,
+/area/outpost/medbay)
+"LC" = (
+/obj/effect/landmark/fob_sentry_rebel,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/cargo)
+"LE" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/purple2{
+	dir = 8
+	},
+/area/outpost/science/xenobiology)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LF" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/east)
@@ -8343,18 +10991,39 @@
 	dir = 4
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"Mt" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mu" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2{
 	dir = 6
 	},
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"Mv" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mx" = (
 /obj/structure/filingcabinet/security,
 /turf/open/floor/tile/dark/red2{
 	dir = 10
 	},
 /area/outpost/arrivals/securitylz1)
+<<<<<<< HEAD
+=======
+"My" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mz" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/machinery/power/apc/drained,
@@ -8363,6 +11032,14 @@
 	dir = 5
 	},
 /area/outpost/engineering/security)
+<<<<<<< HEAD
+=======
+"MA" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/outpost/hallway/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MB" = (
 /obj/structure/cable,
 /obj/machinery/light/small,
@@ -8372,9 +11049,18 @@
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/wood,
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "ME" = (
 /obj/machinery/light{
 	dir = 1
+=======
+"MD" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -8413,6 +11099,15 @@
 	dir = 1
 	},
 /area/outpost/science/hydponics)
+<<<<<<< HEAD
+=======
+"MK" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark/blue2{
+	dir = 8
+	},
+/area/outpost/medbay/surgery)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ML" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -8449,6 +11144,15 @@
 	dir = 8
 	},
 /area/outpost/science/research)
+<<<<<<< HEAD
+=======
+"MT" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 8
+	},
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MU" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
@@ -8470,9 +11174,14 @@
 	dir = 8
 	},
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "MY" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/effect/landmark/weed_node,
+=======
+"MX" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark/brown2{
 	dir = 4
 	},
@@ -8493,6 +11202,7 @@
 	dir = 9
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "Nd" = (
 /obj/structure/table,
 /obj/effect/spawner/random/toolbox,
@@ -8500,6 +11210,13 @@
 	dir = 4
 	},
 /area/outpost/engineering)
+=======
+"Ne" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Nf" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/tile/dark/red2{
@@ -8592,11 +11309,25 @@
 	dir = 9
 	},
 /area/outpost/caves/west)
+<<<<<<< HEAD
+=======
+"Nv" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Nw" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 4
 	},
 /area/outpost/yard/central)
+<<<<<<< HEAD
+=======
+"Nx" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ny" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 5
@@ -8632,6 +11363,17 @@
 "NF" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
+=======
+"NG" = (
+/obj/structure/table,
+/obj/effect/spawner/random/powercell,
+/obj/effect/spawner/random/powercell,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -8639,6 +11381,18 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/hallway/east)
+<<<<<<< HEAD
+=======
+"NI" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/east)
+"NJ" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/arrivals)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NK" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -8670,12 +11424,33 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals/securitylz1)
+<<<<<<< HEAD
+=======
+"NP" = (
+/obj/machinery/landinglight/ds2/delaythree{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NQ" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/tile/dark/red2{
 	dir = 9
 	},
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
+=======
+"NR" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+"NS" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NU" = (
 /obj/structure/bed/chair,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -8689,6 +11464,13 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"NW" = (
+/obj/effect/landmark/fob_sentry,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NX" = (
 /turf/closed/wall/r_wall,
 /area/outpost/cargo/security)
@@ -8743,6 +11525,18 @@
 	dir = 8
 	},
 /area/outpost/lz1)
+<<<<<<< HEAD
+=======
+"Oj" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/tile/dark/blue2{
+	dir = 1
+	},
+/area/outpost/medbay/surgery)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ok" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 10
@@ -8801,6 +11595,19 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"Ou" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/south)
+"Ov" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 4
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ow" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/ammo_magazine/rifle/mpi_km,
@@ -8897,6 +11704,22 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
+=======
+"OL" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 6
+	},
+/area/outpost/cargo)
+"OM" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_11";
+	name = "TGMC exit point 11"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ON" = (
 /obj/machinery/bodyscanner,
 /turf/open/floor/tile/dark,
@@ -8928,6 +11751,17 @@
 "OR" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north)
+<<<<<<< HEAD
+=======
+"OS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaytwo,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/lz1)
+"OT" = (
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OV" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 8
@@ -8947,10 +11781,24 @@
 	dir = 4
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
 "Pb" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north)
+=======
+"OZ" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_west)
+"Pa" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 4
+	},
+/area/outpost/hallway/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Pe" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
@@ -8993,6 +11841,13 @@
 	dir = 1
 	},
 /area/outpost/brig/armoury)
+<<<<<<< HEAD
+=======
+"Pn" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Po" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/red2{
@@ -9003,6 +11858,18 @@
 /obj/structure/cable,
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"Pq" = (
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/tile/dark/brown2{
+	dir = 6
+	},
+/area/outpost/cargo)
+"Pr" = (
+/turf/closed/mineral/smooth/bigred,
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ps" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/tile/dark/red2{
@@ -9026,12 +11893,19 @@
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "Pw" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 1
 	},
 /area/outpost/lz2)
+=======
+"Px" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Py" = (
 /obj/machinery/door/airlock/mainship/security/glass/free_access{
 	dir = 1;
@@ -9052,11 +11926,18 @@
 	dir = 9
 	},
 /area/outpost/cargo/engineering)
+<<<<<<< HEAD
 "PB" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
 /turf/open/floor/plating,
 /area/outpost/engineering/engine)
+=======
+"PC" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PD" = (
 /obj/machinery/landinglight/ds2/delaythree{
 	dir = 1
@@ -9108,6 +11989,7 @@
 	dir = 4
 	},
 /area/outpost/medbay/chemistry)
+<<<<<<< HEAD
 "PQ" = (
 /obj/machinery/optable,
 /obj/item/tank/anesthetic,
@@ -9123,6 +12005,17 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south)
+=======
+"PO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaythree{
+	dir = 8
+	},
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PT" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 6
@@ -9139,6 +12032,13 @@
 	dir = 8
 	},
 /area/outpost/yard/south_east)
+<<<<<<< HEAD
+=======
+"PW" = (
+/obj/effect/landmark/dropship_start_location,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PX" = (
 /obj/machinery/body_scanconsole,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -9152,6 +12052,24 @@
 	dir = 8
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"Qa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/lz2)
+"Qb" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 6
+	},
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/yard/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Qc" = (
 /obj/structure/table,
 /obj/machinery/computer/secure_data,
@@ -9245,15 +12163,29 @@
 	dir = 4
 	},
 /area/outpost/hallway/west)
+<<<<<<< HEAD
 "Qw" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/closed/mineral/smooth/bigred,
 /area/outpost/caves/south_east)
+=======
+"Qx" = (
+/obj/effect/spawner/random/tool,
+/turf/open/floor/tile/dark,
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Qz" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 4
 	},
 /area/outpost/lz2)
+<<<<<<< HEAD
+=======
+"QA" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/caves/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QB" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -9262,6 +12194,23 @@
 	dir = 9
 	},
 /area/outpost/dormitories)
+<<<<<<< HEAD
+=======
+"QC" = (
+/obj/machinery/power/apc/drained{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/closet/secure_closet/security,
+/obj/item/attachable/gyro,
+/obj/item/attachable/reddot,
+/obj/item/ammo_magazine/shotgun,
+/obj/item/ammo_magazine/shotgun,
+/obj/item/weapon/gun/shotgun/double,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/cargo/security)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QD" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
@@ -9319,6 +12268,7 @@
 	dir = 6
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "QQ" = (
 /obj/machinery/power/apc/drained{
 	dir = 1
@@ -9350,6 +12300,10 @@
 "QV" = (
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /obj/effect/ai_node,
+=======
+"QP" = (
+/obj/effect/landmark/xeno_silo_spawn,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south)
 "QW" = (
@@ -9375,6 +12329,13 @@
 	dir = 9
 	},
 /area/outpost/yard/north)
+<<<<<<< HEAD
+=======
+"Rb" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/dmg3,
+/area/outpost/science/xenobiology)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rc" = (
 /turf/open/floor/tile/dark/red2{
 	dir = 10
@@ -9411,6 +12372,14 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/science/hydponics)
+<<<<<<< HEAD
+=======
+"Ri" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rj" = (
 /obj/machinery/autolathe,
 /obj/machinery/light{
@@ -9450,6 +12419,7 @@
 	dir = 1
 	},
 /area/outpost/hallway/west)
+<<<<<<< HEAD
 "Rq" = (
 /obj/structure/cable,
 /obj/effect/landmark/start/job/survivor,
@@ -9457,6 +12427,12 @@
 	dir = 6
 	},
 /area/outpost/hallway/south_cent)
+=======
+"Rp" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/cavetodirt,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rr" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 4
@@ -9529,7 +12505,14 @@
 	},
 /turf/open/floor/plating,
 /area/outpost/engineering/engine)
+<<<<<<< HEAD
 "RC" = (
+=======
+"RB" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2{
 	dir = 6
@@ -9545,17 +12528,37 @@
 	dir = 10
 	},
 /area/outpost/hallway/east)
+<<<<<<< HEAD
 "RG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/east)
+=======
+"RF" = (
+/obj/machinery/landinglight/ds2{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/red2,
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
+=======
+"RI" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/start/job/xenomorph,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RJ" = (
 /obj/structure/table,
 /obj/item/tool/pen,
@@ -9570,6 +12573,16 @@
 	dir = 8
 	},
 /area/outpost/caves/north_east)
+<<<<<<< HEAD
+=======
+"RM" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RN" = (
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/lz1)
@@ -9601,6 +12614,7 @@
 	dir = 8
 	},
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "RT" = (
 /obj/structure/rack,
 /obj/item/weapon/gun/shotgun/pump/cmb,
@@ -9612,12 +12626,19 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_west)
+=======
+"RV" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RW" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
 	dir = 2
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "RX" = (
 /obj/effect/landmark/sensor_tower,
 /turf/open/floor/tile/dark/blue2{
@@ -9630,6 +12651,12 @@
 	dir = 4
 	},
 /area/outpost/engineering)
+=======
+"RZ" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sb" = (
 /turf/open/floor/tile/dark/brown2/corner{
 	dir = 8
@@ -9642,6 +12669,16 @@
 	dir = 5
 	},
 /area/outpost/arrivals/securitylz1)
+<<<<<<< HEAD
+=======
+"Se" = (
+/obj/effect/landmark/excavation_site_spawner,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 8
+	},
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
@@ -9649,9 +12686,16 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals)
+<<<<<<< HEAD
 "Sg" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
+=======
+"Sh" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_21";
+	name = "TGMC exit point 21"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2/corner{
@@ -9676,11 +12720,21 @@
 	dir = 1
 	},
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
+=======
+"Sl" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sm" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 8
 	},
 /area/outpost/lz2)
+<<<<<<< HEAD
 "Sn" = (
 /obj/effect/ai_node,
 /obj/machinery/light/small{
@@ -9690,6 +12744,13 @@
 	dir = 6
 	},
 /area/outpost/science/xenobiology)
+=======
+"So" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sp" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -9730,6 +12791,13 @@
 	dir = 8
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
+=======
+"Su" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sv" = (
 /obj/item/trash/barcardine,
 /turf/open/floor/wood,
@@ -9752,9 +12820,16 @@
 "SB" = (
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/west)
+<<<<<<< HEAD
 "SD" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 9
+=======
+"SE" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_23";
+	name = "TGMC exit point 23"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
@@ -9762,11 +12837,17 @@
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 8
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "SI" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
+=======
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
@@ -9809,14 +12890,26 @@
 	dir = 4
 	},
 /area/outpost/science/xenobiology)
+<<<<<<< HEAD
+=======
+"SQ" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SR" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 1
 	},
 /area/outpost/yard/east)
+<<<<<<< HEAD
 "SS" = (
 /obj/effect/landmark/weed_node,
+=======
+"ST" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark/brown2{
 	dir = 1
 	},
@@ -9826,6 +12919,19 @@
 	dir = 6
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"SV" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 5
+	},
+/area/outpost/hallway/south_cent)
+"SW" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SX" = (
 /obj/item/storage/firstaid/rad{
 	pixel_x = 6;
@@ -9861,6 +12967,7 @@
 "Tb" = (
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "Te" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/tile/dark,
@@ -9870,6 +12977,10 @@
 	id = "TGMC_23";
 	name = "TGMC exit point 23"
 	},
+=======
+"Td" = (
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_west)
 "Tg" = (
@@ -9881,12 +12992,27 @@
 	dir = 6
 	},
 /area/outpost/cargo/office)
+<<<<<<< HEAD
 "Th" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/cargo/office)
+=======
+"Ti" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/tile/dark,
+/area/outpost/science/research)
+"Tj" = (
+/obj/structure/cable,
+/obj/effect/landmark/start/job/survivor,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Tl" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/colonist,
@@ -9914,10 +13040,33 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/brig/wardens_office)
+<<<<<<< HEAD
+=======
+"Tq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/arrivals)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Tr" = (
 /obj/machinery/light,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"Ts" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaythree,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 1
+	},
+/area/outpost/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Tv" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 9
@@ -9944,6 +13093,13 @@
 	dir = 9
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
+=======
+"Tz" = (
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/tile/dark,
+/area/outpost/arrivals)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TB" = (
 /turf/open/floor/tile/dark/yellow2{
 	dir = 8
@@ -10003,6 +13159,21 @@
 	dir = 1
 	},
 /area/outpost/brig)
+<<<<<<< HEAD
+=======
+"TK" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 5
+	},
+/area/outpost/caves/north_west)
+"TL" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TM" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 9
@@ -10051,6 +13222,7 @@
 /obj/item/attachable/reddot,
 /turf/open/floor/wood,
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "TV" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 1
@@ -10060,6 +13232,26 @@
 	dir = 4
 	},
 /area/outpost/engineering/hallway)
+=======
+"TU" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/gun/rifle/mpi_km,
+/obj/item/weapon/gun/rifle/mpi_km,
+/obj/item/ammo_magazine/rifle/mpi_km,
+/obj/item/ammo_magazine/rifle/mpi_km,
+/obj/item/ammo_magazine/rifle/mpi_km,
+/obj/item/ammo_magazine/rifle/mpi_km,
+/obj/item/ammo_magazine/rifle/mpi_km,
+/obj/item/ammo_magazine/rifle/mpi_km,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig/armoury)
+"TW" = (
+/obj/effect/landmark/excavation_site_spawner,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TX" = (
 /turf/closed/wall/r_wall,
 /area/outpost/medbay/chemistry)
@@ -10101,6 +13293,15 @@
 	dir = 6
 	},
 /area/outpost/yard/central)
+<<<<<<< HEAD
+=======
+"Uf" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ug" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/yard/north)
@@ -10111,6 +13312,15 @@
 	},
 /turf/open/floor/tile/dark,
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"Ui" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Uj" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/tile/dark,
@@ -10161,6 +13371,13 @@
 	dir = 4
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
+=======
+"Uu" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Uv" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 9
@@ -10229,14 +13446,58 @@
 /obj/item/trash/kepler,
 /turf/open/floor/wood,
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "UL" = (
 /turf/open/floor/tile/dark,
 /area/outpost/medbay/storage)
+=======
+"UI" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/dirttosand{
+	dir = 4
+	},
+/area/outpost/caves/south)
+"UJ" = (
+/obj/effect/landmark/corpsespawner/miner{
+	corpseback = null;
+	corpseidjob = "Laborer";
+	name = "Colonist Bren Foras"
+	},
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/central)
+"UK" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/yellow2/corner{
+	dir = 4
+	},
+/area/outpost/engineering/hallway)
+"UL" = (
+/turf/open/floor/tile/dark,
+/area/outpost/medbay/storage)
+"UM" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 6
+	},
+/area/outpost/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UN" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 10
 	},
 /area/outpost/caves/north)
+<<<<<<< HEAD
+=======
+"UO" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -10244,6 +13505,13 @@
 	dir = 1
 	},
 /area/outpost/hallway/south_cent)
+<<<<<<< HEAD
+=======
+"UQ" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UR" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2/corner{
@@ -10308,6 +13576,16 @@
 	dir = 5
 	},
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"Vc" = (
+/obj/effect/ai_node,
+/obj/structure/cable,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 8
+	},
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vd" = (
 /turf/closed/wall/r_wall,
 /area/outpost/engineering/hallway)
@@ -10328,6 +13606,7 @@
 "Vj" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/lz1)
+<<<<<<< HEAD
 "Vk" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 6
@@ -10336,6 +13615,16 @@
 	dir = 4
 	},
 /area/outpost/caves/north_east)
+=======
+"Vl" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
+/area/outpost/engineering/engine)
+"Vm" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vn" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/outpost/cargo)
@@ -10352,10 +13641,22 @@
 "Vq" = (
 /turf/open/floor/plating/dmg1,
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
 "Vr" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_west)
+=======
+"Vs" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 1
+	},
+/area/outpost/hallway/south_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vt" = (
 /turf/open/floor/tile/dark,
 /area/outpost/arrivals)
@@ -10417,11 +13718,18 @@
 	dir = 1
 	},
 /area/outpost/medbay)
+<<<<<<< HEAD
 "VG" = (
 /obj/structure/table/reinforced,
 /obj/effect/landmark/dropship_console_spawn_lz2,
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 5
+=======
+"VH" = (
+/obj/effect/spawner/random/tool,
+/turf/open/floor/tile/dark/yellow2{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/outpost/lz2)
 "VI" = (
@@ -10496,13 +13804,35 @@
 /turf/open/floor/marking/asteroidwarning{
 	dir = 8
 	},
+<<<<<<< HEAD
 /area/outpost/yard/central)
+=======
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark/yellow2,
+/area/outpost/engineering/hallway)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VY" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 2
 	},
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/yard/east)
+<<<<<<< HEAD
+=======
+"VZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2{
+	dir = 8
+	},
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/lz1)
+"Wa" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/yard/central)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Wb" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -10559,6 +13889,15 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"Wm" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 5
+	},
+/area/outpost/caves/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Wo" = (
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 5
@@ -10570,6 +13909,15 @@
 	dir = 8
 	},
 /area/outpost/science/rd_office)
+<<<<<<< HEAD
+=======
+"Wq" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/outpost/arrivals)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Wr" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/tile/dark/red2{
@@ -10581,6 +13929,7 @@
 	dir = 6
 	},
 /area/outpost/yard/south)
+<<<<<<< HEAD
 "Wu" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 1
@@ -10593,6 +13942,12 @@
 /turf/open/floor/plating/ground/mars/cavetodirt{
 	dir = 5
 	},
+=======
+"Wt" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating/ground/mars/random/cave,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/outpost/caves/north_east)
 "Ww" = (
 /obj/machinery/computer/rdservercontrol,
@@ -10612,13 +13967,36 @@
 	dir = 8
 	},
 /area/outpost/caves/south)
+<<<<<<< HEAD
+=======
+"Wz" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2,
+/area/outpost/cargo/office)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WA" = (
 /turf/open/floor/tile/dark/brown2{
 	dir = 10
 	},
 /area/outpost/hallway/central)
+<<<<<<< HEAD
 "WB" = (
 /obj/effect/landmark/start/job/xenomorph,
+=======
+"WE" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 1
+	},
+/area/outpost/caves/south)
+"WF" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_21";
+	name = "SOM exit point 21"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
 "WC" = (
@@ -10656,12 +14034,27 @@
 /obj/item/trash/raisins,
 /turf/open/floor/tile/dark,
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"WL" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WM" = (
 /obj/machinery/computer/intel_computer,
 /turf/open/floor/tile/dark/red2{
 	dir = 10
 	},
 /area/outpost/science/security)
+<<<<<<< HEAD
+=======
+"WN" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WO" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
@@ -10703,6 +14096,18 @@
 	},
 /turf/open/floor/tile/dark/brown2/corner,
 /area/outpost/hallway/central)
+<<<<<<< HEAD
+=======
+"WV" = (
+/obj/effect/landmark/fob_sentry_rebel,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/cargo)
+"WY" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WZ" = (
 /obj/machinery/autolathe,
 /obj/machinery/light,
@@ -10717,6 +14122,15 @@
 	},
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/northern)
+<<<<<<< HEAD
+=======
+"Xb" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xc" = (
 /turf/open/floor/plating/ground/mars/cavetodirt,
 /area/outpost/caves/north_west)
@@ -10781,6 +14195,7 @@
 	},
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/outpost/caves/west)
+<<<<<<< HEAD
 "Xn" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -10792,6 +14207,23 @@
 "Xr" = (
 /turf/open/floor/tile/dark2,
 /area/outpost/arrivals/securitylz2)
+=======
+"Xp" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/outpost/yard/east)
+"Xr" = (
+/turf/open/floor/tile/dark2,
+/area/outpost/arrivals/securitylz2)
+"Xs" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark2,
+/area/outpost/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xt" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -10826,8 +14258,14 @@
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 9
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/outpost/caves/north_east)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XB" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/tile/dark/yellow2{
@@ -10845,6 +14283,7 @@
 	dir = 8
 	},
 /area/outpost/caves/north)
+<<<<<<< HEAD
 "XF" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/landmark/start/job/xenomorph,
@@ -10852,6 +14291,11 @@
 	dir = 6
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
+=======
+"XE" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/outpost/caves/north_east)
 "XG" = (
 /obj/item/radio,
@@ -10861,6 +14305,19 @@
 /obj/structure/table,
 /turf/open/floor/tile/dark/blue2,
 /area/outpost/medbay/storage)
+<<<<<<< HEAD
+=======
+"XI" = (
+/obj/effect/landmark/corpsespawner/doctor,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/yard/central)
+"XK" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/tile/dark/purple2,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -10876,6 +14333,18 @@
 	dir = 8
 	},
 /area/outpost/brig/gear_room)
+<<<<<<< HEAD
+=======
+"XN" = (
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 10
+	},
+/area/outpost/hallway/south_cent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XO" = (
 /obj/structure/table,
 /obj/item/radio,
@@ -10887,6 +14356,16 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/outpost/brig)
+<<<<<<< HEAD
+=======
+"XQ" = (
+/obj/structure/table,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/tile/dark/brown2{
+	dir = 8
+	},
+/area/outpost/cargo/office)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XR" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -10929,6 +14408,13 @@
 "XX" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/west)
+<<<<<<< HEAD
+=======
+"XZ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ya" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/tile/dark/brown2{
@@ -10975,6 +14461,7 @@
 	dir = 6
 	},
 /area/outpost/cargo)
+<<<<<<< HEAD
 "Yj" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/random/sand,
@@ -10983,14 +14470,34 @@
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/lz1)
+=======
+"Yk" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 1
+	},
+/area/outpost/hallway/south_cent)
+"Yl" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark/red2,
+/area/outpost/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Yn" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark/brown2,
 /area/outpost/hallway/south_west)
+<<<<<<< HEAD
 "Yo" = (
 /obj/effect/landmark/xeno_resin_wall,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/north_east)
+=======
+"Yp" = (
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning,
+/area/outpost/lz1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Yq" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
@@ -11007,6 +14514,7 @@
 	dir = 8
 	},
 /area/outpost/medbay/chemistry)
+<<<<<<< HEAD
 "Yu" = (
 /obj/effect/landmark/patrol_point{
 	id = "SOM_14";
@@ -11014,6 +14522,16 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/outpost/caves/south_west)
+=======
+"Ys" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/outpost/medbay)
+"Yt" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/outpost/yard/south_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Yv" = (
 /obj/machinery/light{
 	dir = 1
@@ -11047,7 +14565,15 @@
 /turf/open/floor/tile/dark/purple2{
 	dir = 5
 	},
+<<<<<<< HEAD
 /area/outpost/science)
+=======
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark/brown2/corner{
+	dir = 8
+	},
+/area/outpost/hallway/northern)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YC" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 4
@@ -11061,6 +14587,15 @@
 	dir = 9
 	},
 /area/outpost/hallway/northern)
+<<<<<<< HEAD
+=======
+"YE" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/cavetodirt{
+	dir = 4
+	},
+/area/outpost/caves/north_east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YG" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -11069,6 +14604,13 @@
 	dir = 4
 	},
 /area/outpost/arrivals)
+<<<<<<< HEAD
+=======
+"YH" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YI" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -11101,11 +14643,27 @@
 	dir = 10
 	},
 /area/outpost/cargo/security)
+<<<<<<< HEAD
 "YO" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 1
 	},
+=======
+"YN" = (
+/obj/effect/landmark/corpsespawner/scientist,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/outpost/yard/central)
+"YQ" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/outpost/caves/north_east)
 "YP" = (
 /obj/effect/decal/cleanable/blood,
@@ -11178,10 +14736,22 @@
 	dir = 1
 	},
 /area/outpost/hallway/south_east)
+<<<<<<< HEAD
 "Zg" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 9
+=======
+"Zj" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+"Zk" = (
+/obj/structure/largecrate/random/barrel,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/brown2{
+	dir = 6
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
@@ -11305,6 +14875,13 @@
 	dir = 9
 	},
 /area/outpost/hallway/south_cent)
+<<<<<<< HEAD
+=======
+"ZF" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/tile/dark,
+/area/outpost/science)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ZG" = (
 /turf/open/floor/marking/asteroidwarning,
 /area/outpost/lz2)
@@ -11326,7 +14903,12 @@
 "ZK" = (
 /turf/open/floor/freezer,
 /area/outpost/dormitories)
+<<<<<<< HEAD
 "ZM" = (
+=======
+"ZL" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 8
@@ -11399,6 +14981,13 @@
 	dir = 8
 	},
 /area/outpost/engineering)
+<<<<<<< HEAD
+=======
+"ZX" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/outpost/caves/north_west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ZZ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,

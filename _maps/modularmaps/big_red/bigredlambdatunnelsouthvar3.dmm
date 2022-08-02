@@ -1,5 +1,13 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
 "a" = (
+=======
+"b" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"e" = (
+/obj/effect/landmark/lv624/fog_blocker,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
 "f" = (
@@ -12,6 +20,7 @@
 "k" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/east)
+<<<<<<< HEAD
 "m" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /obj/effect/ai_node,
@@ -24,11 +33,30 @@
 "y" = (
 /obj/effect/landmark/start/job/xenomorph,
 /obj/effect/landmark/weed_node,
+=======
+"l" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/east)
+"p" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/east)
+"r" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/east)
+"t" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/east)
 "z" = (
 /turf/open/floor/plating/ground/mars/random/cave/rock,
 /area/bigredv2/caves/east)
+<<<<<<< HEAD
 "H" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/mineral/smooth/bigred,
@@ -48,6 +76,23 @@
 /area/bigredv2/caves/northeast)
 "Z" = (
 /obj/effect/ai_node,
+=======
+"K" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"Q" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/east)
+"U" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"X" = (
+/obj/effect/landmark/lv624/fog_blocker,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/east)
 

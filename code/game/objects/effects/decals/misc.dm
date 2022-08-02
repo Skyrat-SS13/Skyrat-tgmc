@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 // Used for spray that you spray at walls, tables, hydrovats etc
+=======
+// Used for spray that you spray at walls, tables, hydrovats etc.
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/spraystill
 	density = FALSE
 	anchored = TRUE
@@ -99,7 +103,11 @@
 	color = "#8d498d"
 
 /obj/effect/decal/tile/corsatstraight/lightpurple
+<<<<<<< HEAD
 	color = "#a33b94" 
+=======
+	color = "#a33b94"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 /obj/effect/decal/tile/corsatstraight/darkgreen
 	color = "#238623"
@@ -296,7 +304,11 @@
 /obj/effect/decal/tracks/human1/wet
 	color = "#626464"
 	alpha = 140
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/tracks/human2
 	icon = 'icons/effects/fluidtracks.dmi'
 	icon_state = "human2"

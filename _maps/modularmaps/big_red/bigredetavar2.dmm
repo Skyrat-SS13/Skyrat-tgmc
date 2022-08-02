@@ -10,23 +10,57 @@
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/hydroponics)
+<<<<<<< HEAD
+=======
+"au" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating,
+/area/bigredv2/outside/dorms)
+"aE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "aV" = (
 /turf/open/floor/plating{
 	icon_state = "wood-broken4"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"bd" = (
+/obj/machinery/atmospherics/pipe/manifold/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bl" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 8
 	},
 /area/bigredv2/caves/northeast)
+<<<<<<< HEAD
 "bo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil,
+=======
+"bq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "bs" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/PMC,
@@ -50,6 +84,32 @@
 	dir = 1;
 	},
 /turf/open/shuttle/dropship/floor,
+=======
+"bG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/ne)
+"cx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 50
+	},
+/turf/open/floor{
+	dir = 2;
+	icon_state = "dark"
+	},
+/area/bigredv2/outside/general_offices)
+"cF" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "cN" = (
 /obj/structure/dropship_piece/two/corner/frontleft,
@@ -57,15 +117,31 @@
 	icon_state = "103"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"cW" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cZ" = (
 /obj/structure/computerframe,
 /turf/open/shuttle/dropship/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "dv" = (
 /obj/machinery/door/airlock/mainship/generic,
 /obj/effect/ai_node,
 /turf/open/shuttle/dropship/three,
 /area/bigredv2/outside/general_offices)
+=======
+"dg" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dE" = (
 /turf/closed/wall,
 /area/bigredv2/outside/bar)
@@ -76,7 +152,11 @@
 /obj/effect/decal/cleanable/blood/six{
 	dir = 1;
 	},
+<<<<<<< HEAD
 /obj/effect/ai_node,
+=======
+/obj/effect/decal/cleanable/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
@@ -100,6 +180,24 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/outside/ne)
+<<<<<<< HEAD
+=======
+"er" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+"ew" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
+/obj/effect/ai_node,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ex" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating{
@@ -125,10 +223,31 @@
 	},
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"fa" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+"fb" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/obj/effect/ai_node,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fd" = (
 /obj/structure/bed/chair/dropship/passenger,
 /turf/open/shuttle/dropship/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "ff" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/shuttle/dropship2/transparent{
@@ -138,15 +257,24 @@
 "fA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+=======
+"fl" = (
+/obj/effect/decal/cleanable/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/caves/northeast)
 "fM" = (
 /obj/machinery/vending/snack,
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "gf" = (
 /obj/machinery/light,
 /obj/effect/ai_node,
+=======
+"gt" = (
+/obj/effect/spawner/gibspawner/human,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
@@ -154,22 +282,55 @@
 "gK" = (
 /turf/closed/wall,
 /area/bigredv2/outside/dorms)
+<<<<<<< HEAD
+=======
+"gQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/rods,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+"gR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/caves/northeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gW" = (
 /obj/item/shard,
 /obj/structure/window_frame/colony/reinforced,
 /turf/open/floor/plating,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "ht" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/general_offices)
+=======
+"gX" = (
+/obj/item/stack/sheet/metal,
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating,
+/area/bigredv2/caves/northeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hH" = (
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin7"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"hM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hU" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/n)
@@ -213,10 +374,14 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/outside/hydroponics)
+<<<<<<< HEAD
 "iN" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 10
 	},
+=======
+"iV" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/floor{
 	icon_state = "platingdmg1"
@@ -236,6 +401,13 @@
 	icon_state = "wall_thermite"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"js" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jx" = (
 /turf/open/floor/plating/ground/mars/dirttosand,
 /area/bigredv2/outside/ne)
@@ -253,10 +425,18 @@
 /obj/structure/bed,
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "ke" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
+=======
+"kv" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/dropship_piece/two/cockpit/left,
+/turf/closed/shuttle/dropship2{
+	icon_state = "100"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/bigredv2/outside/general_offices)
 "kx" = (
@@ -265,12 +445,29 @@
 	},
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "kB" = (
 /obj/effect/decal/cleanable/blood/six{
 	dir = 1;
+=======
+"kE" = (
+/obj/machinery/light,
+/obj/effect/ai_node,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/shuttle/dropship/three,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"kO" = (
+/obj/effect/spawner/gibspawner/human,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/bigredv2/outside/hydroponics)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kU" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 4;
@@ -278,6 +475,7 @@
 	},
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "lg" = (
 /obj/item/stack/sheet/metal,
 /obj/effect/landmark/lv624/fog_blocker,
@@ -289,12 +487,35 @@
 /obj/effect/spawner/random/tool,
 /obj/effect/spawner/random/tool,
 /turf/open/floor,
+=======
+"le" = (
+/obj/effect/spawner/gibspawner/human,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/shuttle/dropship/five,
+/area/bigredv2/outside/general_offices)
+"lt" = (
+/obj/effect/spawner/gibspawner/human,
+/turf/open/floor/plating{
+	icon_state = "wood-broken6"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "mc" = (
 /turf/closed/shuttle/dropship2{
 	icon_state = "52"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"mg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor{
+	dir = 2;
+	icon_state = "dark"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mm" = (
 /obj/structure/dropship_piece/two/corner/frontright,
 /obj/structure/dropship_piece/two/corner/frontright,
@@ -302,6 +523,7 @@
 	icon_state = "104"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "my" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/mars/random/sand,
@@ -314,18 +536,32 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating,
 /area/bigredv2/outside/dorms)
+=======
+"mz" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/bigredv2/caves/northeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mN" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/outside/hydroponics)
+<<<<<<< HEAD
+=======
+"nc" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/shuttle/dropship/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nj" = (
 /obj/structure/bed,
 /turf/open/floor/plating{
 	icon_state = "wood-broken6"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "nm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/six{
@@ -334,16 +570,32 @@
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/ne)
 "nB" = (
+=======
+"nr" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/bigredv2/outside/general_offices)
+"oc" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/landmark/lv624/fog_blocker,
 /obj/structure/dropship_piece/two/cockpit/right,
 /turf/closed/shuttle/dropship2{
 	icon_state = "102"
 	},
 /area/bigredv2/caves/northeast)
+<<<<<<< HEAD
 "ok" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
+=======
+"oC" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "109"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
@@ -355,6 +607,16 @@
 	icon_state = "wood-broken2"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"oI" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/shuttle/dropship/three,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oU" = (
 /turf/closed/shuttle/ert{
 	icon_state = "leftengine_1";
@@ -374,6 +636,16 @@
 "pr" = (
 /turf/open/floor/plating,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"pv" = (
+/obj/item/stack/rods,
+/obj/effect/ai_node,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "py" = (
 /obj/machinery/light{
 	dir = 1
@@ -454,6 +726,13 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"sl" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/ground/mars/dirttosand,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sm" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/phoron{
@@ -481,6 +760,16 @@
 "su" = (
 /turf/closed/wall/r_wall,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"sP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/gibspawner/human,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sT" = (
 /turf/open/floor/plating,
 /area/bigredv2/outside/bar)
@@ -495,6 +784,7 @@
 	icon_state = "47"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "to" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -518,6 +808,24 @@
 	},
 /obj/effect/ai_node,
 /turf/open/shuttle/dropship/three,
+=======
+"tI" = (
+/obj/effect/ai_node,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+"ul" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/caves/northeast)
+"uo" = (
+/obj/effect/ai_node,
+/turf/open/floor/freezer,
+/area/bigredv2/outside/general_offices)
+"uy" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "uS" = (
 /obj/structure/cable,
@@ -532,9 +840,26 @@
 	opacity = 0
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "wg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
+=======
+"vK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/ne)
+"wj" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+"wm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
@@ -556,6 +881,24 @@
 /obj/structure/table,
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"wA" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/bigredv2/outside/general_offices)
+"wH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wL" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/caves/northeast)
@@ -565,6 +908,7 @@
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "xN" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
@@ -577,6 +921,11 @@
 	dir = 2;
 	icon_state = "dark"
 	},
+=======
+"ym" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "yC" = (
 /obj/structure/table,
@@ -589,6 +938,7 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "zx" = (
 /obj/effect/ai_node,
 /turf/open/floor,
@@ -596,6 +946,31 @@
 "zM" = (
 /turf/open/shuttle/dropship/five,
 /area/bigredv2/outside/general_offices)
+=======
+"zt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+"zI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/ne)
+"zM" = (
+/turf/open/shuttle/dropship/five,
+/area/bigredv2/outside/general_offices)
+"zO" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zP" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/diamond,
@@ -650,6 +1025,7 @@
 	},
 /turf/open/floor/freezer,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "AW" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /obj/structure/dropship_piece/two/cockpit/left,
@@ -657,6 +1033,23 @@
 	icon_state = "100"
 	},
 /area/bigredv2/caves/northeast)
+=======
+"AN" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/tool,
+/obj/effect/spawner/random/tool,
+/obj/effect/spawner/random/tool,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+"AT" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/obj/effect/ai_node,
+/turf/open/shuttle/dropship/three,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bj" = (
 /turf/open/floor/plating,
 /area/bigredv2/outside/dorms)
@@ -666,10 +1059,25 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"By" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpsespawner/PMC,
+/turf/open/shuttle/dropship/three,
+/area/bigredv2/outside/general_offices)
+"BG" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/tool,
+/obj/effect/spawner/random/tool,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BI" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/shuttle/dropship/three,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "BM" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor,
@@ -678,6 +1086,11 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/effect/ai_node,
 /turf/open/floor,
+=======
+"Ca" = (
+/obj/effect/landmark/corpsespawner/PMC,
+/turf/open/shuttle/dropship/floor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "Ct" = (
 /obj/machinery/washing_machine,
@@ -709,10 +1122,18 @@
 	icon_state = "wall_thermite"
 	},
 /area/bigredv2/outside/hydroponics)
+<<<<<<< HEAD
 "Dl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/mars/dirttosand,
 /area/bigredv2/outside/ne)
+=======
+"Dp" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/remains,
+/turf/open/shuttle/dropship/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Dr" = (
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
@@ -745,9 +1166,23 @@
 /obj/machinery/light{
 	dir = 8
 	},
+<<<<<<< HEAD
 /obj/effect/landmark/weed_node,
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
+=======
+/obj/effect/ai_node,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+"Fn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fu" = (
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
@@ -807,6 +1242,23 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/plating,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"GU" = (
+/obj/structure/bed/chair/dropship/passenger,
+/obj/effect/landmark/corpsespawner/PMC,
+/turf/open/shuttle/dropship/floor,
+/area/bigredv2/outside/general_offices)
+"GZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/ai_node,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hh" = (
 /turf/open/floor{
 	icon_state = "platingdmg1"
@@ -866,7 +1318,11 @@
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "IC" = (
+=======
+"Jc" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/blood/six{
 	dir = 1;
 	},
@@ -914,12 +1370,42 @@
 "KO" = (
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"KW" = (
+/obj/machinery/door/airlock/mainship/generic,
+/obj/effect/ai_node,
+/turf/open/shuttle/dropship/three,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KY" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/hydroponics)
+<<<<<<< HEAD
+=======
+"LB" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/floor/plating{
+	dir = 8;
+	icon_state = "platingdmg3"
+	},
+/area/bigredv2/outside/general_offices)
+"LO" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LQ" = (
 /obj/machinery/light{
 	dir = 8;
@@ -943,9 +1429,14 @@
 /obj/machinery/washing_machine,
 /turf/open/floor/freezer,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "ML" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/gibspawner/human,
+=======
+"MP" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor{
 	icon_state = "platingdmg1"
 	},
@@ -976,6 +1467,7 @@
 "Oh" = (
 /obj/structure/table,
 /obj/effect/landmark/weed_node,
+<<<<<<< HEAD
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
 "Ou" = (
@@ -991,11 +1483,26 @@
 	dir = 8
 	},
 /obj/effect/ai_node,
+=======
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
 "OT" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/bigredv2/outside/ne)
+<<<<<<< HEAD
+=======
+"Pi" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/shuttle/dropship/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Pv" = (
 /obj/structure/table,
 /turf/open/floor,
@@ -1019,6 +1526,18 @@
 	icon_state = "54"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"Qk" = (
+/obj/effect/decal/cleanable/blood/six{
+	dir = 1;
+	
+	},
+/turf/open/floor{
+	icon_state = "wall_thermite"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Qq" = (
 /turf/open/shuttle/dropship/floor,
 /area/bigredv2/outside/general_offices)
@@ -1029,6 +1548,15 @@
 	},
 /turf/open/floor/wood,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"Qx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/gibspawner/human,
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/caves/northeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QB" = (
 /turf/closed/wall,
 /area/bigredv2/outside/hydroponics)
@@ -1038,10 +1566,17 @@
 	},
 /turf/open/floor,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "QS" = (
 /obj/effect/landmark/corpsespawner/PMC,
 /turf/open/shuttle/dropship/floor,
 /area/bigredv2/outside/general_offices)
+=======
+"QR" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/bigredv2/outside/n)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RJ" = (
 /turf/closed/wall,
 /area/bigredv2/outside/general_offices)
@@ -1076,12 +1611,19 @@
 /obj/item/clothing/under/darkred,
 /turf/open/floor/freezer,
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "Th" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/gibspawner/human,
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/caves/northeast)
+=======
+"SC" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Tm" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
@@ -1092,6 +1634,18 @@
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"TG" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/effect/ai_node,
+/turf/open/floor,
+/area/bigredv2/outside/general_offices)
+"TK" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/bigredv2/outside/ne)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TN" = (
 /obj/structure/table,
 /turf/open/floor,
@@ -1113,6 +1667,7 @@
 	dir = 2;
 	icon_state = "dark"
 	},
+<<<<<<< HEAD
 /area/bigredv2/outside/general_offices)
 "UC" = (
 /obj/effect/spawner/gibspawner/human,
@@ -1130,6 +1685,10 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/remains,
 /turf/open/shuttle/dropship/floor,
+=======
+/obj/effect/landmark/weed_node,
+/turf/open/floor/wood,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "UP" = (
 /turf/open/floor{
@@ -1161,12 +1720,22 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "Vn" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /obj/effect/landmark/weed_node,
 /turf/open/floor,
+=======
+"Vl" = (
+/obj/item/paper/crumpled/bloody,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "u_psycopath_l"
+	},
+/obj/effect/ai_node,
+/turf/open/shuttle/dropship/three,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "Vs" = (
 /turf/closed/shuttle/dropship2{
@@ -1202,10 +1771,18 @@
 	icon_state = "15"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
 "Xz" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /obj/effect/landmark/weed_node,
 /turf/open/floor,
+=======
+"Xo" = (
+/obj/effect/decal/cleanable/blood/oil/streak,
+/turf/open/floor{
+	icon_state = "wall_thermite"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/outside/general_offices)
 "XC" = (
 /obj/machinery/door/airlock/mainship/engineering{
@@ -1216,6 +1793,16 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"XL" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XT" = (
 /turf/open/floor/freezer,
 /area/bigredv2/outside/general_offices)
@@ -1230,10 +1817,20 @@
 "Yu" = (
 /turf/open/floor/plating,
 /area/bigredv2/caves/northeast)
+<<<<<<< HEAD
 "Zf" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/bigredv2/outside/ne)
+=======
+"Za" = (
+/obj/item/stack/sheet/wood,
+/obj/effect/ai_node,
+/turf/open/floor{
+	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Zw" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor{
@@ -1257,6 +1854,14 @@
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/general_offices)
+<<<<<<< HEAD
+=======
+"ZL" = (
+/obj/structure/rack,
+/obj/effect/ai_node,
+/turf/open/shuttle/dropship/floor,
+/area/bigredv2/outside/general_offices)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 hU

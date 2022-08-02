@@ -8,7 +8,11 @@
 	return ..()
 
 /obj/effect/decal/cleanable/attackby(obj/item/I, mob/user, params)
+<<<<<<< HEAD
 	var/obj/effect/alien/weeds/A = locate() in loc
+=======
+	var/obj/alien/weeds/A = locate() in loc
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	if(A)
 		return A.attackby(I, user, params)
 	else

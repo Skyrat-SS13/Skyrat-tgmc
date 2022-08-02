@@ -2,7 +2,29 @@
 "a" = (
 /turf/closed/mineral/smooth/bigred/indestructible,
 /area/space)
+<<<<<<< HEAD
 "e" = (
+=======
+"ab" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark/red2/corner,
+/area/bigredv2/caves/south)
+"ac" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/tile/dark/red2/corner,
+/area/bigredv2/caves/south)
+"ad" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/sandedge{
+	dir = 4
+	},
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/caves/south)
+"ae" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/yellow2/corner,
@@ -41,7 +63,22 @@
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+<<<<<<< HEAD
 "m" = (
+=======
+"ak" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/caves/south)
+"al" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/r_wall,
+/area/bigredv2/caves/south)
+"am" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/south)
 "n" = (
@@ -54,7 +91,16 @@
 "o" = (
 /turf/open/floor/tile/dark/yellow2/corner,
 /area/bigredv2/outside/nanotrasen_lab/inside)
+<<<<<<< HEAD
 "q" = (
+=======
+"ap" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/red2/corner,
+/area/bigredv2/caves/south)
+"aq" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/sandedge{
 	dir = 4
@@ -73,12 +119,35 @@
 "t" = (
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+<<<<<<< HEAD
 "v" = (
+=======
+"au" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"av" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark/red2/corner{
 	dir = 8
 	},
 /area/bigredv2/caves/south)
+<<<<<<< HEAD
 "x" = (
+=======
+"aw" = (
+/obj/machinery/door/airlock/multi_tile/mainship/generic{
+	dir = 2
+	},
+/obj/effect/decal/sandedge{
+	dir = 8
+	},
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/caves/south)
+"ax" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/storage/belt/gun/pistol/m4a3/full,
@@ -128,7 +197,15 @@
 	dir = 8
 	},
 /area/bigredv2/caves/south)
+<<<<<<< HEAD
 "J" = (
+=======
+"aI" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/r_wall/unmeltable,
+/area/bigredv2/caves/south)
+"aJ" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark/red2/corner,
 /area/bigredv2/caves/south)
@@ -143,7 +220,20 @@
 	dir = 8
 	},
 /area/bigredv2/caves/south)
+<<<<<<< HEAD
 "O" = (
+=======
+"aM" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"aN" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"aO" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/structure/bed/chair/office/light{
 	dir = 1
 	},
@@ -171,7 +261,23 @@
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/wall/r_wall,
 /area/bigredv2/caves/south)
+<<<<<<< HEAD
 "V" = (
+=======
+"aU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/multi_tile/mainship/generic{
+	dir = 2
+	},
+/obj/effect/decal/sandedge{
+	dir = 4
+	},
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/caves/south)
+"aV" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/r_wall,
 /area/bigredv2/caves/south)
@@ -191,6 +297,55 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/south)
+<<<<<<< HEAD
+=======
+"aZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/storage/belt/gun/pistol/m4a3/full,
+/obj/item/storage/belt/gun/pistol/m4a3/officer,
+/turf/open/floor/tile/dark/red2/corner,
+/area/bigredv2/caves/south)
+"dW" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/caves/south)
+"fq" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/wall/r_wall,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"zG" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark/yellow2/corner,
+/area/bigredv2/caves/south)
+"DZ" = (
+/obj/machinery/door/airlock/multi_tile/mainship/generic,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark/yellow2/corner,
+/area/bigredv2/outside/nanotrasen_lab/inside)
+"Ji" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/wall/r_wall,
+/area/bigredv2/caves/south)
+"PS" = (
+/obj/effect/decal/sandedge{
+	dir = 8
+	},
+/turf/open/floor/tile/dark/red2/corner{
+	dir = 8
+	},
+/area/bigredv2/caves/south)
+"SE" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/tile/dark/yellow2/corner,
+/area/bigredv2/caves/south)
+"YJ" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 y

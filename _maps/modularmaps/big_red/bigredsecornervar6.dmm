@@ -18,6 +18,7 @@
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "aW" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/tile/dark,
@@ -29,6 +30,16 @@
 "bs" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/shuttle/elevator/grating,
+=======
+"aU" = (
+/obj/effect/landmark/corpsespawner,
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"aY" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/blue,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "bw" = (
 /obj/machinery/door/airlock/mainship/maint{
@@ -36,6 +47,16 @@
 	},
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"bR" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/bed/chair/reinforced{
+	dir = 1
+	},
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cC" = (
 /turf/open/floor/tile/blue/taupebluecorner{
 	dir = 8
@@ -50,6 +71,7 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "cM" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
 /obj/item/ammo_casing/bullet,
@@ -61,6 +83,16 @@
 	dir = 4
 	},
 /area/bigredv2/caves/secomplex)
+=======
+"cY" = (
+/obj/docking_port/stationary/crashmode,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"dk" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dI" = (
 /obj/machinery/computer/rdservercontrol,
 /turf/open/shuttle/escapepod,
@@ -69,6 +101,7 @@
 /obj/structure/largecrate/supply/weapons/hpr,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "ef" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno/body,
 /obj/item/ammo_casing/bullet,
@@ -90,10 +123,28 @@
 "fm" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/mainship/mono,
+=======
+"eE" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/south)
+"eM" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"fb" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"fp" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/plating_catwalk,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "fs" = (
 /turf/open/space/basic,
 /area/space)
+<<<<<<< HEAD
 "gw" = (
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/secomplex)
@@ -108,6 +159,46 @@
 /area/bigredv2/caves/southeast)
 "hg" = (
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"fG" = (
+/obj/effect/decal/sandedge,
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"fY" = (
+/obj/effect/ai_node,
+/turf/open/shuttle/escapepod,
+/area/bigredv2/caves/secomplex)
+"ga" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"gd" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 10
+	},
+/area/bigredv2/caves/secomplex)
+"gi" = (
+/obj/effect/decal/cleanable/blood/gibs/xeno/body,
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"gC" = (
+/obj/effect/landmark/weed_node,
+/obj/item/stack/sheet/metal,
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 8
+	},
+/area/bigredv2/caves/secomplex)
+"gG" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"gZ" = (
+/obj/effect/landmark/start/job/xenomorph,
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
 "hw" = (
@@ -127,6 +218,15 @@
 	dir = 4
 	},
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"iU" = (
+/obj/effect/decal/sandedge{
+	dir = 4
+	},
+/turf/open/floor/tile/damaged/panel,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "iV" = (
 /obj/structure/largecrate/guns,
 /turf/open/shuttle/escapepod,
@@ -136,11 +236,19 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"jc" = (
+/obj/effect/landmark/weed_node,
+/turf/open/shuttle/elevator/grating,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jl" = (
 /obj/machinery/computer/communications/bee,
 /obj/structure/table/mainship,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "jp" = (
 /obj/item/ammo_casing/bullet,
 /obj/effect/spawner/random/gun/rifles,
@@ -149,6 +257,15 @@
 "jx" = (
 /obj/structure/ship_ammo/rocket/banshee,
 /obj/effect/landmark/weed_node,
+=======
+"jQ" = (
+/obj/item/limb/l_arm,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"ka" = (
+/obj/effect/decal/cleanable/cobweb2,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
 "jz" = (
@@ -169,9 +286,21 @@
 /obj/item/analyzer,
 /turf/open/floor/mainship/mono,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "kB" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/blue/taupebluecorner,
+=======
+"kt" = (
+/obj/effect/decal/sandedge/corner{
+	dir = 8
+	},
+/turf/open/floor/tile/damaged/panel,
+/area/bigredv2/caves/secomplex)
+"ku" = (
+/obj/effect/spawner/gibspawner/human,
+/turf/open/floor/tile/dark,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "kH" = (
 /obj/item/ammo_casing/bullet,
@@ -251,6 +380,13 @@
 /obj/item/tool/pickaxe/plasmacutter,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
+<<<<<<< HEAD
+=======
+"nc" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nn" = (
 /obj/structure/ship_ammo/rocket/fatty,
 /turf/open/floor/tile/dark,
@@ -286,6 +422,7 @@
 /obj/machinery/computer3/server/rack,
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "oB" = (
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
@@ -302,6 +439,32 @@
 "qp" = (
 /turf/closed/mineral/smooth/bigred/indestructible,
 /area/space)
+=======
+"ov" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"oB" = (
+/turf/open/shuttle/escapepod,
+/area/bigredv2/caves/secomplex)
+"pE" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/tile/blue/taupeblue,
+/area/bigredv2/caves/secomplex)
+"pV" = (
+/obj/structure/bed/chair/reinforced,
+/obj/effect/landmark/weed_node,
+/turf/open/shuttle/escapepod,
+/area/bigredv2/caves/secomplex)
+"qP" = (
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"qY" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/southeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rm" = (
 /turf/open/floor/tile/blue/taupeblue{
 	dir = 1
@@ -317,6 +480,7 @@
 /obj/structure/ship_ammo/rocket/napalm,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "rX" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
@@ -324,6 +488,16 @@
 "sp" = (
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/mainship/mono,
+=======
+"sc" = (
+/obj/effect/landmark/weed_node,
+/turf/open/shuttle/escapepod,
+/area/bigredv2/caves/secomplex)
+"sd" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/tile/blue/taupeblue,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "sz" = (
 /obj/item/limb/head,
@@ -337,10 +511,27 @@
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"tb" = (
+/obj/effect/landmark/xeno_resin_door,
+/obj/effect/decal/sandedge,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "te" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/tile/blue,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"tp" = (
+/obj/effect/decal/sandedge{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tu" = (
 /obj/structure/rack,
 /obj/item/weapon/gun/rifle/m16,
@@ -348,14 +539,28 @@
 /obj/item/ammo_magazine/rifle/m16,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "tH" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
+=======
+"tW" = (
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"ub" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 10
+	},
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ud" = (
 /obj/structure/ship_ammo/rocket/widowmaker,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "ue" = (
 /obj/effect/decal/sandedge/corner2{
 	dir = 4
@@ -385,6 +590,31 @@
 "uV" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
+=======
+"ur" = (
+/obj/structure/largecrate/supply/supplies/metal,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"uy" = (
+/obj/effect/decal/cleanable/cobweb2,
+/obj/structure/bookcase/manuals,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"uN" = (
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"uX" = (
+/obj/structure/ship_ammo/rocket/banshee,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"vm" = (
+/obj/effect/ai_node,
+/turf/open/shuttle/elevator/grating,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "vr" = (
 /obj/structure/girder,
@@ -398,18 +628,56 @@
 /obj/item/tool/pickaxe/plasmacutter,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"vT" = (
+/obj/effect/decal/sandedge{
+	dir = 8
+	},
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 6
+	},
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vV" = (
 /obj/structure/largecrate/lisa,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "wR" = (
 /obj/effect/landmark/corpsespawner/security,
+=======
+"wL" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/sandedge{
+	dir = 8
+	},
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 5
+	},
+/area/bigredv2/caves/secomplex)
+"wO" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/mecha_wreckage/ripley/lv624,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"xa" = (
+/obj/structure/largecrate/supply/explosives/mines,
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
 "xg" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
+<<<<<<< HEAD
+=======
+"xl" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/shuttle/elevator/grating,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xn" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
@@ -417,18 +685,43 @@
 /obj/structure/largecrate/supply/supplies/sandbags,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "ye" = (
 /obj/item/limb/l_arm,
 /obj/effect/landmark/weed_node,
+=======
+"yj" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"ym" = (
+/obj/effect/landmark/corpsespawner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
 "yr" = (
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"yD" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yU" = (
 /obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"za" = (
+/obj/structure/largecrate/supply/supplies/plasteel,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zh" = (
 /obj/item/ammo_magazine/rifle/m16,
 /turf/open/floor/mainship/mono,
@@ -437,11 +730,26 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "zw" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
+=======
+"zE" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"zI" = (
+/turf/closed/mineral/smooth/bigred/indestructible,
+/area/space)
+"Ac" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Af" = (
 /obj/structure/largecrate/supply/weapons/sentries,
 /turf/open/floor/tile/dark,
@@ -450,6 +758,7 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "AE" = (
 /obj/effect/decal/sandedge{
 	dir = 4
@@ -461,6 +770,23 @@
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
 "Bm" = (
+=======
+"Ap" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/secomplex)
+"BF" = (
+/obj/effect/decal/sandedge/corner2,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"Cd" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"CP" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/shuttle/elevator/grating,
 /area/bigredv2/caves/secomplex)
@@ -509,6 +835,7 @@
 "Em" = (
 /turf/open/floor/plating/ground/mars/random/cave/rock,
 /area/bigredv2/caves/southeast)
+<<<<<<< HEAD
 "ED" = (
 /obj/effect/decal/sandedge,
 /obj/effect/landmark/xeno_resin_door,
@@ -518,17 +845,41 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/plating_catwalk,
+=======
+"Eq" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/shuttle/escapepod,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "EP" = (
 /obj/machinery/power/apc/weak,
 /turf/open/shuttle/elevator/grating,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "FO" = (
 /obj/effect/landmark/patrol_point{
 	id = "TGMC_14";
 	name = "TGMC exit point 14"
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
+=======
+"EX" = (
+/obj/effect/landmark/corpsespawner,
+/turf/open/shuttle/escapepod,
+/area/bigredv2/caves/secomplex)
+"FU" = (
+/obj/effect/landmark/corpsespawner/engineer,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"FX" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"Ge" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/southeast)
 "FZ" = (
 /obj/structure/largecrate/supply/explosives/mines,
@@ -538,11 +889,23 @@
 "Gn" = (
 /turf/open/shuttle/elevator/grating,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"GI" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/shotgun/pump/cmb,
+/obj/item/ammo_magazine/shotgun/flechette,
+/obj/item/ammo_magazine/shotgun/flechette,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GT" = (
 /turf/open/floor/tile/blue/taupeblue{
 	dir = 8
 	},
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Hn" = (
 /obj/effect/landmark/corpsespawner/engineer,
 /turf/open/floor/mainship/mono,
@@ -555,6 +918,27 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
+=======
+"GV" = (
+/obj/effect/spawner/random/gun/shotgun,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"GZ" = (
+/obj/effect/landmark/corpsespawner/security,
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"Ih" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 1
+	},
+/area/bigredv2/caves/secomplex)
+"Ir" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Iu" = (
 /obj/machinery/door/airlock/mainship/maint/free_access,
 /turf/open/shuttle/escapepod,
@@ -565,11 +949,27 @@
 /obj/item/explosive/grenade/flashbang,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "IN" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/ai_node,
 /turf/open/shuttle/elevator/grating,
 /area/bigredv2/caves/secomplex)
+=======
+"IY" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/shuttle/elevator/grating,
+/area/bigredv2/caves/secomplex)
+"Ja" = (
+/obj/effect/decal/sandedge,
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"Jt" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jw" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/east)
@@ -581,6 +981,7 @@
 /obj/structure/closet/crate/secure/gear,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Kd" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/floor/mainship/mono,
@@ -588,11 +989,17 @@
 "Kk" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/shuttle/elevator/grating,
+=======
+"Kf" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/plating/plating_catwalk,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "Kq" = (
 /obj/structure/largecrate/random,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Kr" = (
 /obj/structure/largecrate/supply/supplies/metal,
 /obj/effect/landmark/weed_node,
@@ -612,10 +1019,27 @@
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+=======
+"Ks" = (
+/obj/effect/landmark/corpsespawner,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"KZ" = (
+/obj/item/ammo_casing/bullet,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"Le" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lq" = (
 /obj/item/limb/l_hand,
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "LK" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/plating_catwalk,
@@ -623,6 +1047,36 @@
 "LT" = (
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/mainship/mono,
+=======
+"Ls" = (
+/obj/item/ammo_casing/bullet,
+/obj/effect/ai_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"LX" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_14";
+	name = "TGMC exit point 14"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"Md" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/plating_catwalk,
+/area/bigredv2/caves/secomplex)
+"My" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"MY" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"Nr" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/tile/dark,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "Mk" = (
 /turf/closed/mineral/smooth/bigred,
@@ -645,6 +1099,7 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Oj" = (
 /obj/structure/bed/chair/reinforced,
 /obj/effect/landmark/weed_node,
@@ -657,6 +1112,15 @@
 /obj/item/ammo_magazine/shotgun/flechette,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
+=======
+"OG" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/blue,
+/area/bigredv2/caves/secomplex)
+"Pu" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/blue/taupebluecorner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "Pa" = (
 /obj/effect/landmark/start/job/xenomorph,
@@ -666,16 +1130,54 @@
 "Pz" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "PA" = (
 /obj/item/ammo_casing/bullet,
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
+=======
+"PF" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 4
+	},
+/area/bigredv2/caves/secomplex)
+"PV" = (
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/shuttle/elevator/grating,
+/area/bigredv2/caves/secomplex)
+"PY" = (
+/obj/effect/landmark/start/job/xenomorph,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Qa" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/emails,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"Qf" = (
+/obj/effect/ai_node,
+/turf/open/shuttle/escapepod/five,
+/area/bigredv2/caves/secomplex)
+"Qx" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"QD" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"QG" = (
+/obj/structure/largecrate/random/barrel/blue,
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QK" = (
 /obj/structure/largecrate/random/barrel/red,
 /turf/open/floor/tile/dark,
@@ -692,9 +1194,30 @@
 /obj/structure/largecrate/machine,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Ro" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
+=======
+"Rb" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_12";
+	name = "TGMC exit point 12"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"Rf" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"Ro" = (
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"Rx" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RJ" = (
 /obj/item/paper/prison_station/warden_note,
 /turf/open/floor/mainship/mono,
@@ -719,6 +1242,7 @@
 "SG" = (
 /turf/open/floor/mainship/mono,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "SJ" = (
 /obj/effect/decal/sandedge,
 /obj/effect/landmark/xeno_resin_door,
@@ -737,6 +1261,25 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/mainship/mono,
+=======
+"SZ" = (
+/obj/effect/landmarkweed_node,
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_11";
+	name = "TGMC exit point 11"
+	},
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"Tw" = (
+/obj/effect/decal/cleanable/blood/gibs/xeno/limb,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"TA" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/blue/taupeblue{
+	dir = 1
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "TX" = (
 /turf/open/floor/tile/dark2,
@@ -776,6 +1319,7 @@
 /obj/machinery/r_n_d/server,
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Vp" = (
 /obj/effect/landmark/weed_node,
 /turf/open/shuttle/escapepod/five,
@@ -787,6 +1331,28 @@
 "VD" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/item/ammo_casing/bullet,
+=======
+"UJ" = (
+/obj/effect/landmark/weed_node,
+/turf/open/shuttle/escapepod/five,
+/area/bigredv2/caves/secomplex)
+"UP" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/turf/open/shuttle/elevator/grating,
+/area/bigredv2/caves/secomplex)
+"Vh" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/filingcabinet,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"Vo" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/dark,
+/area/bigredv2/caves/secomplex)
+"Wb" = (
+/obj/effect/landmark/xeno_resin_door,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/plating_catwalk,
 /area/bigredv2/caves/secomplex)
 "VH" = (
@@ -809,10 +1375,18 @@
 /obj/structure/bed/chair/reinforced,
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
+=======
+"WB" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WQ" = (
 /obj/structure/prop/mainship/mission_planning_system,
 /turf/open/shuttle/escapepod,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Xe" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
@@ -838,16 +1412,40 @@
 "XO" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/shuttle/elevator/grating,
+=======
+"WX" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southeast)
+"XX" = (
+/obj/effect/decal/sandedge/corner2{
+	dir = 4
+	},
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"Ya" = (
+/obj/machinery/door/airlock/mainship/maint,
+/obj/effect/ai_node,
+/turf/open/shuttle/escapepod,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/secomplex)
 "Yg" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/security/marinemainship_network,
 /turf/open/floor/tile/dark,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "Yi" = (
 /obj/effect/landmark/patrol_point{
 	id = "TGMC_12";
 	name = "TGMC exit point 12"
+=======
+"Yh" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_13";
+	name = "TGMC exit point 13"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/southeast)
@@ -889,6 +1487,7 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/bigredv2/caves/secomplex)
+<<<<<<< HEAD
 "ZE" = (
 /obj/effect/landmark/corpsespawner,
 /turf/open/shuttle/escapepod,
@@ -901,6 +1500,15 @@
 "ZQ" = (
 /obj/effect/landmark/weed_node,
 /obj/item/stack/sheet/metal,
+=======
+"Zi" = (
+/obj/docking_port/stationary/crashmode,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/bigredv2/caves/secomplex)
+"Zm" = (
+/obj/effect/landmark/xeno_resin_door,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/blue/taupeblue{
 	dir = 8
 	},

@@ -5,6 +5,16 @@
 	name = "End of the world"
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"ab" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 5
+	},
+/obj/structure/jungle/vines,
+/turf/closed/wall,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ac" = (
 /turf/closed/wall/r_wall,
 /area/whiskey_outpost)
@@ -191,6 +201,17 @@
 "aK" = (
 /turf/open/floor/mainship,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"aL" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/gm/dense,
+/area/whiskey_outpost/outside/rock)
+"aM" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "aN" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/ground/coast/corner{
@@ -339,6 +360,18 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"bn" = (
+/obj/machinery/optable,
+/obj/effect/spawner/random/surgical,
+/obj/effect/spawner/random/organ,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/mainship/sterile/side{
+	dir = 4
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bo" = (
 /obj/structure/largecrate/supply/supplies/water,
 /turf/open/floor/prison,
@@ -394,6 +427,16 @@
 /obj/structure/largecrate/supply/supplies/tables_racks,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"bx" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/structure/jungle/vines,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "by" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/uranium{
@@ -512,8 +555,25 @@
 /obj/effect/decal/grassdecal/corner2{
 	dir = 1
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+=======
+/obj/item/storage/box/sentry,
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"bI" = (
+/obj/structure/jungle/vines,
+/obj/effect/decal/grassdecal/corner,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"bR" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/structure/jungle/vines,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bS" = (
 /obj/structure/largecrate/random/barrel/yellow,
 /turf/open/floor/plating/asteroidfloor,
@@ -541,6 +601,13 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"bZ" = (
+/obj/effect/decal/warning_stripes/thin,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ca" = (
 /obj/structure/largecrate/supply/explosives/mortar_incend,
 /obj/structure/cable,
@@ -562,12 +629,21 @@
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "ce" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/dirtgrassborder/corner2{
 	dir = 8
 	},
 /area/whiskey_outpost/outside/south)
+=======
+"cf" = (
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cg" = (
 /obj/structure/cable,
 /turf/open/floor/prison,
@@ -588,8 +664,15 @@
 /obj/item/attachable/motiondetector,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "ck" = (
 /obj/structure/cable,
+=======
+"cj" = (
+/obj/machinery/landinglight/ds1/delayone{
+	dir = 4
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
@@ -598,6 +681,13 @@
 /obj/structure/cable,
 /turf/open/floor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"cm" = (
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cn" = (
 /obj/structure/cable,
 /turf/open/floor/tile/yellow{
@@ -735,6 +825,29 @@
 	dir = 4
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"cM" = (
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/table/mainship,
+/obj/item/reagent_containers/glass/beaker/noreact,
+/obj/effect/spawner/random/pillbottle{
+	pixel_x = -2
+	},
+/obj/effect/spawner/random/pillbottle{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/turf/open/floor/mainship/sterile/side{
+	dir = 4
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cN" = (
 /obj/machinery/floodlight/outpost,
 /turf/open/floor/plating,
@@ -796,6 +909,13 @@
 	},
 /turf/open/floor/mainship,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"cX" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidwarning,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cZ" = (
 /obj/machinery/marine_selector/gear/smartgun,
 /obj/structure/window/reinforced{
@@ -813,6 +933,7 @@
 /obj/structure/closet/crate/explosives/whiskeyoutposttwo,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "dd" = (
 /obj/machinery/computer/camera_advanced/overwatch,
 /obj/effect/decal/warning_stripes/thin{
@@ -820,11 +941,27 @@
 	pixel_y = 1
 	},
 /turf/open/floor/prison,
+=======
+"dh" = (
+/obj/effect/landmark/start/job/squadmarine,
+/obj/machinery/light,
+/turf/open/floor/mainship/sterile/dark,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost)
 "di" = (
 /obj/item/lightstick/red/anchored,
 /turf/open/ground/jungle/impenetrable/nobush,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"dk" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/squadengineer,
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dl" = (
 /obj/structure/platform,
 /turf/open/ground/coast{
@@ -848,6 +985,19 @@
 	},
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"do" = (
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/squadmarine,
+/obj/structure/barricade/metal,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dq" = (
 /obj/structure/closet/crate/explosives,
 /turf/open/floor/prison,
@@ -951,6 +1101,17 @@
 /obj/structure/closet/secure_closet/shiptech,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"dP" = (
+/obj/structure/sign/greencross/star{
+	pixel_y = 32
+	},
+/obj/structure/largecrate/supply/explosives/mines,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dQ" = (
 /obj/structure/largecrate/supply/ammo/standard_smg,
 /turf/open/floor/prison,
@@ -977,6 +1138,16 @@
 	dir = 6
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"dY" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 8
+	},
+/obj/structure/largecrate/supply/explosives/mortar_flare,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dZ" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -994,6 +1165,16 @@
 /obj/machinery/vending/engineering,
 /turf/open/floor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"ed" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 10
+	},
+/obj/structure/largecrate/supply/explosives/mortar_he,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ee" = (
 /obj/structure/cable,
 /obj/item/storage/toolbox/mechanical,
@@ -1001,6 +1182,14 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/yellow,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"ef" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eh" = (
 /obj/structure/cable,
 /turf/open/floor/tile/yellow,
@@ -1032,6 +1221,13 @@
 	},
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"ep" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eq" = (
 /obj/machinery/door_control/unmeltable{
 	id = "sekritbunker";
@@ -1043,6 +1239,13 @@
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"ev" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eA" = (
 /obj/machinery/light{
 	dir = 8
@@ -1068,12 +1271,22 @@
 	dir = 8
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"eG" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eH" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/mainship,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "eI" = (
 /obj/structure/bed,
 /obj/item/bedsheet/blue,
@@ -1082,12 +1295,30 @@
 	dir = 9
 	},
 /area/whiskey_outpost)
+=======
+"eJ" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eK" = (
 /obj/machinery/landinglight/ds1/delaytwo{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"eM" = (
+/obj/effect/decal/lvsanddecal{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eO" = (
 /obj/machinery/landinglight/ds1{
 	dir = 8
@@ -1173,12 +1404,39 @@
 /obj/item/lightstick/red/anchored,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"fj" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"fk" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"fn" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fp" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating/platebot,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"fq" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fr" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -1353,8 +1611,13 @@
 /obj/structure/table/mainship,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "fT" = (
 /obj/structure/barricade/metal{
+=======
+"fS" = (
+/obj/effect/decal/grassdecal/corner{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 4
 	},
 /obj/effect/landmark/start/job/squadmarine,
@@ -1412,6 +1675,13 @@
 "ge" = (
 /turf/open/floor/plating/dmg1,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"gf" = (
+/obj/effect/ai_node,
+/turf/open/ground/river,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gg" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating/asteroidwarning{
@@ -1481,6 +1751,13 @@
 	dir = 6
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"gr" = (
+/obj/effect/spawner/random/technology_scanner,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gs" = (
 /obj/machinery/optable,
 /turf/open/floor/mainship/sterile/side{
@@ -1528,6 +1805,7 @@
 /obj/structure/cable,
 /turf/closed/wall/r_wall,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "gB" = (
 /obj/effect/decal/grassdecal/corner,
 /turf/open/floor/plating/ground/dirt,
@@ -1535,6 +1813,16 @@
 "gE" = (
 /obj/structure/barricade/sandbags,
 /obj/effect/landmark/start/job/squadengineer,
+=======
+"gC" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+"gD" = (
+/obj/effect/decal/grassdecal/corner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
 "gF" = (
@@ -1581,6 +1869,16 @@
 	dir = 10
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"gQ" = (
+/obj/structure/bed,
+/obj/item/bedsheet/captain,
+/obj/structure/curtain/open,
+/obj/effect/landmark/start/job/captain,
+/turf/open/floor/wood,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gS" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -1629,6 +1927,7 @@
 	},
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "hf" = (
 /obj/structure/largecrate/random/barrel/white,
 /obj/effect/decal/warning_stripes/thick{
@@ -1636,6 +1935,17 @@
 	},
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+=======
+"hd" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hk" = (
 /obj/item/storage/box/beakers{
 	pixel_x = 5;
@@ -1658,6 +1968,15 @@
 "hm" = (
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"ho" = (
+/obj/effect/decal/lvsanddecal{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hp" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroidfloor,
@@ -1688,9 +2007,14 @@
 /obj/machinery/washing_machine,
 /turf/open/floor/prison/plate,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "hw" = (
 /obj/effect/landmark/start/job/squadmarine,
 /turf/open/floor/plating/asteroidwarning{
+=======
+"hy" = (
+/obj/effect/decal/grassdecal/corner2{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 8
 	},
 /area/whiskey_outpost)
@@ -1738,6 +2062,7 @@
 /obj/structure/largecrate/supply/supplies/sandbags,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "hP" = (
 /obj/structure/barricade/metal{
 	dir = 4
@@ -1746,6 +2071,20 @@
 /turf/open/floor/plating/asteroidwarning{
 	dir = 4
 	},
+=======
+"hR" = (
+/obj/structure/bed,
+/obj/item/bedsheet/red,
+/obj/effect/landmark/start/latejoin_gateway,
+/turf/open/floor/mainship/red{
+	dir = 9
+	},
+/area/whiskey_outpost)
+"hT" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost)
 "hW" = (
 /obj/machinery/factory/heater{
@@ -1808,6 +2147,13 @@
 /obj/machinery/door/airlock/mainship/marine/requisitions,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"ii" = (
+/obj/effect/landmark/start/job/shiptech,
+/turf/open/floor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ij" = (
 /obj/machinery/light,
 /turf/open/floor/plating/asteroidfloor,
@@ -1900,6 +2246,20 @@
 /obj/machinery/computer/crew,
 /turf/open/floor/mainship/sterile,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"iC" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"iD" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "iE" = (
 /obj/machinery/vending/MarineMed/Blood,
 /turf/open/floor/mainship/sterile,
@@ -2148,6 +2508,7 @@
 /obj/structure/largecrate/supply/supplies/flares,
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "jv" = (
 /obj/effect/decal/warning_stripes/thick{
 	dir = 5
@@ -2155,6 +2516,13 @@
 /obj/structure/largecrate/supply/explosives/mortar_he,
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+=======
+"ju" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jx" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/ground/dirt,
@@ -2212,12 +2580,34 @@
 	dir = 4
 	},
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"jJ" = (
+/obj/effect/decal/lvsanddecal{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jK" = (
 /obj/structure/dropship_piece/one/corner/middleleft,
 /turf/open/ground/coast{
 	dir = 1
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"jL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"jM" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jN" = (
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/regular,
@@ -2268,6 +2658,13 @@
 	},
 /turf/open/floor/mainship/sterile,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"jX" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kb" = (
 /obj/machinery/door/airlock/mainship/medical/glass/chemistry{
 	dir = 2
@@ -2283,9 +2680,15 @@
 /obj/structure/largecrate/supply/explosives/mortar_incend,
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "kf" = (
 /obj/effect/decal/warning_stripes/thick{
 	dir = 4
+=======
+"ke" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/largecrate/random/barrel/yellow,
 /obj/machinery/light{
@@ -2313,6 +2716,13 @@
 	dir = 9
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"kl" = (
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kn" = (
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
@@ -2490,6 +2900,15 @@
 	dir = 4
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"kT" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kV" = (
 /obj/item/healthanalyzer,
 /obj/item/healthanalyzer,
@@ -2536,11 +2955,32 @@
 /obj/machinery/vending/weapon,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"lb" = (
+/obj/structure/bed,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/bedsheet/red,
+/obj/effect/landmark/start/latejoin,
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
+/area/whiskey_outpost)
+"lc" = (
+/obj/effect/decal/riverdecal/edge{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ld" = (
 /turf/open/floor/plating/warning{
 	dir = 8
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "lf" = (
 /obj/structure/bed,
 /obj/structure/closet/walllocker/hydrant,
@@ -2567,6 +3007,12 @@
 	dir = 1
 	},
 /area/whiskey_outpost)
+=======
+"le" = (
+/obj/effect/landmark/dropship_start_location,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lj" = (
 /obj/structure/largecrate/mule,
 /turf/open/floor/plating/asteroidfloor,
@@ -2592,6 +3038,15 @@
 /obj/structure/barricade/plasteel,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"lq" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lr" = (
 /obj/structure/platform_decoration{
 	dir = 8
@@ -2648,6 +3103,20 @@
 	},
 /turf/open/floor/plating/asteroidplating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"lG" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+"lH" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/squadleader,
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lJ" = (
 /obj/structure/rack,
 /obj/item/mortal_shell/he,
@@ -2677,6 +3146,15 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"lO" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lP" = (
 /obj/item/mortar_kit,
 /turf/open/floor/plating/asteroidplating,
@@ -2694,6 +3172,23 @@
 	},
 /turf/open/floor/plating/asteroidplating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"lS" = (
+/obj/structure/catwalk,
+/obj/effect/decal/riverdecal,
+/turf/open/ground/river,
+/area/whiskey_outpost/outside/south)
+"lU" = (
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+"lV" = (
+/obj/item/stack/sheet/metal,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lW" = (
 /obj/structure/rack,
 /obj/item/mortal_shell/smoke,
@@ -2721,6 +3216,15 @@
 /obj/structure/platform,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"lZ" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ma" = (
 /obj/structure/barricade/sandbags{
 	pixel_y = -6
@@ -2732,6 +3236,13 @@
 	dir = 10
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"mb" = (
+/obj/effect/ai_node,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mc" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/platform,
@@ -2815,8 +3326,26 @@
 /obj/structure/dropship_piece/one/wing/left/bottom,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "mJ" = (
 /obj/effect/decal/cleanable/blood/writing{
+=======
+"mE" = (
+/obj/structure/bed,
+/obj/item/bedsheet/captain,
+/obj/effect/landmark/start/job/fieldcommander,
+/obj/structure/curtain/open,
+/turf/open/floor/wood,
+/area/whiskey_outpost)
+"mG" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+"mI" = (
+/obj/effect/decal/warning_stripes/thin{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 10
 	},
 /obj/effect/decal/grassdecal{
@@ -2850,6 +3379,31 @@
 	icon_state = "69"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"mT" = (
+/obj/item/storage/pill_bottle/imidazoline{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/structure/table/mainship,
+/obj/effect/spawner/random/pillbottle{
+	pixel_y = 10
+	},
+/obj/effect/spawner/random/pillbottle,
+/obj/item/storage/pill_bottle/alkysine{
+	pixel_x = -8
+	},
+/obj/item/storage/pill_bottle/spaceacillin{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/storage/pill_bottle/spaceacillin{
+	pixel_x = 8
+	},
+/turf/open/floor/mainship/sterile,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mV" = (
 /obj/machinery/marine_selector/clothes,
 /obj/structure/window/reinforced{
@@ -2908,10 +3462,20 @@
 	},
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "nm" = (
 /obj/effect/landmark/start/job/squadmarine,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+=======
+"no" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nq" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "64"
@@ -2931,11 +3495,18 @@
 	dir = 8
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "ny" = (
 /obj/effect/decal/cleanable/blood/writing,
 /obj/structure/jungle/vines,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+=======
+"nz" = (
+/obj/effect/decal/grassdecal/corner,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nA" = (
 /obj/machinery/marine_selector/clothes/smartgun,
 /obj/structure/window/reinforced,
@@ -2943,10 +3514,20 @@
 	dir = 4
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "nC" = (
 /obj/effect/landmark/start/job/squadengineer,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+=======
+"nB" = (
+/obj/structure/platform_decoration{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nD" = (
 /obj/structure/bed/roller,
 /turf/open/floor/plating/asteroidfloor,
@@ -3078,6 +3659,13 @@
 "nZ" = (
 /turf/open/shuttle/dropship/floor,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"oa" = (
+/obj/effect/decal/warning_stripes/thin,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ob" = (
 /obj/structure/barricade/sandbags{
 	dir = 4
@@ -3153,6 +3741,15 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"om" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "on" = (
 /turf/open/floor/plating/ground/dirtgrassborder{
 	dir = 4
@@ -3241,6 +3838,18 @@
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"oD" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oE" = (
 /turf/closed/wall/r_wall,
 /area/whiskey_outpost/outside/west)
@@ -3289,6 +3898,14 @@
 	icon_state = "29"
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"oP" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/jungle/vines,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oQ" = (
 /obj/machinery/light{
 	dir = 4
@@ -3296,6 +3913,13 @@
 /obj/machinery/vending/MarineMed/Blood,
 /turf/open/floor/mainship/sterile,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"oR" = (
+/obj/effect/spawner/gibspawner/human,
+/turf/open/ground/river,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oS" = (
 /turf/open/floor/mainship/blue{
 	dir = 10
@@ -3417,6 +4041,7 @@
 	},
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "pu" = (
 /obj/effect/landmark/start/job/squadspecialist,
 /turf/open/floor/plating/asteroidfloor,
@@ -3427,6 +4052,12 @@
 	},
 /obj/effect/landmark/start/job/squadcorpsman,
 /turf/open/floor/plating/asteroidfloor,
+=======
+"pw" = (
+/obj/structure/bed/chair/office/dark,
+/obj/effect/landmark/start/job/requisitionsofficer,
+/turf/open/floor/prison,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost)
 "px" = (
 /obj/structure/table/woodentable,
@@ -3454,6 +4085,18 @@
 "pz" = (
 /turf/open/floor/plating/asteroidwarning,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"pA" = (
+/obj/effect/ai_node,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"pC" = (
+/obj/effect/decal/grassdecal/corner,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pD" = (
 /obj/machinery/light{
 	dir = 8
@@ -3552,6 +4195,15 @@
 /obj/structure/largecrate/supply/weapons/shotgun,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"pW" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pX" = (
 /obj/structure/platform{
 	dir = 1
@@ -3564,6 +4216,15 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"pY" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pZ" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -3703,6 +4364,24 @@
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"qq" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+"qr" = (
+/obj/effect/decal/grassdecal,
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"qt" = (
+/obj/effect/landmark/start/job/squadsmartgunner,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qu" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/plating/asteroidfloor,
@@ -3824,6 +4503,15 @@
 	dir = 9
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"qU" = (
+/obj/effect/decal/lvsanddecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qW" = (
 /obj/structure/cable,
 /turf/open/floor/plating/asteroidfloor,
@@ -3860,6 +4548,13 @@
 /obj/structure/largecrate/supply/explosives/mines,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"re" = (
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rf" = (
 /obj/machinery/light{
 	dir = 4
@@ -3873,6 +4568,17 @@
 /obj/machinery/vending/tool,
 /turf/open/floor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"rh" = (
+/obj/effect/ai_node,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/east)
+"ri" = (
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rj" = (
 /obj/machinery/vending/engivend,
 /obj/machinery/light{
@@ -3948,6 +4654,22 @@
 /obj/structure/largecrate/supply/explosives/mines,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"rv" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"rx" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ry" = (
 /obj/item/weapon/gun/minigun_nest,
 /turf/open/floor/plating/warning,
@@ -3984,6 +4706,15 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"rE" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rG" = (
 /obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/ground/dirt,
@@ -3992,6 +4723,7 @@
 /obj/structure/closet/crate/explosives/whiskeyoutpost,
 /turf/open/floor/prison,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "rT" = (
 /obj/structure/rack,
 /obj/effect/spawner/random_set/rifle,
@@ -4000,15 +4732,42 @@
 "rZ" = (
 /obj/effect/decal/grassdecal{
 	dir = 8
+=======
+"rN" = (
+/obj/effect/decal/grassdecal/corner,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"rO" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/girder/displaced,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"rP" = (
+/obj/structure/barricade/metal,
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/warning,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sa" = (
 /turf/open/ground/coast/corner{
 	dir = 8
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"sd" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sf" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
@@ -4069,6 +4828,7 @@
 	dir = 4
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "sq" = (
 /obj/effect/landmark/start/job/synthetic,
 /turf/open/floor,
@@ -4076,6 +4836,16 @@
 "sr" = (
 /obj/effect/landmark/start/job/shiptech,
 /turf/open/floor,
+=======
+"ss" = (
+/obj/effect/decal/remains/xeno,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"sv" = (
+/obj/machinery/body_scanconsole,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mainship/sterile,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost)
 "sw" = (
 /obj/structure/closet/crate,
@@ -4100,6 +4870,16 @@
 	},
 /turf/open/floor/plating/asteroidwarning,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"sA" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/obj/structure/girder/displaced,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sB" = (
 /obj/structure/platform{
 	dir = 8
@@ -4109,13 +4889,30 @@
 	},
 /turf/open/floor/stairs/rampbottom,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"sC" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sD" = (
 /obj/structure/flora/tree/joshua,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "sE" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 4
+=======
+"sF" = (
+/obj/effect/ai_node,
+/turf/open/ground/coast{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/decal/grassdecal{
 	dir = 4
@@ -4166,15 +4963,47 @@
 	},
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"sR" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 4
+	},
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"sT" = (
+/obj/structure/bed,
+/obj/item/bedsheet/captain,
+/obj/structure/curtain/open,
+/obj/effect/landmark/start/job/staffofficer,
+/turf/open/floor/wood,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sV" = (
 /obj/structure/barricade/plasteel,
 /turf/open/floor/plating/warning,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "ta" = (
 /obj/item/bedsheet/captain,
 /obj/structure/bed,
 /obj/effect/decal/warning_stripes/thin{
 	dir = 6
+=======
+"sW" = (
+/obj/item/storage/box/explosive_mines,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"sZ" = (
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+"tc" = (
+/obj/effect/decal/grassdecal{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/item/toy/plush/farwa,
 /turf/open/floor/prison/plate,
@@ -4206,11 +5035,22 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"tk" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tm" = (
 /obj/structure/largecrate/supply/ammo/standard_smg,
 /obj/machinery/light,
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "tp" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -4231,6 +5071,12 @@
 	},
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+=======
+"tq" = (
+/obj/effect/spawner/random/trash,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tt" = (
 /obj/structure/closet/crate,
 /obj/item/storage/box/lights,
@@ -4240,6 +5086,27 @@
 /obj/item/storage/box/lights/tubes,
 /turf/open/floor/marking/bot,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"tx" = (
+/obj/effect/decal/riverdecal/edge,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+"ty" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+"tz" = (
+/obj/effect/spawner/random/cable,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/north)
+"tA" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tB" = (
 /obj/structure/rack,
 /obj/item/ammo_magazine/tl102/hsg_nest,
@@ -4256,10 +5123,33 @@
 /obj/structure/jungle/plantbot1,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "tI" = (
 /obj/effect/decal/remains/xeno,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+=======
+"tE" = (
+/obj/effect/spawner/random/melee,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"tK" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+"tL" = (
+/obj/structure/bed,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/bedsheet/blue,
+/obj/effect/landmark/start/latejoin_cryo,
+/turf/open/floor/mainship/blue{
+	dir = 1
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tM" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/ground/dirt,
@@ -4270,6 +5160,15 @@
 /obj/structure/table/mainship,
 /turf/open/floor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"tO" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tP" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/glass{
@@ -4329,10 +5228,28 @@
 "ua" = (
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "ud" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+=======
+"ub" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/landmark/start/job/squadcorpsman,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"uc" = (
+/obj/machinery/computer/camera_advanced/overwatch,
+/obj/effect/decal/warning_stripes/thin{
+	dir = 5;
+	pixel_y = 1
+	},
+/turf/open/floor/prison,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ug" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -4343,9 +5260,14 @@
 /obj/machinery/vending/weapon,
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "ui" = (
 /obj/item/lightstick/red/anchored,
 /obj/effect/decal/grassdecal/corner2{
+=======
+"uh" = (
+/obj/effect/decal/warning_stripes/thin{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 8
 	},
 /turf/open/floor/plating/ground/dirt,
@@ -4354,7 +5276,11 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/effect/landmark/start/job/squadengineer,
+=======
+/obj/effect/landmark/start/job/squadcorpsman,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
 "ul" = (
@@ -4395,6 +5321,15 @@
 	icon_state = "47"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"uv" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uw" = (
 /obj/item/storage/bible{
 	desc = "As the legendary US Army chaplain once said, 'There are no Athiests in fancy offices'.";
@@ -4404,6 +5339,7 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "uy" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -4411,10 +5347,27 @@
 /obj/effect/landmark/start/job/squadengineer,
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+=======
+"uC" = (
+/obj/effect/spawner/gibspawner/human,
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uE" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"uI" = (
+/obj/effect/ai_node,
+/obj/effect/decal/lvsanddecal{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uJ" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/plasteel{
@@ -4448,6 +5401,17 @@
 /obj/structure/table/mainship,
 /turf/open/floor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"uN" = (
+/obj/structure/bed,
+/obj/item/bedsheet/blue,
+/obj/effect/landmark/start/latejoin_gateway,
+/turf/open/floor/mainship/blue{
+	dir = 5
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uU" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/metal{
@@ -4533,14 +5497,45 @@
 /obj/structure/lattice,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"ve" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/structure/table/mainship,
+/obj/effect/ai_node,
+/turf/open/floor,
+/area/whiskey_outpost)
+"vg" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vh" = (
 /obj/item/weapon/gun/tl102/hsg_nest,
 /turf/open/floor/plating/warning,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "vl" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/north)
+=======
+"vi" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vo" = (
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
@@ -4548,14 +5543,26 @@
 /obj/item/weapon/gun/tl102/hsg_nest,
 /turf/open/floor/plating/warning,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"vr" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth,
+/area/whiskey_outpost/outside/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vs" = (
 /turf/open/floor/plating/ground/dirtgrassborder/corner2{
 	dir = 1
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "vy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+=======
+"vx" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
 "vz" = (
@@ -4567,6 +5574,7 @@
 	},
 /turf/open/floor/tile/whiteyellow/full,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "vE" = (
 /obj/effect/spawner/gibspawner/human,
 /turf/open/floor/plating/ground/dirt,
@@ -4575,6 +5583,12 @@
 /obj/effect/decal/cleanable/blood/writing,
 /obj/effect/decal/grassdecal{
 	dir = 1
+=======
+"vA" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
@@ -4654,6 +5668,14 @@
 /obj/machinery/light,
 /turf/open/floor/marking/bot,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"vR" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vU" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/metal{
@@ -4714,10 +5736,21 @@
 	dir = 9
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "wa" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+=======
+"vZ" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/jungle/vines,
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wc" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -4753,6 +5786,7 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "wu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/dirt,
@@ -4763,6 +5797,23 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+=======
+"ww" = (
+/obj/effect/landmark/start/job/squadleader,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"wx" = (
+/obj/structure/bed,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/bedsheet/yellow,
+/obj/effect/landmark/start/latejoin_gateway,
+/turf/open/floor/mainship/orange{
+	dir = 1
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wz" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -4770,11 +5821,20 @@
 	},
 /turf/open/floor/mainship,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "wC" = (
 /obj/effect/ai_node,
 /obj/effect/decal/grassdecal/corner2{
 	dir = 8
 	},
+=======
+"wD" = (
+/obj/effect/ai_node,
+/turf/open/floor/prison,
+/area/whiskey_outpost)
+"wE" = (
+/obj/effect/decal/grassdecal,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "wH" = (
@@ -4788,8 +5848,13 @@
 /obj/structure/jungle/planttop1,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "wJ" = (
 /obj/machinery/floodlight/outpost,
+=======
+"wL" = (
+/obj/item/storage/box/sentry,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/lvsanddecal/full,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
@@ -4806,10 +5871,19 @@
 /obj/item/storage/box/sentry,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "wZ" = (
 /obj/item/lightstick/red/anchored,
 /obj/effect/decal/grassdecal/corner{
 	dir = 1
+=======
+"xd" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/grassdecal/corner{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
@@ -4859,6 +5933,23 @@
 /obj/item/ammo_magazine/tl102/hsg_nest,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"xr" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/prison,
+/area/whiskey_outpost)
+"xs" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xt" = (
 /obj/item/storage/fancy/cigarettes/kpack,
 /obj/item/tool/lighter/random,
@@ -4873,6 +5964,7 @@
 /obj/machinery/vending/weapon,
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "xy" = (
 /obj/effect/spawner/random/melee,
 /turf/open/floor/plating/asteroidfloor,
@@ -4881,6 +5973,12 @@
 /obj/effect/landmark/start/job/squadmarine,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 4
+=======
+"xA" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/whiskey_outpost)
 "xC" = (
@@ -4908,6 +6006,18 @@
 	dir = 6
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"xG" = (
+/obj/item/bedsheet/captain,
+/obj/structure/bed,
+/obj/effect/decal/warning_stripes/thin{
+	dir = 6
+	},
+/obj/item/toy/plush/farwa,
+/turf/open/floor/prison/plate,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xJ" = (
 /obj/structure/window_frame/colony,
 /obj/structure/jungle/vines,
@@ -4929,6 +6039,20 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"xN" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"xO" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xQ" = (
 /turf/open/floor/plating/warning{
 	dir = 8
@@ -4954,13 +6078,29 @@
 	},
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "xV" = (
+=======
+"xY" = (
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"xZ" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/grassdecal{
 	dir = 4
 	},
 /turf/open/floor/plating/ground/dirt,
+<<<<<<< HEAD
 /area/whiskey_outpost/outside/east)
 "yc" = (
+=======
+/area/whiskey_outpost/outside/south)
+"yb" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/grassdecal{
 	dir = 8
 	},
@@ -4982,9 +6122,34 @@
 /obj/structure/largecrate/random/barrel/blue,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "yj" = (
 /turf/open/floor/mainship/sterile/dark,
 /area/whiskey_outpost)
+=======
+"yi" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"yj" = (
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+"yk" = (
+/obj/effect/ai_node,
+/obj/item/storage/box/m94,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"ym" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 10
+	},
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yo" = (
 /obj/structure/largecrate/supply/weapons/standard_smg,
 /turf/open/floor/plating,
@@ -5004,9 +6169,23 @@
 "yw" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "yC" = (
 /obj/item/lightstick/red/anchored,
 /obj/effect/decal/grassdecal{
+=======
+"yx" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+"yz" = (
+/obj/effect/spawner/random/organ,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"yF" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirtgrassborder/corner2{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 8
 	},
 /turf/open/floor/plating/ground/dirt,
@@ -5017,9 +6196,17 @@
 	dir = 4
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "yH" = (
 /obj/effect/spawner/random/gun,
 /obj/effect/decal/cleanable/dirt,
+=======
+"yK" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
 "yN" = (
@@ -5044,9 +6231,14 @@
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "yV" = (
 /obj/effect/decal/grassdecal/corner,
 /obj/structure/window_frame/colony,
+=======
+"yT" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "yZ" = (
@@ -5101,6 +6293,22 @@
 /obj/structure/largecrate/random/barrel,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"zk" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"zl" = (
+/obj/item/stack/barbed_wire/full,
+/obj/effect/decal/lvsanddecal/full,
+/obj/item/stack/barbed_wire/full,
+/obj/item/stack/barbed_wire/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zo" = (
 /obj/machinery/light{
 	dir = 1
@@ -5108,6 +6316,15 @@
 /obj/structure/largecrate/supply/explosives/mines,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"zq" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zt" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "56"
@@ -5124,6 +6341,7 @@
 	},
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "zz" = (
 /obj/structure/bed,
 /obj/machinery/light{
@@ -5145,6 +6363,24 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+=======
+"zx" = (
+/obj/structure/rack,
+/obj/effect/spawner/random_set/rifle,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+"zy" = (
+/obj/effect/spawner/gibspawner/human,
+/obj/effect/spawner/random/organ,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+"zD" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zF" = (
 /obj/structure/sign/greencross/star{
 	pixel_y = 32
@@ -5197,6 +6433,21 @@
 	dir = 4
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"zZ" = (
+/obj/structure/barricade/plasteel,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+"Aa" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ab" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -5223,6 +6474,16 @@
 /obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Aj" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Am" = (
 /obj/item/quikdeploy/cade/plasteel,
 /obj/item/quikdeploy/cade/plasteel,
@@ -5246,6 +6507,16 @@
 /obj/item/quikdeploy/cade/plasteel,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Ao" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Aq" = (
 /obj/item/roller,
 /obj/item/roller,
@@ -5298,6 +6569,13 @@
 /obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"Av" = (
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Aw" = (
 /obj/structure/cargo_container{
 	dir = 4
@@ -5331,6 +6609,20 @@
 	},
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"AF" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"AI" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AJ" = (
 /turf/open/floor/plating/warning{
 	dir = 4
@@ -5349,6 +6641,15 @@
 	},
 /turf/open/floor/tile/damaged/five,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"AO" = (
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AQ" = (
 /obj/structure/platform_decoration{
 	dir = 8
@@ -5358,6 +6659,14 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"AR" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/effect/ai_node,
+/turf/open/ground/river,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AW" = (
 /obj/structure/platform{
 	dir = 1
@@ -5374,6 +6683,17 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"Bb" = (
+/obj/structure/barricade/metal,
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bc" = (
 /obj/structure/jungle/vines,
 /turf/closed/gm/dense,
@@ -5391,11 +6711,29 @@
 /obj/structure/catwalk,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Bg" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bh" = (
 /turf/open/ground/coast{
 	dir = 1
 	},
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"Bl" = (
+/obj/effect/spawner/random_set/shotgun,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bm" = (
 /turf/open/ground/coast/corner,
 /area/whiskey_outpost/outside/north)
@@ -5405,6 +6743,23 @@
 	},
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"Bp" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+"Bq" = (
+/obj/effect/ai_node,
+/turf/open/ground/jungle/impenetrable/nobush,
+/area/whiskey_outpost/outside/south)
+"Br" = (
+/obj/effect/ai_node,
+/turf/open/floor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bs" = (
 /obj/machinery/door/poddoor/four_tile_hor{
 	desc = "No escape.";
@@ -5414,11 +6769,22 @@
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "Bw" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 5
 	},
 /turf/open/floor/plating,
+=======
+"Bt" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost/outside/south)
 "Bz" = (
 /obj/item/storage/firstaid/adv,
@@ -5438,6 +6804,13 @@
 	icon_state = "52"
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"BB" = (
+/obj/effect/spawner/gibspawner/human,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BH" = (
 /obj/structure/cargo_container/green{
 	dir = 4
@@ -5478,6 +6851,21 @@
 /obj/structure/barricade/sandbags,
 /turf/open/shuttle/dropship/five,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"BV" = (
+/obj/effect/decal/warning_stripes/thick,
+/obj/structure/largecrate/supply/explosives/mortar_flare,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"BW" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/obj/structure/jungle/vines,
+/turf/closed/gm/dense,
+/area/whiskey_outpost/outside/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BX" = (
 /obj/structure/barricade/sandbags{
 	dir = 8
@@ -5545,6 +6933,13 @@
 /obj/item/ammo_magazine/heavy_minigun,
 /turf/open/floor/plating,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Co" = (
+/obj/effect/spawner/random/gun,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cp" = (
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/north)
@@ -5557,9 +6952,16 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "Ct" = (
 /obj/effect/decal/grassdecal{
 	dir = 1
+=======
+"Cr" = (
+/obj/structure/closet/secure_closet/guncabinet/incendiary,
+/obj/effect/decal/warning_stripes/thin{
+	dir = 10
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
@@ -5568,9 +6970,15 @@
 	dir = 4
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "Cy" = (
 /obj/effect/decal/grassdecal/corner{
 	dir = 8
+=======
+"Cz" = (
+/obj/effect/decal/grassdecal{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
@@ -5590,12 +6998,23 @@
 	},
 /turf/open/ground/coast/corner,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "CE" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+=======
+"CI" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/decal/grassdecal/corner2{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost/outside/south)
 "CJ" = (
 /obj/structure/platform{
@@ -5670,6 +7089,15 @@
 	dir = 5
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"CV" = (
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CY" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/open/ground/jungle,
@@ -5681,10 +7109,26 @@
 /obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "Dc" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/south)
+=======
+"De" = (
+/obj/item/storage/belt/lifesaver/full,
+/obj/item/storage/belt/lifesaver/full,
+/obj/item/storage/belt/lifesaver/full,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/structure/table/mainship,
+/obj/effect/spawner/random/pillbottle,
+/turf/open/floor/mainship/sterile,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Df" = (
 /obj/structure/platform_decoration{
 	dir = 1
@@ -5706,6 +7150,21 @@
 /obj/item/ammo_magazine/heavy_rr,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Di" = (
+/obj/structure/largecrate/supply/supplies/metal,
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"Dk" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+	},
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Dl" = (
 /obj/item/storage/box/syringes,
 /obj/item/reagent_containers/dropper,
@@ -5714,9 +7173,23 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/sterile/corner,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "Dm" = (
 /obj/effect/decal/grassdecal{
 	dir = 1
+=======
+"Dp" = (
+/obj/structure/barricade/metal,
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidwarning,
+/area/whiskey_outpost)
+"Dv" = (
+/obj/structure/bed,
+/obj/item/bedsheet/yellow,
+/obj/effect/landmark/start/latejoin_cryo,
+/turf/open/floor/mainship/orange{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/jungle/vines,
 /turf/open/floor/plating/ground/dirt,
@@ -5762,6 +7235,7 @@
 /obj/item/ammo_magazine/heavy_minigun,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "DH" = (
 /obj/effect/decal/grassdecal,
 /turf/open/floor/plating/asteroidfloor,
@@ -5771,6 +7245,17 @@
 /obj/structure/jungle/vines,
 /obj/effect/decal/grassdecal,
 /turf/open/floor/plating/ground/dirt,
+=======
+"DK" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"DP" = (
+/obj/effect/attach_point/crew_weapon/dropship1,
+/turf/open/shuttle/dropship/floor,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost/outside/south)
 "DO" = (
 /obj/item/lightstick/red/anchored,
@@ -5823,6 +7308,33 @@
 /obj/structure/barricade/metal,
 /turf/open/floor/plating/asteroidwarning,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Ea" = (
+/obj/effect/spawner/random/melee,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+"Eb" = (
+/obj/effect/ai_node,
+/turf/open/ground/river,
+/area/whiskey_outpost/outside/north)
+"Ec" = (
+/obj/machinery/vending/MarineMed/Blood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+"Ee" = (
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"Ef" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ei" = (
 /turf/open/floor/plating/ground/dirtgrassborder/corner2{
 	dir = 8
@@ -5844,6 +7356,14 @@
 	},
 /turf/open/floor/tile/dark,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Em" = (
+/obj/effect/decal/grassdecal/corner,
+/obj/structure/window_frame/colony,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Eo" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/ground/river,
@@ -5862,6 +7382,7 @@
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "Ez" = (
 /obj/structure/barricade/sandbags{
 	dir = 4
@@ -5871,6 +7392,10 @@
 /area/whiskey_outpost/outside/north)
 "EC" = (
 /obj/effect/decal/cleanable/blood/writing{
+=======
+"Ev" = (
+/obj/effect/decal/grassdecal{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 4
 	},
 /turf/open/floor/plating/ground/dirt,
@@ -5952,6 +7477,14 @@
 	dir = 1
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"EV" = (
+/obj/machinery/floodlight/outpost,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "EX" = (
 /obj/structure/platform_decoration,
 /obj/structure/platform_decoration{
@@ -5978,12 +7511,20 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "Fb" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
 "Fg" = (
 /obj/effect/decal/grassdecal/corner2,
+=======
+"Fe" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "Fh" = (
@@ -6035,6 +7576,19 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Fx" = (
+/obj/machinery/floodlight/outpost,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"Fy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fz" = (
 /turf/open/ground/grass/beach/corner,
 /area/whiskey_outpost/outside/west)
@@ -6052,6 +7606,14 @@
 /obj/structure/largecrate/supply/weapons/standard_smg,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"FE" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "FF" = (
 /obj/machinery/light{
 	dir = 1
@@ -6079,6 +7641,7 @@
 /obj/structure/flora/tree/jungle,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "FQ" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/dirt,
@@ -6092,6 +7655,33 @@
 "FX" = (
 /obj/effect/decal/cleanable/blood/writing,
 /obj/effect/landmark/lv624/fog_blocker,
+=======
+"FR" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"FT" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 8
+	},
+/obj/structure/largecrate/mule,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"Ga" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/squadengineer,
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+"Gc" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "Gi" = (
@@ -6102,10 +7692,23 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Gl" = (
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"Gn" = (
+/obj/effect/spawner/gibspawner/human,
+/obj/effect/spawner/random/melee,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gp" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "Gs" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 8
@@ -6115,6 +7718,18 @@
 "Gt" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 4
+=======
+"Gx" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/whiskey_outpost/outside/east)
+"Gy" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
@@ -6142,6 +7757,13 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"GE" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GG" = (
 /obj/item/weapon/gun/tl102/hsg_nest,
 /turf/open/floor/plating/warning,
@@ -6158,6 +7780,22 @@
 	dir = 4
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"GP" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+"GQ" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GR" = (
 /obj/structure/platform_decoration,
 /obj/structure/barricade/sandbags{
@@ -6165,6 +7803,14 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"GS" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GU" = (
 /obj/structure/platform{
 	dir = 4
@@ -6213,12 +7859,22 @@
 /obj/item/quikdeploy/cade,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"Hi" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 9
+	},
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hj" = (
 /obj/structure/platform{
 	dir = 8
 	},
 /turf/open/ground/coast/corner,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "Hq" = (
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
@@ -6226,6 +7882,26 @@
 /obj/effect/decal/grassdecal/corner{
 	dir = 4
 	},
+=======
+"Hm" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+"Hn" = (
+/obj/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"Hq" = (
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+"Hr" = (
+/obj/effect/decal/grassdecal,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
 "Hu" = (
@@ -6237,12 +7913,31 @@
 "Hw" = (
 /turf/open/ground/coast/corner,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "HD" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 1
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+=======
+"Hz" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/landmark/start/job/squadengineer,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"HA" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes/thin{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/effect/landmark/start/job/staffofficer,
+/turf/open/floor/prison,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HE" = (
 /obj/structure/platform_decoration{
 	dir = 8
@@ -6267,10 +7962,25 @@
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"HM" = (
+/obj/effect/spawner/gibspawner/human,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HN" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"HO" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HQ" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -6279,6 +7989,16 @@
 	dir = 6
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"HS" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HT" = (
 /obj/structure/barricade/sandbags{
 	dir = 4
@@ -6301,10 +8021,27 @@
 "HW" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "HZ" = (
 /obj/effect/decal/grassdecal{
 	dir = 8
 	},
+=======
+"HY" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"Ia" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/west)
+"Ic" = (
+/obj/structure/barricade/metal{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/squadmarine,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
 "Id" = (
@@ -6346,10 +8083,18 @@
 "Iq" = (
 /turf/open/floor/prison/plate,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "Is" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mainship/sterile/dark,
 /area/whiskey_outpost)
+=======
+"Iu" = (
+/obj/effect/decal/grassdecal,
+/obj/structure/jungle/vines,
+/turf/closed/gm/dense,
+/area/whiskey_outpost/outside/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Iv" = (
 /turf/open/floor/plating/ground/dirtgrassborder{
 	dir = 4
@@ -6358,6 +8103,13 @@
 "Iw" = (
 /turf/open/floor/tile/damaged/panel,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Ix" = (
+/obj/effect/decal/grassdecal/corner,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Iy" = (
 /turf/open/ground/coast{
 	dir = 5
@@ -6371,6 +8123,7 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "IN" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/dark,
@@ -6378,6 +8131,19 @@
 "IP" = (
 /obj/effect/spawner/gibspawner/human,
 /turf/open/ground/river,
+=======
+"ID" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 4
+	},
+/obj/structure/jungle/vines,
+/turf/closed/gm/dense,
+/area/whiskey_outpost/outside/rock)
+"IE" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/ground/jungle,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost/outside/south)
 "IT" = (
 /obj/structure/jungle/vines,
@@ -6386,6 +8152,7 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "IU" = (
 /obj/effect/decal/grassdecal,
 /obj/structure/jungle/vines,
@@ -6395,6 +8162,15 @@
 /obj/effect/landmark/start/job/squadmarine,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/east)
+=======
+"IK" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "IW" = (
 /obj/structure/jungle/plantbot1/alien,
 /turf/open/ground/river,
@@ -6405,6 +8181,18 @@
 	},
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"IZ" = (
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ja" = (
 /obj/structure/platform{
 	dir = 8
@@ -6426,6 +8214,22 @@
 "Jf" = (
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Jg" = (
+/obj/structure/bed,
+/obj/item/bedsheet/red,
+/obj/effect/landmark/start/latejoin_cryo,
+/turf/open/floor/mainship/red{
+	dir = 5
+	},
+/area/whiskey_outpost)
+"Jh" = (
+/obj/effect/landmark/start/job/medicalofficer,
+/obj/vehicle/ridden/wheelchair,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ji" = (
 /turf/open/ground/coast{
 	dir = 8
@@ -6446,6 +8250,14 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Jo" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/landmark/start/job/squadleader,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jq" = (
 /obj/structure/barricade/sandbags{
 	dir = 4
@@ -6543,6 +8355,29 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"JQ" = (
+/obj/structure/barricade/metal,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/warning,
+/area/whiskey_outpost/outside/east)
+"JR" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/whiskey_outpost/outside/east)
+"JS" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/staffofficer,
+/turf/open/floor/prison,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "JT" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/ground/river,
@@ -6556,6 +8391,7 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "Ke" = (
 /obj/item/storage/box/explosive_mines,
 /obj/effect/decal/lvsanddecal/full,
@@ -6565,12 +8401,29 @@
 /obj/effect/landmark/dropship_start_location,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/north)
+=======
+"JY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/north)
+"Kf" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 9
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Kl" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Km" = (
 /obj/effect/decal/grassdecal/corner2{
+=======
+"Kn" = (
+/obj/effect/decal/grassdecal{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 4
 	},
 /obj/structure/jungle/vines,
@@ -6584,6 +8437,7 @@
 "Kr" = (
 /turf/open/ground/coast/corner2,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Ks" = (
 /obj/effect/decal/grassdecal/corner{
 	dir = 8
@@ -6596,6 +8450,13 @@
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+=======
+"Kv" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/jungle/planttop1,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Kw" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -6614,12 +8475,36 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "KC" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 4
 	},
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/ground/dirt,
+=======
+"KA" = (
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+"KD" = (
+/obj/effect/landmark/start/job/shiptech,
+/obj/structure/cable,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/whiskey_outpost)
+"KE" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/whiskey_outpost)
+"KF" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 4
+	},
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/ground/jungle,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost/outside/south)
 "KG" = (
 /obj/structure/paper_bin,
@@ -6652,6 +8537,20 @@
 	},
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"KN" = (
+/obj/structure/fence,
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"KO" = (
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KR" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/plating/ground/dirt,
@@ -6664,6 +8563,7 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "KU" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 5
@@ -6671,6 +8571,19 @@
 /obj/structure/jungle/vines,
 /turf/closed/wall,
 /area/whiskey_outpost/outside/south)
+=======
+"KW" = (
+/obj/effect/decal/warning_stripes/thin,
+/obj/machinery/door/airlock/multi_tile/mainship/medidoor{
+	name = "\improper Medical Bay"
+	},
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+"KX" = (
+/obj/effect/decal/warning_stripes/thin,
+/turf/open/floor/prison/plate,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KZ" = (
 /obj/item/storage/box/m94,
 /turf/open/floor/plating/ground/dirt,
@@ -6685,6 +8598,13 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Lg" = (
+/obj/effect/landmark/start/job/squadspecialist,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lh" = (
 /obj/item/reagent_containers/food/snacks/worm,
 /turf/open/floor/plating/ground/dirt,
@@ -6703,11 +8623,16 @@
 /obj/structure/girder/displaced,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "Lo" = (
 /obj/effect/ai_node,
 /obj/effect/decal/grassdecal{
 	dir = 8
 	},
+=======
+"Ln" = (
+/obj/effect/landmark/start/job/squadcorpsman,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
 "Lq" = (
@@ -6718,6 +8643,13 @@
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"Ls" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lt" = (
 /turf/open/floor/plating/ground/dirtgrassborder/corner{
 	dir = 4
@@ -6747,6 +8679,7 @@
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "LB" = (
 /obj/effect/spawner/random/melee,
 /turf/open/ground/jungle,
@@ -6755,6 +8688,14 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+=======
+"LA" = (
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LE" = (
 /turf/open/floor/plating/dmg2,
 /area/whiskey_outpost/outside/south)
@@ -6766,9 +8707,15 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "LI" = (
 /obj/item/storage/box/m94,
 /obj/effect/decal/lvsanddecal/full,
+=======
+"LH" = (
+/obj/item/storage/box/explosive_mines,
+/obj/effect/decal/cleanable/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
 "LK" = (
@@ -6799,6 +8746,18 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"LT" = (
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+"LW" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LX" = (
 /obj/structure/platform{
 	dir = 8
@@ -6807,9 +8766,22 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Ma" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidwarning{
+=======
+"Mb" = (
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/whiskey_outpost)
+"Me" = (
+/obj/structure/bed,
+/obj/structure/closet/walllocker/hydrant,
+/obj/item/bedsheet/purple,
+/obj/effect/landmark/start/latejoin_gateway,
+/turf/open/floor/mainship/emerald{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 9
 	},
 /area/whiskey_outpost)
@@ -6847,16 +8819,51 @@
 /obj/structure/flora/tree/jungle/small,
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "Mn" = (
 /obj/effect/decal/riverdecal/edge,
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/south)
+=======
+"Ml" = (
+/obj/structure/barricade/metal{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mo" = (
 /obj/structure/largecrate/random/barrel/yellow,
 /turf/open/floor/plating/warning{
 	dir = 1
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"Mp" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"Mq" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"Ms" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 6
+	},
+/obj/structure/largecrate/mule,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mt" = (
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/ground/grass,
@@ -6865,8 +8872,13 @@
 /obj/item/storage/box/sentry,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Mv" = (
 /obj/effect/decal/cleanable/blood/writing,
+=======
+"My" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
 "Mw" = (
@@ -6907,17 +8919,32 @@
 	icon_state = "25"
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "ML" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 4
+=======
+"MJ" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/jungle/vines,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"MN" = (
+/obj/effect/decal/grassdecal/corner,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MO" = (
 /obj/item/weapon/gun/sentry/premade,
 /turf/open/floor/plating/platebot,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "MS" = (
 /obj/effect/decal/grassdecal/corner,
 /turf/open/floor/plating/asteroidfloor,
@@ -6930,6 +8957,19 @@
 /obj/effect/decal/grassdecal/corner2,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+=======
+"MQ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+"MR" = (
+/obj/structure/largecrate/random/barrel/white,
+/obj/effect/decal/warning_stripes/thick{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MW" = (
 /obj/structure/barricade/sandbags{
 	pixel_y = -6
@@ -6959,10 +8999,24 @@
 "Na" = (
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "Nd" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 8
 	},
+=======
+"Nb" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/whiskey_outpost)
+"Nc" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/obj/item/stack/sheet/metal,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
 "Ne" = (
@@ -6977,6 +9031,15 @@
 /obj/effect/decal/grassdecal{
 	dir = 4
 	},
+<<<<<<< HEAD
+=======
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"Nk" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "Nl" = (
@@ -6995,6 +9058,16 @@
 /obj/item/shard,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Nq" = (
+/obj/effect/decal/warning_stripes/thin,
+/obj/machinery/conveyor_switch{
+	id = "reqtorio"
+	},
+/turf/open/floor/prison,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ns" = (
 /obj/structure/platform{
 	dir = 4
@@ -7052,11 +9125,26 @@
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"NH" = (
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+"NJ" = (
+/obj/effect/decal/grassdecal/corner,
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NK" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "30"
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "NL" = (
 /obj/effect/decal/grassdecal{
 	dir = 4
@@ -7072,6 +9160,15 @@
 "NO" = (
 /obj/effect/decal/lvsanddecal/corner{
 	dir = 8
+=======
+"NN" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+"NP" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 10
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
@@ -7079,11 +9176,30 @@
 /obj/item/storage/box/explosive_mines/large,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "NT" = (
 /obj/effect/decal/lvsanddecal{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroidfloor,
+=======
+"NR" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 4
+	},
+/obj/structure/largecrate/random/barrel/yellow,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"NW" = (
+/turf/closed/mineral/smooth,
+/area/whiskey_outpost/outside/rock)
+"NX" = (
+/obj/effect/decal/grassdecal/corner2,
+/turf/open/floor/plating/ground/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/whiskey_outpost/outside/west)
 "NY" = (
 /turf/open/floor/plating/asteroidwarning{
@@ -7105,9 +9221,15 @@
 /obj/machinery/floodlight/outpost,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Od" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 1
+=======
+"Og" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/jungle/vines,
 /turf/open/floor/plating/ground/dirt,
@@ -7149,8 +9271,19 @@
 /obj/structure/girder/displaced,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "Oq" = (
 /obj/effect/decal/grassdecal/corner,
+=======
+"Oo" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+"Or" = (
+/obj/effect/decal/cleanable/blood/drip,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
 "Ot" = (
@@ -7185,6 +9318,16 @@
 /obj/item/storage/box/explosive_mines/large,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"OB" = (
+/obj/structure/barricade/sandbags{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OC" = (
 /turf/open/floor/plating/ground/dirtgrassborder/corner2{
 	dir = 8
@@ -7196,6 +9339,16 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"OF" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 8
+	},
+/obj/structure/largecrate/supply/explosives/mortar_incend,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OH" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -7211,6 +9364,7 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "OJ" = (
 /obj/effect/landmark/start/job/squadmarine,
 /obj/machinery/light,
@@ -7219,9 +9373,29 @@
 "OL" = (
 /obj/effect/decal/cleanable/blood/writing{
 	dir = 10
+=======
+"OK" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"OO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/autodoc_console,
+/turf/open/floor/mainship/sterile,
+/area/whiskey_outpost)
+"OP" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/squadspecialist,
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OQ" = (
 /obj/item/weapon/gun/sentry/premade,
 /turf/open/floor/plating/asteroidfloor,
@@ -7252,6 +9426,13 @@
 	dir = 6
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Pf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ph" = (
 /obj/structure/dropship_piece/one/rearwing/leftllbottom,
 /turf/open/ground/jungle,
@@ -7265,6 +9446,7 @@
 	dir = 10
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Pl" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /obj/effect/decal/grassdecal/corner{
@@ -7276,6 +9458,20 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+=======
+"Pk" = (
+/obj/effect/attach_point/electronics/dropship1,
+/obj/structure/dropship_piece/one/weapon/rightleft,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+"Pm" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Pq" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "35"
@@ -7307,6 +9503,17 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/sterile,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Pz" = (
+/obj/structure/bed,
+/obj/item/bedsheet/blue,
+/obj/effect/landmark/start/latejoin,
+/turf/open/floor/mainship/blue{
+	dir = 9
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PC" = (
 /obj/structure/window_frame/colony,
 /turf/open/ground/jungle,
@@ -7328,6 +9535,16 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"PI" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PM" = (
 /obj/structure/platform,
 /turf/open/floor/plating/ground/dirt,
@@ -7346,10 +9563,33 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"PR" = (
+/obj/item/storage/box/explosive_mines,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"PV" = (
+/obj/structure/catwalk,
+/obj/effect/decal/riverdecal/edge{
+	dir = 1
+	},
+/turf/open/ground/grass/beach,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PW" = (
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"PX" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PY" = (
 /obj/structure/platform{
 	dir = 4
@@ -7402,8 +9642,13 @@
 	},
 /turf/open/floor/plating/platebot,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "Qr" = (
 /obj/effect/decal/grassdecal/corner2{
+=======
+"Qu" = (
+/obj/effect/decal/grassdecal/corner{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 4
 	},
 /obj/effect/ai_node,
@@ -7437,6 +9682,7 @@
 /obj/item/ammo_magazine/heavy_laser,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "QH" = (
 /obj/effect/landmark/start/job/squadmarine,
 /turf/open/ground/jungle,
@@ -7444,6 +9690,18 @@
 "QJ" = (
 /obj/effect/landmark/start/job/squadmarine,
 /obj/effect/decal/grassdecal{
+=======
+"QF" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 9
+	},
+/obj/structure/largecrate/supply/explosives/mortar_incend,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"QP" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/blue{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 8
 	},
 /turf/open/floor/plating/asteroidfloor,
@@ -7453,6 +9711,18 @@
 /obj/item/weapon/gun/sentry/premade,
 /turf/open/floor/plating/platebot,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"QV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+"QW" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QX" = (
 /obj/structure/barricade/metal,
 /turf/open/floor/plating/warning,
@@ -7477,6 +9747,19 @@
 "Rf" = (
 /turf/closed/wall/r_wall,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Rg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/ammo_magazine/heavy_laser,
+/obj/item/ammo_magazine/heavy_laser,
+/obj/item/ammo_magazine/heavy_laser,
+/obj/item/ammo_magazine/heavy_laser,
+/obj/item/ammo_magazine/heavy_laser,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rh" = (
 /obj/structure/platform{
 	dir = 4
@@ -7485,6 +9768,13 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Rj" = (
+/obj/effect/landmark/start/job/squadengineer,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rl" = (
 /obj/structure/barricade/plasteel,
 /turf/open/floor/plating/asteroidfloor,
@@ -7543,6 +9833,13 @@
 /obj/structure/dropship_piece/one/front,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"RF" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RJ" = (
 /turf/open/floor/plating,
 /area/whiskey_outpost/outside/south)
@@ -7554,6 +9851,30 @@
 /obj/structure/dropship_piece/one/front/right,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"RO" = (
+/obj/item/storage/pill_bottle/alkysine,
+/obj/item/storage/pill_bottle/alkysine{
+	pixel_y = 10
+	},
+/obj/item/storage/pill_bottle/imidazoline{
+	pixel_x = -5
+	},
+/obj/item/storage/pill_bottle/imidazoline{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/structure/table/mainship,
+/obj/effect/spawner/random/surgical,
+/turf/open/floor/mainship/sterile,
+/area/whiskey_outpost)
+"RP" = (
+/obj/effect/attach_point/electronics/dropship1,
+/obj/structure/dropship_piece/one/weapon/leftright,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RQ" = (
 /obj/machinery/door/window/right{
 	dir = 8
@@ -7564,10 +9885,48 @@
 /obj/structure/girder,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"RS" = (
+/obj/effect/landmark/start/job/squadmarine,
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"RT" = (
+/obj/structure/jungle/vines,
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RU" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"RV" = (
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+"RW" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 5
+	},
+/obj/structure/largecrate/supply/explosives/mortar_he,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"RX" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RY" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "68"
@@ -7577,6 +9936,14 @@
 /obj/item/weapon/gun/minigun_nest,
 /turf/open/floor/plating/asteroidwarning,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Sd" = (
+/obj/effect/landmark/start/job/squadmarine,
+/obj/structure/bed/roller,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Se" = (
 /obj/structure/platform{
 	dir = 4
@@ -7604,6 +9971,20 @@
 /obj/structure/cable,
 /turf/open/floor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Sj" = (
+/obj/item/clothing/suit/surgical,
+/obj/structure/table/mainship,
+/obj/effect/spawner/random/pillbottle{
+	pixel_x = -2
+	},
+/obj/item/armor_module/storage/uniform/white_vest/surgery,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 4
+	},
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sk" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/ground/grass/beach,
@@ -7622,10 +10003,16 @@
 	icon_state = "51"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
 "Sp" = (
 /obj/item/lightstick/red/anchored,
 /obj/effect/decal/grassdecal/corner2{
 	dir = 1
+=======
+"St" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
@@ -7649,8 +10036,14 @@
 /obj/effect/decal/grassdecal/corner{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/west)
+=======
+/obj/effect/landmark/start/job/squadengineer,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SD" = (
 /obj/structure/dropship_piece/one/cockpit/left,
 /turf/open/floor/plating/ground/dirt,
@@ -7660,6 +10053,16 @@
 	icon_state = "96"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"SH" = (
+/obj/machinery/landinglight/ds1/delaythree{
+	dir = 1
+	},
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SI" = (
 /obj/structure/platform{
 	dir = 8
@@ -7724,6 +10127,21 @@
 /obj/machinery/floodlight/outpost,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Tf" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"Tg" = (
+/obj/effect/decal/lvsanddecal{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroidwarning{
+	dir = 8
+	},
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Th" = (
 /turf/open/ground/coast,
 /area/whiskey_outpost/outside/north)
@@ -7762,11 +10180,38 @@
 "Tv" = (
 /turf/open/floor/tile/damaged/three,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Tw" = (
+/obj/effect/landmark/start/job/medicalofficer,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Tx" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "94"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Ty" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"TA" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+"TE" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/jungle/vines,
+/turf/closed/gm/dense,
+/area/whiskey_outpost/outside/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TF" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/platform{
@@ -7791,10 +10236,20 @@
 /obj/structure/jungle/plantbot1/alien,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "TL" = (
 /obj/effect/decal/grassdecal/corner2{
 	dir = 4
 	},
+=======
+"TM" = (
+/obj/effect/ai_node,
+/turf/open/ground/river,
+/area/whiskey_outpost/outside/south)
+"TN" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/cleanable/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
 "TP" = (
@@ -7815,6 +10270,7 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "TV" = (
 /obj/item/storage/box/sentry{
 	pixel_x = 9;
@@ -7824,6 +10280,12 @@
 /obj/effect/decal/grassdecal,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+=======
+"TU" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TW" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/tile/whiteyellow/full,
@@ -7835,6 +10297,24 @@
 /obj/structure/platform,
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
+=======
+"TY" = (
+/obj/structure/bed,
+/obj/item/bedsheet/purple,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/landmark/start/latejoin,
+/turf/open/floor/mainship/emerald{
+	dir = 1
+	},
+/area/whiskey_outpost)
+"TZ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ua" = (
 /obj/machinery/light,
 /turf/open/floor/mainship/sterile/dark,
@@ -7842,6 +10322,27 @@
 "Ub" = (
 /turf/open/shuttle/dropship/three,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Ue" = (
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"Uf" = (
+/obj/effect/decal/remains/xeno,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+"Uh" = (
+/obj/effect/decal/grassdecal{
+	dir = 4
+	},
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Uj" = (
 /obj/structure/rack,
 /obj/item/ammo_magazine/heavy_minigun,
@@ -7854,6 +10355,7 @@
 	},
 /turf/open/ground/river,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "Un" = (
 /obj/effect/ai_node,
 /obj/effect/decal/grassdecal{
@@ -7871,6 +10373,12 @@
 /obj/effect/ai_node,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/west)
+=======
+"Ul" = (
+/obj/effect/ai_node,
+/turf/open/floor/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ur" = (
 /obj/item/roller,
 /turf/open/floor/mainship/sterile/dark,
@@ -7915,6 +10423,13 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
+=======
+"UK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UL" = (
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1
@@ -7946,6 +10461,10 @@
 "UV" = (
 /obj/effect/ai_node,
 /obj/item/storage/box/m94,
+<<<<<<< HEAD
+=======
+/obj/effect/decal/lvsanddecal/full,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
 "Va" = (
@@ -7967,6 +10486,18 @@
 	dir = 1
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Vg" = (
+/obj/item/quikdeploy/cade/plasteel,
+/obj/item/quikdeploy/cade/plasteel,
+/obj/item/quikdeploy/cade/plasteel,
+/obj/item/quikdeploy/cade/plasteel,
+/obj/item/quikdeploy/cade/plasteel,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vh" = (
 /obj/structure/barricade/sandbags{
 	dir = 8
@@ -7979,11 +10510,38 @@
 /obj/item/weapon/gun/heavy_laser,
 /turf/open/floor/plating/asteroidwarning,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "Vp" = (
 /obj/effect/ai_node,
 /obj/effect/decal/lvsanddecal/full,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
+=======
+"Vj" = (
+/obj/effect/landmark/start/job/squadmarine,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"Vl" = (
+/obj/item/tool/lighter/random,
+/obj/structure/table/mainship,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey{
+	desc = "A premium single-malt whiskey. To celebrate your impending doom";
+	name = "\improper Whiskey Outpost Whiskey"
+	},
+/obj/effect/spawner/random/pillbottle{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/turf/open/floor/tile/whiteyellow/full,
+/area/whiskey_outpost)
+"Vm" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vq" = (
 /obj/structure/platform{
 	dir = 8
@@ -8016,10 +10574,28 @@
 /obj/item/storage/surgical_tray,
 /turf/open/floor/mainship/sterile,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "VA" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
+=======
+"VB" = (
+/obj/structure/bed,
+/obj/item/bedsheet/yellow,
+/obj/effect/landmark/start/latejoin,
+/turf/open/floor/mainship/orange{
+	dir = 9
+	},
+/area/whiskey_outpost)
+"VC" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+	},
+/obj/structure/jungle/vines,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VD" = (
 /obj/structure/platform_decoration{
 	dir = 1
@@ -8049,15 +10625,61 @@
 	dir = 5
 	},
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "VO" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /obj/effect/decal/grassdecal,
+=======
+"VN" = (
+/obj/effect/ai_node,
+/obj/effect/decal/grassdecal{
+	dir = 8
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "VQ" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"VS" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"VU" = (
+/obj/machinery/landinglight/ds1{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"VW" = (
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+"VX" = (
+/obj/effect/decal/grassdecal/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+"VY" = (
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/lvsanddecal/full,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/west)
+"Wb" = (
+/obj/effect/decal/cleanable/blood/writing{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Wd" = (
 /obj/structure/dropship_piece/one/wing/right/bottom,
 /turf/open/floor/plating/ground/dirt,
@@ -8106,6 +10728,13 @@
 /obj/structure/sign/safety/medical_supplies,
 /turf/open/floor/mainship/sterile/dark,
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Wx" = (
+/obj/effect/landmark/start/job/squadmarine,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WA" = (
 /obj/machinery/light{
 	dir = 4
@@ -8116,8 +10745,31 @@
 /obj/machinery/vending/weapon,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "WC" = (
 /obj/effect/decal/cleanable/blood/writing{
+=======
+"WI" = (
+/obj/structure/bed,
+/obj/item/bedsheet/purple,
+/obj/effect/landmark/start/latejoin_cryo,
+/turf/open/floor/mainship/emerald{
+	dir = 5
+	},
+/area/whiskey_outpost)
+"WL" = (
+/turf/open/ground/grass,
+/area/whiskey_outpost/outside/east)
+"WN" = (
+/obj/effect/decal/warning_stripes/thick{
+	dir = 4
+	},
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/plating,
+/area/whiskey_outpost)
+"WO" = (
+/obj/effect/decal/grassdecal/corner{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 1
 	},
 /turf/open/floor/plating/ground/dirt,
@@ -8160,9 +10812,16 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/north)
+<<<<<<< HEAD
 "WT" = (
 /obj/structure/sign/greencross/star{
 	pixel_y = 32
+=======
+"WS" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/grassdecal/corner2{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/structure/largecrate/supply/explosives/mines,
 /obj/effect/decal/lvsanddecal/full,
@@ -8173,10 +10832,18 @@
 	icon_state = "75"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"WV" = (
+/obj/effect/ai_node,
+/turf/open/shuttle/dropship/floor,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WW" = (
 /obj/structure/fence,
 /turf/open/ground/jungle/impenetrable/nobush,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "Xa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/autodoc_console,
@@ -8187,11 +10854,29 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mainship/sterile,
 /area/whiskey_outpost)
+=======
+"WZ" = (
+/obj/structure/barricade/plasteel,
+/obj/effect/decal/lvsanddecal/full,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xd" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "82"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"Xe" = (
+/obj/structure/platform_decoration{
+	dir = 1
+	},
+/obj/structure/platform_decoration,
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xf" = (
 /turf/closed/shuttle/dropship1/transparent{
 	icon_state = "79"
@@ -8244,9 +10929,21 @@
 	},
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "Xz" = (
 /turf/closed/mineral/smooth/indestructible,
 /area/whiskey_outpost/outside/rock)
+=======
+"Xx" = (
+/obj/effect/decal/cleanable/blood/writing,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"XA" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XB" = (
 /obj/structure/platform{
 	dir = 8
@@ -8295,6 +10992,7 @@
 	dir = 8
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
 "XK" = (
 /obj/effect/decal/lvsanddecal/full,
 /obj/effect/decal/lvsanddecal/full,
@@ -8309,6 +11007,9 @@
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
 "XO" = (
+=======
+"XN" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/lvsanddecal/full,
 /obj/effect/decal/lvsanddecal/full,
 /obj/effect/decal/lvsanddecal/full,
@@ -8318,6 +11019,7 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/dark,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "XQ" = (
 /obj/effect/decal/lvsanddecal/full,
 /obj/effect/decal/lvsanddecal/full,
@@ -8336,6 +11038,13 @@
 /obj/structure/jungle/planttop1,
 /turf/open/ground/jungle,
 /area/whiskey_outpost/outside/south)
+=======
+"XV" = (
+/obj/effect/spawner/random/gun,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/north)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XW" = (
 /obj/structure/dropship_piece/one/wing/left/top,
 /turf/open/floor/plating/ground/dirt,
@@ -8350,6 +11059,16 @@
 	icon_state = "72"
 	},
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"XZ" = (
+/obj/effect/decal/warning_stripes/thin{
+	dir = 8
+	},
+/obj/effect/landmark/start/job/squadcorpsman,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ya" = (
 /turf/open/floor/tile/damaged/panel,
 /area/whiskey_outpost/outside/east)
@@ -8361,6 +11080,7 @@
 /obj/effect/decal/grassdecal/corner2{
 	dir = 1
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/east)
 "Yh" = (
@@ -8376,12 +11096,32 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost)
+"Yi" = (
+/turf/closed/wall,
+/area/whiskey_outpost)
+"Ym" = (
+/obj/effect/landmark/start/job/squadcorpsman,
+/turf/open/floor/mainship/sterile/dark,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Yq" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/ground/dirtgrassborder{
 	dir = 1
 	},
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Ys" = (
+/obj/item/lightstick/red/anchored,
+/obj/effect/decal/cleanable/blood/writing,
+/turf/open/ground/jungle,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Yt" = (
 /turf/open/shuttle/dropship/five,
 /area/whiskey_outpost/outside/east)
@@ -8407,6 +11147,7 @@
 /obj/item/storage/box/sentry,
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/west)
+<<<<<<< HEAD
 "YB" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating,
@@ -8418,6 +11159,12 @@
 /obj/structure/jungle/vines,
 /turf/closed/gm/dense,
 /area/whiskey_outpost/outside/rock)
+=======
+"YC" = (
+/obj/effect/landmark/start/job/synthetic,
+/turf/open/floor,
+/area/whiskey_outpost)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YE" = (
 /obj/machinery/door/airlock/mainship/maint/free_access{
 	dir = 2
@@ -8446,6 +11193,13 @@
 "YJ" = (
 /turf/open/floor/plating/asteroidfloor,
 /area/whiskey_outpost/outside/east)
+<<<<<<< HEAD
+=======
+"YL" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth,
+/area/whiskey_outpost/outside/south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YN" = (
 /obj/structure/dropship_piece/one/engine/leftbottom,
 /turf/open/floor/plating/ground/dirt,
@@ -8484,6 +11238,15 @@
 	dir = 4
 	},
 /area/whiskey_outpost)
+<<<<<<< HEAD
+=======
+"Zi" = (
+/obj/effect/decal/grassdecal{
+	dir = 1
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Zj" = (
 /turf/open/ground/grass,
 /area/whiskey_outpost/outside/west)
@@ -8546,17 +11309,44 @@
 /obj/structure/dropship_piece/one/corner/rearright,
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
+<<<<<<< HEAD
+=======
+"Zw" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/east)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Zy" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
 /turf/open/floor/tile/dark,
 /area/whiskey_outpost)
+<<<<<<< HEAD
 "ZA" = (
 /obj/effect/decal/grassdecal{
 	dir = 4
 	},
 /obj/effect/landmark/lv624/fog_blocker,
+=======
+"Zz" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/structure/jungle/vines,
+/obj/effect/decal/grassdecal,
+/turf/open/floor/plating/ground/dirt,
+/area/whiskey_outpost/outside/south)
+"ZC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/asteroidfloor,
+/area/whiskey_outpost/outside/east)
+"ZD" = (
+/obj/effect/decal/grassdecal/corner2{
+	dir = 4
+	},
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/whiskey_outpost/outside/south)
 "ZG" = (

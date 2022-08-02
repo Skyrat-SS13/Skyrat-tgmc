@@ -8,8 +8,17 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "bj" = (
 /obj/effect/landmark/xeno_resin_door,
+=======
+"aC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+"bu" = (
+/obj/effect/landmark/excavation_site_spawner,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central3)
 "bt" = (
@@ -29,15 +38,27 @@
 	icon_state = "wood-broken6"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "cp" = (
 /obj/effect/spawner/random/trash,
 /turf/open/floor/plating/ground/dirt,
+=======
+"bS" = (
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+"cb" = (
+/obj/structure/bed/alien,
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/wood,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "cO" = (
 /turf/open/ground/coast{
 	dir = 4
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "cQ" = (
 /obj/structure/table/woodentable,
 /obj/effect/spawner/random/ammo/shotgun,
@@ -48,6 +69,15 @@
 "dg" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/ammo/shotgun,
+=======
+"dp" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"dv" = (
+/obj/item/storage/firstaid/regular,
+/obj/effect/decal/cleanable/blood/drip,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
 "eE" = (
@@ -69,11 +99,19 @@
 	},
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "fC" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood{
 	icon_state = "wood-broken3"
 	},
+=======
+"fA" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/weapon/twohanded/fireaxe,
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/wood,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "fJ" = (
 /turf/open/floor/wood/broken,
@@ -86,9 +124,36 @@
 /obj/structure/largecrate/supply/explosives/mortar_flare,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "hl" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/dirt,
+=======
+"hh" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"id" = (
+/obj/structure/rack,
+/obj/item/tool/shovel,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/tile/vault{
+	dir = 8
+	},
+/area/lv624/ground/caves/central1)
+"iu" = (
+/turf/closed/mineral/smooth/indestructible,
+/area/lv624/ground/caves/rock)
+"iB" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central3)
+"iE" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "iv" = (
 /obj/effect/landmark/xeno_resin_door,
@@ -118,6 +183,7 @@
 /obj/structure/window_frame/wood,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "jL" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood{
@@ -128,6 +194,16 @@
 /obj/effect/landmark/xeno_resin_door,
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/dirt,
+=======
+"jx" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/lv624/ground/caves/rock)
+"jD" = (
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central1)
 "kp" = (
 /turf/open/ground/coast{
@@ -135,6 +211,23 @@
 	icon_state = "beachcorner"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"kE" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/iron{
+	amount = 5
+	},
+/obj/item/stack/sheet/mineral/platinum,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/tile/vault{
+	dir = 8
+	},
+/area/lv624/ground/caves/central1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kK" = (
 /obj/structure/table/woodentable,
 /obj/item/reagent_containers/food/snacks/meat,
@@ -151,6 +244,14 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"lu" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/ammo/shotgun,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lF" = (
 /obj/vehicle/ridden/wheelchair,
 /turf/open/floor/wood,
@@ -163,9 +264,15 @@
 "mq" = (
 /obj/structure/table/woodentable,
 /obj/effect/spawner/random/ammo/machinegun,
+<<<<<<< HEAD
 /obj/effect/spawner/random/gun/machineguns{
 	pixel_x = -2;
 	pixel_y = 2
+=======
+/obj/effect/spawner/random/ammo/machinegun{
+	pixel_x = -5;
+	pixel_y = 6
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken1"
@@ -176,6 +283,7 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "mR" = (
 /obj/effect/ai_node,
 /turf/open/floor/wood{
@@ -187,6 +295,18 @@
 /area/lv624/ground/caves/rock)
 "nZ" = (
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"ne" = (
+/obj/structure/table/woodentable,
+/obj/effect/spawner/random/ammo/shotgun,
+/turf/open/floor/carpet/side{
+	dir = 10;
+	
+	},
+/area/lv624/ground/caves/central2)
+"op" = (
+/obj/effect/spawner/random/trash,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
 "os" = (
@@ -218,6 +338,18 @@
 	icon_state = "beachcorner2"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"pD" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central2)
+"pE" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pJ" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken3"
@@ -252,11 +384,19 @@
 /obj/item/weapon/gun/shotgun/double,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "qU" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/item/weapon/twohanded/fireaxe,
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/wood,
+=======
+"qW" = (
+/obj/effect/ai_node,
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "ro" = (
 /obj/item/ammo_casing/shell,
@@ -327,9 +467,27 @@
 	icon_state = "wood-broken1"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "uV" = (
 /turf/closed/wall/wood,
 /area/lv624/ground/caves/central2)
+=======
+"uy" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/lv624/ground/caves/central2)
+"uV" = (
+/turf/closed/wall/wood,
+/area/lv624/ground/caves/central2)
+"vb" = (
+/obj/effect/ai_node,
+/turf/open/floor/wood{
+	icon_state = "wood-broken1"
+	},
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ve" = (
 /turf/open/ground/coast{
 	icon_state = "beachcorner"
@@ -364,11 +522,17 @@
 	icon_state = "wood-broken4"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "wC" = (
 /obj/effect/ai_node,
 /turf/open/ground/coast{
 	dir = 5
 	},
+=======
+"vN" = (
+/obj/effect/spawner/random/clothing,
+/turf/open/floor/wood,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "wL" = (
 /obj/structure/rack,
@@ -379,18 +543,43 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "xy" = (
 /obj/effect/spawner/random/trash,
 /turf/open/floor/wood,
+=======
+"xm" = (
+/obj/structure/table/woodentable,
+/obj/effect/spawner/random/ammo/machinegun,
+/obj/effect/spawner/random/gun/machineguns{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken1"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "xD" = (
 /obj/structure/bed/chair/wood/wings,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"xI" = (
+/obj/structure/table/woodentable,
+/obj/effect/spawner/random/ammo/shotgun,
+/turf/open/floor/carpet/side{
+	dir = 1;
+	
+	},
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yy" = (
 /obj/structure/largecrate/supply/ammo/standard_hmg,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "zB" = (
 /obj/structure/table/woodentable,
 /obj/effect/spawner/random/ammo/machinegun,
@@ -405,15 +594,34 @@
 /obj/effect/spawner/random/ammo/shotgun,
 /turf/open/floor/carpet/side{
 	dir = 1;
+=======
+"za" = (
+/obj/effect/landmark/xeno_resin_door,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"zz" = (
+/obj/effect/ai_node,
+/turf/open/ground/coast{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/lv624/ground/caves/central2)
 "zK" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "BH" = (
 /obj/item/storage/firstaid/regular,
 /obj/effect/decal/cleanable/blood/drip,
+=======
+"BO" = (
+/obj/structure/barricade/sandbags{
+	dir = 4
+	},
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
 "BK" = (
@@ -430,10 +638,17 @@
 	dir = 6;
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "Cg" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+=======
+"Dm" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/wall/r_wall,
+/area/lv624/ground/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DD" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
@@ -464,6 +679,7 @@
 /obj/item/ammo_casing/shell,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "GI" = (
 /obj/effect/spawner/random/clothing,
 /turf/open/floor/wood,
@@ -471,6 +687,11 @@
 "GM" = (
 /obj/effect/ai_node,
 /turf/open/floor/wood,
+=======
+"GF" = (
+/obj/effect/landmark/xeno_resin_wall,
+/turf/open/floor/plating/ground/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "GS" = (
 /obj/structure/table/woodentable,
@@ -501,11 +722,24 @@
 /obj/structure/closet/crate/freezer/rations,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "Hm" = (
 /obj/effect/spawner/random/clothing,
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
+=======
+"Hu" = (
+/obj/structure/rack,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/tile/vault{
+	dir = 8
+	},
+/area/lv624/ground/caves/central1)
+"Hy" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/lv624/ground/caves/central2)
 "Hz" = (
 /obj/structure/barricade/sandbags{
@@ -521,6 +755,7 @@
 	},
 /turf/open/floor/tile/dark,
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "HP" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
@@ -531,6 +766,9 @@
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
 "Ig" = (
+=======
+"HO" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/wood,
@@ -563,17 +801,40 @@
 "IL" = (
 /turf/closed/wall,
 /area/lv624/ground/caves/central1)
+<<<<<<< HEAD
 "IX" = (
 /obj/structure/barricade/sandbags{
 	dir = 4
 	},
 /obj/effect/ai_node,
+=======
+"IR" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/obj/effect/decal/cleanable/blood/splatter,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
 "IZ" = (
 /obj/structure/largecrate/supply/ammo/shotgun,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"Ke" = (
+/obj/structure/kitchenspike,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+"Kj" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+"Ky" = (
+/obj/machinery/door/airlock/sandstone,
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KG" = (
 /turf/open/ground/coast{
 	dir = 1
@@ -584,9 +845,19 @@
 	dir = 5
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "LR" = (
 /obj/machinery/door/airlock/sandstone,
 /obj/effect/ai_node,
+=======
+"Md" = (
+/obj/structure/table/woodentable,
+/obj/effect/spawner/random/ammo/machinegun,
+/obj/effect/spawner/random/gun/machineguns{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
 "LW" = (
@@ -604,6 +875,7 @@
 "MN" = (
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "Ne" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/iron{
@@ -618,21 +890,46 @@
 	dir = 8
 	},
 /area/lv624/ground/caves/central1)
-"NO" = (
-/turf/open/floor/wood{
-	icon_state = "wood-broken6"
-	},
-/area/lv624/ground/caves/central2)
-"OT" = (
+=======
+"MQ" = (
 /obj/effect/landmark/corpsespawner/colonist,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
 /area/lv624/ground/caves/central2)
+"NI" = (
+/obj/effect/spawner/random/gun/sidearms,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
+"NO" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+"OT" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/obj/effect/decal/cleanable/blood/splatter,
+=======
+"OX" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/spawner/random/gun/sidearms,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "Pb" = (
 /obj/structure/bed/alien,
 /obj/effect/landmark/corpsespawner/colonist,
+=======
+"Pl" = (
+/obj/item/stack/sheet/wood,
+/obj/effect/decal/cleanable/dirt,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
 "PI" = (
@@ -652,6 +949,7 @@
 	icon_state = "beachcorner"
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "QX" = (
 /turf/open/ground/coast,
 /area/lv624/ground/caves/central2)
@@ -659,11 +957,43 @@
 /obj/effect/spawner/random/gun/sidearms,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/central2)
+=======
+"QO" = (
+/obj/effect/landmark/xeno_resin_door,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+"QX" = (
+/turf/open/ground/coast,
+/area/lv624/ground/caves/central2)
+"RA" = (
+/obj/effect/spawner/random/trash,
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+"RT" = (
+/obj/effect/spawner/random/clothing,
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/lv624/ground/caves/central2)
+"Tp" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth,
+/area/lv624/ground/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TR" = (
 /turf/open/ground/coast{
 	dir = 6
 	},
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"UI" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UT" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/diamond{
@@ -677,6 +1007,18 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
+=======
+"UX" = (
+/obj/structure/table/woodentable,
+/obj/effect/spawner/random/ammo/machinegun,
+/obj/effect/spawner/random/gun/machineguns{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/turf/open/floor/wood,
+/area/lv624/ground/caves/central2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vi" = (
 /obj/structure/table/woodentable,
 /obj/item/flashlight/lantern,
@@ -751,9 +1093,16 @@
 "Yv" = (
 /turf/open/floor/plating/ground/dirt,
 /area/lv624/ground/caves/central2)
+<<<<<<< HEAD
 "ZD" = (
 /turf/closed/mineral/smooth/indestructible,
 /area/lv624/ground/caves/rock)
+=======
+"ZQ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/dirt,
+/area/lv624/ground/caves/central1)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 nH

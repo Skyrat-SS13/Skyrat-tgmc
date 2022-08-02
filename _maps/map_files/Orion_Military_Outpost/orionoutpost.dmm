@@ -1,5 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
 "aa" = (
+=======
+"ac" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
@@ -27,9 +31,16 @@
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "ah" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
 	dir = 2
+=======
+"an" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_24";
+	name = "SOM exit point 24"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/closed/mineral/smooth,
 /area/orion_outpost/ground/outpostsw)
@@ -79,10 +90,30 @@
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
 "aw" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/orange,
 /area/orion_outpost/surface/building/cargo)
+=======
+"au" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+"av" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+"ax" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ay" = (
 /turf/open/floor/mainship/terragov/north{
 	dir = 6
@@ -118,6 +149,7 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "aH" = (
 /obj/effect/landmark/weed_node,
 /obj/machinery/light{
@@ -129,6 +161,19 @@
 /area/orion_outpost/surface/building/command)
 "aO" = (
 /obj/effect/ai_node,
+=======
+"aJ" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+"aK" = (
+/obj/effect/attach_point/electronics/dropship1,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/landing_pad)
+"aM" = (
+/obj/effect/landmark/weed_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveE)
 "aQ" = (
@@ -137,11 +182,18 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "aS" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/surface/building/barracks)
+=======
+"aR" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "aT" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/mainship/mono,
@@ -185,6 +237,18 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"bd" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/vehicledepot)
+"be" = (
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -194,6 +258,26 @@
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"bg" = (
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outposts)
+"bh" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+"bj" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/drained,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/black{
+	dir = 5
+	},
+/area/orion_outpost/surface/building/atc)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bl" = (
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 8
@@ -226,6 +310,7 @@
 /obj/item/weapon/gun/shotgun/pump/cmb,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
 "bu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -233,14 +318,41 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outpostcent)
+=======
+"bs" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/item/ammo_casing/bullet,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/prison,
+/area/orion_outpost/surface/building/engineering)
+"bt" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outposts)
+"bv" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/ground/outpostse)
+"bx" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "by" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+<<<<<<< HEAD
 "bz" = (
 /obj/effect/decal/riverdecal,
+=======
+"bA" = (
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposte)
 "bB" = (
@@ -298,6 +410,7 @@
 /obj/machinery/computer3,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "bM" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/effect/ai_node,
@@ -313,11 +426,51 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveS)
+=======
+"bL" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/blue,
+/area/orion_outpost/surface/building/administration)
+"bN" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outposts)
+"bP" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+"bR" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+"bS" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+"bV" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bX" = (
 /obj/machinery/newscaster,
 /turf/open/floor/wood,
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/barracks)
+<<<<<<< HEAD
+=======
+"bY" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "bZ" = (
 /obj/structure/monorail{
 	dir = 4
@@ -412,19 +565,38 @@
 	},
 /turf/open/floor/mainship/ntlogo/nt3,
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "cv" = (
 /obj/machinery/body_scanconsole,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/sterile/dark,
 /area/orion_outpost/surface/building/medbay)
+=======
+"ct" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cw" = (
 /obj/structure/prop/brokenvendor/surplusarmor,
 /turf/open/floor/mainship/green,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "cx" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/white,
 /area/orion_outpost/ground/outposts)
+=======
+"cy" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+"cz" = (
+/obj/effect/landmark/corpsespawner/security,
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cA" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -450,6 +622,15 @@
 /obj/structure/flora/tree/joshua,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/underground/caveE)
+<<<<<<< HEAD
+=======
+"cG" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cH" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 8
@@ -489,11 +670,18 @@
 /obj/structure/prop/vehicle/truck,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "cS" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+=======
+"cR" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "cT" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 1;
@@ -528,6 +716,13 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"dc" = (
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dd" = (
 /obj/machinery/status_display,
 /turf/closed/wall/mainship/gray,
@@ -578,6 +773,18 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
+=======
+"dn" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+"do" = (
+/obj/structure/platform,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dp" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /turf/open/shuttle/dropship/three,
@@ -598,6 +805,13 @@
 /obj/machinery/light,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"du" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dv" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -605,6 +819,17 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"dw" = (
+/obj/structure/desertdam/decals/road/stop{
+	dir = 1;
+	icon_state = "stop_decal5"
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dx" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -647,8 +872,19 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
 "dE" = (
 /obj/effect/landmark/weed_node,
+=======
+"dF" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostcent)
+"dG" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
 "dH" = (
@@ -718,10 +954,25 @@
 	dir = 5
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "dY" = (
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostse)
+=======
+"dW" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostcent)
+"dX" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "dZ" = (
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/vehicledepot)
@@ -759,6 +1010,14 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
+=======
+"eg" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eh" = (
 /obj/structure/cable,
 /turf/open/floor/mainship/black{
@@ -798,6 +1057,13 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"eo" = (
+/obj/effect/ai_node,
+/turf/open/floor/prison,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ep" = (
 /obj/machinery/door/airlock/multi_tile/mainship/blackgeneric/glass,
 /obj/structure/cable,
@@ -817,6 +1083,7 @@
 /obj/machinery/computer3,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+<<<<<<< HEAD
 "ex" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
@@ -824,6 +1091,16 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+=======
+"eu" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/armory)
+"ev" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ey" = (
 /obj/structure/flora/grass/tallgrass{
 	color = "#7a8c54"
@@ -846,6 +1123,30 @@
 	dir = 5
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"eD" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+"eE" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/orange/corner{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/cargo)
+"eF" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/drained,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+"eG" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/surface/building/atc)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eH" = (
 /obj/machinery/light{
 	dir = 4
@@ -867,16 +1168,45 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"eK" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+"eL" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/dorms)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eM" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/mainship/black{
 	dir = 8
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
+=======
+"eN" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/orange,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eO" = (
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"eP" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eQ" = (
 /obj/machinery/computer3/server/rack,
 /obj/machinery/light{
@@ -929,6 +1259,7 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "fd" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
@@ -936,6 +1267,9 @@
 /area/orion_outpost/ground/outpostw)
 "fe" = (
 /obj/structure/cable,
+=======
+"ff" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
@@ -949,6 +1283,7 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/mainship/blue,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "fj" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/concrete/lines{
@@ -962,6 +1297,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/cargo)
+=======
+"fi" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fm" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
@@ -994,6 +1336,14 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"fs" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ft" = (
 /turf/open/floor/plating,
 /area/orion_outpost/surface/landing_pad_2)
@@ -1026,11 +1376,34 @@
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "fD" = (
 /turf/closed/mineral/smooth,
 /area/orion_outpost/ground/outposts)
 "fF" = (
 /obj/effect/ai_node,
+=======
+"fA" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/green{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/prep)
+"fB" = (
+/obj/structure/bed/chair/office/dark,
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/blue{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/administration)
+"fE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/landmark/corpsespawner/marine,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/landing_pad2_external)
 "fG" = (
@@ -1038,11 +1411,31 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/monitor)
+<<<<<<< HEAD
+=======
+"fH" = (
+/obj/structure/bed/chair/office/dark,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fI" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/snacks/mre_pack/meal6,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+<<<<<<< HEAD
+=======
+"fJ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fL" = (
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 4
@@ -1081,25 +1474,49 @@
 /area/orion_outpost/surface/building/engineering)
 "fU" = (
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+=======
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fV" = (
 /obj/machinery/door/airlock/mainship,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "fX" = (
 /turf/closed/mineral/smooth,
 /area/orion_outpost/ground/underground/caveE)
+=======
+"fW" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "fY" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/snacks/mre_pack/meal5,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+<<<<<<< HEAD
 "ga" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outpostcent)
+=======
+"fZ" = (
+/obj/effect/landmark/corpsespawner/security,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gb" = (
 /obj/structure/window/framed/mainship/spaceworthy{
 	icon_state = "col_window12"
@@ -1135,6 +1552,19 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"gi" = (
+/turf/closed/mineral/smooth/indestructible,
+/area/orion_outpost/ground/outposte)
+"gj" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_12";
+	name = "SOM exit point 12"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gk" = (
 /obj/structure/largecrate,
 /turf/open/floor/mainship/mono,
@@ -1175,6 +1605,14 @@
 	},
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"gw" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gx" = (
 /turf/open/floor/mainship/green{
 	dir = 8
@@ -1220,6 +1658,17 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
+=======
+"gF" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostcent)
+"gG" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gH" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -1252,6 +1701,16 @@
 /obj/machinery/gibber,
 /turf/open/floor/freezer,
 /area/orion_outpost/surface/building/canteen)
+<<<<<<< HEAD
+=======
+"gP" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gQ" = (
 /obj/docking_port/stationary/marine_dropship/lz2,
 /turf/open/floor/plating,
@@ -1269,11 +1728,15 @@
 "gT" = (
 /turf/closed/shuttle/ert,
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
 "gW" = (
 /obj/structure/platform,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 9
 	},
+=======
+"gY" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
@@ -1363,6 +1826,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"hu" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hv" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/emails{
@@ -1378,6 +1848,13 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"hw" = (
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hx" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 1;
@@ -1455,6 +1932,23 @@
 /obj/structure/prop/brokenvendor/brokenweaponsrack,
 /turf/open/floor/mainship/red,
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"hN" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/armory)
+"hO" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "hP" = (
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outpostse)
@@ -1531,6 +2025,15 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"ih" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/orange{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ii" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/mainship/black{
@@ -1567,6 +2070,13 @@
 /obj/machinery/computer3/server,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/dorms)
+<<<<<<< HEAD
+=======
+"iq" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ir" = (
 /obj/structure/prop/brokenvendor/brokenuniformvendor,
 /turf/open/floor/mainship/mono,
@@ -1575,6 +2085,16 @@
 /obj/structure/bed/chair/office/dark,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"it" = (
+/obj/structure/desertdam/decals/road/edge{
+	icon_state = "road_edge_decal1"
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "iu" = (
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/mainship/orange{
@@ -1656,11 +2176,19 @@
 /obj/machinery/computer3/laptop,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
 "iL" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
 /turf/open/floor/mainship/blue{
 	dir = 10
+=======
+"iK" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/orion_outpost/surface/building/command)
 "iM" = (
@@ -1679,6 +2207,7 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "iP" = (
 /turf/closed/mineral/smooth/indestructible,
 /area/orion_outpost/ground/outpostn)
@@ -1686,6 +2215,13 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/black{
 	dir = 8
+=======
+"iQ" = (
+/obj/effect/decal/warning_stripes/medical,
+/obj/effect/decal/warning_stripes/box/small,
+/obj/effect/decal/warning_stripes/box/small{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/orion_outpost/surface/building/atc)
 "iS" = (
@@ -1849,6 +2385,7 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
 "ju" = (
 /obj/effect/attach_point/weapon/dropship1{
 	dir = 8;
@@ -1858,6 +2395,16 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/landing_pad_2)
+=======
+"jv" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+"jw" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jx" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -1875,9 +2422,16 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
 "jC" = (
 /obj/structure/platform{
 	dir = 4
+=======
+"jD" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_21";
+	name = "TGMC exit point 21"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/plating,
@@ -1889,6 +2443,14 @@
 /obj/machinery/light,
 /turf/open/floor/mainship/orange,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"jH" = (
+/obj/item/ammo_casing/bullet,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jI" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -1906,6 +2468,13 @@
 /obj/machinery/computer3,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/brig)
+<<<<<<< HEAD
+=======
+"jM" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/breakroom)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jN" = (
 /obj/machinery/computer/intel_computer,
 /turf/open/floor/mainship/mono,
@@ -1931,6 +2500,16 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"jR" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_23";
+	name = "SOM exit point 23"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "jS" = (
 /obj/machinery/light{
 	dir = 4
@@ -1981,10 +2560,17 @@
 "jZ" = (
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "ka" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/atc)
+=======
+"kb" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kc" = (
 /turf/open/floor/mainship/blue,
 /area/orion_outpost/surface/building/command)
@@ -2000,6 +2586,7 @@
 	dir = 6
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "kj" = (
 /obj/structure/monorail{
 	dir = 4
@@ -2007,6 +2594,13 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/cargo)
+=======
+"kk" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/barracks)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kl" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 6
@@ -2042,6 +2636,13 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+<<<<<<< HEAD
+=======
+"kr" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ks" = (
 /obj/structure/cargo_container/hd,
 /turf/open/floor/mainship/orange,
@@ -2076,12 +2677,31 @@
 	},
 /turf/open/ground/river,
 /area/orion_outpost/ground/river/riverside_south)
+<<<<<<< HEAD
+=======
+"ky" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kz" = (
 /obj/structure/flora/grass/tallgrass{
 	color = "#7a8c54"
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
+=======
+"kA" = (
+/obj/structure/flora/ausbushes/reedbush,
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kB" = (
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/plating/ground/concrete/lines,
@@ -2116,6 +2736,15 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
+=======
+"kI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kK" = (
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
@@ -2136,6 +2765,13 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
+=======
+"kR" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "kS" = (
 /obj/structure/table/mainship,
 /obj/item/trash/cheesie,
@@ -2176,6 +2812,23 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"kZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/item/ammo_casing/bullet,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposte)
+"la" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/surface/building/barracks)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lb" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 4
@@ -2195,8 +2848,17 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "lg" = (
 /obj/effect/landmark/corpsespawner/marine,
+=======
+"lh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
 "li" = (
@@ -2211,11 +2873,18 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "lm" = (
 /obj/machinery/light,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+=======
+"ln" = (
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/blue,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lo" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -2246,6 +2915,19 @@
 "lt" = (
 /turf/open/floor/mainship/black,
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
+=======
+"lu" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+"lv" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lw" = (
 /obj/structure/stairs/seamless/platform/alt{
 	dir = 1
@@ -2257,12 +2939,19 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
 "lz" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/gun/rifles,
 /turf/open/floor/mainship/sterile/dark,
 /area/orion_outpost/surface/building/medbay)
+=======
+"ly" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lA" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
@@ -2271,20 +2960,44 @@
 "lB" = (
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"lC" = (
+/obj/machinery/light,
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lD" = (
 /turf/open/floor/mainship/green/corner{
 	dir = 8
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"lE" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/black{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/atc)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lF" = (
 /turf/open/floor/mainship/sterile/side{
 	dir = 8
 	},
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
 "lG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
+=======
+"lH" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
@@ -2304,15 +3017,48 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"lN" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/nuke_spawn,
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/command)
+"lO" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outposte)
+"lP" = (
+/obj/effect/landmark/start/job/xenomorph,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "lQ" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic/noglass{
 	dir = 2
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "lU" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/sterile/side{
+=======
+"lS" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/vehicledepot)
+"lT" = (
+/obj/structure/platform_decoration{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	dir = 1
 	},
 /area/orion_outpost/surface/building/medbay)
@@ -2413,6 +3159,15 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+<<<<<<< HEAD
+=======
+"mq" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ms" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -2476,6 +3231,15 @@
 "mD" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
+=======
+"mE" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/orange{
+	dir = 9
+	},
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mG" = (
 /obj/machinery/light{
 	dir = 4
@@ -2557,6 +3321,22 @@
 	},
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"mZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+"na" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nb" = (
 /obj/structure/stairs/seamless/platform/alt,
 /turf/open/floor/plating/ground/concrete,
@@ -2580,6 +3360,13 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"nf" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ng" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/bunker)
@@ -2591,6 +3378,14 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"ni" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nj" = (
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/mainship/mono,
@@ -2601,6 +3396,17 @@
 	},
 /turf/open/floor/plating,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"nl" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nm" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -2623,6 +3429,14 @@
 /obj/structure/prop/vehicle/van,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"nq" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ns" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -2637,10 +3451,16 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
+<<<<<<< HEAD
 /obj/effect/landmark/corpsespawner/bridgeofficer,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+=======
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nx" = (
 /obj/machinery/door/poddoor/mainship/open{
 	dir = 2
@@ -2662,6 +3482,13 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/barracks)
+<<<<<<< HEAD
+=======
+"nA" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nB" = (
 /turf/open/floor/mainship/orange/corner{
 	dir = 4
@@ -2690,10 +3517,17 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "nI" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
 	dir = 9
+=======
+"nG" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_13";
+	name = "SOM exit point 13"
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/ground/grasspatch/grassyellow,
@@ -2729,6 +3563,16 @@
 	dir = 10
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"nQ" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_24";
+	name = "TGMC exit point 24"
+	},
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/landing_pad2_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nR" = (
 /turf/open/floor/mainship/red{
 	dir = 4
@@ -2756,6 +3600,14 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
+=======
+"nW" = (
+/obj/structure/flora/ausbushes/reedbush,
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nX" = (
 /turf/open/floor/mainship/red{
 	dir = 8
@@ -2792,10 +3644,15 @@
 "oe" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
+<<<<<<< HEAD
 /turf/open/floor/mainship/terragov/north{
 	dir = 10
 	},
 /area/orion_outpost/surface/building/administration)
+=======
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "og" = (
 /turf/open/floor/mainship/green,
 /area/orion_outpost/surface/building/prep)
@@ -2817,10 +3674,25 @@
 /obj/structure/platform,
 /turf/open/ground/river,
 /area/orion_outpost/ground/river/riverside_north)
+<<<<<<< HEAD
+=======
+"ol" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+"om" = (
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "on" = (
 /obj/structure/prop/vehicle/crawler/crawler_cargo,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "op" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
@@ -2829,6 +3701,12 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
+=======
+"or" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "os" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -2974,16 +3852,41 @@
 /obj/machinery/status_display,
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"oW" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/dorms)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oX" = (
 /obj/machinery/door/airlock/multi_tile/mainship/engineering,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"oY" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/canteen)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "oZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
+=======
+"pa" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pb" = (
 /obj/machinery/door/poddoor/mainship/open,
 /turf/open/floor/plating/ground/concrete/lines,
@@ -3025,10 +3928,18 @@
 "pj" = (
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "pk" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/surface/landing_pad2_external)
+=======
+"pl" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pm" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /turf/open/floor/mainship/sterile/corner{
@@ -3043,6 +3954,13 @@
 /obj/machinery/autodoc,
 /turf/open/floor/mainship/sterile/dark,
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
+=======
+"pp" = (
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/black,
+/area/orion_outpost/surface/building/atc)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pq" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -3052,6 +3970,22 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"pr" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+"ps" = (
+/obj/structure/table/mainship,
+/obj/effect/landmark/dropship_console_spawn_lz2,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/surface/landing_pad2_external)
+"pt" = (
+/turf/closed/mineral/smooth/indestructible,
+/area/storage/testroom)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pu" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /turf/open/floor/mainship/mono,
@@ -3070,6 +4004,15 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"px" = (
+/obj/effect/landmark/corpsespawner/marine/engineer,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "py" = (
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
@@ -3117,6 +4060,17 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"pH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/landmark/corpsespawner/marine/engineer,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -3130,6 +4084,16 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+<<<<<<< HEAD
+=======
+"pK" = (
+/obj/structure/stairs/seamless{
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "pM" = (
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /turf/open/floor/mainship/red{
@@ -3139,9 +4103,16 @@
 "pN" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "pO" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
+=======
+"pP" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 5
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete/lines,
@@ -3192,12 +4163,43 @@
 	},
 /turf/open/floor/prison,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"qa" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/atc)
+"qb" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qc" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"qd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 5
+	},
+/area/orion_outpost/ground/outpostsw)
+"qf" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qg" = (
 /turf/open/floor/mainship/orange/corner{
 	dir = 1
@@ -3214,13 +4216,25 @@
 	icon_state = "stan8"
 	},
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
+=======
+"ql" = (
+/obj/item/tool/wrench,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qm" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
 "qn" = (
 /obj/machinery/light,
+=======
+"qo" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
@@ -3274,6 +4288,24 @@
 /obj/structure/prop/brokenvendor/brokenuniformvendor/specialist,
 /turf/open/floor/mainship/green,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"qz" = (
+/obj/structure/monorail{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/cargo)
+"qA" = (
+/obj/structure/desertdam/decals/road/stop{
+	dir = 4;
+	icon_state = "stop_decal5"
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qB" = (
 /obj/structure/prop/mainship/sensor_computer3,
 /turf/open/floor/mainship/blue{
@@ -3290,10 +4322,18 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"qE" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qF" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "qG" = (
 /obj/effect/decal/riverdecal,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -3302,6 +4342,16 @@
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/closed/mineral/smooth,
 /area/orion_outpost/ground/underground/caveE)
+=======
+"qI" = (
+/obj/structure/bed/chair/office/dark,
+/obj/structure/window{
+	dir = 4
+	},
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qJ" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -3322,6 +4372,7 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/monitor)
+<<<<<<< HEAD
 "qM" = (
 /obj/machinery/light,
 /obj/effect/landmark/weed_node,
@@ -3341,6 +4392,29 @@
 "qT" = (
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+=======
+"qO" = (
+/turf/closed/mineral/smooth/indestructible,
+/area/orion_outpost/surface/landing_pad2_external)
+"qP" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+"qR" = (
+/obj/effect/decal/riverdecal,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostcent)
+"qT" = (
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+"qU" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/green{
+	dir = 5
+	},
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "qV" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -3365,12 +4439,37 @@
 	},
 /turf/open/floor/prison,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"ra" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_23";
+	name = "TGMC exit point 23"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/surface/landing_pad2_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rb" = (
 /obj/structure/prop/brokenvendor/surplusarmor,
 /turf/open/floor/mainship/red{
 	dir = 1
 	},
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"rc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/edge{
+	dir = 1
+	},
+/area/orion_outpost/ground/outposte)
+"rd" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "re" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
@@ -3485,6 +4584,21 @@
 	dir = 6
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"rG" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/ground/outpostw)
+"rH" = (
+/obj/item/ammo_casing/bullet,
+/obj/effect/ai_node,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rI" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/orange{
@@ -3495,10 +4609,25 @@
 /obj/structure/bed/chair/sofa/corsat/verticaltop,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"rK" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rL" = (
 /obj/structure/platform,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"rM" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rN" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/mainship/mono,
@@ -3527,6 +4656,13 @@
 /obj/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating,
 /area/orion_outpost/surface/landing_pad_2)
+<<<<<<< HEAD
+=======
+"rT" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/dorms)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "rU" = (
 /obj/structure/prop/vehicle/crawler/crawler_green,
 /turf/open/floor/plating/ground/concrete,
@@ -3562,11 +4698,28 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"sd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "se" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/ammodepot)
+<<<<<<< HEAD
+=======
+"sf" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/surface/landing_pad2_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sg" = (
 /obj/machinery/light{
 	dir = 1
@@ -3577,6 +4730,17 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"sj" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sk" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 4;
@@ -3585,11 +4749,19 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"sl" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/underground/caveN)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sm" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "sq" = (
 /obj/effect/decal/warning_stripes/leader,
 /obj/effect/decal/warning_stripes/box/small,
@@ -3598,6 +4770,21 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+=======
+"so" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/atc)
+"sp" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sr" = (
 /obj/structure/platform_decoration{
 	dir = 1
@@ -3639,6 +4826,15 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
+=======
+"sA" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/blue{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sB" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -3667,12 +4863,27 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"sH" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sI" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/mainship/blue{
 	dir = 10
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"sJ" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/barracks)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sK" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 8
@@ -3696,24 +4907,70 @@
 	},
 /turf/open/floor/mainship/orange/full,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"sN" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sO" = (
 /obj/structure/cargo_container/hd,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "sR" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostsw)
+=======
+"sQ" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/orange{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/engineering)
+"sS" = (
+/obj/effect/decal/warning_stripes/engineer,
+/obj/effect/decal/warning_stripes/box/small,
+/obj/effect/decal/warning_stripes/box/small{
+	dir = 1
+	},
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sT" = (
 /obj/structure/bed/chair/dropship/passenger,
 /turf/open/floor/plating/dmg1,
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
 "sX" = (
 /obj/effect/landmark/corpsespawner/marine,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/gun/rifles,
 /turf/open/floor/mainship/sterile/dark,
 /area/orion_outpost/surface/building/medbay)
+=======
+"sU" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 10
+	},
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostn)
+"sV" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/surface/building/atc)
+"sW" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sZ" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 1;
@@ -3722,6 +4979,35 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
+=======
+"ta" = (
+/obj/structure/desertdam/decals/road/edge{
+	icon_state = "road_edge_decal9"
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+"tb" = (
+/obj/effect/ai_node,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+"tc" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/bullet,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outposte)
+"td" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/red{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/armory)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "te" = (
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outpostse)
@@ -3758,6 +5044,14 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/monitor)
+<<<<<<< HEAD
+=======
+"tl" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tm" = (
 /obj/structure/table/mainship,
 /obj/item/phone,
@@ -3775,10 +5069,25 @@
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/nebuilding)
+<<<<<<< HEAD
+=======
+"tp" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/landing_pad_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tq" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plating,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"tr" = (
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tt" = (
 /obj/structure/largecrate,
 /turf/open/floor/mainship/black{
@@ -3798,9 +5107,16 @@
 	dir = 10
 	},
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
 "ty" = (
 /turf/closed/mineral/smooth/indestructible,
 /area/storage/testroom)
+=======
+"tz" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/orange/full,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tD" = (
 /obj/structure/flora/grass/tallgrass{
 	color = "#7a8c54"
@@ -3859,6 +5175,13 @@
 	dir = 6
 	},
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"tP" = (
+/obj/effect/ai_node,
+/turf/open/floor/freezer,
+/area/orion_outpost/surface/building/canteen)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "tS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -3892,9 +5215,20 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "tZ" = (
 /turf/closed/mineral/smooth/indestructible,
 /area/orion_outpost/ground/outposte)
+=======
+"ua" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/underground/caveE)
+"ub" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uc" = (
 /obj/machinery/cic_maptable,
 /turf/open/floor/mainship/mono,
@@ -3924,6 +5258,14 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"uk" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ul" = (
 /obj/structure/bed/chair/sofa/corsat/verticaltop,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -3980,6 +5322,7 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
+<<<<<<< HEAD
 /obj/effect/landmark/corpsespawner/bridgeofficer,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
@@ -3987,10 +5330,35 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/command)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uB" = (
 /obj/machinery/computer/nuke_disk_generator/red,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"uD" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+"uF" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_11";
+	name = "SOM exit point 11"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostsw)
+"uG" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uH" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -4001,10 +5369,17 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "uK" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/orange{
 	dir = 1
+=======
+"uJ" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/sterile/side{
+	dir = 9
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/orion_outpost/surface/building/cargo)
 "uL" = (
@@ -4016,6 +5391,7 @@
 /obj/machinery/light,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "uO" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -4024,12 +5400,28 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+=======
+"uN" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uQ" = (
 /obj/structure/flora/grass/tallgrass{
 	color = "#7a8c54"
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"uR" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "uS" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54"
@@ -4074,6 +5466,17 @@
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /turf/open/floor/mainship/red,
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"vg" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vh" = (
 /turf/open/floor/mainship/green{
 	dir = 1
@@ -4091,6 +5494,13 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
+=======
+"vl" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vm" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -4144,6 +5554,14 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"vx" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vy" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -4155,6 +5573,18 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"vA" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostcent)
+"vB" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vC" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -4173,6 +5603,18 @@
 "vG" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/breakroom)
+<<<<<<< HEAD
+=======
+"vH" = (
+/obj/effect/decal/riverdecal,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostcent)
+"vI" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vJ" = (
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/plating/ground/desertdam/asphalt,
@@ -4239,6 +5681,13 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"vW" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "vX" = (
 /turf/open/floor/mainship/terragov{
 	dir = 1
@@ -4249,10 +5698,35 @@
 /obj/machinery/light,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"vZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/orange/full,
+/area/orion_outpost/surface/building/cargo)
+"wa" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+"wb" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wc" = (
 /obj/structure/cargo_container/nt,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"wf" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wg" = (
 /obj/structure/prop/brokenvendor/brokenspecialistvendor/engineer,
 /turf/open/floor/mainship/green{
@@ -4332,6 +5806,7 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
 "wB" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/orange{
@@ -4344,6 +5819,20 @@
 /obj/effect/spawner/random/gun/rifles,
 /turf/open/floor/mainship/sterile/dark,
 /area/orion_outpost/surface/building/medbay)
+=======
+"wA" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostw)
+"wD" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+"wE" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wF" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -4352,12 +5841,26 @@
 /obj/machinery/light,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/dorms)
+<<<<<<< HEAD
+=======
+"wH" = (
+/obj/effect/landmark/dropship_start_location,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/landing_pad_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wI" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete/edge{
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
+=======
+"wJ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wL" = (
 /obj/machinery/vending/MarineMed/Blood,
 /turf/open/floor/mainship/sterile/side{
@@ -4383,6 +5886,17 @@
 "wO" = (
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"wP" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 9
+	},
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wR" = (
 /obj/structure/flora/grass/tallgrass{
 	color = "#7a8c54"
@@ -4411,12 +5925,30 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"wV" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 9
+	},
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wW" = (
 /obj/structure/prop/brokenvendor/brokenspecialistvendor/engineer,
 /turf/open/floor/mainship/green{
 	dir = 10
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"xa" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xb" = (
 /obj/item/mortal_shell/howitzer/he,
 /turf/open/floor/mainship/black/full,
@@ -4493,11 +6025,22 @@
 /obj/machinery/light,
 /turf/open/floor/mainship/green,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "xs" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+=======
+"xp" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostsw)
+"xt" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xu" = (
 /obj/structure/bed/chair/office/dark,
 /obj/structure/window{
@@ -4563,6 +6106,15 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"xL" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 6
+	},
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xM" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/snacks/mre_pack/meal2,
@@ -4597,6 +6149,17 @@
 "xS" = (
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/underground/caveE)
+<<<<<<< HEAD
+=======
+"xT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "xU" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 5
@@ -4675,6 +6238,7 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "yh" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -4685,6 +6249,49 @@
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostcent)
+=======
+"yi" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+"yj" = (
+/obj/effect/landmark/weed_node,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/command)
+"yk" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/vehicledepot)
+"ym" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostn)
+"yn" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/command)
+"yo" = (
+/obj/structure/stairs/seamless/platform/alt{
+	dir = 4
+	},
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yp" = (
 /obj/structure/stairs/seamless/platform/alt{
 	dir = 8
@@ -4699,9 +6306,15 @@
 /obj/machinery/status_display,
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "ys" = (
 /obj/structure/table/mainship,
 /obj/effect/landmark/dropship_console_spawn_lz1,
+=======
+"yt" = (
+/obj/structure/flora/ausbushes/reedbush,
+/obj/effect/decal/riverdecal,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/surface/landing_pad_external)
 "yu" = (
@@ -4762,6 +6375,7 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
 "yJ" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/mainship/terragov/north{
@@ -4780,6 +6394,16 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposte)
+=======
+"yL" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/surface/building/barracks)
+"yO" = (
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yP" = (
 /obj/structure/prop/mainship/sensor_computer1,
 /turf/open/floor/mainship/mono,
@@ -4874,6 +6498,21 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostn)
+<<<<<<< HEAD
+=======
+"zn" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostcent)
+"zo" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zq" = (
 /obj/structure/flora/tree/joshua,
 /turf/open/ground/grasspatch/grassyellow,
@@ -4914,6 +6553,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"zy" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zz" = (
 /obj/machinery/door/airlock/mainship/security{
 	dir = 2
@@ -5031,6 +6677,14 @@
 	},
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"Aa" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ab" = (
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 4
@@ -5063,6 +6717,7 @@
 	dir = 5
 	},
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
 "Ak" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/ammo_casing/bullet,
@@ -5075,6 +6730,12 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+=======
+"An" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ap" = (
 /obj/structure/stairs/seamless/platform/alt{
 	dir = 4
@@ -5128,6 +6789,17 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"AA" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+"AC" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AD" = (
 /obj/machinery/computer3/server/rack,
 /turf/open/floor/mainship/black{
@@ -5140,6 +6812,16 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
+=======
+"AF" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_22";
+	name = "SOM exit point 22"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AG" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -5155,10 +6837,17 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "AL" = (
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/mainship/blue,
 /area/orion_outpost/surface/building/administration)
+=======
+"AK" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AM" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating/ground/concrete/lines{
@@ -5181,10 +6870,30 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
 "AS" = (
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+=======
+"AQ" = (
+/obj/structure/flora/ausbushes/reedbush,
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+"AR" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+"AT" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 10
+	},
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "AU" = (
 /obj/structure/desertdam/decals/road/edge{
 	icon_state = "road_edge_decal4"
@@ -5202,6 +6911,7 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "AX" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -5215,6 +6925,13 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+=======
+"AZ" = (
+/obj/effect/landmark/corpsespawner/pmc,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ba" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -5253,10 +6970,32 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+<<<<<<< HEAD
+=======
+"Bh" = (
+/obj/effect/decal/warning_stripes/medical,
+/obj/effect/decal/warning_stripes/box/small,
+/obj/effect/decal/warning_stripes/box/small{
+	dir = 1
+	},
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/mainship/blue,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"Bj" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+"Bl" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Bm" = (
 /turf/open/floor/plating/ground/concrete/edge{
 	dir = 1
@@ -5267,8 +7006,15 @@
 	dir = 9
 	},
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "Br" = (
 /obj/effect/landmark/weed_node,
+=======
+"Bq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 8
 	},
@@ -5279,10 +7025,17 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "Bt" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+=======
+"Bu" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/orange{
+	dir = 1
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/plating/ground/concrete,
@@ -5318,6 +7071,14 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"BA" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BC" = (
 /obj/structure/window/framed/mainship/spaceworthy{
 	icon_state = "col_window6"
@@ -5342,11 +7103,18 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "BI" = (
 /obj/structure/cable,
 /obj/effect/spawner/random/gun/rifles,
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outpostsw)
+=======
+"BH" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/underground/caveS)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BK" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/emails{
@@ -5402,6 +7170,14 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"BV" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/monitor)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "BY" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
@@ -5425,6 +7201,16 @@
 /obj/structure/prop/mainship/sensor_computer1,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"Cf" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cg" = (
 /turf/open/floor/mainship/black{
 	dir = 8
@@ -5438,6 +7224,13 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"Ci" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cj" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -5505,10 +7298,17 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/landing_pad_external)
+<<<<<<< HEAD
 "Cv" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outposts)
+=======
+"Cw" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cx" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -5516,6 +7316,13 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"Cy" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Cz" = (
 /turf/open/floor/plating/ground/concrete/edge{
 	dir = 4
@@ -5534,6 +7341,18 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/ammodepot)
+<<<<<<< HEAD
+=======
+"CC" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/red{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CD" = (
 /obj/machinery/light{
 	dir = 4
@@ -5549,10 +7368,17 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "CG" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveN)
+=======
+"CF" = (
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CH" = (
 /obj/structure/prop/vehicle/van,
 /turf/open/floor/plating/ground/concrete/lines{
@@ -5565,6 +7391,20 @@
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
+=======
+"CJ" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/desertdam/grate{
+	icon_state = "catwalk-223"
+	},
+/area/orion_outpost/surface/building/engineering)
+"CK" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CM" = (
 /obj/structure/window{
 	dir = 4
@@ -5572,10 +7412,17 @@
 /obj/machinery/computer/nuke_disk_generator/blue,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "CN" = (
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/barracks)
+=======
+"CO" = (
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CP" = (
 /obj/structure/table/mainship,
 /obj/structure/reagent_dispensers/beerkeg,
@@ -5591,6 +7438,18 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"CU" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/landmark/corpsespawner/marine,
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "CV" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
@@ -5666,11 +7525,52 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"Dm" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+"Dn" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+"Do" = (
+/obj/machinery/door/airlock/multi_tile/mainship/blackgeneric/glass,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/canteen)
+"Dp" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Dq" = (
 /turf/open/floor/mainship/black/corner{
 	dir = 8
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
+=======
+"Dr" = (
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+"Ds" = (
+/obj/effect/landmark/corpsespawner/marine/engineer,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Du" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -5678,6 +7578,7 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
 "Dv" = (
 /obj/effect/landmark/corpsespawner/bridgeofficer,
 /turf/open/floor/mainship/mono,
@@ -5686,14 +7587,38 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+=======
+"Dw" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/red{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/armory)
+"Dx" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DD" = (
 /turf/open/floor/mainship/blue{
 	dir = 6
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "DG" = (
 /turf/closed/mineral/smooth,
 /area/orion_outpost/ground/outpostw)
+=======
+"DE" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/armory)
+"DF" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DH" = (
 /obj/structure/stairs/seamless/platform/alt{
 	dir = 4
@@ -5703,6 +7628,7 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "DI" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -5715,6 +7641,22 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostse)
+=======
+"DJ" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+"DM" = (
+/turf/open/floor/mainship/sterile/white,
+/area/orion_outpost/ground/outposts)
+"DO" = (
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/red{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DP" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/mainship/sterile/side{
@@ -5727,6 +7669,17 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"DR" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DU" = (
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
@@ -5737,6 +7690,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"DW" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/orange,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "DX" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -5754,23 +7714,40 @@
 /obj/structure/prop/mainship/sensor_computer1,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
 "Eb" = (
 /obj/item/ammo_casing/bullet,
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
+=======
+"Ea" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_21";
+	name = "SOM exit point 21"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ec" = (
 /obj/structure/largecrate,
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 1
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "Ee" = (
 /obj/effect/landmark/corpsespawner/bridgeofficer,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+=======
+"Ed" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ef" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -5786,6 +7763,14 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"Ei" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "El" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -5798,6 +7783,13 @@
 /obj/machinery/telecomms/server,
 /turf/open/floor/mainship/black,
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
+=======
+"En" = (
+/obj/effect/landmark/xeno_silo_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Eo" = (
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
@@ -5813,6 +7805,7 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
 "Er" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
@@ -5823,6 +7816,14 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
+=======
+"Es" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/orange{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Eu" = (
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/orange{
@@ -5844,11 +7845,27 @@
 	id = "TGMC_23";
 	name = "TGMC exit point 23"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/surface/landing_pad2_external)
 "EB" = (
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostcent)
+=======
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/green,
+/area/orion_outpost/surface/building/prep)
+"EB" = (
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostcent)
+"EC" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_11";
+	name = "TGMC exit point 11"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ED" = (
 /obj/structure/table/mainship,
 /obj/item/stack/sheet/metal,
@@ -5865,10 +7882,26 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "EG" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposte)
+=======
+"EH" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+"EI" = (
+/obj/machinery/light,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/canteen)
+"EL" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/surface/landing_pad_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "EM" = (
 /turf/open/floor/mainship/red{
 	dir = 8
@@ -5883,6 +7916,15 @@
 "ER" = (
 /turf/open/floor/mainship/sterile/side,
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
+=======
+"ES" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/grate{
+	icon_state = "catwalk-223"
+	},
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ET" = (
 /obj/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating/icefloor/warnplate{
@@ -5897,6 +7939,7 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "EW" = (
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/mainship/mono,
@@ -5916,6 +7959,13 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostw)
+=======
+"EV" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Fa" = (
 /turf/open/ground/river,
 /area/orion_outpost/ground/river/riverside_central)
@@ -5994,9 +8044,16 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
 "Fu" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
+=======
+"Fv" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
@@ -6050,8 +8107,17 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
 "FG" = (
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"FF" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 6
+	},
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposte)
 "FI" = (
@@ -6067,6 +8133,18 @@
 	dir = 5
 	},
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
+=======
+"FL" = (
+/obj/effect/attach_point/weapon/dropship1{
+	dir = 8;
+	icon_state = "equip_base_l_wing"
+	},
+/turf/open/floor/plating/icefloor/warnplate{
+	dir = 8
+	},
+/area/orion_outpost/surface/landing_pad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "FM" = (
 /obj/machinery/power/monitor{
 	name = "Main Power Grid Monitoring"
@@ -6134,7 +8212,24 @@
 /area/orion_outpost/surface/building/dorms)
 "FZ" = (
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/effect/landmark/corpsespawner/bridgeofficer,
+=======
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/ground/outpostcent)
+"Ge" = (
+/obj/effect/decal/warning_stripes/leader,
+/obj/effect/decal/warning_stripes/box/small,
+/obj/effect/decal/warning_stripes/box/small{
+	dir = 1
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
 "Gf" = (
@@ -6156,21 +8251,35 @@
 	},
 /turf/open/ground/river,
 /area/orion_outpost/ground/river/riverside_south)
+<<<<<<< HEAD
 "Gk" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/landing_pad_external)
+=======
+"Gl" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gm" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 8
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "Gn" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outpostsw)
+=======
+"Go" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gp" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -6190,6 +8299,19 @@
 /obj/item/ammo_magazine/tank/ltaaap_minigun,
 /turf/open/floor/mainship/black/full,
 /area/orion_outpost/surface/building/ammodepot)
+<<<<<<< HEAD
+=======
+"Gs" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/surface/landing_pad_external)
+"Gt" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_12";
+	name = "TGMC exit point 12"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gw" = (
 /obj/structure/prop/vehicle/crawler/crawler_fuel,
 /obj/structure/platform{
@@ -6224,6 +8346,7 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "GD" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/effect/ai_node,
@@ -6236,6 +8359,12 @@
 /obj/effect/landmark/corpsespawner/bridgeofficer,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/atc)
+=======
+"GF" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/edge,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GG" = (
 /obj/structure/prop/brokenvendor/surplusclothes,
 /turf/open/floor/mainship/green,
@@ -6246,10 +8375,21 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "GK" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostnw)
+=======
+"GI" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposts)
+"GJ" = (
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GL" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
@@ -6285,8 +8425,19 @@
 	id = "TGMC_24";
 	name = "TGMC exit point 24"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/landing_pad2_external)
+=======
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/breakroom)
+"GT" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GW" = (
 /obj/machinery/light{
 	dir = 8
@@ -6330,6 +8481,14 @@
 "He" = (
 /turf/open/floor/mainship/orange/corner,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Hg" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hh" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -6337,10 +8496,30 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
+=======
+"Hi" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/dorms)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hj" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Hk" = (
+/obj/effect/landmark/corpsespawner/security,
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/armory)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hm" = (
 /obj/structure/largecrate/random/barrel/blue,
 /turf/open/floor/plating/ground/concrete/lines{
@@ -6366,6 +8545,7 @@
 	dir = 6
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "Ht" = (
 /obj/structure/cable,
 /obj/effect/landmark/corpsespawner/marine/engineer,
@@ -6375,6 +8555,14 @@
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostn)
+=======
+"Hs" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Hv" = (
 /turf/open/floor/mainship/orange{
 	dir = 6
@@ -6401,12 +8589,19 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
 "HA" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+=======
+"Hz" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HB" = (
 /obj/docking_port/mobile/marine_dropship/minidropship,
 /obj/structure/bed/chair/dropship/pilot{
@@ -6432,6 +8627,7 @@
 /obj/machinery/vending/security,
 /turf/open/floor/mainship/red,
 /area/orion_outpost/surface/building/monitor)
+<<<<<<< HEAD
 "HE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/effect/decal/cleanable/blood,
@@ -6455,6 +8651,45 @@
 "HS" = (
 /obj/machinery/light{
 	dir = 1
+=======
+"HG" = (
+/obj/effect/attach_point/weapon/dropship1{
+	dir = 8;
+	icon_state = "equip_base_l_wing"
+	},
+/turf/open/floor/plating/icefloor/warnplate{
+	dir = 8
+	},
+/area/orion_outpost/surface/landing_pad_2)
+"HJ" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/surface/building/crashedufo)
+"HL" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/blue{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/administration)
+"HN" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_14";
+	name = "TGMC exit point 14"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+"HP" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+"HQ" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/orange{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /obj/effect/spawner/random/gun/rifles,
 /turf/open/floor/mainship/red{
@@ -6466,10 +8701,26 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
 "HU" = (
 /obj/effect/landmark/corpsespawner/scientist,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostse)
+=======
+"HV" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+"HW" = (
+/obj/effect/ai_node,
+/turf/open/shuttle/brig,
+/area/orion_outpost/surface/building/crashedufo)
+"HX" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/canteen)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "HY" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -6547,6 +8798,14 @@
 /obj/machinery/computer3/server/rack,
 /turf/open/floor/mainship/orange,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"Ip" = (
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Iq" = (
 /obj/structure/window/framed/mainship/spaceworthy{
 	icon_state = "col_window10"
@@ -6561,6 +8820,7 @@
 	dir = 9
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "Iu" = (
 /obj/effect/landmark/patrol_point{
 	id = "TGMC_14";
@@ -6572,6 +8832,12 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
+=======
+"It" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ix" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 2
@@ -6580,6 +8846,7 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "Iy" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/sterile/dark,
@@ -6588,6 +8855,14 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostn)
+=======
+"Iz" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 6
+	},
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "IC" = (
 /obj/structure/cargo_container/hd{
 	dir = 1
@@ -6637,6 +8912,20 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"IM" = (
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/barracks)
+"IO" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/blue{
+	dir = 10
+	},
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "IP" = (
 /obj/machinery/computer3,
 /obj/structure/table/mainship,
@@ -6648,6 +8937,7 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "IV" = (
 /obj/effect/landmark/corpsespawner/bridgeofficer,
 /turf/open/floor/mainship/mono,
@@ -6656,12 +8946,30 @@
 /obj/structure/cable,
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/plating/ground/desertdam/asphalt,
+=======
+"IR" = (
+/obj/effect/landmark/patrol_point{
+	id = "SOM_14";
+	name = "SOM exit point 14"
+	},
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/orion_outpost/ground/outpostsw)
 "IX" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 9
 	},
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"IY" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "IZ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -6671,6 +8979,17 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
+=======
+"Ja" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jb" = (
 /obj/machinery/light,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -6699,12 +9018,28 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"Jh" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/dorms)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ji" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 5
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Jj" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jk" = (
 /turf/open/floor/mainship/ntlogo/nt2,
 /area/orion_outpost/ground/outpostse)
@@ -6745,6 +9080,13 @@
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/barracks)
+<<<<<<< HEAD
+=======
+"Ju" = (
+/obj/effect/attach_point/electronics/dropship1,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/landing_pad_2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Jv" = (
 /obj/structure/platform{
 	dir = 1
@@ -6761,6 +9103,7 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
 "Jz" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
@@ -6771,6 +9114,16 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposte)
+=======
+"Jy" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "JB" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -6864,6 +9217,13 @@
 	dir = 1
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
+=======
+"JT" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "JU" = (
 /obj/structure/dispenser,
 /turf/open/floor/mainship/orange{
@@ -6874,9 +9234,23 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "JX" = (
 /turf/open/floor/mainship/orange,
 /area/orion_outpost/surface/building/tadpolepad)
+=======
+"JW" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostsw)
+"JX" = (
+/turf/open/floor/mainship/orange,
+/area/orion_outpost/surface/building/tadpolepad)
+"JY" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ka" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood,
@@ -6925,7 +9299,18 @@
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 4
 	},
+<<<<<<< HEAD
 /area/orion_outpost/surface/building/vehicledepot)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostcent)
+"Kk" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/floor,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Kl" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -6938,6 +9323,24 @@
 	},
 /turf/open/floor/podhatch/floor,
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
+=======
+"Kn" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostse)
+"Ko" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+"Kp" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
+	dir = 2
+	},
+/turf/closed/mineral/smooth,
+/area/orion_outpost/surface/landing_pad2_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Kq" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/atc)
@@ -7007,10 +9410,19 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+<<<<<<< HEAD
 "KD" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposts)
+=======
+"KE" = (
+/obj/effect/landmark/corpsespawner/marine/corpsman,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KF" = (
 /obj/machinery/light{
 	dir = 1
@@ -7019,6 +9431,7 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
 "KG" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/gun/rifles,
@@ -7030,6 +9443,12 @@
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostse)
+=======
+"KH" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KJ" = (
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
@@ -7042,10 +9461,41 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
 "KT" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+=======
+"KN" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/monitor)
+"KO" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/ground/outpostsw)
+"KP" = (
+/obj/effect/ai_node,
+/turf/open/floor/podhatch/floor,
+/area/orion_outpost/surface/building/crashedufo)
+"KR" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/ground/outposte)
+"KS" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "KU" = (
 /turf/open/floor/mainship/orange{
 	dir = 9
@@ -7059,6 +9509,7 @@
 /obj/structure/largecrate/random/barrel/blue,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "KY" = (
 /obj/effect/decal/riverdecal,
 /turf/closed/mineral/smooth,
@@ -7067,6 +9518,12 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+=======
+"La" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lb" = (
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveN)
@@ -7084,9 +9541,16 @@
 	dir = 10
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
 "Lf" = (
 /turf/closed/mineral/smooth,
 /area/orion_outpost/surface/landing_pad_external)
+=======
+"Le" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lg" = (
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/green,
@@ -7157,10 +9621,22 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
 "Ls" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+=======
+"Lr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Lt" = (
 /obj/structure/platform,
 /obj/item/tool/screwdriver,
@@ -7195,6 +9671,21 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"Lz" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 8
+	},
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outposte)
+"LA" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/orange/full,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LD" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/mainship/blue{
@@ -7207,6 +9698,7 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
 "LF" = (
 /obj/item/bedsheet/red,
 /obj/structure/bed,
@@ -7216,6 +9708,12 @@
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/brig)
+=======
+"LG" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LH" = (
 /obj/structure/platform{
 	dir = 4
@@ -7263,6 +9761,13 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"LQ" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LR" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -7297,12 +9802,23 @@
 /obj/machinery/light,
 /turf/open/floor/mainship/green,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"Md" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+"Mf" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Mg" = (
 /obj/structure/desertdam/decals/road/edge{
 	icon_state = "road_edge_decal4"
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
 "Mi" = (
 /obj/structure/desertdam/decals/road/edge{
 	icon_state = "road_edge_decal1"
@@ -7310,6 +9826,12 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposts)
+=======
+"Mh" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ml" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 5
@@ -7339,6 +9861,18 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"Mr" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/layer1{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ms" = (
 /obj/structure/desertdam/decals/road/edge{
 	icon_state = "road_edge_decal1"
@@ -7374,6 +9908,19 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"MC" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outposts)
+"MD" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MF" = (
 /obj/structure/barricade/metal{
 	dir = 1
@@ -7444,10 +9991,54 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
+=======
+"MW" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/medbay)
+"MY" = (
+/obj/effect/ai_node,
+/turf/open/ground/river,
+/area/orion_outpost/ground/river/riverside_south)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "MZ" = (
 /obj/machinery/button/door/open_only/landing_zone/lz2,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/surface/landing_pad2_external)
+<<<<<<< HEAD
+=======
+"Na" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+"Nb" = (
+/obj/structure/desertdam/decals/road/edge{
+	icon_state = "road_edge_decal9"
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outposts)
+"Nc" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/administration)
+"Nd" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/canteen)
+"Ne" = (
+/obj/structure/stairs/seamless{
+	dir = 1
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Nf" = (
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/surface/building/engineering)
@@ -7508,6 +10099,17 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/atc)
+<<<<<<< HEAD
+=======
+"Nq" = (
+/obj/structure/platform,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 9
+	},
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Nr" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 4
@@ -7550,6 +10152,15 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Nz" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/effect/ai_node,
+/obj/structure/cable,
+/turf/open/floor/bcircuit,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NA" = (
 /obj/structure/prop/vehicle/crane/cranecargo,
 /turf/open/floor/mainship/mono,
@@ -7561,6 +10172,14 @@
 	},
 /turf/open/floor/mainship/orange/full,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"NC" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/blue,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ND" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 10
@@ -7580,6 +10199,15 @@
 /obj/structure/bed/bunkbed,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/barracks)
+<<<<<<< HEAD
+=======
+"NG" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NH" = (
 /obj/structure/platform{
 	dir = 1
@@ -7636,15 +10264,35 @@
 	dir = 8
 	},
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
 "NU" = (
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostsw)
+=======
+"NV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NW" = (
 /turf/open/floor/mainship/red{
 	dir = 4
 	},
 /area/orion_outpost/surface/building/brig)
+<<<<<<< HEAD
+=======
+"NX" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "NY" = (
 /obj/item/ammo_magazine/tank/ltb_cannon,
 /turf/open/floor/mainship/black/full,
@@ -7671,6 +10319,16 @@
 /obj/machinery/light,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"Oe" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/marine/engineer,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Of" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -7689,15 +10347,30 @@
 /turf/open/floor/mainship/orange/corner{
 	dir = 8
 	},
+<<<<<<< HEAD
 /area/orion_outpost/surface/building/engineering)
+=======
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/black{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/atc)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ok" = (
 /obj/structure/cable,
 /turf/open/floor/prison,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
 "Ol" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/orange/full,
 /area/orion_outpost/surface/building/cargo)
+=======
+"On" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Oo" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/mainship/orange{
@@ -7725,6 +10398,7 @@
 /obj/machinery/vending/snack,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/canteen)
+<<<<<<< HEAD
 "Ov" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete/lines{
@@ -7738,6 +10412,13 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostsw)
+=======
+"Ou" = (
+/obj/machinery/body_scanconsole,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Oy" = (
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 8
@@ -7748,6 +10429,16 @@
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"OA" = (
+/obj/structure/desertdam/decals/road/edge{
+	icon_state = "road_edge_decal2"
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OC" = (
 /obj/structure/stairs/seamless{
 	dir = 8
@@ -7764,6 +10455,27 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+<<<<<<< HEAD
+=======
+"OE" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+"OF" = (
+/obj/structure/desertdam/decals/road/stop{
+	dir = 1;
+	icon_state = "stop_decal5"
+	},
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostse)
+"OG" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OH" = (
 /obj/structure/table/mainship,
 /obj/structure/table/mainship,
@@ -7786,6 +10498,13 @@
 "OK" = (
 /turf/open/floor/plating/icefloor/warnplate,
 /area/orion_outpost/surface/landing_pad)
+<<<<<<< HEAD
+=======
+"OL" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "OM" = (
 /turf/open/floor/mainship/blue,
 /area/orion_outpost/surface/building/administration)
@@ -7840,9 +10559,17 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "OZ" = (
 /obj/structure/flora/ausbushes/reedbush,
 /obj/effect/decal/riverdecal,
+=======
+"Pa" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_13";
+	name = "TGMC exit point 13"
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
 "Pb" = (
@@ -7850,6 +10577,25 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Pc" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outposts)
+"Pe" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostcent)
+"Pf" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/barracks)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Pg" = (
 /obj/structure/platform,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -7865,6 +10611,14 @@
 	dir = 5
 	},
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
+=======
+"Pi" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Pj" = (
 /turf/open/floor/mainship/orange/corner{
 	dir = 1
@@ -7935,11 +10689,18 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
 "PA" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/gun/rifles,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+=======
+"Pz" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PB" = (
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
@@ -7961,6 +10722,17 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"PG" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/obj/effect/ai_node,
+/turf/open/floor/wood,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PJ" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
@@ -7969,6 +10741,7 @@
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/open/shuttle/dropship/three,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
 "PL" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/green{
@@ -7987,6 +10760,20 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/vehicledepot)
+=======
+"PM" = (
+/obj/item/ammo_casing/bullet,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostse)
+"PR" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/armory)
+"PS" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/underground/caveN)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "PT" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
@@ -8075,6 +10862,15 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Qk" = (
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ql" = (
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 4
@@ -8107,10 +10903,19 @@
 "Qp" = (
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
 "Qr" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+=======
+"Qq" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 8
+	},
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Qs" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -8147,12 +10952,19 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "QA" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/green{
 	dir = 8
 	},
 /area/orion_outpost/surface/building/prep)
+=======
+"Qz" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QB" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/prep)
@@ -8174,11 +10986,21 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostnw)
+<<<<<<< HEAD
 "QG" = (
 /obj/structure/bed/chair,
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+=======
+"QF" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QH" = (
 /obj/structure/largecrate,
 /turf/open/floor/mainship/black{
@@ -8196,6 +11018,7 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "QK" = (
 /obj/machinery/light,
 /obj/effect/landmark/weed_node,
@@ -8205,6 +11028,15 @@
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/mainship/blue,
 /area/orion_outpost/surface/building/administration)
+=======
+"QN" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/security,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QP" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/mainship/red{
@@ -8215,6 +11047,7 @@
 /obj/machinery/light,
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
 "QS" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -8223,6 +11056,15 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostnw)
+=======
+"QT" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/surface/building/barracks)
+"QU" = (
+/turf/closed/mineral/smooth/indestructible,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "QV" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/platform{
@@ -8276,6 +11118,13 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"Rg" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/prep)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rh" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -8296,6 +11145,14 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
+=======
+"Rl" = (
+/obj/machinery/door/airlock/mainship/generic,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/white,
+/area/orion_outpost/surface/building/dorms)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Rm" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -8394,6 +11251,7 @@
 	},
 /turf/open/floor/mainship/sterile/white,
 /area/orion_outpost/surface/building/dorms)
+<<<<<<< HEAD
 "RF" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -8401,6 +11259,12 @@
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+=======
+"RE" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RG" = (
 /obj/machinery/door/airlock/multi_tile/mainship/secdoor/glass,
 /turf/open/floor/mainship/mono,
@@ -8468,6 +11332,27 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"RW" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+"RX" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+"RY" = (
+/obj/effect/landmark/patrol_point{
+	id = "TGMC_22";
+	name = "TGMC exit point 22"
+	},
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/landing_pad2_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "RZ" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
@@ -8484,6 +11369,7 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/breakroom)
+<<<<<<< HEAD
 "Sc" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -8492,12 +11378,25 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+=======
+"Se" = (
+/obj/effect/landmark/corpsespawner/scientist,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Sf" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
 	},
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outpostcent)
+<<<<<<< HEAD
+=======
+"Sg" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostcent)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Si" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -8535,10 +11434,21 @@
 /obj/structure/prop/vehicle/crawler,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposte)
+<<<<<<< HEAD
 "Sr" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostw)
+=======
+"Sq" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outposte)
+"Ss" = (
+/obj/effect/decal/riverdecal,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "St" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
@@ -8592,6 +11502,20 @@
 	dir = 9
 	},
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"SF" = (
+/obj/structure/table/mainship,
+/obj/effect/landmark/dropship_console_spawn_lz1,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/surface/landing_pad_external)
+"SG" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SH" = (
 /obj/structure/table/mainship,
 /obj/item/storage/donut_box,
@@ -8649,10 +11573,27 @@
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
+=======
+"SS" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/orange/corner{
+	dir = 8
+	},
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ST" = (
 /obj/structure/prop/vehicle/truck/truckcargo,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostw)
+<<<<<<< HEAD
+=======
+"SU" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/marine/engineer,
+/turf/open/floor/prison,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SW" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -8660,11 +11601,21 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostn)
+<<<<<<< HEAD
 "SX" = (
 /obj/machinery/light,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+=======
+"SY" = (
+/obj/structure/cable,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/terragov/north{
+	dir = 10
+	},
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "SZ" = (
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/brig)
@@ -8677,13 +11628,33 @@
 	dir = 8
 	},
 /area/orion_outpost/ground/outpostse)
+<<<<<<< HEAD
+=======
+"Tc" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostcent)
+"Td" = (
+/obj/item/bedsheet/red,
+/obj/structure/bed,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Te" = (
 /obj/structure/table/mainship,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/administration)
+<<<<<<< HEAD
 "Tf" = (
 /obj/effect/landmark/corpsespawner/marine,
 /obj/effect/spawner/random/gun/rifles,
+=======
+"Th" = (
+/obj/effect/landmark/corpsespawner/marine/engineer,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
 "Tg" = (
@@ -8720,6 +11691,7 @@
 	icon_state = "stan22"
 	},
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
 "Tp" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -8727,6 +11699,13 @@
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+=======
+"Tq" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Tr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -8802,6 +11781,16 @@
 "TD" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"TE" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TF" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/concrete,
@@ -8839,6 +11828,7 @@
 	dir = 10
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
 "TO" = (
 /obj/effect/ai_node,
 /turf/open/floor/mainship/mono,
@@ -8847,6 +11837,20 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostn)
+=======
+"TP" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/plating/ground/concrete/edge{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/vehicledepot)
+"TQ" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TT" = (
 /obj/structure/table/mainship,
 /obj/item/storage/surgical_tray,
@@ -8858,10 +11862,22 @@
 "TU" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/armory)
+<<<<<<< HEAD
 "TX" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outpostcent)
+=======
+"TV" = (
+/obj/effect/landmark/corpsespawner/scientist,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostse)
+"TW" = (
+/obj/effect/attach_point/weapon/dropship1,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/landing_pad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "TY" = (
 /obj/structure/platform{
 	dir = 1
@@ -8895,6 +11911,14 @@
 /obj/item/trash/chips,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"Uf" = (
+/obj/machinery/door/airlock/multi_tile/mainship/blackgeneric/glass,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ug" = (
 /obj/structure/prop/brokenvendor/brokenuniformvendor,
 /turf/open/floor/mainship/green{
@@ -8925,6 +11949,7 @@
 	dir = 10
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "Ul" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -8938,6 +11963,12 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/dorms)
+=======
+"Un" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Up" = (
 /obj/machinery/optable,
 /obj/machinery/light{
@@ -9043,6 +12074,14 @@
 	},
 /turf/open/floor/plating/ground/concrete/lines,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
+=======
+"UG" = (
+/obj/item/stack/rods,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/desertdam/asphalt,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UH" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/mainship/blue{
@@ -9053,6 +12092,7 @@
 /obj/structure/barricade/metal,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/bunker)
+<<<<<<< HEAD
 "UJ" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -9061,6 +12101,14 @@
 /obj/effect/ai_node,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostsw)
+=======
+"UK" = (
+/obj/machinery/door/airlock/multi_tile/mainship/generic/noglass,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/nebuilding)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "UL" = (
 /obj/machinery/door/airlock/mainship/marine{
 	dir = 2
@@ -9098,6 +12146,7 @@
 /turf/open/floor/mainship/blue{
 	dir = 8
 	},
+<<<<<<< HEAD
 /area/orion_outpost/surface/building/administration)
 "UX" = (
 /obj/effect/landmark/weed_node,
@@ -9114,6 +12163,31 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveN)
+=======
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/bunker)
+"UT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/nebuilding)
+"UU" = (
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outpostse)
+"UV" = (
+/obj/structure/platform_decoration{
+	dir = 1
+	},
+/turf/closed/mineral/smooth,
+/area/orion_outpost/ground/outposts)
+"UZ" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/terragov/north,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vc" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 8
@@ -9137,6 +12211,18 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"Vg" = (
+/obj/structure/desertdam/decals/road/stop{
+	dir = 4;
+	icon_state = "stop_decal5"
+	},
+/obj/structure/cable,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vh" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mainship/orange{
@@ -9224,6 +12310,7 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/medbay)
+<<<<<<< HEAD
 "Vw" = (
 /obj/effect/landmark/patrol_point{
 	id = "SOM_21";
@@ -9231,6 +12318,13 @@
 	},
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveN)
+=======
+"Vv" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/cable,
+/turf/open/floor/prison,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Vx" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -9249,10 +12343,26 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/surface/building/barracks)
+<<<<<<< HEAD
 "VD" = (
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
 /turf/closed/mineral/smooth,
 /area/orion_outpost/ground/underground/caveN)
+=======
+"VB" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveN)
+"VC" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VE" = (
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
@@ -9271,11 +12381,25 @@
 	icon_state = "stan23"
 	},
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
+=======
+"VJ" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/security,
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostsw)
+"VK" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/canteen)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VL" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 4
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
 "VM" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/desertdam/asphalt,
@@ -9284,6 +12408,19 @@
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/underground/caveS)
+=======
+"VO" = (
+/obj/structure/window/framed/mainship/gray,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+"VQ" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/mainship/terragov/north{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VR" = (
 /turf/open/floor/plating/dmg1,
 /area/orion_outpost/ground/outpostse)
@@ -9296,16 +12433,37 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/breakroom)
+<<<<<<< HEAD
 "VV" = (
 /turf/open/floor/plating/dmg1,
 /area/orion_outpost/surface/building/crashedufo)
+=======
+"VU" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+"VV" = (
+/turf/open/floor/plating/dmg1,
+/area/orion_outpost/surface/building/crashedufo)
+"VW" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/outpostn)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VX" = (
 /turf/closed/shuttle/ert{
 	icon_state = "stan1"
 	},
 /area/orion_outpost/surface/building/crashedufo)
+<<<<<<< HEAD
 "VY" = (
 /obj/effect/spawner/random/gun/rifles,
+=======
+"VZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/effect/decal/cleanable/blood,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 4
 	},
@@ -9328,6 +12486,17 @@
 	dir = 5
 	},
 /area/orion_outpost/surface/building/engineering)
+<<<<<<< HEAD
+=======
+"Wh" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveS)
+"Wi" = (
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outposte)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Wj" = (
 /turf/open/floor/mainship/orange{
 	dir = 10
@@ -9413,6 +12582,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"Wz" = (
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/administration)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WA" = (
 /obj/machinery/light,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -9421,6 +12597,7 @@
 /obj/structure/cable,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/surface/landing_pad2_external)
+<<<<<<< HEAD
 "WG" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
@@ -9429,6 +12606,28 @@
 /obj/effect/ai_node,
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/administration)
+=======
+"WC" = (
+/obj/structure/cable,
+/obj/effect/landmark/corpsespawner/marine/engineer,
+/turf/open/floor/mainship/sterile/dark,
+/area/orion_outpost/surface/building/medbay)
+"WD" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/landing_pad_external)
+"WE" = (
+/obj/structure/stairs/seamless{
+	dir = 8
+	},
+/obj/effect/spawner/random/gun/rifles,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/vehicledepot)
+"WH" = (
+/obj/effect/attach_point/weapon/dropship1,
+/turf/open/floor/plating,
+/area/orion_outpost/surface/landing_pad_2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WI" = (
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
@@ -9454,6 +12653,7 @@
 	color = "#7a8c54";
 	dir = 6
 	},
+<<<<<<< HEAD
 /obj/effect/ai_node,
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outposts)
@@ -9464,10 +12664,17 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/green,
 /area/orion_outpost/surface/building/prep)
+=======
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "WY" = (
 /obj/structure/rack,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
 "WZ" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/mono,
@@ -9478,6 +12685,13 @@
 	dir = 4
 	},
 /area/orion_outpost/ground/outpostnw)
+=======
+"Xa" = (
+/obj/machinery/light,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/prison,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xc" = (
 /turf/open/floor/plating/ground/concrete/lines{
 	dir = 1
@@ -9506,6 +12720,13 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/prep)
+<<<<<<< HEAD
+=======
+"Xh" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/white,
+/area/orion_outpost/ground/outposts)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xi" = (
 /turf/closed/wall/mainship/gray,
 /area/orion_outpost/surface/building/engineering)
@@ -9524,6 +12745,15 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/tadpolepad)
+<<<<<<< HEAD
+=======
+"Xm" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/blue{
+	dir = 4
+	},
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Xn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plating/ground/concrete/lines{
@@ -9600,6 +12830,16 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostn)
+<<<<<<< HEAD
+=======
+"XC" = (
+/obj/machinery/colony_floodlight_switch{
+	pixel_y = 30
+	},
+/obj/effect/landmark/weed_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/engineering)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XD" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/emails{
@@ -9672,6 +12912,13 @@
 "XQ" = (
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
+=======
+"XS" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete/lines,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "XT" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/mono,
@@ -9748,11 +12995,17 @@
 /area/orion_outpost/ground/outpostw)
 "Yj" = (
 /obj/structure/cable,
+<<<<<<< HEAD
 /obj/effect/landmark/corpsespawner/marine,
 /turf/open/floor/plating/ground/concrete/edge{
 	dir = 4
 	},
 /area/orion_outpost/surface/building/vehicledepot)
+=======
+/obj/effect/ai_node,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Yl" = (
 /turf/open/floor/plating/ground/concrete/edge{
 	dir = 4
@@ -9819,6 +13072,17 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"YA" = (
+/obj/structure/flora/grass/tallgrass/tallgrasscorner{
+	color = "#7a8c54";
+	dir = 9
+	},
+/obj/effect/ai_node,
+/turf/open/ground/grasspatch/grassyellow,
+/area/orion_outpost/ground/outpostsw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YC" = (
 /turf/open/floor/mainship/terragov/north,
 /area/orion_outpost/surface/building/prep)
@@ -9834,6 +13098,7 @@
 /obj/structure/table/mainship,
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/surface/building/vehicledepot)
+<<<<<<< HEAD
 "YF" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
@@ -9848,6 +13113,14 @@
 /obj/effect/decal/riverdecal,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/orion_outpost/ground/outpostse)
+=======
+"YG" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mainship/terragov{
+	dir = 1
+	},
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YJ" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
@@ -9859,6 +13132,13 @@
 	},
 /turf/open/ground/grasspatch/grassyellow,
 /area/orion_outpost/ground/outpostsw)
+<<<<<<< HEAD
+=======
+"YL" = (
+/obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
+/turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/orion_outpost/ground/underground/caveE)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YM" = (
 /obj/structure/flora/grass/tallgrass/tallgrasscorner{
 	color = "#7a8c54";
@@ -9870,6 +13150,13 @@
 /obj/structure/platform,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/nebuilding)
+<<<<<<< HEAD
+=======
+"YO" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/vehicledepot)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "YP" = (
 /obj/structure/stairs/seamless/platform{
 	dir = 1
@@ -9924,10 +13211,27 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/orion_outpost/ground/outposts)
+<<<<<<< HEAD
+=======
+"Zb" = (
+/obj/effect/landmark/start/job/survivor,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/brig)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Zc" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic/noglass,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Zd" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/bridgeofficer,
+/turf/open/floor/mainship/mono,
+/area/orion_outpost/surface/building/command)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ze" = (
 /obj/structure/cable,
 /obj/machinery/light{
@@ -9937,6 +13241,13 @@
 	dir = 1
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Zg" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostnw)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Zh" = (
 /obj/machinery/light{
 	dir = 4
@@ -9945,6 +13256,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/building/cargo)
+<<<<<<< HEAD
+=======
+"Zj" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/surface/landing_pad2_external)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Zk" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 4;
@@ -10013,8 +13331,16 @@
 	},
 /turf/open/floor/wood,
 /area/orion_outpost/surface/building/barracks)
+<<<<<<< HEAD
 "ZA" = (
 /obj/effect/landmark/corpsespawner/marine/engineer,
+=======
+"Zz" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/corpsespawner/marine,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/engineering)
 "ZB" = (
@@ -10094,6 +13420,13 @@
 	dir = 4
 	},
 /area/orion_outpost/surface/landing_pad)
+<<<<<<< HEAD
+=======
+"ZT" = (
+/obj/effect/landmark/corpsespawner/marine,
+/turf/open/floor/mainship/floor,
+/area/orion_outpost/surface/building/tadpolepad)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ZU" = (
 /obj/machinery/computer3,
 /obj/structure/table/mainship,
@@ -10104,11 +13437,20 @@
 	dir = 5
 	},
 /area/orion_outpost/surface/building/command)
+<<<<<<< HEAD
 "ZV" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/desertdam/asphalt,
 /area/orion_outpost/ground/outpostsw)
+=======
+"ZW" = (
+/obj/effect/landmark/corpsespawner/marine,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/concrete,
+/area/orion_outpost/ground/outpostse)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "ZX" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/concrete,

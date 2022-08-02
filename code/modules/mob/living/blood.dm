@@ -333,11 +333,20 @@
 
 	// Find a blood decal or create a new one.
 	var/obj/effect/decal/cleanable/blood/B = locate() in T
+<<<<<<< HEAD
 	if(!B)
 		B = new /obj/effect/decal/cleanable/blood/splatter(T)
 		if(b_color)
 			B.basecolor = b_color
 			B.color = b_color
+=======
+	if(B)
+		return
+	B = new /obj/effect/decal/cleanable/blood/splatter(T)
+	if(b_color)
+		B.basecolor = b_color
+		B.color = b_color
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 
 /mob/living/carbon/human/add_splatter_floor(turf/T, small_drip, b_color)

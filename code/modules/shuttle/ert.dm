@@ -75,7 +75,11 @@
 	SSshuttle.ert_shuttles += src
 	for(var/t in return_turfs())
 		var/turf/T = t
+<<<<<<< HEAD
 		for(var/obj/O in T.GetAllContents())
+=======
+		for(var/atom/movable/O in T.GetAllContents())
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 			if(istype(O, /obj/effect/landmark/distress))
 				mob_spawns += O
 			else if(istype(O, /obj/effect/landmark/distress_item))

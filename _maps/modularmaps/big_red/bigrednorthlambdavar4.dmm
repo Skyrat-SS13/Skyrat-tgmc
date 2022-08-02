@@ -1,4 +1,5 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
 "a" = (
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
@@ -15,21 +16,63 @@
 "j" = (
 /obj/effect/ai_node,
 /obj/effect/landmark/excavation_site_spawner,
+=======
+"d" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"f" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"g" = (
+/turf/open/floor/plating,
+/area/bigredv2/caves/lambda_lab)
+"i" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/ai_node,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
 "m" = (
 /turf/open/space/basic,
 /area/space)
+<<<<<<< HEAD
+=======
+"o" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "p" = (
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
+<<<<<<< HEAD
 "s" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
 "x" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open/floor/plating/ground/mars/random/cave,
+=======
+"q" = (
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+"r" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"s" = (
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+"v" = (
+/turf/closed/mineral/smooth/bigred/indestructible,
+/area/space)
+"y" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/bigredv2/caves/northeast)
 "A" = (
 /obj/machinery/chem_dispenser,
@@ -64,14 +107,27 @@
 	dir = 5
 	},
 /area/bigredv2/caves/lambda_lab)
+<<<<<<< HEAD
+=======
+"R" = (
+/obj/effect/ai_node,
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/northeast)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "S" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/tile/whiteyellow{
 	dir = 9
 	},
 /area/bigredv2/caves/lambda_lab)
+<<<<<<< HEAD
 "V" = (
 /obj/effect/landmark/weed_node,
+=======
+"T" = (
+/obj/effect/landmark/xeno_resin_wall,
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/bigredv2/caves/northeast)
 "W" = (

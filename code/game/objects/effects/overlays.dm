@@ -337,7 +337,11 @@
 	alpha = 0
 	vis_flags = NONE
 	blocks_emissive = NONE
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/overlay/temp/timestop_effect
 	icon = 'icons/effects/160x160.dmi'
 	icon_state = "time"

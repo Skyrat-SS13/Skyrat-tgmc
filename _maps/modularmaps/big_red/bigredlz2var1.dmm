@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+<<<<<<< HEAD
+=======
+"al" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "am" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 2
@@ -27,9 +34,17 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/marking/asteroidwarning,
 /area/bigredv2/outside/w)
+<<<<<<< HEAD
 "cH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/marking/asteroidwarning,
+=======
+"bV" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/shuttle/drop2/lz2)
 "cI" = (
 /obj/machinery/landinglight/ds2/delaythree{
@@ -39,9 +54,18 @@
 	dir = 8
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "da" = (
 /obj/effect/attach_point/weapon/dropship1,
 /turf/open/floor/plating,
+=======
+"cW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /area/shuttle/drop2/lz2)
 "db" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
@@ -62,10 +86,19 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
+<<<<<<< HEAD
 "dT" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/white,
 /area/bigredv2/outside/virology)
+=======
+"dU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 6
+	},
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "eg" = (
 /obj/machinery/landinglight/ds2/delaythree{
 	dir = 1
@@ -78,6 +111,7 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/marking/asteroidwarning,
 /area/bigredv2/outside/sw)
+<<<<<<< HEAD
 "fz" = (
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/shuttle/drop2/lz2)
@@ -85,6 +119,27 @@
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open/floor/plating/ground/mars/random/cave/rock,
 /area/bigredv2/caves/west)
+=======
+"ey" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/west)
+"fz" = (
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/shuttle/drop2/lz2)
+"fT" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/southwest)
+"fW" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/west)
+"gF" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southwest)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "gQ" = (
 /obj/machinery/door/poddoor/shutters/mainship{
 	dir = 2;
@@ -126,6 +181,7 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/closed/wall/r_wall,
 /area/bigredv2/outside/cargo)
+<<<<<<< HEAD
 "jU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/landinglight/ds2/delaythree,
@@ -135,6 +191,15 @@
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning{
 	dir = 1
+=======
+"kC" = (
+/obj/effect/attach_point/weapon/dropship1{
+	dir = 8;
+	icon_state = "equip_base_l_wing"
+	},
+/turf/open/floor/plating/icefloor/warnplate{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /area/shuttle/drop2/lz2)
 "kH" = (
@@ -165,17 +230,31 @@
 	dir = 6
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "mh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/marking/asteroidwarning{
 	dir = 1
 	},
 /area/shuttle/drop2/lz2)
+=======
+"mi" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/southwest)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mo" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 5
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"mq" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/rock)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "mS" = (
 /obj/machinery/floodlight/landing,
 /turf/open/floor/plating/asteroidplating,
@@ -183,6 +262,13 @@
 "mU" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"nb" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "nq" = (
 /obj/machinery/landinglight/ds2/delaythree,
 /turf/open/floor/marking/asteroidwarning,
@@ -277,17 +363,43 @@
 "sm" = (
 /turf/open/space/basic,
 /area/space)
+<<<<<<< HEAD
+=======
+"sY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
+/turf/open/floor/asteroidfloor,
+/area/bigredv2/outside/w)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "sZ" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 1
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "tR" = (
 /turf/open/floor/plating,
 /area/shuttle/drop2/lz2)
 "uS" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
 	dir = 2
+=======
+"tr" = (
+/obj/effect/landmark/lv624/fog_blocker,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/west)
+"tR" = (
+/turf/open/floor/plating,
+/area/shuttle/drop2/lz2)
+"tY" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/sand,
+/area/shuttle/drop2/lz2)
+"ul" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaythree{
+	dir = 8
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 	},
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/outside/sw)
@@ -304,6 +416,19 @@
 	dir = 4
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"vJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 1
+	},
+/area/shuttle/drop2/lz2)
+"vL" = (
+/obj/effect/attach_point/electronics/dropship1,
+/turf/open/floor/plating,
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "wn" = (
 /turf/open/floor/plating/ground/mars/random/cave/rock,
 /area/bigredv2/caves/southwest)
@@ -319,10 +444,18 @@
 	dir = 4
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "xc" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/caves/rock)
+=======
+"xp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delayone,
+/turf/open/floor/marking/asteroidwarning,
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yh" = (
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
@@ -336,10 +469,21 @@
 	dir = 8
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "yn" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/mars/random/cave/rock,
 /area/bigredv2/caves/southwest)
+=======
+"yu" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/west)
+"yQ" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/outside/w)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "yR" = (
 /turf/open/floor/marking/asteroidwarning{
 	dir = 6
@@ -353,6 +497,13 @@
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"zk" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/asteroidfloor,
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "zl" = (
 /obj/machinery/button/door/open_only/landing_zone/lz2{
 	dir = 8
@@ -366,6 +517,13 @@
 	},
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"zI" = (
+/obj/effect/ai_node,
+/turf/open/floor/asteroidfloor,
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Aa" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 8
@@ -455,6 +613,7 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating,
 /area/bigredv2/outside/engineering)
+<<<<<<< HEAD
 "EP" = (
 /obj/machinery/landinglight/ds2/delayone{
 	dir = 4
@@ -472,6 +631,25 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/closed/mineral/smooth/bigred,
 /area/bigredv2/outside/sw)
+=======
+"ES" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/marking/asteroidwarning,
+/area/shuttle/drop2/lz2)
+"EV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2/delaythree,
+/turf/open/floor/marking/asteroidwarning,
+/area/shuttle/drop2/lz2)
+"EZ" = (
+/obj/effect/attach_point/weapon/dropship1,
+/turf/open/floor/plating,
+/area/shuttle/drop2/lz2)
+"FR" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Gx" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor,
@@ -484,9 +662,23 @@
 	dir = 1
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "GG" = (
 /turf/closed/mineral/smooth/bigred/indestructible,
 /area/space)
+=======
+"GB" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
+	dir = 2
+	},
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/caves/west)
+"GC" = (
+/obj/effect/ai_node,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/mars/random/cave,
+/area/bigredv2/caves/west)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "GZ" = (
 /turf/open/floor/plating/ground/mars/dirttosand{
 	dir = 9
@@ -581,6 +773,13 @@
 	dir = 9
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"LR" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/dirt,
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "LT" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/closed/wall/r_wall,
@@ -674,6 +873,32 @@
 	dir = 1
 	},
 /area/bigredv2/outside/sw)
+<<<<<<< HEAD
+=======
+"Ou" = (
+/obj/machinery/landinglight/ds2/delayone{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/shuttle/drop2/lz2)
+"OQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/shuttle/drop2/lz2)
+"OW" = (
+/obj/structure/table,
+/obj/effect/spawner/random/technology_scanner,
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
+/turf/open/floor,
+/area/bigredv2/outside/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Pc" = (
 /turf/open/floor/plating/icefloor/warnplate,
 /area/shuttle/drop2/lz2)
@@ -732,6 +957,24 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor,
 /area/bigredv2/outside/engineering)
+<<<<<<< HEAD
+=======
+"Sp" = (
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
+	dir = 2
+	},
+/turf/closed/mineral/smooth/bigred,
+/area/bigredv2/outside/sw)
+"SF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/landinglight/ds2{
+	dir = 8
+	},
+/turf/open/floor/marking/asteroidwarning{
+	dir = 8
+	},
+/area/shuttle/drop2/lz2)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Ti" = (
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
@@ -740,6 +983,18 @@
 "Tx" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"TZ" = (
+/turf/closed/mineral/smooth/bigred/indestructible,
+/area/space)
+"Ua" = (
+/obj/structure/table,
+/obj/effect/spawner/random/tool,
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
+/turf/open/floor,
+/area/bigredv2/outside/cargo)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "Uj" = (
 /obj/docking_port/stationary/marine_dropship/lz2,
 /turf/open/floor/plating,
@@ -756,14 +1011,29 @@
 	dir = 4
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "Vw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+=======
+"UJ" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/tile/white,
+/area/bigredv2/outside/virology)
+"UT" = (
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 /obj/effect/ai_node,
 /turf/open/floor/marking/asteroidwarning{
 	dir = 4
 	},
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
+=======
+"VC" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/mars/random/cave/rock,
+/area/bigredv2/caves/southwest)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 "VI" = (
 /turf/open/floor/tile/white,
 /area/bigredv2/outside/virology)
@@ -804,9 +1074,37 @@
 "Yh" = (
 /turf/open/floor/plating/ground/mars/random/cave,
 /area/shuttle/drop2/lz2)
+<<<<<<< HEAD
 "YN" = (
 /turf/open/floor,
 /area/bigredv2/outside/engineering)
+=======
+"Yx" = (
+/obj/machinery/landinglight/ds2/delaythree{
+	dir = 4
+	},
+/obj/effect/ai_node,
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/shuttle/drop2/lz2)
+"YN" = (
+/turf/open/floor,
+/area/bigredv2/outside/engineering)
+"Zi" = (
+/turf/closed/mineral/smooth/bigred,
+/area/shuttle/drop2/lz2)
+"ZF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2{
+	dir = 2
+	},
+/turf/open/floor/marking/asteroidwarning{
+	dir = 4
+	},
+/area/bigredv2/outside/w)
+>>>>>>> 7dfad39bf0 (Revert effects change to atom/movable (#10663))
 
 (1,1,1) = {"
 GG
