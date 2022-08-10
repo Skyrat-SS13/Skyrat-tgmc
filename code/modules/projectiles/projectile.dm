@@ -282,6 +282,7 @@
 	apx += pixel_x //Update the absolute pixels with the offset.
 	apy += pixel_y
 
+<<<<<<< HEAD
 	GLOB.round_statistics.total_projectiles_fired++
 	SSblackbox.record_feedback("tally", "round_statistics", 1, "total_projectiles_fired")
 
@@ -291,6 +292,15 @@
 		if(ammo.bonus_projectiles_amount)
 			GLOB.round_statistics.total_bullets_fired += ammo.bonus_projectiles_amount
 			SSblackbox.record_feedback("tally", "round_statistics", ammo.bonus_projectiles_amount, "total_bullets_fired")
+=======
+	if(ismob(firer) && !recursivity)
+		var/mob/mob_firer = firer
+		GLOB.round_statistics.total_projectiles_fired[mob_firer.faction]++
+		SSblackbox.record_feedback("tally", "round_statistics", 1, "total_projectiles_fired[mob_firer.faction]")
+		if(ammo.bonus_projectiles_amount)
+			GLOB.round_statistics.total_projectiles_fired[mob_firer.faction] += ammo.bonus_projectiles_amount
+			SSblackbox.record_feedback("tally", "round_statistics", ammo.bonus_projectiles_amount, "total_projectiles_fired[mob_firer.faction]")
+>>>>>>> 85b339069a (honk (#10743))
 
 
 	//If we have the the right kind of ammo, we can fire several projectiles at once.
