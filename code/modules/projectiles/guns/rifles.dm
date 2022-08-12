@@ -72,8 +72,12 @@
 
 	flags_gun_features = GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	gun_firemode_list = list(GUN_FIREMODE_SEMIAUTO, GUN_FIREMODE_BURSTFIRE, GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_AUTOBURST)
+<<<<<<< HEAD
 	starting_attachment_types = list(/obj/item/attachable/stock/t18stock)
 	attachable_offset = list("muzzle_x" = 30, "muzzle_y" = 16,"rail_x" = 10, "rail_y" = 19, "under_x" = 18, "under_y" = 13, "stock_x" = 0, "stock_y" = 13)
+=======
+	attachable_offset = list("muzzle_x" = 45, "muzzle_y" = 17,"rail_x" = 18, "rail_y" = 24, "under_x" = 31, "under_y" = 12, "stock_x" = 0, "stock_y" = 13)
+>>>>>>> a5e61319e7 (Guns part1 redux (#10753))
 	actions_types = list(/datum/action/item_action/aim_mode)
 	aim_fire_delay = 0.1 SECONDS
 	aim_speed_modifier = 2
@@ -151,8 +155,12 @@
 
 	flags_gun_features = GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	gun_firemode_list = list(GUN_FIREMODE_SEMIAUTO, GUN_FIREMODE_BURSTFIRE, GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_AUTOBURST)
+<<<<<<< HEAD
 	starting_attachment_types = list(/obj/item/attachable/stock/t12stock)
 	attachable_offset = list("muzzle_x" = 30, "muzzle_y" = 17,"rail_x" = 4, "rail_y" = 23, "under_x" = 17, "under_y" = 13, "stock_x" = 0, "stock_y" = 13)
+=======
+	attachable_offset = list("muzzle_x" = 45, "muzzle_y" = 17,"rail_x" = 15, "rail_y" = 20, "under_x" = 31, "under_y" = 10, "stock_x" = 0, "stock_y" = 13)
+>>>>>>> a5e61319e7 (Guns part1 redux (#10753))
 	actions_types = list(/datum/action/item_action/aim_mode)
 	aim_fire_delay = 0.1 SECONDS
 	aim_speed_modifier = 2

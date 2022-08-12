@@ -612,7 +612,11 @@
 		/obj/item/attachable/shoulder_mount,
 	)
 
+<<<<<<< HEAD
 	attachable_offset = list("muzzle_x" = 31, "muzzle_y" = 18,"rail_x" = 10, "rail_y" = 20, "under_x" = 21, "under_y" = 12, "stock_x" = 20, "stock_y" = 16)
+=======
+	attachable_offset = list("muzzle_x" = 35, "muzzle_y" = 17,"rail_x" = 15, "rail_y" = 20, "under_x" = 23, "under_y" = 8, "stock_x" = 7, "stock_y" = 12)
+>>>>>>> a5e61319e7 (Guns part1 redux (#10753))
 
 	flags_item_map_variant = NONE
 
