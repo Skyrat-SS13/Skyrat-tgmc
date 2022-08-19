@@ -117,11 +117,15 @@ proc/do_surgery(mob/living/carbon/M, mob/living/user, obj/item/tool)
 		return TRUE
 	if(user.do_actions) //already doing an action
 		return TRUE
+<<<<<<< HEAD
+=======
+
+	var/datum/limb/affected = user.client.prefs.toggles_gameplay & RADIAL_MEDICAL ? radial_medical(M, user) : M.get_limb(user.zone_selected)
+>>>>>>> 07df83316e (Surgery single limb selection (#10789))
 	for(var/datum/surgery_step/surgery_step AS in GLOB.surgery_steps)
 		//Check if tool is right or close enough, and the target mob valid, and if this step is possible
 		if(!surgery_step.tool_quality(tool) || !surgery_step.is_valid_target(M))
 			continue
-		var/datum/limb/affected = user.client.prefs.toggles_gameplay & RADIAL_MEDICAL ? radial_medical(M, user) : M.get_limb(user.zone_selected)
 		if(!affected)
 			return TRUE
 		if(affected.in_surgery_op) //two surgeons can't work on same limb at same time
