@@ -14307,15 +14307,6 @@
 /obj/item/tool/pen,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/cafeteria_starboard)
-"Pl" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/mainship/cargo,
-/area/mainship/squads/general)
 "Pm" = (
 /atom/movable/effect/decal/warning_stripes/thin{
 	dir = 5
@@ -15686,12 +15677,6 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/mainship/hull/lower_hull)
-"Tp" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/mainship/cargo,
-/area/mainship/squads/general)
 "Tq" = (
 /atom/movable/effect/ai_node,
 /turf/open/floor/mainship/black{
@@ -53945,18 +53930,18 @@ jl
 MC
 uO
 jl
-Pl
+jU
 KZ
 JE
-Pl
+jU
 KP
 wp
 JE
-Pl
+jU
 KZ
 jl
 JE
-Pl
+jU
 KP
 jl
 xn
@@ -54217,7 +54202,7 @@ jU
 KZ
 jl
 jl
-Tp
+jU
 IH
 kv
 ii
@@ -55233,19 +55218,19 @@ qC
 qC
 VW
 JE
-Pl
+jU
 Oj
 wi
 JE
-Pl
+jU
 Oj
 jl
 JE
-Pl
+jU
 Oj
 jl
 JE
-Pl
+jU
 Oj
 jl
 jl
