@@ -281,6 +281,13 @@ SUBSYSTEM_DEF(vote)
 				if(!lower_admin && SSmapping.shipmap_voted)
 					to_chat(usr, span_warning("The next ship map has already been selected."))
 					return FALSE
+<<<<<<< HEAD
+=======
+				var/datum/game_mode/next_gamemode = config.pick_mode(trim(file2text("data/mode.txt")))
+				if(next_gamemode.flags_round_type & MODE_SPECIFIC_SHIP_MAP)
+					to_chat(usr, span_warning("No other valid maps for [next_gamemode.name]."))
+					return FALSE
+>>>>>>> 9008cb06bf (vote fixed for real edition (#10841))
 				var/list/maps = list()
 				if(!config.maplist)
 					return
