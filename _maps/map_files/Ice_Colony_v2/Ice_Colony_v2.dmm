@@ -4954,6 +4954,7 @@
 /obj/structure/table,
 /obj/item/analyzer,
 /obj/item/encryptionkey,
+/obj/structure/sign/safety/hazard,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
@@ -8933,7 +8934,7 @@
 /area/ice_colony/surface/research)
 "aQn" = (
 /obj/structure/sign/botany,
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/ice_colony/surface/hydroponics/lobby)
 "aQo" = (
 /obj/item/reagent_containers/food/drinks/cans/beer,
@@ -29415,6 +29416,7 @@
 	},
 /area/ice_colony/exterior/surface/taxiway)
 <<<<<<< HEAD
+<<<<<<< HEAD
 "mgR" = (
 /obj/structure/cable,
 /obj/structure/bed/chair/comfy/brown{
@@ -29429,6 +29431,11 @@
 /turf/open/floor/wood,
 /area/ice_colony/surface/command)
 =======
+=======
+"mfG" = (
+/turf/closed/wall,
+/area/ice_colony/surface/hydroponics/lobby)
+>>>>>>> 2841e1fd80 (Makes most signs have directional arrows for mapper convenience (#10863))
 "mgF" = (
 /turf/closed/ice/thin/end{
 	dir = 4
@@ -35085,6 +35092,10 @@
 	dir = 6
 	},
 /area/ice_colony/surface/hangar/alpha)
+"xdf" = (
+/obj/structure/sign/safety/hazard,
+/turf/open/floor/plating/icefloor/warnplate,
+/area/ice_colony/exterior/surface/landing_pad2)
 "xeb" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
@@ -35607,6 +35618,12 @@
 	dir = 6
 	},
 /area/ice_colony/surface/hangar/beta)
+"yez" = (
+/obj/structure/sign/botany{
+	dir = 1
+	},
+/turf/closed/wall/r_wall,
+/area/ice_colony/surface/hydroponics/lobby)
 "yeX" = (
 /atom/movable/effect/turf_overlay/icerock{
 	dir = 4
@@ -39114,8 +39131,8 @@ dWh
 acl
 rmf
 qDA
-sQr
-pZF
+xdf
+aBi
 fDb
 pBf
 aaR
@@ -39963,7 +39980,7 @@ doh
 qrf
 qrf
 ayq
-pZF
+aBi
 fDb
 duN
 xMo
@@ -43325,9 +43342,9 @@ aaa
 bSw
 aae
 aai
+pZF
+pZF
 aBi
-pZF
-pZF
 aBi
 aBi
 aBi
@@ -48673,12 +48690,12 @@ mqj
 mqj
 mqj
 mqj
-asn
 aQn
+mfG
 avi
 avS
-aQn
-asn
+mfG
+yez
 mqj
 mqj
 wkf

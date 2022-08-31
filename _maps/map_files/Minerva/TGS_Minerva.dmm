@@ -2528,9 +2528,6 @@
 /area/mainship/squads/req)
 "hV" = (
 /obj/structure/table/gamblingtable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/starboard_hull)
 "hW" = (
@@ -26898,7 +26895,7 @@ bA
 fZ
 bA
 bA
-hV
+bA
 bA
 jG
 kx
@@ -26996,7 +26993,7 @@ fr
 QM
 gD
 WD
-WD
+hV
 WD
 jI
 lO
